@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Logs"
+AuthUserFile "/home/consultlawyers/.htpasswds/public_html/logs/passwd"
+require valid-user
