@@ -1,0 +1,214 @@
+head	1.14;
+access;
+symbols;
+locks
+	consultlawyers:1.14; strict;
+comment	@# @;
+
+
+1.14
+date	2015.09.15.21.31.21;	author consultlawyers;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2015.09.15.21.14.29;	author consultlawyers;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2015.09.15.20.38.33;	author consultlawyers;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2015.09.15.20.38.10;	author consultlawyers;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2015.05.11.20.24.50;	author consultlawyers;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2015.03.17.12.01.40;	author consultlawyers;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2015.03.17.11.58.30;	author consultlawyers;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2015.03.15.19.50.01;	author consultlawyers;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2015.03.12.13.03.49;	author consultlawyers;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2015.03.05.21.53.28;	author consultlawyers;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2015.03.05.21.49.59;	author consultlawyers;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2014.10.27.23.15.18;	author consultlawyers;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2014.10.27.23.14.55;	author consultlawyers;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2014.10.27.23.14.55;	author consultlawyers;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.14
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@mkgxy:x:1278:1278::/home/consultlawyers/mail/mkgalaxy.com/mkgxy:/home/consultlawyers
+finance:x:1278:1278::/home/consultlawyers/mail/mkgalaxy.com/finance:/home/consultlawyers
+mk21k:x:580:592::/home/consultlawyers/mail/mkgalaxy.com/mk21k:/home/consultlawyers
+@
+
+
+1.13
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@a2 1
+mk:x:580:592::/home/consultlawyers/mail/mkgalaxy.com/mk:/home/consultlawyers
+@
+
+
+1.12
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@a2 1
+ohmshree:x:580:592::/home/consultlawyers/mail/mkgalaxy.com/ohmshree:/home/consultlawyers
+@
+
+
+1.11
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@a2 1
+adhirbhatt:x:580:592::/home/consultlawyers/mail/mkgalaxy.com/adhirbhatt:/home/consultlawyers
+@
+
+
+1.10
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@d6 1
+@
+
+
+1.9
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@d5 1
+@
+
+
+1.8
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@d4 1
+@
+
+
+1.7
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@a3 1
+uma.shankar:x:580:592::/home/consultlawyers/mail/mkgalaxy.com/uma.shankar:/home/consultlawyers
+@
+
+
+1.6
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@d4 1
+@
+
+
+1.5
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@d3 1
+@
+
+
+1.4
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@a2 1
+mama:x:580:592::/home/consultlawyers/mail/mkgalaxy.com/mama:/home/consultlawyers
+@
+
+
+1.3
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@d3 1
+@
+
+
+1.2
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@d2 1
+@
+
+
+1.1
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@d1 1
+@

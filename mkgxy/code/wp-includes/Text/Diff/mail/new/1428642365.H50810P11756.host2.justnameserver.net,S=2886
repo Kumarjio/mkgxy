@@ -1,0 +1,35 @@
+Return-path: <consultlawyers@host2.justnameserver.net>
+Envelope-to: admin@consultlawyers.us
+Delivery-date: Fri, 10 Apr 2015 08:06:05 +0300
+Received: from consultlawyers by host2.justnameserver.net with local (Exim 4.85)
+	(envelope-from <consultlawyers@host2.justnameserver.net>)
+	id 1YgR8m-00033X-Sg
+	for admin@consultlawyers.us; Fri, 10 Apr 2015 08:06:04 +0300
+To: admin@consultlawyers.us
+Subject: [Consult Lawyers] Please moderate: "Hello world!"
+X-PHP-Script: consultlawyers.us/web/wp-comments-post.php for 104.168.50.76
+Date: Fri, 10 Apr 2015 05:06:04 +0000
+From: WordPress <wordpress@consultlawyers.us>
+Message-ID: <2868a87dbde243184826fe1d417fe435@consultlawyers.us>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.7 (https://github.com/PHPMailer/PHPMailer/)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+A new comment on the post "Hello world!" is waiting for your approval
+http://consultlawyers.us/web/?p=1
+
+Author : Catherine (IP: 104.168.50.76 , .)
+E-mail : xlshtc@dayrep.com
+URL    : http://s.ihaus.co.uk/x3
+Whois  : http://whois.arin.net/rest/ip/104.168.50.76
+Comment: 
+Hi, my name is Catherine and I am the marketing manager at StarSEO Marketing. I was just looking at your Hello world! | Consult Lawyers website and see that your site has the potential to become very popular. I just want to tell you, In case you didn't already know... There is a website service which already has more than 16 million users, and most of the users are looking for niches like yours. By getting your site on this service you have a chance to get your site more popular than you can imagine. It is free to sign up and you can read more about it here: http://tf3.info/nf - Now, let me ask you... Do you need your site to be successful to maintain your business? Do you need targeted traffic who are interested in the services and products you offer? Are looking for exposure, to increase sales, and to quickly develop awareness for your website? If your answer is YES, you can achieve these things only if you get your site on the network I am talking about. This traffic network advertises you to thousands, while also giving you a chance to test the service before paying anything. All the popular blogs are using this network to boost their readership and ad revenue! Why aren’t you? And what is better than traffic? It’s recurring traffic! That's how running a successful website works... Here's to your success! Find out more here: http://tf3.info/nf
+
+Approve it: http://consultlawyers.us/web/wp-admin/comment.php?action=approve&c=2
+Trash it: http://consultlawyers.us/web/wp-admin/comment.php?action=trash&c=2
+Spam it: http://consultlawyers.us/web/wp-admin/comment.php?action=spam&c=2
+Currently 1 comment is waiting for approval. Please visit the moderation panel:
+http://consultlawyers.us/web/wp-admin/edit-comments.php?comment_status=moderated
+

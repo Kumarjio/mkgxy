@@ -1,0 +1,124 @@
+[12-Apr-2015 20:27:55 UTC] PHP Warning:  mysql_real_escape_string() expects parameter 1 to be string, array given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 10
+[12-Apr-2015 20:27:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 103
+[12-Apr-2015 20:27:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 103
+[12-Apr-2015 20:27:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 103
+[12-Apr-2015 20:27:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 103
+[12-Apr-2015 20:27:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 103
+[12-Apr-2015 20:27:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 103
+[12-Apr-2015 20:27:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 103
+[12-Apr-2015 20:27:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 103
+[12-Apr-2015 20:27:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 103
+[12-Apr-2015 20:27:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 103
+[12-Apr-2015 20:27:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 103
+[12-Apr-2015 20:27:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 103
+[12-Apr-2015 20:27:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 103
+[12-Apr-2015 20:27:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 103
+[12-Apr-2015 20:27:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 103
+[12-Apr-2015 20:27:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 103
+[12-Apr-2015 20:27:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 103
+[12-Apr-2015 20:27:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 103
+[12-Apr-2015 20:28:31 UTC] PHP Warning:  mysql_real_escape_string() expects parameter 1 to be string, array given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 10
+[12-Apr-2015 22:00:21 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 45
+[12-Apr-2015 22:00:21 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 105
+[12-Apr-2015 22:00:21 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 105
+[12-Apr-2015 22:00:21 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 105
+[12-Apr-2015 22:00:21 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 105
+[12-Apr-2015 22:00:21 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 105
+[12-Apr-2015 22:00:21 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 105
+[12-Apr-2015 22:00:21 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 105
+[12-Apr-2015 22:00:21 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 105
+[12-Apr-2015 22:00:21 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 105
+[12-Apr-2015 22:00:21 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 105
+[12-Apr-2015 22:00:21 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 105
+[12-Apr-2015 22:00:21 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 105
+[12-Apr-2015 22:00:21 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 105
+[12-Apr-2015 22:00:21 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 105
+[12-Apr-2015 22:00:21 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 105
+[12-Apr-2015 22:00:21 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 105
+[12-Apr-2015 22:00:21 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 105
+[12-Apr-2015 22:00:21 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 105
+[12-Apr-2015 22:00:27 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 45
+[12-Apr-2015 22:00:27 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 105
+[12-Apr-2015 22:00:27 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 105
+[12-Apr-2015 22:00:27 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 105
+[12-Apr-2015 22:00:27 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 105
+[12-Apr-2015 22:00:27 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 105
+[12-Apr-2015 22:00:27 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 105
+[12-Apr-2015 22:00:27 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 105
+[12-Apr-2015 22:00:27 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 105
+[12-Apr-2015 22:00:27 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 105
+[12-Apr-2015 22:00:27 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 105
+[12-Apr-2015 22:00:27 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 105
+[12-Apr-2015 22:00:27 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 105
+[12-Apr-2015 22:00:27 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 105
+[12-Apr-2015 22:00:27 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 105
+[12-Apr-2015 22:00:27 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 105
+[12-Apr-2015 22:00:27 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 105
+[12-Apr-2015 22:00:27 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 105
+[12-Apr-2015 22:00:27 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 105
+[12-Apr-2015 22:05:22 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 107
+[12-Apr-2015 22:05:22 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 107
+[12-Apr-2015 22:05:22 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 107
+[12-Apr-2015 22:05:22 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 107
+[12-Apr-2015 22:05:22 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 107
+[12-Apr-2015 22:05:22 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 107
+[12-Apr-2015 22:05:22 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 107
+[12-Apr-2015 22:05:22 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 107
+[12-Apr-2015 22:05:22 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 107
+[12-Apr-2015 22:05:22 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 107
+[12-Apr-2015 22:05:22 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 107
+[12-Apr-2015 22:05:22 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 107
+[12-Apr-2015 22:05:22 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 107
+[12-Apr-2015 22:05:22 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 107
+[12-Apr-2015 22:05:22 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 107
+[12-Apr-2015 22:05:22 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 107
+[12-Apr-2015 22:05:22 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 107
+[12-Apr-2015 22:05:22 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 107
+[13-Apr-2015 15:28:23 UTC] PHP Warning:  mysql_free_result(): 11 is not a valid MySQL result resource in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 408
+[13-Apr-2015 15:30:57 UTC] PHP Warning:  mysql_free_result(): 11 is not a valid MySQL result resource in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 408
+[13-Apr-2015 15:31:33 UTC] PHP Warning:  mysql_free_result(): 11 is not a valid MySQL result resource in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 408
+[13-Apr-2015 15:33:31 UTC] PHP Warning:  mysql_free_result(): 11 is not a valid MySQL result resource in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 408
+[13-Apr-2015 15:33:33 UTC] PHP Warning:  mysql_free_result(): 11 is not a valid MySQL result resource in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 408
+[13-Apr-2015 15:57:23 UTC] PHP Warning:  mysql_free_result(): 11 is not a valid MySQL result resource in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 395
+[13-Apr-2015 15:59:29 UTC] PHP Warning:  mysql_free_result(): 11 is not a valid MySQL result resource in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 395
+[13-Apr-2015 15:59:58 UTC] PHP Warning:  mysql_free_result(): 11 is not a valid MySQL result resource in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 395
+[13-Apr-2015 16:00:41 UTC] PHP Warning:  mysql_free_result(): 11 is not a valid MySQL result resource in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 395
+[13-Apr-2015 16:01:15 UTC] PHP Warning:  mysql_free_result(): 11 is not a valid MySQL result resource in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 395
+[13-Apr-2015 16:03:31 UTC] PHP Warning:  mysql_free_result(): 12 is not a valid MySQL result resource in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 395
+[13-Apr-2015 16:05:15 UTC] PHP Warning:  mysql_free_result(): 12 is not a valid MySQL result resource in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 395
+[13-Apr-2015 16:05:40 UTC] PHP Warning:  mysql_free_result(): 12 is not a valid MySQL result resource in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 395
+[13-Apr-2015 16:05:50 UTC] PHP Warning:  mysql_free_result(): 12 is not a valid MySQL result resource in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 395
+[13-Apr-2015 16:06:28 UTC] PHP Warning:  mysql_free_result(): 12 is not a valid MySQL result resource in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 395
+[14-Apr-2015 01:11:33 UTC] PHP Warning:  mysql_free_result(): 12 is not a valid MySQL result resource in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 395
+[14-Apr-2015 01:11:33 UTC] PHP Warning:  mysql_free_result(): 12 is not a valid MySQL result resource in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 395
+[14-Apr-2015 01:11:39 UTC] PHP Warning:  mysql_free_result(): 12 is not a valid MySQL result resource in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 395
+[14-Apr-2015 01:11:52 UTC] PHP Warning:  mysql_free_result(): 12 is not a valid MySQL result resource in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 395
+[14-Apr-2015 01:11:55 UTC] PHP Warning:  mysql_free_result(): 12 is not a valid MySQL result resource in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 395
+[14-Apr-2015 01:11:57 UTC] PHP Warning:  mysql_free_result(): 12 is not a valid MySQL result resource in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 395
+[14-Apr-2015 01:11:59 UTC] PHP Warning:  mysql_free_result(): 12 is not a valid MySQL result resource in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 395
+[14-Apr-2015 01:23:02 UTC] PHP Warning:  getimagesize() [<a href='function.getimagesize'>function.getimagesize</a>]: Filename cannot be empty in /home/consultlawyers/public_html/mkgxy/donations/new.php on line 124
+[14-Apr-2015 01:25:55 UTC] PHP Warning:  mysql_free_result(): 12 is not a valid MySQL result resource in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 395
+[14-Apr-2015 01:29:12 UTC] PHP Warning:  mysql_free_result(): 12 is not a valid MySQL result resource in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 395
+[14-Apr-2015 03:14:43 UTC] PHP Warning:  mysql_free_result(): 12 is not a valid MySQL result resource in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 395
+[14-Apr-2015 03:15:22 UTC] PHP Warning:  mysql_free_result(): 12 is not a valid MySQL result resource in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 395
+[14-Apr-2015 03:15:24 UTC] PHP Warning:  mysql_free_result(): 12 is not a valid MySQL result resource in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 395
+[14-Apr-2015 03:15:26 UTC] PHP Warning:  mysql_free_result(): 12 is not a valid MySQL result resource in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 395
+[14-Apr-2015 03:15:39 UTC] PHP Warning:  mysql_free_result(): 12 is not a valid MySQL result resource in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 395
+[14-Apr-2015 03:27:05 UTC] PHP Warning:  mysql_free_result(): 12 is not a valid MySQL result resource in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 395
+[14-Apr-2015 04:30:46 UTC] PHP Warning:  mysql_free_result(): 12 is not a valid MySQL result resource in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 395
+[14-Apr-2015 04:31:26 UTC] PHP Warning:  mysql_free_result(): 12 is not a valid MySQL result resource in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 395
+[14-Apr-2015 04:33:32 UTC] PHP Warning:  mysql_free_result(): 12 is not a valid MySQL result resource in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 395
+[14-Apr-2015 04:33:42 UTC] PHP Warning:  mysql_free_result(): 12 is not a valid MySQL result resource in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 399
+[14-Apr-2015 04:34:36 UTC] PHP Warning:  mysql_free_result(): 12 is not a valid MySQL result resource in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 401
+[14-Apr-2015 04:35:15 UTC] PHP Warning:  mysql_free_result(): 12 is not a valid MySQL result resource in /home/consultlawyers/public_html/mkgxy/donations/view.php on line 399
+[14-Apr-2015 17:52:59 UTC] PHP Warning:  include(file:///Macintosh%20HD/Applications/MAMP/htdocs/rollypolly/donations/inc_googleadsense.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/consultlawyers/public_html/mkgxy/donations/sampledetail1.php on line 125
+[14-Apr-2015 17:53:13 UTC] PHP Warning:  include(file:///Macintosh%20HD/Applications/MAMP/htdocs/rollypolly/donations/inc_googleadsense.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/consultlawyers/public_html/mkgxy/donations/sampledetail1.php on line 125
+[19-Apr-2015 20:10:57 UTC] PHP Warning:  include(view.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/consultlawyers/public_html/mkgxy/donations/index.php on line 1
+[19-Apr-2015 20:10:57 UTC] PHP Warning:  include(view.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/consultlawyers/public_html/mkgxy/donations/index.php on line 1
+[19-Apr-2015 20:10:57 UTC] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'view.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/consultlawyers/public_html/mkgxy/donations/index.php on line 1
+[19-Apr-2015 20:23:08 UTC] PHP Warning:  Division by zero in /home/consultlawyers/public_html/mkgxy/donations/detail.php on line 45
+[21-Apr-2015 13:07:58 UTC] PHP Fatal error:  Call to undefined function GetSQLValueString() in /home/consultlawyers/public_html/mkgxy/donations/newConfirm.php on line 51
+[21-Apr-2015 13:08:26 UTC] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/consultlawyers/public_html/mkgxy/donations/newConfirm.php on line 53
+[21-Apr-2015 13:08:26 UTC] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/consultlawyers/public_html/mkgxy/donations/newConfirm.php on line 53
+[13-Dec-2015 20:24:23 UTC] PHP Warning:  Division by zero in /home/consultlawyers/public_html/mkgxy/donations/detailList.php on line 45
+[18-Jan-2016 01:09:09 UTC] PHP Warning:  Division by zero in /home/consultlawyers/public_html/mkgxy/donations/detailList.php on line 45

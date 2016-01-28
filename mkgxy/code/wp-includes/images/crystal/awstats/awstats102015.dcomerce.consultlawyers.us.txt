@@ -1,0 +1,496 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201510 will be lost/reset.
+# Last config file used to build this data file was /home/consultlawyers/tmp/awstats/awstats.dcomerce.consultlawyers.us.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2029                
+POS_TIME 2708                
+POS_VISITOR 11320               
+POS_DAY 13193               
+POS_DOMAIN 3522                
+POS_LOGIN 3912                
+POS_ROBOT 4067                
+POS_WORMS 4555                
+POS_EMAILSENDER 4686                
+POS_EMAILRECEIVER 4829                
+POS_SESSION 13946               
+POS_SIDER 14131               
+POS_FILETYPES 4964                
+POS_DOWNLOADS 5229                
+POS_OS 5277                
+POS_BROWSER 5492                
+POS_SCREENSIZE 6064                
+POS_UNKNOWNREFERER 6138                
+POS_UNKNOWNREFERERBROWSER 6315                
+POS_ORIGIN 6514                
+POS_SEREFERRALS 6655                
+POS_PAGEREFS 6809                
+POS_SEARCHWORDS 7916                
+POS_KEYWORDS 8079                
+POS_MISC 2371                
+POS_ERRORS 8149                
+POS_CLUSTER 3768                
+POS_SIDER_404 8250                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20151101091341 70 16196 5490570764580
+FirstTime 20151001072412
+LastTime 20151031222015
+LastUpdate 20151101141827 70 0 69 0 0
+TotalVisits 81                  
+TotalUnique 44                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 45                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 16 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 4 48 164243 37 111 2097223
+1 6 30 1142595 10 15 132530
+2 21 348 19518669 9 25 266702
+3 27 277 7120363 22 37 588541
+4 82 1372 37332613 7 14 55816
+5 69 1238 29245224 1 6 5750
+6 11 185 4807408 13 42 943161
+7 84 1612 133375025 16 40 1437104
+8 25 446 23571570 20 50 1705656
+9 7 19 685029 7 36 717232
+10 2 2 43324 12 43 814959
+11 7 7 179335 13 74 4319854
+12 6 6 108406 8 83 2207839
+13 1 1 21758 2 25 450892
+14 8 71 1837151 1 2 0
+15 6 113 1799001 11 172 4355481
+16 4 40 1334235 5 12 267110
+17 15 21 634251 45 48 70929
+18 10 117 1967502 13 57 826122
+19 1 17 784526 3 29 590856
+20 13 199 6264720 4 82 1776954
+21 13 126 6818629 18 42 549188
+22 4 15 600882 6 49 1250312
+23 14 161 2872113 34 37 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 12
+us 375 5883 265613503
+br 25 449 12568052
+fr 15 15 408321
+cn 7 19 593098
+zz 4 28 1045023
+mx 4 67 1750215
+nl 3 3 92687
+ro 3 3 64986
+ua 1 1 49267
+ru 1 1 0
+de 1 1 21758
+lu 1 1 21662
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+googlebot 384 10173373 20151031092116 0
+bingpreview 195 5175363 20151025003707 0
+bot[\s_+:,\.\;\/\\-] 73 2154828 20151030125132 0
+spider 69 2428247 20151030043104 0
+googlebot\-image 20 5295388 20151021045444 0
+no_user_agent 3 120196 20151026105543 0
+robot 2 0 20151009175520 0
+[\s_+:,\.\;\/\\-]bot 1 3432 20151019004722 0
+netcraft 1 49267 20151010081028 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 1630 36051324 0 0
+png 1713 141088327 0 0
+ttf 14 1365912 0 0
+woff 116 4291512 0 0
+woff2 2 36056 0 0
+php 3 1293 0 0
+html 305 8660000 0 0
+js 2403 65245462 0 0
+jpg 232 21986838 0 0
+svg 53 3501848 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 12
+winlong 1 1
+winxp 14 14
+ios_iphone 8 2
+java 2 2
+win98 1 1
+linux 58 22
+win7 550 57
+macosx 2821 164
+macosx9 3002 163
+win8 1 1
+win8.1 2 2
+Unknown 11 11
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 26
+chrome44.0.2403.125 1 1
+msie6.0 14 14
+firefox40.0 1 1
+chrome34.0.1847.137 1 1
+chrome39.0.2171.95 5 5
+firefox34.0 1 1
+chrome46.0.2490.71 135 9
+firefox7.0.1 1 1
+chrome32.0.1700.107 66 4
+msie5.00 1 1
+chrome44.0.2403.107 3002 163
+chrome36.0.1985.143 458 27
+chrome45.0.2454.101 2640 153
+mozilla 18 6
+chrome39.0.2171.65 2 2
+firefox39.0 27 3
+chrome45.0.2454.93 46 2
+firefox14.0.1 6 6
+firefox23.0 1 1
+chrome37.0.2062.120 7 7
+safari5.1 8 2
+chrome10.0.648.204 15 15
+firefox3.6.3 1 1
+Unknown 8 8
+netscape 5 5
+chrome21.0.1180.89 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Mozilla 20151030170212
+Google_favicon 20151004020239
+python-requests/2.8.1 20151021124341
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+Google_favicon 20151004020239
+Apache-HttpClient/4.3.5_(java_1.5) 20151027095101
+python-requests/2.8.1 20151021124341
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 159 159
+From1 0 0
+From2 5 5
+From3 53 53
+From4 223 6254
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+baidu 5 5
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 24
+http://rankings-analytics.com/try.php 7 7
+http://us-tx-houston.dcomerce.com/main 5 5
+http://us-ca-manteca.dcomerce.com 4 4
+http://us-ca-san_jose.dcomerce.com 4 4
+http://us-ca-stockton.dcomerce.com 4 4
+http://us-ca-tracy.dcomerce.com/view1 4 4
+http://buttons-for-website.com 3 3
+http://ca-on-.dcomerce.com 2 2
+http://us-ca-manteca.dcomerce.com/view1 2 2
+http://hundejo.com 2 2
+http://localhost:8888/realProjects/mk/cityfriendship/index.html 2 2
+http://us-ca-los_angeles.dcomerce.com 2 2
+http://pizza-imperia.com 1 1
+http://pizza-tycoon.com 1 1
+http://us-ca-san_francisco.dcomerce.com 1 1
+http://hvd-store.com 1 1
+http://us-ca-oakland.dcomerce.com/view1 1 1
+http://us-ca-tracy.dcomerce.com 1 1
+http://us-ca-lathrop.dcomerce.com 1 1
+http://my-federal_territory_of_kuala_lumpur-kuala_lumpur.dcomerce.com 1 1
+http://us-ny-new_york.dcomerce.com 1 1
+http://us-ca-tracy.dcomerce.com/view1/ 1 1
+http://gb-england-london.dcomerce.com 1 1
+http://burger-imperia.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+dcomerce 5
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 1
+dcomerce 5
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+500 3 1647
+404 361 10070
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 75
+/components/com_jdownloads/jdownloads.js 3 -
+/robots.txt 77 -
+/theme1/img/browser-firefox-big@2x.png 4 http://dcomerce.com/
+/theme1/ui.html 11 -
+/theme1/img/avatar@2x.jpg 20 http://dcomerce.com/
+/user 1 DCOMERCE.COM
+/theme1/login.html 11 -
+/theme1/chart.html 9 -
+/theme1/table.html 9 -
+/city/corlateTemplate/css/animate.min.css 2 -
+/users/login 7 -
+/city/corlateTemplate/fonts/stylesheet.css 1 http://dcomerce.com/city/corlateTemplate/shortcodes.html
+/city/corlateTemplate/js/bootstrap.min.js 2 -
+/theme2/bower_components/bootstrap/dist/css/bootstrap.min.css 1 -
+/theme1/submenu.html 9 -
+/city/corlateTemplate/css/item_hover.css 1 http://dcomerce.com/city/corlateTemplate/shortcodes.html
+/app.css 2 -
+/theme2/dist/js/sb-admin-2.js 1 -
+/theme1/submenu3.html 10 -
+/wordpr 1 http://DCOMERCE.COM/wordpr
+/city/corlateTemplate/js/jquery.js 2 -
+/home/home.js 2 -
+/home/deals.html 2 -
+/theme2/dist/css/sb-admin-2.css 1 -
+/theme1/img/browser-safari@2x.png 4 http://dcomerce.com/
+/theme1/img/browser-ie@2x.png 4 http://dcomerce.com/
+/misc/druplicon.png 1 -
+//index.php 1 -
+/theme1/form.html 9 -
+/json/config.php 2 -
+/us-ca-manteca 1 http://dcomerce.com/
+/city/corlateTemplate/js/jquery.isotope.min.js 2 -
+/theme1/tasks.html 11 -
+/city/corlateTemplate/js/wow.min.js 2 -
+/city/corlateTemplate/blog-item.html 2 -
+/js/script.js 1 -
+/city/corlateTemplate/pricing.html 1 -
+/theme2/bower_components/metisMenu/dist/metisMenu.min.css 1 -
+/theme2/bower_components/bootstrap/dist/js/bootstrap.min.js 1 -
+/wp-login.php 2 -
+/theme2/bower_components/font-awesome/css/font-awesome.min.css 1 -
+/theme1/icon.html 9 -
+/city/corlateTemplate/css/responsive.css 2 -
+/city/corlateTemplate/css/bootstrap.min.css 2 -
+/images/joomla_logo_black.jpg 1 -
+/js/bootstrap-3.3.4.js 2 -
+/theme1/img/browser-chrome-big@2x.png 4 http://dcomerce.com/
+/css/bootstrap-3.3.4.css 2 -
+/city/corlateTemplate/css/prettyPhoto.css 2 -
+/license.txt 1 -
+/checkout/ 1 -
+/theme1/messages.html 12 -
+/city/corlateTemplate/js/main.js 2 -
+/license.php 1 -
+/theme1/calendar.html 9 -
+/city/corlateTemplate/about-us.html 2 -
+/wp-content/plugins/revslider/js/settings.js 2 -
+/theme1/typography.html 8 -
+/js/jquery-1.11.2.min.js 2 -
+/app.js 2 -
+/us-ca-san_jose.dcomerce.com 2 http://dcomerce.com/
+/theme1/img/browser-opera@2x.png 4 http://dcomerce.com/
+/theme1/widgets.html 11 -
+/theme1/submenu2.html 8 -
+/city/corlateTemplate/css/main.css 2 -
+/city/corlateTemplate/css/font-awesome.min.css 2 -
+/city/corlateTemplate/js/jquery.prettyPhoto.js 2 -
+/theme1/file-manager.html 9 -
+/theme1/gallery.html 10 http://dcomerce.com/
+/theme2/bower_components/metisMenu/dist/metisMenu.min.js 1 -
+/images/xxu.php 1 -
+/index.php 4 -
+/city/corlateTemplate/images/slider/bg1.jpg 1 -
+/apple-app-site-association 1 -
+/services/mkhttpService.js 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 45
+67.181.89.89 266 5074 228129029 20151012061541
+206.208.102.250 52 614 32167244 20151003045607
+198.252.44.8 15 15 435157 20151031222015
+195.154.146.225 14 14 386659 20151025225422
+64.79.100.12 10 10 277652 20151030170212
+73.189.241.178 9 135 3405221 20151016203434
+69.58.178.58 6 6 160488 20151020230239
+54.92.193.196 6 18 663367 20151005094854
+177.99.230.2 4 66 1746348 20151024230057
+177.156.187.89 4 67 1750215 20151023143946
+187.67.96.71 4 67 1750215 20151026210758
+189.146.10.97 4 67 1750215 20151029020429
+201.8.59.75 4 67 1750215 20151024153427
+187.59.73.114 4 67 1750215 20151031184358
+107.189.60.77 3 27 995756 20151004010209
+54.149.54.112 3 3 64986 20151021124341
+61.135.190.103 3 3 120292 20151013121322
+66.249.84.227 2 2 97572 20151003010450
+61.135.190.102 2 8 236403 20151021174059
+193.201.227.63 1 1 49267 20151006111429
+54.210.207.2 1 1 49267 20151011165009
+23.95.43.107 1 1 49267 20151010164510
+176.126.252.11 1 1 21662 20151020074502
+177.223.113.36 1 7 445321 20151024215504
+62.212.73.49 1 1 21758 20151018143939
+177.22.90.220 1 17 784526 20151027194102
+107.20.41.72 1 1 21662 20151027070459
+176.9.50.42 1 1 21758 20151016054546
+212.7.220.68 1 1 21662 20151030201500
+94.242.246.23 1 1 21662 20151024103732
+54.149.143.40 1 1 21662 20151022112515
+177.65.213.164 1 37 1186915 20151027161258
+66.249.84.229 1 1 49267 20151004020239
+5.45.65.93 1 1 0 20151030120011
+175.42.40.116 1 1 21662 20151024121745
+177.127.68.84 1 53 1354815 20151028233619
+201.47.155.76 1 1 49267 20151006030406
+93.115.95.207 1 1 21662 20151026100758
+176.126.252.12 1 1 21662 20151021072315
+54.187.239.207 1 1 21662 20151027095101
+155.254.203.214 1 1 49267 20151010055449
+37.48.124.117 1 1 49267 20151004004015
+46.105.61.142 1 1 21662 20151020142940
+61.135.190.224 0 6 165474 
+183.159.76.146 1 1 49267 20151009082928
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20151001 120 2299 164256321 6
+20151002 1 1 48786 1
+20151003 37 389 23062146 2
+20151004 6 30 1143557 4
+20151005 8 20 761901 3
+20151006 4 10 362542 4
+20151007 1 1 49267 1
+20151009 3 9 313275 3
+20151010 3 3 147801 3
+20151011 1 1 49267 1
+20151012 164 3003 73097136 2
+20151013 2 2 43516 2
+20151014 6 68 1709923 3
+20151015 1 1 21758 1
+20151016 7 71 1782330 3
+20151017 2 2 43516 2
+20151018 2 2 43516 2
+20151019 1 1 21662 1
+20151020 9 9 225474 4
+20151021 7 7 151634 5
+20151022 2 2 43324 2
+20151023 4 67 1750215 1
+20151024 13 144 4028532 7
+20151025 1 1 21662 1
+20151026 6 69 1793539 3
+20151027 4 56 2014765 4
+20151028 2 54 1376477 2
+20151029 5 68 1771877 2
+20151030 13 13 320976 4
+20151031 5 68 1771877 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+1h+ 3
+2mn-5mn 1
+15mn-30mn 2
+30s-2mn 2
+0s-30s 73
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 20
+/ 232 7962691 80 68
+/city/corlateTemplate/fonts/fontawesome-webfont.woff 54 1910576 0 1
+/theme1/font/fontawesome-webfont-62877.woff 50 1380860 0 1
+/view1/location.html 34 96890 0 0
+/view1/view1.html 13 234676 0 0
+/theme1/font/glyphicons-regular.woff 12 1000076 0 1
+/view1/loc.html 11 153 0 0
+/theme1/font/fontawesome-webfont-62877.ttf 6 330576 0 0
+/theme1/ 6 221520 0 1
+/theme1/font/glyphicons-regular.ttf 6 874032 0 6
+/json/config.php 3 1293 0 0
+/users/register.html 2 7810 0 1
+/fonts/glyphicons-halflings-regular.woff2 2 36056 0 0
+/city/corlateTemplate/fonts/fontawesome-webfont.ttf 2 161304 0 1
+/home/deals.html 2 9636 0 0
+/city/corlateTemplate/about-us.html 1 17867 0 0
+// 1 49267 1 1
+/users/login.html 1 1461 0 0
+/city/corlateTemplate/ 1 43693 0 0
+/city/corlateTemplate/contact-us.html 1 14336 0 0
+END_SIDER

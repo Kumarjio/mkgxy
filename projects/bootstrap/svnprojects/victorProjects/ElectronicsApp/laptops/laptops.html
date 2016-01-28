@@ -1,0 +1,42 @@
+<div class="container-fluid page-box">
+  <ol class="breadcrumb">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Products</a></li>
+    <li class="active">Laptops</li>
+  </ol>
+  <div class="row">
+    <div class="col-md-3 col-sm-4 hidden-xs no-padding">
+      <div class="white-aside">
+      </div>
+    </div>
+    <div class="col-md-9 col-sm-8 col-xs-12 no-padding">
+      <div class="col-md-12 col-sm-12">
+        <h2>Laptops</h2>
+          <span class="right-align">sort by 
+            <select>
+              <option value="volvo">Best Selling</option>
+              <option value="saab">Price - Low to High</option>
+              <option value="mercedes">Price - High to Low</option>
+            </select>
+          </span>
+        <hr />
+      </div>
+      <div class="col-md-4 col-sm-6 no-padding"  ng-repeat="item in apiResponse | filter: {largeFrontImage:'http'} | orderBy:'salePrice'">
+        <a href="../view1/index.html">
+          <div class="img-box">
+            <div ng-style="{
+              'background' : 'url({{item.largeFrontImage}}) no-repeat 0 0',
+              'background-position': 'center',
+              'background-size': 'contain',
+              'background-color':'#fff',
+              'padding-bottom':'100%',
+             }">
+            </div>
+          </div>
+          <p class="product-link" ng-init="itemName = item.name.substr(0,item.name.indexOf('GB') - 4)">{{itemName}}</p>
+        </a>
+        <p class="price">{{item.salePrice | currency}}</p>
+      </div>
+    </div>  
+  </div>  
+</div>

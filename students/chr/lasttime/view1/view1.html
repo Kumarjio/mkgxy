@@ -1,0 +1,19 @@
+<p>This is the partial for view 1.</p>
+
+<!-- using parent scope -->
+<!--<div mylist></div>-->
+<!-- passing one by one
+<div mylist name="{{person.name}}" age="{{person.age}}" street="{{person.street}}" state="{{person.state}}" zip="{{person.zip}}"></div>
+-->
+<!-- passing object-->
+<div mylist person-obj="person" faf="formattedaddr(aperson)"></div>
+
+<!-- direct all -->
+<p> direct call {{formattedaddr(person)}}</p>
+
+<!--directive element or custom tag-->
+<hello-world></hello-world>
+<!--directive atrribute-->
+<div hello-world></div>
+<!--directive class-->
+<div class="hello-world"></div>

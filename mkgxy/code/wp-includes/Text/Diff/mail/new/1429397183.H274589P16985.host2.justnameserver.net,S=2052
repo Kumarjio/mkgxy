@@ -1,0 +1,35 @@
+Return-path: <consultlawyers@host2.justnameserver.net>
+Envelope-to: admin@consultlawyers.us
+Delivery-date: Sun, 19 Apr 2015 01:46:23 +0300
+Received: from consultlawyers by host2.justnameserver.net with local (Exim 4.85)
+	(envelope-from <consultlawyers@host2.justnameserver.net>)
+	id 1YjbVG-0004Pp-SP
+	for admin@consultlawyers.us; Sun, 19 Apr 2015 01:46:23 +0300
+To: admin@consultlawyers.us
+Subject: [Consult Lawyers] Please moderate: "Hello world!"
+X-PHP-Script: consultlawyers.us/web/wp-comments-post.php for 198.23.215.56
+Date: Sat, 18 Apr 2015 22:46:22 +0000
+From: WordPress <wordpress@consultlawyers.us>
+Message-ID: <3736cc3d751944b5276861e3af5fdfaa@consultlawyers.us>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.7 (https://github.com/PHPMailer/PHPMailer/)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+A new comment on the post "Hello world!" is waiting for your approval
+http://consultlawyers.us/web/?p=1
+
+Author : Janette (IP: 198.23.215.56 , .)
+E-mail : lmbnjplz@mail.com
+URL    : http://dl4.pl/im7p
+Whois  : http://whois.arin.net/rest/ip/198.23.215.56
+Comment: 
+Hi my name is Janette and I just wanted to drop you a quick note here instead of calling you. I came to your Hello world! | Consult Lawyers page and noticed you could have a lot more traffic. I have found that the key to running a successful website is making sure the visitors you are getting are interested in your niche. There is a company that you can get targeted visitors from and they let you try their service for free for 7 days. I managed to get over 300 targeted visitors to day to my website. Check it out here: http://pixz.nu/2fqB
+
+Approve it: http://consultlawyers.us/web/wp-admin/comment.php?action=approve&c=5
+Trash it: http://consultlawyers.us/web/wp-admin/comment.php?action=trash&c=5
+Spam it: http://consultlawyers.us/web/wp-admin/comment.php?action=spam&c=5
+Currently 4 comments are waiting for approval. Please visit the moderation panel:
+http://consultlawyers.us/web/wp-admin/edit-comments.php?comment_status=moderated
+

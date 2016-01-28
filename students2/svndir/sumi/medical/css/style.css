@@ -1,0 +1,169 @@
+.navbar
+{
+	background-color:#9898C9;
+}
+
+
+.myClass
+{
+	    min-height: 50px;
+		/*width:100%;*/
+	
+}
+.myClass li
+{
+	    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.myClass li a
+{	padding:20px;
+	font-size: 18px;
+    font-family: oswald;
+    text-transform: uppercase;
+    font-weight: bold;
+	color: aqua !important;
+    /*border-right: 1px solid #ccc;*/
+}
+.myClass li a span
+{
+	font-size: 14px;
+    font-weight: normal;
+    text-transform: none;
+    display: block;
+    padding-top: 5px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.myClass a:hover, .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color:black !important;
+    background-color:transparent !important;
+}
+.navbar-brand
+{
+	padding-top: 0px;
+    align-items: center;
+}
+.navbar-header .navbar-brand img
+{
+	height: 75px;
+    width: 150px;
+}
+.jumbotron {
+background: url('http://wallpapershidef.com/wp-content/gallery/medical-background-images/surgeons-bg.jpg') no-repeat; 
+ min-height: 500px;
+ margin:0px;
+}
+.col-md-5 .img-responsive 
+{
+	margin-top: 85px;
+    margin-left: -25px;
+}
+.main
+{
+	    margin-top: 50px;
+    color: aqua;
+}
+.fa-color
+{
+	color:#93BDE9;
+	
+}
+.section-gray
+{
+	background-color:#9898C9;
+}
+section
+{
+	padding:30px 0px 30px 0px;
+}
+.col-md-3 h3
+{
+	font-family:oswald;
+}
+.section-closser
+{
+	background-color: #74C6C4;
+	color: black !important;
+}
+.section-business
+{
+	padding-top:0px;
+	
+}
+.section-business h1{
+	font-size:40px;
+	font-weight:bold;
+	padding-left: 30px;
+		
+}
+.list{
+	font-size:18px;
+	list-style: none;
+	line-height:2em;
+}
+.section-image
+{
+	padding-top: 30px;
+}
+footer{
+	text-align: center;
+    background: #f4f4f4;
+    padding-bottom: 0px;
+    padding-top: 5px;
+}
+.section-more{
+	
+background: #74C6C4;
+}
+.section-one{
+	margin-top: 30px;
+    background: #74C6C4;
+}
+.section-one h1{
+	text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 15px;
+	margin-bottom: -20px;
+}
+.section-one h1 span{
+	font-size: 22px;
+}
+.section-services
+{
+	padding-top: 0px;
+}
+.section-image1{
+	padding-bottom: 0px;
+}
+.section-one1{
+	padding-top: 0px;
+    padding-bottom: 0px;
+}
+footer{
+	padding-bottom: 3px;
+}
+.h1class{
+	margin-top: 0px;
+	text-transform:uppercase;
+	font-weight:bold;
+	}
+.section-news{
+	padding-top: 0px;
+}
+.image-header{
+	padding-bottom: 0px;
+}
+.size img
+{  
+ 	height: 215px;
+    width: 315px;
+	}
+.images
+{
+	padding-top: 0px;
+}
+.bread{
+	padding-bottom: 0px;
+}
+.map{
+	    padding-top: 0px;}
+

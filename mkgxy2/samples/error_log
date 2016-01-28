@@ -1,0 +1,4 @@
+[10-Nov-2015 00:23:00 UTC] PHP Parse error:  syntax error, unexpected $end in /home/consultlawyers/public_html/mkgxy2/samples/city.php on line 61
+[10-Nov-2015 00:23:21 UTC] PHP Parse error:  syntax error, unexpected $end in /home/consultlawyers/public_html/mkgxy2/samples/city.php on line 61
+[10-Nov-2015 00:28:52 UTC] PHP Fatal error:  Call to undefined function url_name_v2() in /home/consultlawyers/public_html/mkgxy2/samples/city.php on line 72
+[10-Nov-2015 00:28:53 UTC] PHP Fatal error:  Call to undefined function url_name_v2() in /home/consultlawyers/public_html/mkgxy2/samples/city.php on line 72

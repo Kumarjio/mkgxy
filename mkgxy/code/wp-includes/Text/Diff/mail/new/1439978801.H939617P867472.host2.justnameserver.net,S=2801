@@ -1,0 +1,35 @@
+Return-path: <consultlawyers@host2.justnameserver.net>
+Envelope-to: admin@consultlawyers.us
+Delivery-date: Wed, 19 Aug 2015 13:06:41 +0300
+Received: from consultlawyers by host2.justnameserver.net with local (Exim 4.85)
+	(envelope-from <consultlawyers@host2.justnameserver.net>)
+	id 1ZS0GX-003dfP-Nk
+	for admin@consultlawyers.us; Wed, 19 Aug 2015 13:06:41 +0300
+To: admin@consultlawyers.us
+Subject: [Consult Lawyers] Please moderate: "Hello world!"
+X-PHP-Script: consultlawyers.us/web/wp-comments-post.php for 107.172.0.41
+Date: Wed, 19 Aug 2015 10:06:41 +0000
+From: WordPress <wordpress@consultlawyers.us>
+Message-ID: <f40333dc558cbb80a60cbc9044ab13d4@consultlawyers.us>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.7 (https://github.com/PHPMailer/PHPMailer/)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+A new comment on the post "Hello world!" is waiting for your approval
+http://consultlawyers.us/web/?p=1
+
+Author: Valerie (IP: 107.172.0.41, .)
+E-mail: mndouvnrkzm@tom.com
+URL: http://ittsy.com/it/3x
+Whois: http://whois.arin.net/rest/ip/107.172.0.41
+Comment: 
+I was just looking at your Hello world! | Consult Lawyers site and see that your site has the potential to get a lot of visitors. I just want to tell you, In case you don't already know... There is a website service which already has more than 16 million users, and most of the users are looking for topics like yours. By getting your site on this service you have a chance to get your site more popular than you can imagine. It is free to sign up and you can find out more about it here: http://tgi.link/dcf2 - Now, let me ask you... Do you need your site to be successful to maintain your business? Do you need targeted visitors who are interested in the services and products you offer? Are looking for exposure, to increase sales, and to quickly develop awareness for your site? If your answer is YES, you can achieve these things only if you get your site on the service I am describing. This traffic service advertises you to thousands, while also giving you a chance to test the service before paying anything. All the popular sites are using this network to boost their readership and ad revenue! Why aren’t you? And what is better than traffic? It’s recurring traffic! That's how running a successful site works... Here's to your success! Find out more here: http://ittsy.com/it/3x
+
+Approve it: http://consultlawyers.us/web/wp-admin/comment.php?action=approve&c=22
+Trash it: http://consultlawyers.us/web/wp-admin/comment.php?action=trash&c=22
+Spam it: http://consultlawyers.us/web/wp-admin/comment.php?action=spam&c=22
+Currently 21 comments are waiting for approval. Please visit the moderation panel:
+http://consultlawyers.us/web/wp-admin/edit-comments.php?comment_status=moderated
+

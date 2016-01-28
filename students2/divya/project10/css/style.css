@@ -1,0 +1,61 @@
+.navbar{
+    background: brown;
+    min-height: 90px;
+    border-bottom: 10px solid #F39D17;
+    
+}
+.navbar-nav li  {
+    border-radius: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar-nav li a{
+   color: yellowgreen;
+   
+}
+
+body { 
+    padding-top: 90px;
+    
+}
+.jumbotron{
+    min-height: 450px;
+    margin: 0;
+}
+ h1,h2,h3 { 
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif; 
+}
+.fa-color{
+    color: brown;
+}
+.section-gray{
+    background: #f4f4f4;
+}
+.section{
+    padding: 30px 0 30px 0;
+}
+.section-secondary{
+    background: brown;
+    color: #fff;
+    padding: 60px 0 60px 0;
+}
+.slogan{
+    text-align: center;
+}
+
+.slogan h1{
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+.slogan p{
+    font-size: 20px;
+     text-transform: uppercase;
+}
+.slogan a{
+    margin-top: 20px;
+}
+

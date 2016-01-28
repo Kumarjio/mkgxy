@@ -1,0 +1,2 @@
+Images have no ending tag
+Links are created using a-tag

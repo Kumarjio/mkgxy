@@ -1,0 +1,80 @@
+body {
+	background-color: #eee;
+}
+
+.navbar-inverse {
+	background-color: #000;
+	border-color: #000;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #eee;
+}
+
+.navbar-inverse .navbar-brand a:hover {
+	color: #CC6699;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #eee;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #E03073;
+}
+
+.breadcrumb {
+	background-color: #eee;
+	padding: 0 15px;
+	font-size: .8em;
+	text-transform: uppercase;
+}
+
+.page-header {
+	text-align: center;
+	margin: 20px auto 50px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ddd;
+}
+
+.form-group {
+	margin-left: 30%;
+	width: 40%;
+}
+
+.long-button {
+	width: 100%;
+}
+
+label {
+	font-size: .9em;
+}
+
+.no-padding {
+	padding: 0;
+}
+
+.white-aside {
+	height: 600px;
+	background-color: white;
+  margin: 4%;
+	padding: 6%;
+}
+
+.white-square {
+	position:relative;
+	overflow:hidden;
+	padding-bottom:92%;
+	background-color: white;
+	margin: 4%;
+}
+
+.white-square img {
+  position:absolute;
+	max-width: 88%;
+	margin: 6%;
+}
+
+.white-square a {
+	font-weight: bold;
+}

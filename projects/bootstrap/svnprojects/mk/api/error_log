@@ -1,0 +1,3 @@
+[10-Jan-2016 07:21:13 UTC] PHP Warning:  include_once(firebase/firebaseLib.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home/consultlawyers/public_html/projects/bootstrap/svnprojects/mk/api/fetch.php on line 43
+[10-Jan-2016 07:21:13 UTC] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening 'firebase/firebaseLib.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/consultlawyers/public_html/projects/bootstrap/svnprojects/mk/api/fetch.php on line 43
+[10-Jan-2016 07:21:13 UTC] PHP Fatal error:  Class 'Firebase\FirebaseLib' not found in /home/consultlawyers/public_html/projects/bootstrap/svnprojects/mk/api/fetch.php on line 47

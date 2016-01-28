@@ -1,0 +1,68 @@
+Return-path: <>
+Envelope-to: consultlawyers@host2.justnameserver.net
+Delivery-date: Sat, 25 Apr 2015 17:30:41 +0300
+Received: from mailnull by host2.justnameserver.net with local (Exim 4.85)
+	id 1Ym16P-0000D3-MT
+	for consultlawyers@host2.justnameserver.net; Sat, 25 Apr 2015 17:30:41 +0300
+X-Failed-Recipients: mango@mkglaxy.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@host2.justnameserver.net>
+To: consultlawyers@host2.justnameserver.net
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1Ym16P-0000D3-MT@host2.justnameserver.net>
+Date: Sat, 25 Apr 2015 17:30:41 +0300
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  mango@mkglaxy.com
+    The mail server could not deliver mail to mango@mkglaxy.com.  The account or domain may not exist, they may be blacklisted, or missing the proper dns entries.
+
+------ This is a copy of the message, including all the headers. ------
+
+Return-path: <consultlawyers@host2.justnameserver.net>
+Received: from consultlawyers by host2.justnameserver.net with local (Exim 4.85)
+	(envelope-from <consultlawyers@host2.justnameserver.net>)
+	id 1Ym16P-0000Ct-G4
+	for mango@mkglaxy.com; Sat, 25 Apr 2015 17:30:41 +0300
+To: mango@mkglaxy.com
+Subject: New User Registration at Groupjole.com
+X-PHP-Script: groupjole.com/users/register.php for 67.164.21.22
+MIME-Version: 1.0
+From: support@groupjole.com
+Content-Type: multipart/alternative;
+	boundary="=_79248260b394c836263c3b9b6df38691"
+Message-Id: <E1Ym16P-0000Ct-G4@host2.justnameserver.net>
+Date: Sat, 25 Apr 2015 17:30:41 +0300
+
+--=_79248260b394c836263c3b9b6df38691
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset="ISO-8859-1"
+
+Dear mango@mkgalaxy.com,
+
+You are successfully registered to website Groupjole.com. Your username is mango
+
+Thanks
+
+Admin
+
+Groupjole.com
+--=_79248260b394c836263c3b9b6df38691
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="ISO-8859-1"
+
+Dear mango@mkgalaxy.com,
+<br />
+You are successfully registered to website Groupjole.com. Your username is =
+mango<br />
+<br />
+Thanks
+<br />
+Admin
+<br />
+Groupjole.com
+--=_79248260b394c836263c3b9b6df38691--
+

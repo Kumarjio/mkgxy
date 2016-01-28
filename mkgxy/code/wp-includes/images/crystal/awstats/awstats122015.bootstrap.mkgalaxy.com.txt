@@ -1,0 +1,568 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201512 will be lost/reset.
+# Last config file used to build this data file was /home/consultlawyers/tmp/awstats/awstats.bootstrap.mkgalaxy.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2025                
+POS_TIME 2704                
+POS_VISITOR 12037               
+POS_DAY 14731               
+POS_DOMAIN 3496                
+POS_LOGIN 3772                
+POS_ROBOT 3927                
+POS_WORMS 4201                
+POS_EMAILSENDER 4332                
+POS_EMAILRECEIVER 4475                
+POS_SESSION 15586               
+POS_SIDER 15795               
+POS_FILETYPES 4610                
+POS_DOWNLOADS 5000                
+POS_OS 5652                
+POS_BROWSER 5883                
+POS_SCREENSIZE 6490                
+POS_UNKNOWNREFERER 6564                
+POS_UNKNOWNREFERERBROWSER 7198                
+POS_ORIGIN 7727                
+POS_SEREFERRALS 7870                
+POS_PAGEREFS 8025                
+POS_SEARCHWORDS 9897                
+POS_KEYWORDS 10215               
+POS_MISC 2368                
+POS_ERRORS 10437               
+POS_CLUSTER 3628                
+POS_SIDER_404 10549               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20160101000407 38 11020 10041320105616
+FirstTime 20151201011446
+LastTime 20151231225904
+LastUpdate 20160101141252 38 0 37 0 0
+TotalVisits 215                 
+TotalUnique 57                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 70                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 34 395 13727813 4 23 1334705
+1 84 710 48318889 15 58 3204334
+2 42 302 8799660 12 64 4134051
+3 28 565 41053410 3 24 315729
+4 52 426 19773967 5 54 3219698
+5 120 765 33666921 7 95 7053476
+6 190 1892 104043455 10 96 6379919
+7 106 560 8059677 3 28 2789599
+8 78 289 2153238 3 45 505925
+9 18 65 1476422 1 10 1289891
+10 0 214 0 0 0 0
+11 1 75 68380 0 0 0
+12 0 0 0 0 0 0
+13 1 1 1342 0 0 0
+14 0 0 0 0 0 0
+15 19 61 3221579 1 3 0
+16 129 538 18210316 14 22 10437
+17 165 604 19382522 2 48 2770
+18 93 478 13099952 5 39 6814
+19 36 257 2113429 2 42 3330141
+20 88 463 8665429 2 72 5456494
+21 192 640 4698907 3 26 690218
+22 142 472 5984121 1 29 1044531
+23 27 346 8574329 2 22 877968
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 4
+us 1643 10107 363195672
+fr 1 1 1342
+gb 1 4 281795
+in 0 6 1614949
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+no_user_agent 292 39020138 20151229220523 0
+googlebot 14 573738 20151225183516 0
+crawl 3 8310 20151224174345 0
+spider 2 4112 20151223043024 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 17
+css 911 26605938 0 0
+jp 1 2770 0 0
+woff 3 170160 0 0
+txt 13 95469 0 0
+woff2 248 9308460 0 0
+json 8 157 0 0
+php 127 129520 0 0
+map 32 1493876 0 0
+225323 4 24316 0 0
+html 1183 2951592 0 0
+jpg 2529 203574806 0 0
+pn 1 2770 0 0
+png 2773 63100641 0 0
+js 2225 55678005 0 0
+jpeg 9 1718107 0 0
+Unknown 38 126983 0 0
+gif 13 110188 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 9
+/svnprojects/projects_bootstrap/project1_business/explanation.txt 4 0 54976
+/svnprojects/projects_bootstrap/project1_business/2.txt 2 0 5303
+/svnprojects/projects_sass/explanation.txt 1 0 10439
+/svnprojects/projects_bootstrap/project1_business/services.txt 1 0 4138
+/svnprojects/projects/bayareacontractor2/services.txt 1 0 2770
+/svnprojects/projects_bootstrap/project1/explanation.txt 1 0 2700
+/svnprojects/projects_bootstrap/project1_business/about.txt 1 0 11626
+/svnprojects/projects_bootstrap/project1_business/contact.txt 1 0 2779
+/svnprojects/projects_bootstrap/project1_business/media.txt 1 0 738
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 12
+linuxandroid 122 25
+macosx6 8 8
+ios_iphone 6 0
+winnt 701 61
+linux 112 24
+win7 128 93
+macosx 7560 1382
+macosx9 6 0
+win8 540 1
+Unknown 73 40
+win8.1 841 7
+macosx7 21 4
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 28
+firefox3.6 8 8
+firefox42.0 466 8
+android 19 19
+firefox29.0 5 5
+chrome31.0.1650.57 792 7
+chrome47.0.2526.73 4114 758
+chrome19.0.1084.56 1 1
+chrome39.0.2171.36 42 0
+chrome46.0.2490.80 31 7
+chrome46.0.2490.76 40 6
+msie11.0 12 0
+chrome47.0.2526.76 29 4
+mozilla 13 0
+chrome47.0.2526.106 3863 640
+chrome47.0.2526.80 160 0
+netscape5.0 3 3
+firefox43.0 5 4
+chrome42.0.2311.135 1 0
+chrome44.0.2403.119 42 8
+firefox41.0 21 4
+firefox6.0 78 78
+chrome46.0.2490.86 278 43
+safari8.0 7 1
+msie9.0 4 1
+Unknown 48 28
+safari 28 12
+chrome47.0.2526.83 4 0
+chrome29.0.1547.80 4 0
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 10
+NING/1.0 20151205011545
+Nutch/2.2.1_(page_scorer;_http://integralads.com/site-indexing-policy/) 20151223201958
+Typhoeus_-_https://github.com/typhoeus/typhoeus 20151223072248
+facebookexternalhit 20151223034517
+Google_favicon 20151208175318
+Mediapartners-Google 20151225183513
+WordPress/4.4;_http://android.mkgalaxy.com 20151231192050
+PayPal_IPN_(_https://www.paypal.com/ipn_) 20151202011917
+Mozilla/4.0_(compatible;) 20151205012114
+ADmantX_Platform_Semantic_Analyzer_US_-_Turn_-_ADmantX_Inc._-_www.admantx.com_-_support@admantx.com 20151223043308
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 8
+NING/1.0 20151205011545
+Nutch/2.2.1_(page_scorer;_http://integralads.com/site-indexing-policy/) 20151223201958
+Typhoeus_-_https://github.com/typhoeus/typhoeus 20151223072248
+facebookexternalhit 20151223034517
+Google_favicon 20151208175318
+Mediapartners-Google 20151225183513
+PayPal_IPN_(_https://www.paypal.com/ipn_) 20151202011917
+ADmantX_Platform_Semantic_Analyzer_US_-_Turn_-_ADmantX_Inc._-_www.admantx.com_-_support@admantx.com 20151223043308
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 724 3634
+From1 0 0
+From2 3 3
+From3 0 1080
+From4 918 5401
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 3 3
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 36
+http://127.0.0.1:55618/project46/index.html 0 6
+http://127.0.0.1:53805/project8/css/style.css 0 2
+http://127.0.0.1:51706/Tutorial/project8/index.html 0 1
+http://127.0.0.1:61252/Tutorial/project8/index.html 0 5
+http://127.0.0.1:50372/project13/about.html 0 205
+http://127.0.0.1:53805/project13/index.html 0 16
+http://127.0.0.1:60288/project8/index.html 0 5
+http://127.0.0.1:50372/project8/about.html 0 14
+http://127.0.0.1:64474/project8/index.html 0 18
+http://127.0.0.1:51081/project9/index.html 0 2
+http://127.0.0.1:59702/project8/css/style.css 0 1
+http://127.0.0.1:53805/project8/contact.html 0 8
+http://127.0.0.1:50372/project13/aboutus.html 0 202
+http://127.0.0.1:53805/project8/about.html 0 142
+http://127.0.0.1:55618/project8/index.html 0 41
+http://127.0.0.1:55618/project10/index.html 0 4
+http://127.0.0.1:45436/css/style.css 0 1
+http://127.0.0.1:55618/project9/index.html 0 1
+http://127.0.0.1:50195/project9/index.html 0 6
+http://127.0.0.1:53911/project8/index.html 0 3
+http://127.0.0.1:50372/project8/contact.html 0 9
+http://127.0.0.1:47301/css/style.css 0 1
+http://127.0.0.1:50372/project13/services.html 0 201
+http://127.0.0.1:60373/project8/index.html 0 13
+http://127.0.0.1:59702/project8/index.html 0 4
+http://127.0.0.1:49164/project11/index.html 0 27
+http://127.0.0.1:55618/project8/css/style.css 0 1
+http://127.0.0.1:50372/project8/services.html 0 9
+http://127.0.0.1:58488/project8/index.html 0 1
+http://127.0.0.1:53805/project8/index.html 0 15
+http://127.0.0.1:53805/project8/services.html 0 42
+http://127.0.0.1:45436/index.html 0 3
+http://127.0.0.1:45436/about.html 0 13
+http://127.0.0.1:53458/project9/index.html 0 26
+http://127.0.0.1:47301/index.html 0 10
+http://127.0.0.1:60373/project20/index.html 0 22
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 2
+http+%2f%2fbootstrap.mkgalaxy.com%2fsvnprojects%2fprojects%2fbayareacontractor 2
+http+%2f%2fbootstrap.mkgalaxy.com%2fsvnprojects%2fprojects%2fbayareacontractor2%2f 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 3
+http 3
+%2f%2fbootstrap.mkgalaxy.com%2fsvnprojects%2fprojects%2fbayareacontractor 2
+%2f%2fbootstrap.mkgalaxy.com%2fsvnprojects%2fprojects%2fbayareacontractor2%2f 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+206 19 2033792
+301 24 6610
+404 75 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 14
+/svnprojects/seo2/view6 8 -
+/robots.txt 6 -
+/svnprojects/angularuidemo/template/accordion/accordion-group.html 6 http://bootstrap.mkgalaxy.com/svnprojects/angularuidemo/index.html
+/svnprojects/projects_bootstrap/project2_blog/... 3 http://bootstrap.mkgalaxy.com/svnprojects/projects_bootstrap/project2_blog/
+/svnprojects/angularuidemo/template/accordion/accordion.html 6 http://bootstrap.mkgalaxy.com/svnprojects/angularuidemo/index.html
+/svnprojects/angularuidemo/view1/accordian.html 1 http://bootstrap.mkgalaxy.com/svnprojects/angularuidemo/index.html
+/svnprojects/seo2/view8 36 -
+/svnprojects/angularuidemo/js/ui-bootstrap-tpls.min.js 2 http://bootstrap.mkgalaxy.com/svnprojects/angularuidemo/index.html
+/svnprojects/projects/b%20ayareacontractor2/img/macbook.pong 2 -
+/js/cookies.js 1 http://bootstrap.mkgalaxy.com/svnprojects/mk/massage/
+/svnprojects/seo2/view2/ 1 -
+/svnprojects/emnie/learning/projects/projectImagine/js/jquery-migrate-1.2.1.min.s 1 http://bootstrap.mkgalaxy.com/svnprojects/emnie/learning/projects/projectImagine/index.html
+/app.css 1 http://bootstrap.mkgalaxy.com/svnprojects/mk/massage/
+/app.js 1 http://bootstrap.mkgalaxy.com/svnprojects/mk/massage/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 70
+67.181.89.89 806 3556 141661064 20151231224525
+130.65.254.12 146 385 676345 20151226223126
+206.208.102.250 133 882 46467901 20151228232941
+130.65.251.129 130 283 2097106 20151219223754
+73.162.33.109 54 1226 19716332 20151224224814
+130.65.251.139 51 129 124480 20151212220710
+107.3.164.78 41 941 27615494 20151221211936
+172.14.180.246 33 756 61266802 20151225072845
+66.249.84.204 32 32 135832 20151231150233
+66.249.84.196 32 32 119586 20151231225904
+66.249.84.200 23 23 84370 20151231225904
+208.54.5.233 21 49 882352 20151213200209
+73.162.214.28 17 320 24177433 20151222062013
+67.225.208.62 12 12 11080 20151231192050
+24.130.209.96 9 34 1171961 20151211004524
+66.119.41.5 8 8 46744 20151223042614
+76.247.187.70 8 44 411298 20151221033458
+23.255.209.46 8 100 4922106 20151219175552
+67.169.8.118 7 41 4155934 20151205041740
+216.38.148.50 7 41 4155934 20151205011702
+73.189.241.178 6 40 4153258 20151205013743
+68.140.239.132 4 21 1158111 20151205013053
+134.193.254.82 4 25 1280229 20151208063344
+66.162.33.226 4 40 3787754 20151205012727
+66.249.80.11 4 4 11396 20151224193044
+134.134.139.74 0 6 752550 
+206.171.24.217 1 5 2770 20151208212433
+184.73.60.42 1 1 39 20151206090055
+73.170.214.249 0 31 41748 
+23.20.148.110 2 6 2404 20151213090950
+134.193.239.92 0 12 517399 
+66.249.80.29 3 3 11727 20151222055029
+107.23.6.162 1 1 2770 20151223072248
+8.21.68.243 0 6 1614949 
+54.147.146.231 2 6 2404 20151227093052
+134.134.137.73 2 15 594089 20151205012116
+66.249.75.14 1 1 2770 20151223041823
+66.249.80.20 2 2 8849 20151224193044
+134.193.254.198 0 7 0 
+83.223.122.16 1 4 281795 20151205011603
+23.20.126.58 1 1 39 20151213090950
+206.16.134.27 1 1 2770 20151223043141
+23.20.21.24 2 6 2404 20151206090055
+134.134.139.76 2 8 422729 20151205012116
+134.193.136.170 0 63 763065 
+54.147.15.53 2 6 2404 20151220092103
+23.101.61.176 2 2 8849 20151210002650
+68.26.6.209 1 1 2770 20151211170803
+76.102.152.31 0 100 590115 
+134.134.139.77 1 2 315527 20151205012156
+40.78.146.128 1 1 6079 20151208022809
+134.193.70.77 0 6 0 
+206.16.134.26 1 1 2770 20151223044111
+134.134.139.70 0 4 313964 
+73.158.134.61 0 752 3433745 
+54.80.160.104 1 1 39 20151227093052
+206.16.134.21 1 1 2770 20151223042323
+134.134.137.75 0 1 228166 
+199.27.131.2 2 2 5540 20151205011545
+206.16.134.20 1 1 2770 20151223042352
+66.249.75.32 1 1 2770 20151225183513
+8.18.111.245 0 12 3229898 
+54.209.60.63 1 1 2770 20151223042020
+46.105.122.64 1 1 1342 20151208132804
+198.148.15.20 1 1 2770 20151223201958
+220.227.251.29 0 6 1614949 
+173.0.81.1 3 3 0 20151202011917
+173.224.120.72 1 1 2770 20151223043308
+50.16.42.222 1 1 39 20151220092106
+206.16.134.18 1 1 2770 20151223115433
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20151201 17 67 4885033 6
+20151202 10 61 2222643 6
+20151203 12 56 2187832 4
+20151204 32 96 146594 3
+20151205 84 462 24869747 15
+20151206 5 9 2443 3
+20151207 14 88 1909493 7
+20151208 127 611 18263355 15
+20151209 195 871 30637373 7
+20151210 32 381 7559611 10
+20151211 4 16 488400 4
+20151212 62 288 6626579 5
+20151213 124 356 13306350 5
+20151214 8 143 3600098 1
+20151215 29 430 7869369 11
+20151216 6 353 15070261 3
+20151217 84 664 47147689 6
+20151218 11 83 628802 3
+20151219 189 902 39235089 13
+20151220 231 748 1903576 7
+20151221 15 79 2817084 5
+20151222 35 436 13513462 7
+20151223 59 1455 55902406 21
+20151224 23 264 22356267 8
+20151225 43 454 37858417 12
+20151226 151 408 2014580 4
+20151227 7 30 968754 5
+20151228 14 101 396110 6
+20151229 3 165 505642 2
+20151230 3 6 164302 3
+20151231 16 35 36397 8
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 10
+5mn-15mn 9
+15mn-30mn 9
+2mn-5mn 1
+0s-30s 170
+30s-2mn 6
+30mn-1h 10
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 92
+/svnprojects/mk/massage/ 121 318483 3 0
+/svnprojects/mk/massage/view1/view1.html 102 48078 0 2
+/svnprojects/projects/bayareacontractor2/ 99 204980 65 39
+/svnprojects/mk/p1/ 73 226774 1 0
+/svnprojects/liveprojects/mk/examples/ 71 183093 1 0
+/svnprojects/mk/p1/view1/classifieds/post.html 65 60267 0 1
+/svnprojects/projects_bootstrap/project1_business/ 60 163925 9 10
+/svnprojects/projects/bayareacontractor/ 57 152058 34 24
+/svnprojects/projects/bayareacontractor2/fonts/fontawesome-webfont.woff2 55 3029808 6 13
+/svnprojects/projects/bayareacontractor2/fonts/glyphicons-halflings-regular.woff2 54 703092 2 15
+/svnprojects/projects/bayareacontractor/admin/work.php 51 65659 1 2
+/svnprojects/projects/bayareacontractor2/view1/view1.html 49 154660 5 2
+/svnprojects/projects_bootstrap/project1_business/view1/view1.html 44 153636 1 0
+/svnprojects/projects_bootstrap/project1_business/fonts/fontawesome-webfont.woff2 44 2771952 0 3
+/svnprojects/projects_bootstrap/project1_business/fonts/glyphicons-halflings-regular.woff2 44 757176 0 0
+/svnprojects/mk/prjServices/ 43 255318 32 24
+/svnprojects/liveprojects/mk/examples/view1/view1.html 32 9703 0 1
+/svnprojects/mk/prjServices/api/iptocityipinfo_io.php 29 21254 5 3
+/svnprojects/angularuidemo/ 28 51394 1 0
+/svnprojects/projects/bayareacontractor/fonts/glyphicons-halflings-regular.woff2 26 432672 0 5
+/svnprojects/projects/bayareacontractor/view1/view1.html 26 86449 0 0
+/svnprojects/projects/bayareacontractor2/view1/about.html 25 235557 2 4
+/svnprojects/projects_bootstrap/project2_blog/ 24 67757 2 0
+/svnprojects/projects/bayareacontractor/fonts/fontawesome-webfont.woff2 24 1547136 0 2
+/svnprojects/projects/bayareacontractor2/view1/services.html 23 129466 3 5
+/svnprojects/mk/prjServices/user/google:100546875099861959996 8 48632 0 0
+/ 7 9394 5 2
+/svnprojects/angularuidemo/view1/modal.html 5 2429 0 1
+/svnprojects/mk/prjServices/admin/all.html 2 1710 0 1
+/svnprojects/seo2/view2/view2.html 2 38 0 0
+/svnprojects/mk/prjServices/js/angularFileUpload/angular-file-upload.min.js.map 1 6079 0 0
+/svnprojects/projects/bayareacontractor/view1/about.html 2 9618 0 0
+/svnprojects/projects/bayareacontractor2/contact 6 11080 1 1
+/svnprojects/projects/bayareacontractor/js/angular.min.js.map 2 5722 0 1
+/svnprojects/mk/prjServices/admin/new.html 2 4570 0 1
+/svnprojects/projects/bayareacontractor2/fonts/fontawesome-webfont.woff 1 81284 0 1
+/svnprojects/starterProjectLite/ 1 2391 0 0
+/form.php 5 19121 1 1
+/svnprojects/liveprojects/mk/examples/api/sample1.json 8 157 0 0
+/svnprojects/seo2/view1/view1.html 7 39 0 1
+/svnprojects/mk/prjServices/view1/view1.html 16 116631 0 0
+/svnprojects/liveprojects/mk/examples/view1/accordian.html 11 25735 0 1
+/svnprojects/emnie/learning/projects/projectImagine/fonts/fontawesome-webfont.woff2 1 66624 0 1
+/svnprojects/projects/bayareacontractor/api/ask.php 1 169 0 0
+/svnprojects/mk/prjServices/view1/ref.html 1 5 0 0
+/svnprojects/projects/bayareacontractor2/js/angular.min.js.map 14 38780 3 5
+/svnprojects/liveprojects/mk/examples/api/iptolocation.php 21 14647 0 0
+/svnprojects/mk/prjServices/view1/profile.html 10 18790 0 0
+/svnprojects/projects/bayareacontractor/admin/index.php 5 1390 0 1
+/svnprojects/angularuidemo/view1/alert.html 5 1429 0 1
+/svnprojects/angularuidemo/view1/view1.html 7 1878 0 0
+/svnprojects/projects_sass/ 2 4031 2 2
+/svnprojects/projects/bayareacontractor/admin/ask.php 6 6222 0 0
+/svnprojects/projects_bootstrap/project1/ 1 118 1 1
+/socialnetwork/fonts/fontawesome-webfont.woff 1 65452 0 1
+/svnprojects/projects/bayareacontractor/view1/ask.html 4 12880 0 0
+/svnprojects/projects/bayareacontractor/view1/contact.html 2 5604 0 0
+/svnprojects/liveprojects/mk/examples/view1/a2.html 5 12216 0 0
+/svnprojects/projects/bayareacontractor2/services 10 27700 7 3
+/svnprojects/projects_bootstrap/project2_blog/view1/view1.html 21 33024 0 1
+/svnprojects/liveprojects/mk/examples/view1/category.html 12 4443 0 0
+/svnprojects/angularuidemo/view1/accordian.html 14 22493 0 0
+/svnprojects/projects/bayareacontractor2/fonts/glyphicons-halflings-regular.woff 1 23424 0 0
+/svnprojects/mk/prjServices/main/state/createdDesc/TWFudGVjYSwgQ0EsIFVuaXRlZCBTdGF0ZXM=/37.778149/-121.225323 4 24316 1 0
+/svnprojects/seo2/ 19 10502 0 0
+/svnprojects/projects/bayareacontractor2/img/sample1. 1 2770 1 0
+/svnprojects/projects/bayareacontractor/main 1 2861 0 0
+/svnprojects/seo/ 4 4212 4 0
+/svnprojects/projects/bayareacontractor2/about 8 19390 3 0
+/svnprojects/projects/bayareacontractor/ask 1 2878 0 0
+/svnprojects/liveprojects/mk/examples/view1/ip.html 15 4957 0 0
+/svnprojects/mk/prjServices/view1/postSteps.html 2 26612 0 0
+/svnprojects/mk/prjServices/js/pagination/dirPagination.tpl.html 13 13312 0 5
+/svnprojects/projects/bayareacontractor/api/askresult.php 6 1058 0 1
+/svnprojects/mk/p1/view1/view1.html 8 1565 0 0
+/svnprojects/projects_bootstrap/project1_business/js/angular.min.js.map 14 2779 0 0
+/photoshare/ 2 10306 0 0
+/svnprojects/projects/bayareacontractor2/main 1 2770 0 1
+/svnprojects/mk/massage/mango 1 2823 0 0
+/svnprojects/mk/prjServices/pages/ipnNotify.php 3 0 3 3
+/svnprojects/projects/bayareacontractor2/img/sample1.jp 1 2770 0 1
+/svnprojects/emnie/learning/projects/projectImagine/ 1 3049 1 0
+/svnprojects/projects/bayareacontractor2/view1/contact.html 21 37464 4 11
+/svnprojects/mk/prjServices/ref/google:100546875099861959996 1 6079 0 0
+/svnprojects/projects/bayareacontractor/admin/ 1 257 0 0
+/svnprojects/starterProjectLite/view1/view1.html 1 313 0 1
+/svnprojects/mk/prjServices/js/gmap/dist/angular-google-maps_dev_mapped.js.map 1 1440516 0 0
+/resume/ 2 19516 0 0
+/svnprojects/projects/bayareacontractor2/img/logo.pn 1 2770 1 1
+/socialnetwork/ 3 21357 0 1
+/svnprojects/seo/view1/view1.html 8 312 4 8
+/svnprojects/projects/bayareacontractor/view1/services.html 2 6794 0 0
+END_SIDER

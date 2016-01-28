@@ -1,0 +1,19 @@
+<!doctype html>
+<html ng-app>
+<head>
+    <title>Section 2 - Views, Directives and Filters</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+</head>
+
+<body ng-init="people=[{name:'Dave', city:'San Jose', orderTotal: 19.99}, {name:'Jeff', city:'San Francisco', orderTotal: 9.99},{ame:'Heedy', city:'Pleasanton', orderTotal: 0.99},{name:'Danny', city:'New York', orderTotal:29.99}]">
+<h3>Iterating through data with ng-repeat</h3>
+<ul>
+	<li ng-repeat="person in people">{{person.name}} - {{person.city}} - {{person.orderTotal}}</li>
+</ul>
+
+</body>
+</html>

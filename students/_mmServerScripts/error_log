@@ -1,0 +1,3 @@
+[21-Apr-2015 03:46:53 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'constul_student'@'localhost' (using password: YES) in /home/consultlawyers/public_html/students/_mmServerScripts/mysql.php on line 101
+[21-Apr-2015 03:46:57 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'constul_student'@'localhost' (using password: YES) in /home/consultlawyers/public_html/students/_mmServerScripts/mysql.php on line 101
+[21-Apr-2015 03:47:27 UTC] PHP Fatal error:  Class 'MySqlConnection' not found in /home/consultlawyers/public_html/students/_mmServerScripts/MMHTTPDB.php on line 61

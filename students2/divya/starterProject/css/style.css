@@ -1,0 +1,36 @@
+/* CSS Document */
+
+.navbar {
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  min-height: 64px;
+  background: #fff;
+  margin-bottom: 0;
+}
+
+.container {
+    width: 100%;
+}
+
+.navbar li a {
+  cursor: pointer;
+  color: #E0393E !important;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none !important;
+  line-height: 1;  
+}
+
+.navbar li a span {
+  display: block;
+  font-size: 14px;
+  font-weight:normal;
+}
+
+.logo {
+  width: 48px; 
+  height: 32px;
+}
+
+.navbar .navbar-right {
+  font-size: 13px;
+}

@@ -1,0 +1,112 @@
+.navbar{
+    min-height:90px;
+}
+.navbar-nav li{
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+    .navbar-nav li a {
+        padding:20px;
+        font-size: 18px; 
+        font-weight: bold; 
+    
+        text-transform: uppercase; 
+        font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+
+
+.navbar-nav a:hover, .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover { 
+    color: #fff !important; 
+    background-color: #c00000 !important; }
+
+<!--.navbar-nav a:hover .navnar-nav .active a{
+   color: #fff !important; 
+    background-color: #c00000 !important;
+}-->
+
+.navbar-collapse{
+    padding:5px;
+}
+.jumbotron {
+  min-height:400px;
+
+  margin:-20px;
+}
+
+.jumbotron h1 {
+  font-size:55px;    
+}
+
+.jumbotron{
+     background:#ffcc00
+}
+h1, h2, h3 {
+  text-transform: uppercase;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+
+.fa-color {
+  color: #c00000;
+}
+
+
+.section-gray {
+ background: #f4f4f4; 
+}
+
+section {
+  padding: 30px 0px 30px 0px;
+}
+
+ .section-secondary {
+    background: #ffcc00;
+    color: #fff;
+    padding: 60px 0 60px 0; 
+ }
+ 
+ .slogan {
+  text-align: center;
+}
+
+.slogan h1 {
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+
+.slogan p {
+ font-size: 20px; 
+}
+
+.slogan a {
+  margin-top: 20px; 
+}
+
+.feature-list li {
+  font-size: 18px;
+  list-style: none;
+  line-height: 2em;
+}
+
+ .section-primary {
+  background:#ffcc00;
+  color:#fff;
+  padding: 60px 0 60px 0;
+}
+
+ footer {
+    text-align: center;
+    background: #f4f4f4;
+    padding-top: 20px;
+    padding-bottom: 10px; 
+}
+
+.section-title {
+  padding: 10px;
+  background: #0383c0;
+  color: #fff; 
+}
+
+.section-title small {
+  color: #ccc; 
+}

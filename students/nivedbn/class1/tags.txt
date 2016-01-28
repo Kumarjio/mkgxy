@@ -1,0 +1,9 @@
+<h1> to <h6>
+no h7 tag..normal text
+<p>..</p> paragraph tag
+<br>..</br> or <br> or <br /> new line tag
+<hr /> horizontal rule tag
+<b>..</b> or <strong>..</strong> bold tag
+<i>..</i> or <em>..</em> italics tag
+<u>..</u> underline tag
+<strike>..</strike> strike through or cutting a text tag

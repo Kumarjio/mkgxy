@@ -1,0 +1,556 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201510 will be lost/reset.
+# Last config file used to build this data file was /home/consultlawyers/tmp/awstats/awstats.bootstrap.mkgalaxy.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2025                
+POS_TIME 2698                
+POS_VISITOR 11351               
+POS_DAY 12736               
+POS_DOMAIN 3489                
+POS_LOGIN 3724                
+POS_ROBOT 3879                
+POS_WORMS 4067                
+POS_EMAILSENDER 4198                
+POS_EMAILRECEIVER 4341                
+POS_SESSION 13526               
+POS_SIDER 13735               
+POS_FILETYPES 4476                
+POS_DOWNLOADS 4753                
+POS_OS 4801                
+POS_BROWSER 4948                
+POS_SCREENSIZE 5217                
+POS_UNKNOWNREFERER 5291                
+POS_UNKNOWNREFERERBROWSER 5408                
+POS_ORIGIN 5520                
+POS_SEREFERRALS 5663                
+POS_PAGEREFS 5807                
+POS_SEARCHWORDS 5955                
+POS_KEYWORDS 6107                
+POS_MISC 2361                
+POS_ERRORS 6166                
+POS_CLUSTER 3580                
+POS_SIDER_404 6302                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20151101030047 1 0 14323222057471
+FirstTime 20151001001643
+LastTime 20151030195243
+LastUpdate 20151101141827 1 0 0 0 0
+TotalVisits 116                 
+TotalUnique 33                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 33                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 33 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 323 2197 35776207 4 36 2776
+1 406 2694 46691851 4 24 3450
+2 289 1937 32516011 1 26 1253
+3 280 1066 3928377 2 26 1270
+4 376 1419 7725039 2 22 78652
+5 290 1319 6419994 1 34 255
+6 438 1985 11668224 0 52 233
+7 622 4588 91851208 10 55 20601
+8 318 1857 18866278 3 24 0
+9 238 1190 11001238 37 51 9367
+10 93 491 7069784 0 2 0
+11 1 1 23308 0 1 0
+12 0 0 0 0 0 0
+13 0 0 0 0 0 0
+14 54 81 961709 3 24 0
+15 226 757 4302914 3 55 255
+16 333 1078 8383314 5 49 0
+17 418 2151 13114799 2 67 0
+18 589 2762 32594560 8 47 510
+19 345 1979 27686427 16 82 280266
+20 465 2606 39240463 2 51 7155
+21 376 1217 18770573 17 61 779
+22 186 797 11442851 5 60 1418
+23 286 3092 66132068 4 34 306955
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+us 6952 37264 496167197
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+google[_+\s]web[_+\s]preview 18 278577 20151010194750 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 8639 136252998 0 0
+png 501 20529202 0 0
+woff 350 13804376 0 0
+json 19 87521 0 0
+php 825 17721246 0 0
+html 5758 22831587 0 0
+js 20629 264190821 0 0
+jpg 240 6119274 0 0
+svg 165 10840024 0 0
+gif 138 3790148 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 5
+macosx 30910 6485
+linuxandroid 137 117
+macosx9 6145 322
+Unknown 15 15
+linux 57 13
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 10
+chrome34.0.1847.76 137 117
+chrome44.0.2403.107 6091 320
+chrome45.0.2454.101 16353 3100
+chrome45.0.2454.93 23 14
+firefox41.0 29 1
+safari8.0 18 18
+chrome46.0.2490.71 14568 3353
+safari8.0.7 2 2
+Unknown 15 15
+safari 28 12
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Google_favicon 20151030195243
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Google_favicon 20151030195243
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 3021 3021
+From1 0 0
+From2 0 0
+From3 0 0
+From4 3931 34243
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+403 1 221
+302 3 513
+206 16 380592
+404 123 13464
+301 15 3878
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 57
+/svnprojects/cloneMeetup/admin/admin.html 3 http://bootstrap.mkgalaxy.com/svnprojects/cloneMeetup/index.html
+/svnprojects/victorProjects/view1/index.html 1 http://bootstrap.mkgalaxy.com/svnprojects/victorProjects/ElectronicsApp/index.html
+/angularJsProjects/teaching/angularjs/translations/index.html 1 -
+/angularJsProjects/teaching/angularjs/translations/it_it/ 1 http://bootstrap.mkgalaxy.com/angularJsProjects/teaching/angularjs/translations/index.html
+/svnprojects/cloneMeetup/login/ 1 -
+/svnprojects/mk/prjServices/api/services1.php 4 http://bootstrap.mkgalaxy.com/svnprojects/mk/prjServices/index.html
+/svnprojects/teaching/jquery/servers.php 2 http://bootstrap.mkgalaxy.com/svnprojects/teaching/jquery/ajax.html
+/svnprojects/firebase3/http.json 2 http://bootstrap.mkgalaxy.com/svnprojects/firebase3/http.html
+/svnprojects/cloneMeetup/find 3 -
+/svnprojects/mk/cityfriendship/theme1/js/dist/jquery-migrate.min.map 6 -
+/angularJsProjects/teaching/angularjs/ 1 -
+/angularJsProjects/jobs 1 -
+/svnprojects/website_libs/dev_deps.js 1 http://bootstrap.mkgalaxy.com/svnprojects/cityProject/sample1.php
+/svnproj 1 -
+/svnprojects/cloneMeetup/home/ 5 -
+/svnprojects/mk/tutorProject/js/pagination/dirPagination.js 1 http://bootstrap.mkgalaxy.com/svnprojects/mk/tutorProject/index.html
+/angularJsProjects/teaching/angularjs/http/example1/invalid-url.php 1 http://bootstrap.mkgalaxy.com/angularJsProjects/teaching/angularjs/http/example1/index.html
+/svnprojects/cloneMeetup/login 1 -
+/svnprojects/mk/cityfriendship/theme1/ui.html 1 http://bootstrap.mkgalaxy.com/svnprojects/mk/cityfriendship/theme1/index.html
+/angularJsProjects/teaching/firebase/query/1.html 1 -
+/angularJsProjects/teaching/angularjs/translations/en_us/ 1 http://bootstrap.mkgalaxy.com/angularJsProjects/teaching/angularjs/translations/index.html
+/angularJsProjects/teaching/javascript/img/top_bg.gif 3 http://bootstrap.mkgalaxy.com/angularJsProjects/teaching/javascript/41_project.html
+/static/images/background.jpg 2 http://bootstrap.mkgalaxy.com/angularJsProjects/teaching/css/cssReference.html
+/svnprojects/mk/cityFriendship 3 -
+/svnprojects/mk/tutorsite 1 -
+/svnprojects/cloneMeetup/start 5 -
+/angularJsProjects/teaching/javascript/img/ajax_load.gif 1 http://bootstrap.mkgalaxy.com/angularJsProjects/teaching/javascript/41_project.html
+/svnprojects/cloneMeetup/loading.gif 1 http://bootstrap.mkgalaxy.com/svnprojects/cloneMeetup/index.html
+/svnprojects/cityProject/city/corlateTemplae 1 -
+/svnprojects/cityProject/assets/stylesheets/search-box-example.css 2 http://bootstrap.mkgalaxy.com/svnprojects/cityProject/sample1.php
+/angularJsProjects/teaching/javascript/img/bottom_bg.gif 1 http://bootstrap.mkgalaxy.com/angularJsProjects/teaching/javascript/41_project.html
+/svnprojects/cityFriendship 1 -
+/svnprojects/mk/prjServices/$scope.error.city%20=%20response.statusText 1 -
+/svnprojects/cityProject/assets/scripts/controllers/search-box.js 1 http://bootstrap.mkgalaxy.com/svnprojects/cityProject/sample1.php
+/angularJsProjects/teaching/javascript/scripts.php 3 http://bootstrap.mkgalaxy.com/angularJsProjects/teaching/javascript/34_ajax.html
+/main/view/TWFudGVjYSwgQ0EsIFVuaXRlZCBTdGF0ZXM=/aos 1 http://bootstrap.mkgalaxy.com/svnprojects/mk/prjServices/index.html
+/svnprojects/cloneMeetup/find/US/CA/Manteca/php/1/2/37.7974273/-121.21605260000001 18 -
+/svnprojects/cloneMeetup/%7B%7Blist.imageURL%7D%7D 6 http://bootstrap.mkgalaxy.com/svnprojects/cloneMeetup/index.html
+/svnprojects/cloneMeetup/home 2 -
+/svnprojects/mk/cityfriendship/theme1/widgets.html 1 http://bootstrap.mkgalaxy.com/svnprojects/mk/cityfriendship/index.html
+/svnprojects/mk/prjServices/view1/home.html 2 http://bootstrap.mkgalaxy.com/svnprojects/mk/prjServices/index.html
+/svnprojects/cloneMeetup/logout 1 -
+/admin 1 http://bootstrap.mkgalaxy.com/svnprojects/cloneMeetup/index.html
+/socialnetwork/members.hmtl 1 http://bootstrap.mkgalaxy.com/socialnetwork/
+/svnprojects/mk/tutor 1 -
+/svnprojects/sjobs 1 -
+/svnprojects/teaching/jquery/page2.html 1 http://bootstrap.mkgalaxy.com/svnprojects/teaching/jquery/projectAjax.html
+/svnpro 1 -
+/angularJsProjects/teaching/angularjs/localizations/index.html 1 -
+/s 1 -
+/angularJsProjects/teaching/css/css.css 1 http://bootstrap.mkgalaxy.com/angularJsProjects/teaching/css/complete.html
+/svnprojects/mk/cityfriendship/janux/js/dist/jquery-migrate.min.map 2 -
+/socialnetwork/groups.html 1 http://bootstrap.mkgalaxy.com/socialnetwork/
+/svnprojects/mk/tutorProject/img/students_graphic.png 1 http://bootstrap.mkgalaxy.com/svnprojects/mk/tutorProject/index.html
+/svnprojects/dist/angular-google-maps_dev_mapped.js 1 http://bootstrap.mkgalaxy.com/svnprojects/cityProject/sample1.php
+/svnprojects/jobs/js/angular.min.js.map 12 -
+/svnprojects/jobportal/api/fetch.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 33
+67.181.89.89 5571 32416 429118394 20151030071144
+206.208.102.250 916 4062 59882924 20151030014514
+130.65.251.132 196 263 3452322 20151010224735
+130.65.251.138 116 256 211201 20151024223541
+130.65.251.136 42 45 14797 20151017212034
+73.189.241.178 31 78 1279134 20151006183609
+54.209.60.63 18 18 534592 20151012065450
+208.54.5.210 7 7 140067 20151006202706
+66.249.84.204 7 7 30544 20151030195243
+172.56.38.68 6 6 138059 20151006190320
+208.54.5.167 5 14 273377 20151010035847
+66.249.84.196 4 4 16923 20151027054945
+162.119.128.113 3 10 419106 20151013144706
+172.56.39.24 2 2 23256 20151015010409
+66.249.80.20 2 2 10045 20151030010201
+54.83.68.182 2 6 2404 20151004063804
+54.144.98.202 2 6 2404 20151025073744
+172.56.16.91 2 2 23059 20151011005556
+208.54.5.250 2 2 23340 20151016024805
+54.234.247.132 2 6 2404 20151018073547
+208.54.5.155 2 2 23106 20151012233053
+54.234.151.180 2 6 2404 20151011064043
+76.218.103.104 2 6 15265 20151005051133
+208.54.5.229 1 1 23308 20151016174713
+54.146.229.86 1 1 39 20151025073743
+66.162.33.226 1 29 447508 20151020025433
+66.249.84.200 1 1 5438 20151010162423
+172.56.17.0 1 1 23163 20151013033850
+54.91.243.23 1 1 39 20151011064042
+66.249.84.146 1 1 5438 20151012213155
+172.56.38.180 1 1 23059 20151010191737
+54.159.177.116 1 1 39 20151004063803
+23.22.254.74 1 1 39 20151018073548
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 27
+20151001 218 950 27719769 2
+20151002 10 63 1033074 3
+20151003 98 390 7663201 6
+20151004 780 4891 52490950 5
+20151005 542 2548 39759391 6
+20151006 448 1095 11356910 7
+20151008 77 808 17901152 7
+20151009 204 3711 93294558 4
+20151010 483 611 7737573 7
+20151011 159 2333 60712271 6
+20151012 221 4006 103291657 6
+20151013 17 84 1322481 3
+20151015 300 1128 2356441 3
+20151016 16 16 96010 5
+20151017 204 377 1809832 4
+20151018 40 176 368939 3
+20151019 532 2563 8026720 1
+20151020 133 733 3444761 3
+20151021 2 2 2684 1
+20151022 191 1191 5867199 2
+20151024 201 389 1060254 6
+20151025 586 2023 7909911 7
+20151026 688 3202 13959189 2
+20151027 392 2109 13532653 6
+20151028 255 1136 8032281 6
+20151029 120 571 4305812 1
+20151030 35 158 1111524 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 30
+5mn-15mn 10
+15mn-30mn 6
+2mn-5mn 7
+0s-30s 45
+30s-2mn 4
+30mn-1h 14
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 181
+/svnprojects/mk/prjServices/ 945 4012555 22 5
+/svnprojects/mk/prjServices/view1/view1.html 726 3140335 1 11
+/svnprojects/mk/tutorProject/ 552 1692546 6 0
+/svnprojects/cloneMeetup/ 516 1915145 17 7
+/svnprojects/jobs/api/fetch.php 497 11201057 8 17
+/svnprojects/cloneMeetup/main/find.html 349 1043120 0 1
+/svnprojects/mk/tutorProject/teacher/signupstart.html 265 1244840 0 2
+/svnprojects/mk/tutorProject/teacher/teacher.html 225 679158 0 2
+/svnprojects/mk/cityfriendship/ 194 3687925 9 1
+/svnprojects/mk/cityfriendship/theme1/font/fontawesome-webfont-62877.woff 168 4788940 0 0
+/svnprojects/cloneMeetup/js/pagination/dirPagination.tpl.html 150 139264 0 5
+/svnprojects/mk/prjServices/admin/new.html 138 197218 0 1
+/svnprojects/cloneMeetup/font/fonts/fontawesome-webfont.woff 134 5820592 0 2
+/svnprojects/cloneMeetup/main/start.html 105 144346 0 2
+/svnprojects/projectLinks/ 104 276012 3 0
+/svnprojects/projectLinks/view1/view1.html 101 298597 0 2
+/svnprojects/jobs/ 99 265343 6 0
+/svnprojects/jobs/view1/view1.html 92 198405 0 0
+/svnprojects/mk/prjServices/api/services.php 80 3238406 0 0
+/angularJsProjects/teaching/angularjs/ngResource/api.php 78 7585 1 1
+/svnprojects/mk/tutorProject/view1/view1.html 73 80725 0 1
+/svnprojects/mk/cityfriendship/users/register.html 68 220363 0 3
+/angularJsProjects/teaching/javascript/33_projects.html 60 102498 0 0
+/svnprojects/mk/prjServices/js/pagination/dirPagination.tpl.html 59 53248 0 3
+/svnprojects/mk/cityfriendship/users/login.html 53 96081 0 1
+/ 7 9394 3 2
+/svnprojects/teaching/javascript/forloop.html 11 2425 1 0
+/angularJsProjects/teaching/angularjs/http/example1/server.php 11 592 0 1
+/svnprojects/mk/horo/view1/install.html 1 68 0 0
+/svnprojects/firebase3/http.json 7 11347 0 0
+/flyspray/index.php 24 383296 0 0
+/svnprojects/mk/cityfriendship/janux/login.html 2 10154 0 0
+/angularJsProjects/teaching/css/cssReference.html 2 122100 0 1
+/angularJsProjects/teaching/javascript/17_conditionals.html 5 1124 0 0
+/svnprojects/mk/horo/api/fetch.php 19 250968 0 0
+/angularJsProjects/teaching/angularjs/http/http2.html 2 2383 0 0
+/svnprojects/cityProject/city/corlateTemplate/ 3 131079 0 0
+/svnprojects/victorProjects/ElectronicsApp/details/details.html 1 1178 0 0
+/svnprojects/mk/cityfriendship/janux/submenu.html 2 73058 0 0
+/svnprojects/firebase3/realhttp.html 8 11381 0 0
+/svnprojects/mk/cityfriendship/theme1/font/glyphicons-regular.woff 28 2272900 0 1
+/svnprojects/teaching/jquery/projectAjax.html 10 9720 0 0
+/svnprojects/teaching/jquery/fade.html 3 1270 0 1
+/angularJsProjects/teaching/javascript/30_jquery.html 10 5784 0 0
+/svnprojects/firebase3/sample1.html 3 7410 0 0
+/svnprojects/jobs/js/pagination/dirPagination.tpl.html 25 12288 5 0
+/homeopathy/view1/hom.html 9 27777 0 1
+/svnprojects/snippets/bootstrap-pricing-slider-mobile-touch-ui/ 5 44434 0 1
+/svnprojects/cityProject/sample1.php 1 2663 1 1
+/svnprojects/snippets/chris/folder1/ 10 61320 0 1
+/svnprojects/mk/cityfriendship/janux/ui.html 2 87010 0 0
+/svnprojects/firebase3/sampleChris.html 2 2010 0 0
+/svnprojects/mk/tutorProject/directives/mkDispName.html 9 11 0 0
+/angularJsProjects/teaching/javascript/22_events.html 2 449 0 0
+/angularJsProjects/teaching/javascript/3_variables_arrays.html 1 212 0 0
+/socialnetwork/fonts/fontawesome-webfont.woff 2 130904 0 2
+/svnprojects/jobportal/testing/seeking-web/fonts/fontawesome-webfont.woff 1 71508 0 0
+/svnprojects/victorProjects/ElectronicsApp/ 1 3007 0 0
+/svnprojects/cityProject/city/corlateTemplate/fonts/fontawesome-webfont.woff 7 266592 0 1
+/svnprojects/jobportal/view1/view1.html 1 12599 0 0
+/angularJsProjects/teaching/javascript/15_functions.html 3 750 0 0
+/angularJsProjects/teaching/javascript/41_project.html 11 42159 1 0
+/svnprojects/victorProjects/ElectronicsApp/login/login.html 1 860 0 0
+/svnprojects/teaching/jquery/events.html 1 434 0 0
+/angularJsProjects/teaching/javascript/28_jquery.html 2 981 0 0
+/svnprojects/project_services/view2/view2.html 2 626 0 0
+/svnprojects/teaching/jquery/hideshow.html 4 1988 0 0
+/angularJsProjects/teaching/javascript/26_jquery.html 7 2928 0 0
+/svnprojects/mk/cityfriendship/janux/typography.html 2 52830 0 0
+/svnprojects/victorProjects/ElectronicsApp/json/laptops.json 2 19114 0 0
+/angularJsProjects/teaching/angularjs/http/http3.html 6 7514 0 0
+/svnprojects/teaching/css/1.html 7 2467 0 1
+/angularJsProjects/teaching/javascript/18_conditionals.html 4 1849 0 0
+/angularJsProjects/teaching/javascript/25_events.html 5 2213 0 0
+/svnprojects/jobportal/fonts/fontawesome-webfont.woff 1 71508 0 0
+/svnprojects/jobportal/ 1 10403 0 0
+/svnprojects/victorProjects/ElectronicsApp/json/products.json 3 47302 0 0
+/flyspray/ 3 75985 2 2
+/svnprojects/cloneMeetup/main/home.html 16 60 0 0
+/angularJsProjects/teaching/javascript/24_events.html 5 1893 0 0
+/svnprojects/jobportal/testing/seeking-web/jobs.html 1 35657 1 0
+/homeopathy/view1/arnica.html 7 3460 0 0
+/angularJsProjects/teaching/javascript/12_loops.html 1 271 0 0
+/angularJsProjects/teaching/javascript/16_functions.html 3 850 1 1
+/svnprojects/cloneMeetup/fonts/glyphicons-halflings-regular.woff 1 23320 0 0
+/svnprojects/mk/horo/view1/view1.html 2 818 0 1
+/angularJsProjects/teaching/javascript/11_loops.html 2 271 0 0
+/svnprojects/jobportal/api/firebase/firebaseLib.php 3 214 0 0
+/svnprojects/jasmine/SpecRunner.html 9 5335 3 3
+/svnprojects/mk/prjServices/view1/home.html 11 32499 0 0
+/angularJsProjects/teaching/javascript/1_variables_arrays.html 1 222 1 0
+/svnprojects/todo/view1/view1.html 1 1832 0 1
+/angularJsProjects/teaching/angularjs/translations/ 1 188 1 0
+/angularJsProjects/teaching/css/mediaqueries.html 4 1254 0 0
+/svnprojects/mk/cityfriendship/view1/loc.html 6 71 0 0
+/angularJsProjects/teaching/javascript/6_variables_arrays.html 1 246 0 0
+/angularJsProjects/teaching/javascript/10_loops.html 3 491 1 0
+/svnprojects/cloneMeetup/find/US/CA/Manteca/php/1/2/37.7974273/-121.21605260000001/ 1 1342 0 0
+/svnprojects/cityProject/index.php 5 231467 0 0
+/angularJsProjects/teaching/javascript/script.php 22 683 0 1
+/svnprojects/teaching/javascript/objects.html 3 740 0 0
+/svnprojects/jobportal/api/fetch.php 49 2394634 2 1
+/angularJsProjects/teaching/angularjs/http/http.php 6 239 0 0
+/svnprojects/victorProjects/ElectronicsApp/products/products.html 1 1788 0 0
+/angularJsProjects/teaching/javascript/7_variables_arrays.html 3 901 0 1
+/svnprojects/snippets/1.html 11 64438 0 0
+/svnprojects/mk/cityfriendship/view1/location.html 18 24323 0 2
+/angularJsProjects/teaching/javascript/5_variables_arrays.html 3 725 0 0
+/svnprojects/mk/cityfriendship/janux/messages.html 2 59262 0 0
+/svnprojects/mk/cityfriendship/janux/chart.html 2 48234 0 0
+/svnprojects/cloneMeetup/main/detail.html 3 51 0 0
+/angularJsProjects/teaching/angularjs/localizations/simple/en_us/ 4 2154 0 0
+/svnprojects/mk/cityfriendship/janux/gallery.html 2 46300 0 1
+/svnprojects/mk/cityfriendship/janux/tasks.html 2 57710 0 0
+/angularJsProjects/teaching/javascript/23_events.html 1 253 0 0
+/angularJsProjects/teaching/javascript/2_variables_arrays.html 1 208 0 0
+/angularJsProjects/teaching/javascript/4_variables_arrays.html 1 232 0 0
+/angularJsProjects/teaching/javascript/14_functions.html 3 687 0 0
+/angularJsProjects/teaching/angularjs/http/http.json 6 9726 0 0
+/homeopathy/ 19 75101 1 0
+/angularJsProjects/teaching/javascript/13_functions.html 1 215 0 0
+/svnprojects/mk/prjServices/view2/view2.html 41 12833 0 0
+/angularJsProjects/teaching/javascript/32_jquery.html 2 1352 0 0
+/firebase/project2/ 1 4182 0 0
+/svnprojects/mk/prjServices/view1/post.html 48 81769 0 2
+/angularJsProjects/teaching/angularjs/localizations/simple/it_it/ 2 755 0 0
+/flyspray/javascript/callbacks/checksave.php 2 4 0 0
+/svnprojects/mk/cityfriendship/view1/view1.html 27 363636 0 1
+/svnprojects/todo/ 1 875 1 0
+/angularJsProjects/teaching/css/complete.html 2 348446 0 0
+/angularJsProjects/teaching/javascript/34_ajax.html 33 33225 1 0
+/svnprojects/teaching/jquery/server.php 7 298 0 0
+/svnprojects/mk/cityfriendship/janux/widgets.html 2 95732 0 0
+/angularJsProjects/teaching/javascript/27_jquery.html 1 457 0 0
+/svnprojects/cloneMeetup/admin/admin.html 33 36853 0 0
+/svnprojects/mk/cityfriendship/janux/font/glyphicons-regular.woff 2 181832 0 0
+/svnprojects/chris_project_services/ 7 19012 0 0
+/svnprojects/teaching/jquery/page3.html 1 16 0 0
+/angularJsProjects/teaching/javascript/load_file.php 13 68 0 1
+/angularJsProjects/teaching/angularjs/ngResource/ngResource1.html 48 79242 0 0
+/svnprojects/chris_project_services/view1/view1.html 7 2191 0 1
+/svnprojects/mk/cityfriendship/theme1/1.html 1 36920 0 0
+/svnprojects/snippets/modal-login-with-jquery-effects/1.html 9 54360 0 0
+/svnprojects/teaching/jquery/documentready.html 13 5563 0 0
+/angularJsProjects/teaching/angularjs/localizations/simple/ 3 376 0 1
+/angularJsProjects/teaching/firebase/query/1.html 24 43487 0 0
+/svnprojects/seo/ 5 5265 4 0
+/svnprojects/teaching/javascript/forlooparray.html 2 797 0 0
+/angularJsProjects/teaching/javascript/8_loops.html 2 441 1 0
+/svnprojects/teaching/jquery/page4.html 1 16 0 0
+/svnprojects/mk/tutorProject/js/pagination/dirPagination.tpl.html 21 3072 0 0
+/angularJsProjects/teaching/angularjs/http/http.html 6 3644 0 0
+/svnprojects/mk/cityfriendship/janux/font/fontawesome-webfont-62877.woff 6 176280 0 0
+/svnprojects/mk/cityfriendship/janux/table.html 3 166809 0 0
+/svnprojects/mk/cityfriendship/api/fetch.php 8 9072 1 1
+/angularJsProjects/teaching/javascript/20_conditionals.html 2 851 0 0
+/angularJsProjects/teaching/javascript/9_loops.html 2 440 0 1
+/svnprojects/teaching/javascript/functions.html 2 524 0 0
+/firebase/project2/view1/view1.html 1 918 0 0
+/angularJsProjects/teaching/javascript/29_jquery.html 3 1784 0 0
+/angularJsProjects/teaching/firebase/query/sample1.html 24 30760 0 0
+/svnprojects/project_services/ 39 101351 2 0
+/svnprojects/mk/cityfriendship/janux/form.html 5 160085 0 0
+/svnprojects/mk/horo/ 5 12540 4 3
+/svnprojects/mk/cityfriendship/janux/ 4 147680 1 1
+/angularJsProjects/teaching/css/greaterthan.html 2 1843 0 0
+/svnprojects/firebase3/http.html 6 6357 0 0
+/svnprojects/victorProjects/ElectronicsApp/laptops/laptops.html 1 1534 0 0
+/svnprojects/teaching/javascript/while.html 2 545 0 0
+/angularJsProjects/teaching/angularjs/http/http2.json 1 32 0 0
+/svnprojects/cloneMeetup/main/login.html 12 2900 0 0
+/svnprojects/teaching/jquery/page2.html 1 8 0 0
+/homeopathy/view1/view1.html 5 3291 0 0
+/svnprojects/mk/cityfriendship/theme1/ 3 110760 0 0
+/svnprojects/teaching/jquery/ajax.html 14 14779 0 0
+/svnprojects/mk/cityfriendship/users/forgot.html 2 12 0 0
+/angularJsProjects/teaching/angularjs/http/example1/ 1 3999 0 0
+/socialnetwork/ 2 14238 0 0
+/svnprojects/seo/view1/view1.html 9 351 4 8
+/svnprojects/project_services/view1/view1.html 37 11268 0 1
+/svnprojects/teaching/jquery/page1.html 3 5 0 0
+END_SIDER

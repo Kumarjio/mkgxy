@@ -1,0 +1,6 @@
+[18-May-2015 17:00:03 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Too many connections in /home/consultlawyers/public_html/mkgxy/Connections/connChess.php on line 9
+[18-May-2015 17:00:03 UTC] PHP Fatal error:  Too many connections in /home/consultlawyers/public_html/mkgxy/Connections/connChess.php on line 9
+[18-May-2015 17:00:07 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Too many connections in /home/consultlawyers/public_html/mkgxy/Connections/connChess.php on line 9
+[18-May-2015 17:00:07 UTC] PHP Fatal error:  Too many connections in /home/consultlawyers/public_html/mkgxy/Connections/connChess.php on line 9
+[18-May-2015 17:00:15 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Too many connections in /home/consultlawyers/public_html/mkgxy/Connections/connChess.php on line 9
+[18-May-2015 17:00:15 UTC] PHP Fatal error:  Too many connections in /home/consultlawyers/public_html/mkgxy/Connections/connChess.php on line 9

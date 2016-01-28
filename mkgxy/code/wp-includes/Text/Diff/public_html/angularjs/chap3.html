@@ -1,0 +1,28 @@
+<!doctype html>
+<html ng-app>
+<head>
+    <title>3. Controllers, Scope, Modules</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+
+</head>
+
+<body>
+<h1>Creating a Controller</h1>
+
+<script>
+	//$scope injected dynamically
+	function SimpleController($scope) {
+		$scope.customers = [
+			{ name: 'Danny Wallace', city: 'Phoenix'},
+			{ name: 'Jamie Riley', city: 'Atlanta'},
+			{ name: 'Heedy Thomas', city: 'Chandler'},
+			{ name: 'Jeff James', city: 'Seattle'}
+		];
+	}
+</script>
+</body>
+</html>

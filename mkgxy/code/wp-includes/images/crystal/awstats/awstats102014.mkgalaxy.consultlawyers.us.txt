@@ -1,0 +1,457 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201410 will be lost/reset.
+# Last config file used to build this data file was /home/consultlawyers/tmp/awstats/awstats.mkgalaxy.consultlawyers.us.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2026                
+POS_TIME 2709                
+POS_VISITOR 8303                
+POS_DAY 10098               
+POS_DOMAIN 3421                
+POS_LOGIN 3743                
+POS_ROBOT 3898                
+POS_WORMS 4238                
+POS_EMAILSENDER 4369                
+POS_EMAILRECEIVER 4512                
+POS_SESSION 10265               
+POS_SIDER 10471               
+POS_FILETYPES 4647                
+POS_DOWNLOADS 4940                
+POS_OS 5029                
+POS_BROWSER 5155                
+POS_SCREENSIZE 5517                
+POS_UNKNOWNREFERER 5591                
+POS_UNKNOWNREFERERBROWSER 5793                
+POS_ORIGIN 5990                
+POS_SEREFERRALS 6132                
+POS_PAGEREFS 6276                
+POS_SEARCHWORDS 7675                
+POS_KEYWORDS 7827                
+POS_MISC 2373                
+POS_ERRORS 7886                
+POS_CLUSTER 3599                
+POS_SIDER_404 7994                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20141101002323 893 295796 12478607579869
+FirstTime 20141028014457
+LastTime 20141031231609
+LastUpdate 20141101150044 893 0 892 0 0
+TotalVisits 46                  
+TotalUnique 27                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 51                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 20 20 353436 2 2 165
+1 99 170 3068431 31 60 158288
+2 21 37 380775 15 16 105152
+3 0 10 332078 1 1 0
+4 42 110 1594557 13 36 75852
+5 19 50 842589 5 10 20277
+6 52 168 3046699 9 21 40740
+7 8 17 410697 0 3 50
+8 37 45 525646 3 19 9195
+9 4 6 102692 1 3 9220
+10 9 9 98982 0 0 0
+11 1 20 667007 0 4 100
+12 0 0 0 0 2 50
+13 0 0 0 1 1 10998
+14 3 47 1741262 0 0 0
+15 0 9 312095 0 0 0
+16 4 13 356087 0 0 0
+17 142 488 8221549 17 68 53818
+18 35 100 1443007 0 19 0
+19 65 197 2268781 31 70 48461
+20 93 567 10897624 4 49 50
+21 4 34 1018948 0 1 0
+22 25 89 2678241 11 15 25333
+23 22 102 2231188 5 14 10998
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 7
+us 677 2010 32291807
+ru 13 254 9212513
+cn 10 10 109980
+ua 3 3 32994
+eu 2 10 287893
+de 0 3 32994
+sa 0 18 624190
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+no_user_agent 79 469315 20141031062135 0
+bot[\s_+:,\.\;\/\\-] 15 77186 20141031201245 8
+robot 4 100 20141031223619 4
+unknown 3 75 20141031220557 3
+spider 2 50 20141031115556 2
+googlebot 1 25 20141030121913 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+eot 6 382580 0 0
+css 761 16233434 0 0
+png 11 29338 0 0
+ttf 6 849384 0 0
+txt 2 11009 0 0
+woff 26 1010360 0 0
+php 175 2847728 0 0
+html 25 244038 0 0
+js 786 10626934 0 0
+jpg 32 3392594 0 0
+Unknown 467 6843985 0 0
+gif 11 120987 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 2
+/robots.txt 18 0 450
+/test.txt 2 0 11009
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 8
+linuxandroid 8
+winlong 2
+winxp 121
+linux 10
+winvista 63
+win7 229
+macosx 1869
+Unknown 6
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 20
+firefox32.0 2
+msie6.0 1
+chrome38.0.2125.104 1994
+android 8
+chrome15.0.860.0 1
+chrome28.0.1500.73 9
+chrome28.0.1500.95 36
+chrome31.0.1650.57 45
+chrome31.0.1650.63 18
+opera9.80 56
+firefox31.0 1
+msie8.0 22
+chrome36.0.1985.143 1
+mozilla 9
+firefox25.0 37
+msie7.0 1
+msie10.0 42
+chrome27.0.1453 10
+msie9.0 9
+Unknown 6
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Mechanize/2.7.2_Ruby/2.0.0p481_(http://github.com/sparklemotion/mechanize/) 20141030055301
+NerdyBot 20141031161410
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Mechanize/2.7.2_Ruby/2.0.0p481_(http://github.com/sparklemotion/mechanize/) 20141030055301
+NerdyBot 20141031161410
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 165 170
+From1 0 0
+From2 0 0
+From3 14 289
+From4 526 1849
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 28
+http://venturia-nd-us.mkgalaxy.com/housing 5 21
+http://wyoming-ia-us.mkgalaxy.com/housing 3 29
+http://keasbey-nj-us.mkgalaxy.com/housing 3 20
+http://alexander-ks-us.mkgalaxy.com 3 11
+http://maineville-oh-us.mkgalaxy.com/housing 0 9
+http://platteville-wi-us.mkgalaxy.com/housing 0 9
+http://lillington-nc-us.mkgalaxy.com/housing 0 9
+http://oxford-nc-us.mkgalaxy.com 0 9
+http://port-colborne-on-ca.mkgalaxy.com/housing 0 9
+http://leesville-sc-us.mkgalaxy.com/housing 0 9
+http://north-windham-ct-us.mkgalaxy.com 0 9
+http://wyckoff-nj-us.mkgalaxy.com 0 9
+http://ochopee-fl-us.mkgalaxy.com/housing 0 9
+http://north-olmsted-oh-us.mkgalaxy.com 0 9
+http://pixley-ca-us.mkgalaxy.com/housing 0 9
+http://kershaw-sc-us.mkgalaxy.com/housing 0 1
+http://lemmon-sd-us.mkgalaxy.com/housing 0 9
+http://pascoag-ri-us.mkgalaxy.com/housing 0 9
+http://lanham-wv-us.mkgalaxy.com/housing 0 9
+http://wood-ridge-nj-us.mkgalaxy.com/housing 0 9
+http://ordway-co-us.mkgalaxy.com/housing 0 9
+http://woodbury-vt-us.mkgalaxy.com/housing 0 10
+http://piney-point-md-us.mkgalaxy.com 0 9
+http://unr.mkgalaxy.com 0 8
+http://lycan-co-us.mkgalaxy.com 0 9
+http://ober-in-us.mkgalaxy.com/housing 0 9
+http://woodlawn-il-us.mkgalaxy.com/housing 0 9
+http://lenoir-nc-us.mkgalaxy.com/housing 0 9
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+302 61 0
+500 1 10998
+406 1 10998
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 0
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 51
+206.208.102.250 337 1081 17952739 20141031231609
+67.164.21.22 333 913 13877225 20141031182237
+95.143.27.14 3 11 492882 20141030223527
+176.193.29.110 3 29 1117072 20141031144614
+46.242.15.241 3 11 492882 20141031214034
+95.220.135.132 3 20 804977 20141031220832
+220.181.108.123 2 2 21996 20141029105315
+185.18.23.190 2 10 287893 20141031072501
+195.211.155.189 1 1 10998 20141030101452
+130.211.191.229 1 1 10998 20141031161410
+123.125.71.55 1 1 10998 20141029105316
+66.249.82.118 1 10 395855 20141028062545
+123.125.71.78 1 1 10998 20141029105316
+220.181.108.107 1 1 10998 20141029105316
+54.189.217.190 1 1 10998 20141028053726
+146.148.82.33 1 1 10998 20141028161418
+27.159.223.203 1 1 10998 20141029004607
+27.159.216.37 1 1 10998 20141028115914
+130.211.118.173 1 1 10998 20141030161340
+123.125.71.46 1 1 10998 20141029105316
+193.201.224.103 1 1 10998 20141031000838
+91.200.13.64 1 1 10998 20141031202940
+146.148.48.33 1 1 10998 20141029161412
+5.45.77.35 1 1 10998 20141031184541
+123.125.71.32 1 1 10998 20141029105316
+37.204.157.248 0 9 312095 
+95.220.151.103 0 9 312095 
+5.164.68.129 0 9 312095 
+128.75.227.241 0 9 312095 
+128.72.189.167 0 9 312095 
+5.9.138.38 0 2 21996 
+176.195.57.124 0 18 624190 
+176.195.3.56 0 9 312095 
+89.178.173.231 0 9 312095 
+176.193.220.168 0 9 312095 
+92.242.91.250 0 1 31819 
+176.193.199.54 0 9 312095 
+5.228.33.155 0 9 312095 
+95.221.247.5 0 10 332078 
+79.172.125.61 0 9 312095 
+79.165.160.15 0 9 312095 
+176.195.89.134 0 9 312095 
+95.25.32.38 0 9 312095 
+2.94.223.157 0 9 312095 
+46.188.50.164 0 9 312095 
+54.189.118.37 1 1 10998 20141030055301
+128.74.246.218 0 9 312095 
+178.154.166.174 0 9 312095 
+220.181.108.113 1 1 10998 20141029105315
+176.195.190.215 0 9 312095 
+46.4.209.126 0 1 10998 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 4
+20141028 222 431 6373622 9
+20141029 174 499 6082493 14
+20141030 140 458 8467142 9
+20141031 169 920 21669114 14
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 5
+5mn-15mn 6
+15mn-30mn 2
+0s-30s 25
+2mn-5mn 2
+30s-2mn 3
+30mn-1h 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 88
+/api/locations/nearby.php 133 2470358 0 7
+/horo/main 109 1767595 1 3
+/city-santa-clara-144001 39 242388 0 0
+/messages/chat 37 232826 1 1
+/city-san-jose-144008 28 434245 2 1
+/messages/view 27 342504 0 0
+/api/locations/findcityStr.php 27 251233 0 0
+/ 25 244038 13 12
+/users/login 23 229248 4 0
+/city-palo-alto-143874 17 360432 0 0
+/layouts/themeBase/fonts/glyphicons-halflings-regular.woff 14 256520 0 0
+/city-san-jose-144008/history/detail 14 1266 0 1
+/layouts/themeHome/font-awesome-4.1.0/fonts/fontawesome-webfont.woff 12 753840 1 1
+/locations/searchResult 11 94184 0 0
+/city-redwood-city-143865 10 233096 0 0
+/users/settings 10 134678 0 0
+/api/locations/iptocity.php 9 84634 0 0
+/city-san-jose-144008/residential/browse 9 214920 1 0
+/browse 8 87984 7 7
+/city-menlo-park-143857 6 143543 0 1
+/layouts/themeHome/font-awesome-4.1.0/fonts/fontawesome-webfont.ttf 6 849384 0 4
+/superadmin/manager/shout 6 62390 0 0
+/locations/country 6 114467 0 0
+/city-campbell-143980 5 85847 3 0
+/layouts/themeHome/font-awesome-4.1.0/fonts/fontawesome-webfont.eot 5 362245 4 1
+/city-san-bruno-143867 2 44884 0 0
+/city-richmond-143937/history/browse 1 22763 0 0
+/locations/city 1 13494 0 0
+/products/search 2 23345 1 0
+/crons/cityUpdate.php 3 7499 0 1
+/city-belvedere-tiburon-143944 1 19000 0 0
+/city-saratoga-144004/nevereatalone/new 2 53458 0 0
+/city-milpitas-143992 1 22823 0 0
+/superadmin/locations/city_owners 1 8552 0 0
+/city-m-ther-n-18658 1 17183 0 0
+/city-millbrae-143860 1 19484 0 0
+/locations/state 1 10491 0 0
+/city-ulh-snagar-18866 2 44783 1 1
+/superadmin/manager/history 4 28069 0 0
+/city-mumbai-18638 2 43444 0 0
+/city-el-cerrito-143895 2 45311 0 1
+/city-san-jose-144008/history/about 1 16872 0 0
+/city-alviso-143975 1 18941 0 0
+/city-alameda-143877 1 22583 0 0
+/messages/my 1 8597 0 0
+/city-castro-valley-143900 1 22517 0 0
+/city-badlapur-18780 1 22043 0 0
+/city-burlingame-143850 1 22226 0 0
+/about/howitworks 1 9844 0 0
+/city-saratoga-144004/horo/main 1 22392 0 0
+/city-el-cerrito-143895/history/browse 1 22843 0 0
+/city-south-san-francisco-143870 1 22856 1 0
+/city-san-jose-144008/residential/about 1 16694 0 1
+/city-newark-143908 1 22286 0 0
+/city-sunol-143927 4 85574 0 1
+/city-saratoga-144004 4 93347 1 0
+/city-cupertino-143984 4 91438 0 0
+/forex/buy 1 12803 0 0
+/city-richmond-143937/residential/browse 1 18575 0 0
+/city-th-na-18836 3 65877 0 0
+/city-richmond-143937 4 89039 1 1
+/city-san-jose-144008/news/add 1 27555 0 0
+/city-canyon-143889 1 22141 0 0
+/city-san-francisco-143872 2 45298 0 1
+/city-ambarnath-18837 2 44454 0 0
+/about/jobOpenings 2 27863 0 0
+/city-dublin-143916 3 67320 0 0
+/city-el-cerrito-143895/residential/new 2 48426 0 0
+/api/locations/citydetail.php 3 34004 0 0
+/city-parilla-148347 1 21410 0 0
+/about/aboutus 1 9836 0 0
+/city-cupertino-143984/nevereatalone/new 3 88457 0 0
+/layouts/themeHome/fonts/glyphicons-halflings-regular.eot 1 20335 1 0
+/city-pleasanton-143914 1 22668 1 0
+/city-kaly-n-18888 1 17418 0 0
+/city-san-jose-144008/history/browse 2 53780 0 0
+/city-cupertino-143984/bids/new 4 96712 0 0
+//messages/view 2 26045 0 0
+/city-portola-valley-143859 2 23419 0 0
+/city-san-mateo-143876 1 22884 0 0
+/city-navi-mumbai-18745 3 68028 1 0
+/users/memberPlans 2 25386 0 0
+/city-el-cerrito-143895/residential/myplace 2 41861 0 0
+/city-livermore-143904 1 22422 0 0
+/city-fremont-143898 1 22431 0 0
+/city-saratoga-144004/horo/new 1 22407 1 0
+/city-stanford-143875 2 46605 0 0
+/city-atherton-143858 1 23115 0 0
+END_SIDER

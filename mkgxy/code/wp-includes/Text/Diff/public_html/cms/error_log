@@ -1,0 +1,5 @@
+[28-Mar-2015 05:49:59 America/Los_Angeles] PHP Fatal error:  Class 'Google_Service' not found in /home/consultlawyers/public_html/cms/sites/all/libraries/google-api-php-client/src/Google/Service/Oauth2.php on line 32
+[28-Mar-2015 05:49:59 America/Los_Angeles] PHP Fatal error:  Class 'Google_Service' not found in /home/consultlawyers/public_html/cms/sites/all/libraries/google-api-php-client/src/Google/Service/Oauth2.php on line 32
+[28-Mar-2015 05:52:45 America/Los_Angeles] PHP Fatal error:  Class 'Google_Service' not found in /home/consultlawyers/public_html/cms/sites/all/libraries/google-api-php-client/src/Google/Service/Oauth2.php on line 32
+[28-Mar-2015 05:52:45 America/Los_Angeles] PHP Fatal error:  Class 'Google_Service' not found in /home/consultlawyers/public_html/cms/sites/all/libraries/google-api-php-client/src/Google/Service/Oauth2.php on line 32
+[28-Mar-2015 06:58:31 America/Los_Angeles] PHP Fatal error:  Unsupported operand types in /home/consultlawyers/public_html/cms/includes/form.inc on line 1079

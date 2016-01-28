@@ -1,0 +1,292 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201510 will be lost/reset.
+# Last config file used to build this data file was /home/consultlawyers/tmp/awstats/awstats.manteca.dcomerce.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2023                
+POS_TIME 2696                
+POS_VISITOR 6807                
+POS_DAY 7178                
+POS_DOMAIN 3267                
+POS_LOGIN 3497                
+POS_ROBOT 3652                
+POS_WORMS 3838                
+POS_EMAILSENDER 3969                
+POS_EMAILRECEIVER 4112                
+POS_SESSION 7547                
+POS_SIDER 7727                
+POS_FILETYPES 4247                
+POS_DOWNLOADS 4367                
+POS_OS 4415                
+POS_BROWSER 4509                
+POS_SCREENSIZE 4624                
+POS_UNKNOWNREFERER 4698                
+POS_UNKNOWNREFERERBROWSER 4815                
+POS_ORIGIN 4927                
+POS_SEREFERRALS 5065                
+POS_PAGEREFS 5209                
+POS_SEARCHWORDS 5357                
+POS_KEYWORDS 5509                
+POS_MISC 2360                
+POS_ERRORS 5568                
+POS_CLUSTER 3353                
+POS_SIDER_404 5669                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20151023022824 3 196 5461500280840
+FirstTime 20151001183638
+LastTime 20151023022824
+LastUpdate 20151023153127 3 0 3 0 0
+TotalVisits 24                  
+TotalUnique 7                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 7                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 5 11 12006 0 4 0
+1 5 11 888 0 3 0
+2 5 17 25672 0 3 0
+3 0 0 0 0 1 0
+4 40 163 640465 15 31 3630
+5 20 90 463964 0 71 12962
+6 3 7 4634 0 2 0
+7 1 1 4002 0 1 0
+8 0 0 0 0 1 0
+9 0 0 0 0 0 0
+10 0 0 0 0 0 0
+11 0 0 0 0 0 0
+12 0 0 0 0 0 0
+13 0 0 0 0 0 0
+14 0 0 0 0 0 0
+15 0 0 0 0 0 0
+16 2 2 8004 0 2 0
+17 1 1 4002 0 0 0
+18 3 9 12949 0 3 0
+19 20 71 88434 0 4 0
+20 48 158 433759 25 30 5541
+21 84 288 1124906 23 37 46880
+22 1 1 4002 0 1 0
+23 2 8 6391 0 1 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+us 240 838 2834078
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+google[_+\s]web[_+\s]preview 9 42161 20151018210030 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 3
+css 86 43829 0 0
+html 240 445220 0 0
+js 512 2345029 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 2
+macosx 822 224
+Unknown 16 16
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 3
+chrome45.0.2454.101 814 222
+chrome45.0.2454.93 8 2
+Unknown 16 16
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Google_favicon 20151023022824
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Google_favicon 20151023022824
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 100 100
+From1 0 0
+From2 0 0
+From3 0 0
+From4 140 738
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+404 93 19789
+301 29 7063
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 19
+/admin/includes/inc_category.html 4 http://manteca.dcomerce.com/admin/cart/category/
+/admin/config 7 -
+/img/photos/8.png 5 http://manteca.dcomerce.com/
+/img/footer.png 1 http://manteca.dcomerce.com/app.css
+/img/photos/4.png 5 http://manteca.dcomerce.com/
+/img/hot.png 5 http://manteca.dcomerce.com/
+/img/new.png 5 http://manteca.dcomerce.com/
+/img/photos/2.png 5 http://manteca.dcomerce.com/
+/img/deal.png 5 http://manteca.dcomerce.com/
+/img/photos/9.png 5 http://manteca.dcomerce.com/
+/img/sale.png 5 http://manteca.dcomerce.com/
+/admin/cart 2 http://manteca.dcomerce.com/
+/img/photos/6.png 5 http://manteca.dcomerce.com/
+/img/photos/3.png 5 http://manteca.dcomerce.com/
+/img/photos/7.png 5 http://manteca.dcomerce.com/
+/img/photos/5.png 5 http://manteca.dcomerce.com/
+/admin/category 6 -
+/admin/cart/category 7 -
+/admin/c 6 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 7
+67.181.89.89 147 510 1616891 20151003212548
+206.208.102.250 77 312 1153155 20151003050551
+66.249.84.246 5 5 20010 20151021004744
+66.249.84.249 5 5 20010 20151018192809
+66.249.84.243 4 4 16008 20151023022824 20151023022824 /
+66.249.80.34 1 1 4002 20151006212311
+66.249.84.174 1 1 4002 20151012213155
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 15
+20151001 26 101 115545 3
+20151003 198 721 2654501 5
+20151005 1 1 4002 1
+20151006 1 1 4002 1
+20151008 2 2 8004 2
+20151009 1 1 4002 1
+20151010 1 1 4002 1
+20151011 1 1 4002 1
+20151012 1 1 4002 1
+20151015 1 1 4002 1
+20151016 2 2 8004 2
+20151017 1 1 4002 1
+20151018 1 1 4002 1
+20151021 2 2 8004 2
+20151023 1 1 4002 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+5mn-15mn 1
+15mn-30mn 2
+0s-30s 18
+30mn-1h 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 16
+/ 58 180189 24 15
+/view1/view1.html 42 47123 0 4
+/admin/cart.html 34 15333 0 1
+/view1/ 16 55607 0 0
+/admin/cart/category/ 15 60030 0 0
+/admin/admin.html 14 3787 0 2
+/admin/cart/ 11 44022 0 0
+/admin/includes/inc_cart.html 10 13 0 0
+/admin/config.html 10 1791 0 0
+/admin/includes/inc_category.html 9 3871 0 0
+/admin/cart/category.html 5 8 0 0
+/admin/ 5 20010 0 0
+/main/login.html 4 1424 0 1
+/admin/includes/inc_config.html 4 6 0 0
+/admin/config/ 2 8004 0 0
+/admin/cart/config/ 1 4002 0 0
+END_SIDER

@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>Untitle Document</title>
+
+</head>
+
+<body>
+<p>This is an unorder list of my favortite foods:</p>
+<ul>
+    <li>Tangerines</li>
+    <li>Ice Cream </li>
+    <li>Pizza</li>
+<ul>
+#<p><img src="http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2014/4/11/1397210130748/Spring-Lamb.-Image-shot-2-011.jpg"/>
+#</p>
+
+<a name="top"></a>
+<a href="http://www.google.com">Click me to google</a>
+<br>
+<a href="top"> Click to top</a>
+
+</body>
+
+</html>

@@ -1,0 +1,947 @@
+AWSTATS DATA FILE 7.3 (build 20140126)
+# If you remove this file, all statistics for date 201411 will be lost/reset.
+# Last config file used to build this data file was /home/consultlawyers/tmp/awstats/awstats.mkgalaxy.consultlawyers.us.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2029                
+POS_TIME 2707                
+POS_VISITOR 13696               
+POS_DAY 25549               
+POS_DOMAIN 3524                
+POS_LOGIN 4025                
+POS_ROBOT 4180                
+POS_WORMS 4629                
+POS_EMAILSENDER 4760                
+POS_EMAILRECEIVER 4903                
+POS_SESSION 26387               
+POS_SIDER 26595               
+POS_FILETYPES 5038                
+POS_DOWNLOADS 5342                
+POS_OS 5411                
+POS_BROWSER 5795                
+POS_SCREENSIZE 7627                
+POS_UNKNOWNREFERER 7701                
+POS_UNKNOWNREFERERBROWSER 8214                
+POS_ORIGIN 8728                
+POS_SEREFERRALS 8873                
+POS_PAGEREFS 9053                
+POS_SEARCHWORDS 12207               
+POS_KEYWORDS 12743               
+POS_MISC 2371                
+POS_ERRORS 13215               
+POS_CLUSTER 3881                
+POS_SIDER_404 13387               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20141201003818 22 3674 11428741899427
+FirstTime 20141101003104
+LastTime 20141130215844
+LastUpdate 20141201034303 22 0 21 0 0
+TotalVisits 433                 
+TotalUnique 266                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 311                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 58 198 6412014 11 28 79785
+1 89 313 7384885 11 42 79728
+2 60 216 5409814 13 31 46218
+3 101 366 8953758 11 44 48495
+4 194 710 15294128 9 36 13117
+5 192 700 13792824 30 90 102410
+6 91 346 9139789 8 38 98115
+7 18 76 2203097 4 12 22232
+8 50 111 2804228 8 14 35274
+9 17 52 1348856 3 14 33373
+10 16 26 458855 3 10 34045
+11 27 71 1720395 2 9 69839
+12 26 70 1873976 5 6 55230
+13 19 58 1516106 0 3 109568
+14 8 25 666234 4 5 44189
+15 18 97 3045366 6 13 66396
+16 19 86 2098868 3 7 198
+17 76 187 5015155 4 23 407055
+18 235 688 11806571 47 72 194760
+19 215 528 11596424 19 62 40328
+20 123 310 33142638 26 83 44404
+21 69 213 30281869 12 36 100
+22 44 194 5162257 6 17 2201
+23 41 145 3770371 11 24 13563
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 19
+us 1436 4389 143464426
+ru 111 1061 35950732
+cn 74 78 877310
+de 51 51 544648
+zz 33 33 364353
+fr 26 26 287066
+pl 23 23 253943
+ua 22 29 280331
+gb 9 9 99369
+sa 5 51 1761561
+lt 4 4 44164
+se 3 3 33123
+ph 2 11 537419
+ca 2 4 32776
+cz 2 2 22082
+lv 1 1 11041
+br 1 1 11041
+nl 1 1 10998
+ro 0 9 312095
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+bot[\s_+:,\.\;\/\\-] 81 233189 20141130163659 60
+no_user_agent 41 321128 20141130031443 0
+unknown 30 750 20141130223754 30
+spider 13 208480 20141130101218 4
+robot 11 275 20141129204117 11
+ruby\/ 9 99369 20141125052951 0
+crawl 5 33173 20141119014320 2
+googlebot 1 25 20141112092944 1
+netcraft 1 11041 20141107151410 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+css 1890 46195972 0 0
+eot 50 2892854 0 0
+png 19 80273 0 0
+ttf 17 2406588 0 0
+cgi 1 3639 0 0
+woff 242 9031400 0 0
+php 336 8070171 0 0
+html 421 4590056 0 0
+jpg 135 16614128 0 0
+js 1907 25390036 0 0
+Unknown 739 69303738 0 0
+gif 29 319623 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 10 0 250
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 23
+linuxandroid 85 33
+blackberry 1 1
+winlong 53 8
+macosx6 31 22
+winxp 441 139
+ios_iphone 246 53
+win2000 13 13
+winvista 208 0
+linuxgentoo 1 1
+win2003 8 8
+win8 35 9
+macosx9 11 2
+ios_ipad 50 10
+macosx7 523 171
+unix 1 1
+winnt 2 2
+linuxubuntu 2 2
+linux 57 28
+win7 865 123
+macosx 3026 13
+win8.1 74 21
+Unknown 48 37
+macosx8 5 5
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 94
+msie6.0 100 100
+firefox3.6 3 2
+chrome12.0.742.100 9 0
+firefox26.0 36 0
+chrome40.0.2214.10 11 2
+firefox18.0 11 11
+firefox4.0 1 0
+chrome38.0.2125.111 131 27
+chrome31.0.1650.57 99 0
+chrome31.0.1650.63 112 5
+lynx 2 2
+chrome23.0.1271.95 2 2
+safari5.0.2 2 1
+firefox3.6.15 5 1
+msie8.0 166 25
+chrome28.0.1500.72 6 3
+chrome11.0.696.34 3 3
+chrome24.0.1290.1 3 3
+chrome39.0.2171.65 12 3
+chrome27.0.1453.93 2 2
+msie7.0 1 1
+firefox23.0 8 0
+chrome27.0.1453.90 1 1
+wget 1 1
+chrome39.0.2171.62 11 2
+opera11.60 27 3
+msie5.01 9 9
+firefox3.0.16 1 1
+chrome34.0.1847.131 1 1
+chrome37.0.2062.102 1 1
+firefox21.0 8 8
+firefox12.0 2 2
+chrome36.0.1985.143 11 11
+firefox33.0 11 2
+firefox25.0 99 0
+mozilla 29 3
+chrome16.0.912.77 1 1
+firefox14.0.1 6 6
+chrome17.0.963.65 1 1
+firefox3.6.3 1 1
+chrome13.0.782.41 1 1
+safari5.1.9 1 1
+firefox19.0 12 3
+safari 64 10
+firefox15.0.1 2 2
+firefox16.0.1 2 2
+safari7.0 102 26
+opera12.17 1 1
+firefox4.0.1 14 14
+chrome38.0.2125.104 3484 149
+android 85 33
+firefox5.02 2 1
+chrome28.0.1500.95 129 3
+chrome23.0.1271.6 3 3
+firefox24.0 10 1
+safari6.1.6 11 2
+opera9.80 66 0
+firefox31.0 8 8
+chrome12.0.742.113 1 1
+firefox13.0.1 2 2
+chrome26.0.1410.65 1 1
+chrome30.0.1599.13014 1 1
+chrome19.0.1055.1 1 1
+chrome38.0.2125.122 72 20
+firefox16.0 1 1
+chrome10.0.648.204 8 8
+chrome13.0.763.0 1 1
+safari8.0 193 36
+chrome33.0.1750.154 32 7
+msie9.0 69 4
+firefox27.0 1 1
+chrome30.0.1599.101 9 0
+Unknown 49 37
+firefox11.0 5 5
+chrome14.0.813.0 1 1
+firefox32.0 23 4
+blackberry 1 1
+iceweasel 2 2
+firefox17.0 13 3
+chrome18.0.1025.166 1 1
+chrome27.0.1453.110 2 1
+firefox3.0.11 1 1
+chrome20.0.1132.57 2 2
+opera23.0.1522.77 5 5
+safari5.1.7 2 2
+msie11.0 68 10
+chrome35.0.1916.153 3 3
+firefox22.0 5 5
+msie10.0 242 10
+safari4.0.4 3 1
+firefox6.0 11 9
+safari6.0.2 3 3
+safari6.0.3 1 1
+chrome27.0.1453.116 8 4
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20141102041950
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_s~getfavicon27) 20141114210131
+Mechanize/2.7.2_Ruby/2.0.0p481_(http://github.com/sparklemotion/mechanize/) 20141104053209
+Lynx/2.8.5rel.1_libwww-FM/2.15FC_SSL-MM/1.4.1c_OpenSSL/0.9.7e-dev 20141122184103
+Mozilla/4.0_(compatible;_Synapse) 20141125143305
+NerdyBot 20141130171402
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 6
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20141102041950
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_s~getfavicon27) 20141114210131
+Mechanize/2.7.2_Ruby/2.0.0p481_(http://github.com/sparklemotion/mechanize/) 20141104053209
+MMHttp_(Macintosh;_PPC_Mac_OS_X;_Version:12.2) 20141108194404
+NerdyBot 20141130171402
+python-requests/2.4.3_CPython/2.7.3_Linux/3.2.0-70-virtual 20141124045307
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 645 669
+From1 1 1
+From2 61 61
+From3 81 910
+From4 1018 4145
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 35 35
+baidu 1 1
+yandex 25 25
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 67
+http://norwich-vt-us.mkgalaxy.com 7 7
+http://ordway-co-us.mkgalaxy.com/housing 6 22
+http://vinson-ok-us.mkgalaxy.com/housing 5 39
+http://mentor-ks-us.mkgalaxy.com/housing 4 14
+http://sterling-mi-us.mkgalaxy.com/housing 3 34
+http://worcester-vt-us.mkgalaxy.com/housing 3 20
+http://oxford-nc-us.mkgalaxy.com 3 11
+http://ochopee-fl-us.mkgalaxy.com/housing 3 11
+http://alba-tx-us.mkgalaxy.com/housing 3 20
+https://www.facebook.com 3 3
+http://stella-nc-us.mkgalaxy.com/housing 3 29
+http://lycan-co-us.mkgalaxy.com 3 23
+http://struthers-oh-us.mkgalaxy.com 3 20
+http://stetson-me-us.mkgalaxy.com/housing 3 20
+http://pascoag-ri-us.mkgalaxy.com/housing 3 11
+http://woodlawn-il-us.mkgalaxy.com/housing 3 20
+http://maineville-oh-us.mkgalaxy.com/housing 2 28
+http://www.anatra.com/' 2 2
+http://lillington-nc-us.mkgalaxy.com/housing 2 19
+http://waldoboro-me-us.mkgalaxy.com 2 19
+http://vardaman-ms-us.mkgalaxy.com/housing 2 19
+http://north-windham-ct-us.mkgalaxy.com 2 10
+http://lemmon-sd-us.mkgalaxy.com/housing 2 10
+http://underhill-vt-us.mkgalaxy.com/housing 2 25
+http://privhosting.com 1 1
+http://selah-wa-us.mkgalaxy.com/housing 0 27
+http://west-willington-ct-us.mkgalaxy.com/housing 0 18
+http://sussex-nb-ca.mkgalaxy.com/housing 0 36
+http://waverly-tn-us.mkgalaxy.com/housing 0 27
+http://iuka-ks-us.mkgalaxy.com/housing 0 9
+http://swanton-oh-us.mkgalaxy.com/housing 0 17
+http://avon-oh-us.mkgalaxy.com/housing 0 9
+http://ragan-ne-us.mkgalaxy.com/housing 0 9
+http://wyoming-ia-us.mkgalaxy.com/housing 0 9
+http://ely-ia-us.mkgalaxy.com/housing 1 10
+http://white-owl-sd-us.mkgalaxy.com 0 9
+http://red-wing-mn-us.mkgalaxy.com/housing 0 18
+http://clarendon-ar-us.mkgalaxy.com 1 1
+http://welda-ks-us.mkgalaxy.com/housing 0 9
+http://sedalia-mo-us.mkgalaxy.com/friends 0 9
+http://wolf-creek-mt-us.mkgalaxy.com/housing 0 9
+http://stark-city-mo-us.mkgalaxy.com 1 1
+http://midland-ga-us.mkgalaxy.com/housing 0 9
+http://winchendon-ma-us.mkgalaxy.com/housing 0 9
+http://ashley-in-us.mkgalaxy.com/housing 0 9
+http://mary-alice-ky-us.mkgalaxy.com 0 9
+http://leesville-sc-us.mkgalaxy.com/housing 1 9
+http://wyckoff-nj-us.mkgalaxy.com 0 9
+http://raco-mi-us.mkgalaxy.com/housing 0 9
+http://whalan-mn-us.mkgalaxy.com 0 9
+http://jal-nm-us.mkgalaxy.com/housing 0 8
+http://albemarle-nc-us.mkgalaxy.com/housing 0 9
+http://covina-ca-us.mkgalaxy.com/housing 1 10
+http://wolford-nd-us.mkgalaxy.com/housing 0 9
+http://cooper-landing-ak-us.mkgalaxy.com 1 1
+http://level-green-pa-us.mkgalaxy.com/housing 0 9
+http://avondale-estates-ga-us.mkgalaxy.com 0 9
+http://wellton-az-us.mkgalaxy.com 0 9
+http://platteville-wi-us.mkgalaxy.com/housing 0 18
+http://rotterdam-ny-us.mkgalaxy.com/housing 0 27
+http://localhost:8888/rollypolly/city-san-jose-144008/history/myhistory 0 3
+http://weld-me-us.mkgalaxy.com/housing 0 9
+http://rockport-ky-us.mkgalaxy.com 0 9
+http://maple-plain-mn-us.mkgalaxy.com/housing 0 8
+http://stanley-va-us.mkgalaxy.com/housing 0 18
+http://pilot-point-tx-us.mkgalaxy.com/housing 0 9
+http://ober-in-us.mkgalaxy.com/housing 0 9
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 15
+temporaryhousing+rentols+in+lawerence 4
+2502620 3
+rhost+ru.compfort74+%7c+rhost+ru.compfort74.www+~~+f9d539292313cd3d5067e125d0a98b5c 2
+porum.kom 2
+735560+cs 2
+22023+timezone 2
+west+finley+pa 2
+nb+6696 2
+%d1%8b%d0%b5%d1%84%d0%b5%d1%83+%d1%8c%d1%84+%d1%86%d1%83%d1%8b%d0%b5%d1%89%d1%82 2
+ford.co.us 1
+baku+woeid 1
+lolita+city 1
+houses+in+waynesville+nc 1
+mkgalaxy.com 1
+worldcities 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 34
+in 5
+rhost 4
+lawerence 4
+rentols 4
+temporaryhousing 4
+2502620 3
+%d1%8b%d0%b5%d1%84%d0%b5%d1%83 2
+ru.compfort74.www 2
+ru.compfort74 2
+pa 2
+nb 2
+%7c 2
+porum.kom 2
+6696 2
+finley 2
+timezone 2
+22023 2
+%d1%86%d1%83%d1%8b%d0%b5%d1%89%d1%82 2
+west 2
+f9d539292313cd3d5067e125d0a98b5c 2
+735560 2
+%d1%8c%d1%84 2
+~~ 2
+cs 2
+houses 1
+nc 1
+woeid 1
+worldcities 1
+lolita 1
+ford.co.us 1
+city 1
+baku 1
+waynesville 1
+mkgalaxy.com 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 8
+403 2 21996
+206 4 210216
+400 1 11041
+406 1 11041
+302 162 16608
+411 1 10998
+500 4 44164
+301 1 233
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 0
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 311
+67.164.21.22 1031 3040 110586851 20141130031450
+206.208.102.250 178 621 11456812 20141122004941
+46.29.18.88 22 22 242902 20141123140501
+94.23.59.169 20 20 220820 20141129140719
+208.90.57.196 14 14 154574 20141108033632
+66.87.118.233 13 47 929989 20141104200856
+216.244.81.35 13 13 143533 20141130185420
+72.66.121.137 9 28 675866 20141120081818
+207.45.82.82 9 37 1059233 20141105194906
+155.133.19.35 9 9 99369 20141117031139
+198.252.44.10 8 8 88328 20141130134817
+217.69.133.169 8 8 88328 20141124065233
+38.69.30.112 8 28 653630 20141118232546
+144.76.163.48 6 6 66246 20141122184704
+95.128.246.44 6 6 66246 20141112215356
+88.198.56.239 6 6 66246 20141126113300
+54.202.77.147 6 14 334074 20141124045307
+98.109.162.207 6 19 709750 20141117002720
+66.61.54.105 6 25 854159 20141103055000
+148.251.69.136 5 5 55205 20141130194855
+66.249.84.223 5 5 55205 20141130215844
+192.169.214.11 5 5 56996 20141125172440
+174.127.31.18 5 31 770429 20141126164111
+195.211.155.132 5 10 81940 20141129081725
+144.76.201.69 5 5 55205 20141123115957
+37.204.157.248 0 9 312095 
+128.72.250.69 1 10 323136 20141109223259
+69.58.178.56 2 2 22082 20141112025618
+107.178.200.62 1 1 11041 20141114210131
+198.50.189.33 2 4 32776 20141119053958
+128.68.64.192 0 9 312095 
+202.46.62.26 1 1 11041 20141130170522
+79.141.160.65 1 1 11041 20141115064855
+208.80.194.123 1 1 11041 20141129085615
+95.25.250.73 0 9 312095 
+27.159.228.178 1 1 11041 20141120230406
+91.207.7.54 4 4 44164 20141126201301
+109.173.83.225 0 18 624190 
+128.69.46.140 2 19 599988 20141101043855
+173.51.134.11 1 6 62760 20141121163224
+216.126.41.45 2 3 43856 20141107133856
+93.80.8.90 3 20 804977 20141103070717
+202.46.56.153 1 1 11041 20141114004112
+144.76.185.173 2 2 22082 20141126115000
+37.115.203.229 1 1 11041 20141121055757
+59.58.157.195 1 1 11041 20141118023228
+71.174.250.180 2 11 406896 20141124044323
+130.211.134.162 1 1 11041 20141117171410
+130.211.157.150 1 1 11041 20141106171352
+93.186.202.239 1 1 11041 20141123153642
+202.46.50.37 2 2 22082 20141110045221
+176.195.178.46 0 9 312095 
+110.85.127.244 1 1 11041 20141130174820
+128.73.58.1 0 9 312095 
+80.82.215.165 2 2 22082 20141111125009
+140.237.4.29 1 1 11041 20141129052644
+69.171.230.119 2 2 37440 20141102041926
+95.27.219.143 0 9 312095 
+202.46.51.71 1 1 11041 20141114003926
+188.32.239.163 3 11 492882 20141102003920
+2.93.117.195 1 10 323136 20141107001729
+50.115.175.241 1 2 16388 20141124085555
+36.250.160.84 2 2 22082 20141121151551
+178.140.84.61 0 18 624190 
+173.76.112.58 2 11 406896 20141118170224
+77.37.220.66 4 49 1569396 20141107040518
+95.25.189.91 3 20 804977 20141101225001
+176.195.193.64 3 20 804977 20141101175613
+91.200.13.64 1 1 11041 20141130174325
+27.150.222.69 4 4 44164 20141124230550
+202.46.49.45 1 1 11041 20141114005810
+5.61.35.33 1 1 11041 20141127213447
+202.46.52.29 1 1 11041 20141124121034
+130.211.151.249 1 1 11041 20141129171345
+85.10.199.67 1 1 0 20141130214429
+174.28.253.187 2 11 406896 20141113210531
+73.39.238.57 2 11 406896 20141107003220
+104.0.129.241 2 11 537419 20141102030033
+93.186.202.253 2 2 22082 20141127072117
+202.46.48.139 1 1 11041 20141114004151
+50.62.133.216 2 2 22082 20141126131111
+23.251.149.156 1 1 10998 20141101161345
+5.164.94.139 2 19 599988 20141101093437
+74.141.3.195 2 11 406896 20141110021240
+5.228.33.155 3 23 849478 20141101064405
+188.244.36.217 0 9 312095 
+120.43.20.105 2 2 22082 20141121000520
+24.224.119.191 3 12 417937 20141123163955
+202.46.62.30 1 1 11041 20141115150613
+130.211.153.112 1 1 11041 20141114171440
+216.172.56.37 1 1 11041 20141122031507
+188.165.144.17 1 1 11041 20141115084214
+188.32.178.148 0 8 311298 
+130.211.157.49 1 1 11041 20141108171409
+63.155.191.186 2 11 395585 20141119214252
+72.46.136.178 2 2 22082 20141120010605
+120.43.20.243 1 1 11041 20141107111010
+202.46.57.92 1 1 11041 20141114021344
+54.161.70.33 1 1 11041 20141111135534
+79.141.160.95 1 1 11041 20141117002214
+176.195.75.254 3 12 309975 20141122215522
+27.153.219.224 2 2 22082 20141127055002
+146.148.84.186 1 1 11041 20141126171418
+79.172.70.161 0 18 624190 
+95.24.254.26 3 11 492882 20141101134002
+95.25.233.51 1 10 323136 20141107115043
+148.251.124.42 4 4 44164 20141117132451
+176.195.187.48 3 11 492882 20141101115642
+82.146.40.91 1 1 10998 20141103022246
+202.46.62.89 1 1 11041 20141112051421
+37.145.88.37 2 10 278599 20141107130347
+176.193.68.112 0 9 312095 
+88.198.87.233 1 1 3639 20141104064655
+202.46.62.33 1 1 11041 20141110131426
+37.110.144.109 0 9 312095 
+202.46.56.176 1 1 11041 20141114021139
+46.229.170.197 1 1 10998 20141103191306
+176.193.176.4 0 9 312095 
+130.211.181.205 1 1 11041 20141111171340
+50.63.196.143 1 1 0 20141119034627
+166.137.14.33 2 11 406896 20141122033158
+95.220.83.153 0 9 312095 
+202.46.61.173 1 1 11041 20141114003906
+173.26.113.40 1 10 395855 20141103053613
+121.205.245.149 1 1 11041 20141125031226
+58.22.150.175 2 2 22082 20141111203603
+79.141.160.93 2 2 22082 20141111034932
+95.25.118.33 4 21 622070 20141107021812
+95.25.26.3 2 10 287893 20141101093644
+78.158.11.226 2 2 22082 20141122184103
+91.200.12.65 2 4 32776 20141120195324
+66.249.84.118 1 1 18828 20141102041807
+202.46.55.54 1 1 11041 20141108115409
+125.78.236.80 3 3 33123 20141111161420
+66.249.84.217 3 3 33123 20141114081259
+95.25.125.197 0 9 312095 
+176.195.215.77 1 10 323136 20141106231920
+211.149.191.243 2 2 22082 20141120072757
+202.46.48.92 1 1 11041 20141114020149
+176.193.215.114 0 18 624190 
+130.211.147.119 1 1 11041 20141123171408
+176.195.248.18 3 11 492882 20141101221829
+95.220.114.171 1 10 323136 20141122123608
+117.26.116.75 2 2 22082 20141110030713
+144.76.155.8 3 3 33123 20141117130422
+95.25.9.7 0 18 624190 
+37.187.92.25 1 1 11041 20141126125602
+89.178.15.244 0 18 624190 
+128.69.137.119 0 9 312095 
+208.80.194.125 0 1 109518 
+69.245.24.69 3 12 417937 20141125225412
+128.68.130.40 2 10 287893 20141102084133
+93.186.202.241 2 2 22082 20141116074322
+146.148.70.52 1 1 11041 20141125171333
+202.46.61.144 1 1 11041 20141114025708
+27.150.246.15 3 3 33123 20141119001904
+24.196.70.106 2 11 406896 20141107215627
+46.39.231.60 0 9 312095 
+130.211.136.132 2 2 22082 20141109171341
+176.107.10.154 0 9 312095 
+176.195.80.74 0 9 312095 
+95.220.151.103 0 9 312095 
+95.25.21.73 0 9 312095 
+27.153.137.153 2 2 22082 20141110160403
+176.193.128.70 0 9 312095 
+188.232.81.54 0 9 312095 
+110.89.53.109 1 1 11041 20141114025110
+37.204.55.254 3 12 309975 20141123204744
+176.195.74.108 0 9 312095 
+130.211.181.152 1 1 11041 20141120171334
+27.150.199.53 1 1 11041 20141129044956
+176.193.149.212 1 10 323136 20141123125311
+172.56.21.101 2 11 406896 20141109182356
+27.153.170.166 1 1 11041 20141107114038
+202.46.57.105 1 1 11041 20141114012225
+173.255.113.51 1 1 10998 20141102171328
+77.37.223.203 2 10 278599 20141113235506
+89.178.17.82 0 17 507204 
+176.195.249.183 3 20 804977 20141102055012
+83.6.42.220 1 1 11041 20141130011833
+46.246.77.55 3 3 33123 20141112013600
+54.189.155.238 1 1 10998 20141101054217
+202.46.50.122 1 1 11041 20141114004042
+108.28.100.39 2 11 406896 20141109004628
+66.4.9.203 2 11 406896 20141121222128
+202.46.50.85 1 1 11041 20141114003849
+128.69.151.32 0 9 312095 
+202.46.54.45 1 1 11041 20141130121455
+130.211.130.204 1 1 11041 20141122171324
+93.80.26.133 3 20 804977 20141102000714
+61.135.190.221 1 5 71317 20141107201727
+54.211.194.109 1 1 11041 20141111042112
+131.125.11.1 2 11 406896 20141110203731
+95.30.55.126 0 9 312095 
+95.220.129.86 0 9 312095 
+54.202.100.23 1 1 10998 20141102054721
+202.46.62.147 1 1 11041 20141112123824
+208.80.194.120 0 2 137752 
+202.46.52.26 1 1 11041 20141125070600
+130.211.166.140 1 1 11041 20141115171358
+95.26.105.22 0 14 373168 
+128.72.24.184 2 19 599988 20141102122742
+107.178.200.48 2 2 22082 20141114210130
+93.171.205.23 2 2 22082 20141120093830
+95.24.161.89 3 11 492882 20141102002210
+95.25.108.74 2 10 278599 20141106232825
+216.16.185.176 2 11 406896 20141107073430
+176.193.213.116 3 11 492882 20141101215409
+92.63.88.42 1 1 11041 20141112032601
+37.115.110.47 3 3 33123 20141113235446
+202.46.49.145 1 1 11041 20141114021524
+107.178.200.61 1 1 11041 20141114195728
+130.211.154.186 1 1 11041 20141124171343
+84.240.9.6 1 1 11041 20141118122731
+2.93.181.98 3 11 298934 20141107062111
+79.141.166.34 4 4 44164 20141130121240
+213.191.10.207 2 10 287893 20141101060243
+130.211.134.77 1 1 11041 20141118171334
+166.137.252.27 1 9 206150 20141115065923
+70.176.25.195 2 11 406896 20141116230324
+69.171.230.112 1 1 18784 20141102041950
+166.137.252.89 2 11 406896 20141114152959
+95.28.155.224 2 10 278599 20141107063840
+107.77.76.114 1 1 11041 20141117014409
+79.172.65.155 0 9 312095 
+209.207.213.199 4 4 44164 20141127041957
+27.150.229.219 1 1 11041 20141111122730
+110.89.32.22 1 1 11041 20141120091720
+130.211.163.75 1 1 11041 20141110171345
+110.89.63.45 1 1 11041 20141110120616
+130.211.145.126 1 1 11041 20141105171342
+128.69.254.206 1 10 323136 20141107030615
+148.251.75.46 2 2 22082 20141126102612
+69.30.241.10 2 2 22082 20141124164502
+95.28.181.153 0 9 312095 
+202.46.56.48 1 1 11041 20141109225440
+95.27.255.148 0 15 376920 
+128.204.24.155 0 9 312095 
+130.211.144.250 1 1 11041 20141119171330
+107.178.200.40 1 1 11041 20141114195959
+107.197.107.31 2 11 406896 20141105051315
+104.156.231.144 1 1 11041 20141119040021
+46.188.42.117 4 21 612345 20141107103712
+213.159.38.90 1 1 11041 20141119221006
+176.195.49.96 1 10 323136 20141124023008
+37.145.105.139 1 18 579653 20141101030214
+54.184.64.249 3 11 300865 20141102232223
+67.249.4.211 2 11 406896 20141120223832
+176.195.174.21 0 9 312095 
+5.45.77.35 1 1 11041 20141105170503
+107.178.200.47 1 1 11041 20141114195959
+146.148.93.231 1 1 11041 20141104171355
+37.115.187.165 1 1 11041 20141130034117
+108.88.88.203 2 11 128027 20141106082947
+191.236.17.122 1 1 11041 20141120083437
+72.95.221.253 2 11 406896 20141114190516
+36.250.161.142 1 1 11041 20141114212713
+130.211.153.33 1 1 11041 20141127171339
+91.121.100.66 2 2 22082 20141125053850
+109.86.15.95 3 3 33123 20141125143305
+67.199.112.153 2 3 43856 20141109052102
+75.66.210.177 2 11 406896 20141108220907
+178.137.84.124 1 1 11041 20141120233659
+68.39.82.42 2 11 406896 20141122054808
+109.173.56.250 2 19 599988 20141101210846
+202.46.63.167 1 1 11041 20141114004056
+130.211.175.117 1 1 11041 20141116171410
+130.211.133.27 1 1 11041 20141130171402
+2.93.178.221 1 10 323136 20141106231202
+97.76.232.2 2 11 406896 20141129030621
+71.191.195.79 2 11 406896 20141114010555
+110.89.33.241 1 1 11041 20141107174714
+202.46.54.42 1 1 11041 20141119122743
+94.29.25.130 1 7 270537 20141125011126
+208.80.194.126 0 1 797 
+222.77.229.246 1 1 11041 20141108024231
+130.211.141.77 1 1 11041 20141112171350
+176.15.32.9 1 10 323136 20141110223420
+107.77.85.75 2 11 406896 20141112160516
+195.154.185.179 2 2 22082 20141118172248
+120.37.237.213 3 3 33123 20141124050724
+110.82.170.86 1 1 11041 20141110020057
+72.8.191.154 1 1 11041 20141121094255
+92.242.67.165 0 9 312095 
+146.148.48.156 1 1 10998 20141103171330
+166.137.244.21 2 11 406896 20141128022024
+46.242.93.71 3 20 804977 20141102001052
+66.249.84.211 2 2 22082 20141112063920
+71.239.20.125 2 11 406896 20141116015050
+176.15.243.23 0 18 624190 
+54.190.33.101 1 1 11041 20141104053209
+178.136.252.17 1 1 11041 20141122043735
+31.135.83.56 1 10 323136 20141109213001
+173.16.28.111 3 12 417937 20141124224331
+198.50.28.188 1 1 11041 20141111013223
+37.145.34.171 0 9 312095 
+64.79.89.130 1 1 11041 20141125125347
+38.100.21.61 1 1 11041 20141119061647
+130.211.179.85 1 1 11041 20141121171338
+110.82.166.11 1 1 11041 20141113044135
+27.159.225.186 1 1 11041 20141108233859
+95.25.193.198 3 11 492882 20141102001952
+74.80.224.173 1 1 0 20141113023722
+71.94.88.201 2 11 406896 20141124000328
+5.164.101.18 0 9 312095 
+69.171.230.118 2 2 18540 20141102014402
+202.46.54.173 1 1 11041 20141114005028
+176.195.223.90 2 19 599988 20141102144602
+130.211.141.248 1 1 11041 20141113171435
+173.55.184.197 5 23 824833 20141129113719
+75.128.52.2 1 10 395855 20141102123543
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20141101 393 1534 37540947 19
+20141102 523 1921 94992931 22
+20141103 166 481 9488878 12
+20141104 46 126 1804954 8
+20141105 39 96 2221646 11
+20141106 20 89 1713720 15
+20141107 114 468 10761921 26
+20141108 65 107 2441157 12
+20141109 13 50 1559125 10
+20141110 17 44 1269420 14
+20141111 16 29 204148 13
+20141112 18 27 583552 12
+20141113 14 31 798702 10
+20141114 37 86 1978159 33
+20141115 11 22 1605522 10
+20141116 20 38 990448 14
+20141117 12 16 391182 10
+20141118 24 79 1242790 14
+20141119 34 76 1843961 18
+20141120 27 42 918346 18
+20141121 20 47 1147262 15
+20141122 26 74 2171792 18
+20141123 15 33 754562 13
+20141124 25 70 2007643 15
+20141125 23 51 1104878 14
+20141126 13 22 542439 11
+20141127 11 11 121451 7
+20141128 10 21 505918 7
+20141129 31 56 1376007 15
+20141130 23 39 815017 17
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 4
+5mn-15mn 3
+2mn-5mn 8
+15mn-30mn 4
+30s-2mn 9
+0s-30s 395
+30mn-1h 10
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 85
+/ 412 4504710 344 283
+/api/locations/nearby.php 234 6963897 0 11
+/layouts/themeBase/fonts/glyphicons-halflings-regular.woff 177 3754520 0 4
+/horo/main 163 3847548 6 5
+/city-san-jose-144008 124 3006975 14 8
+/users/login 111 869481 5 0
+/layouts/themeHome/font-awesome-4.1.0/fonts/fontawesome-webfont.woff 65 5276880 3 35
+/superadmin/category/upload 53 42184751 0 0
+/api/locations/findcityStr.php 52 601881 1 1
+/city-mountain-view-143861/classifieds/new 36 1639171 0 1
+/city-san-jose-144008/admin/city/store/config 36 838242 0 0
+/layouts/themeHome/font-awesome-4.1.0/fonts/fontawesome-webfont.eot 36 2608164 16 20
+/crons/cityUpdate.php 24 105976 13 14
+/city-san-jose-144008/admin/city/store/category 22 12620862 0 0
+/users/settings 18 299393 0 0
+/layouts/themeHome/font-awesome-4.1.0/fonts/fontawesome-webfont.ttf 17 2406588 0 15
+/layouts/themeHome/fonts/glyphicons-halflings-regular.eot 14 284690 8 0
+/messages/view 13 224776 0 0
+/locations/searchResult 11 183498 1 1
+/city-san-jose-144008/history/myhistory 10 302559 0 0
+/city-san-jose-144008/admin/state/store/config 9 262965 0 0
+/users/signin 9 100659 0 0
+/city-san-jose-144008/admin/country/store/config 8 68147 0 0
+/city-san-jose-144008/history/new 7 238273 0 1
+/city-milpitas-143992 7 194696 0 0
+/city-mountain-view-143861 5 126357 0 0
+/city-burbank-134193 1 24754 0 1
+/city-mountlake-terrace-145031 1 25935 0 0
+/layouts/themeHome/ 3 38496 0 3
+/admin.php 4 44164 1 3
+/superadmin/categories/upload 1 10998 0 0
+/about/terms 3 52127 0 0
+/products/search 1 15108 0 0
+/city-milpitas-143992/history/new 2 69118 0 0
+/city-san-jose-144008/classifieds/browse 2 15829 1 0
+/about/suggestions 2 25995 0 0
+/city-ankeny-130116 1 22787 0 1
+/city-mentor-127542 1 22958 0 1
+//customer/account/forgotpassword/ 1 10998 1 1
+/city-campbell-143980 4 104331 0 0
+/api/locations/iptocity.php 6 177597 0 1
+/city-san-jose-144008/history/edit 4 138860 0 0
+/magmi/web/magmi.php 1 11041 1 1
+/users/detail 2 21996 0 0
+/city-mumbai-18638 1 24412 0 0
+/city-santa-clara-144001 1 26470 0 0
+/administrator/ 2 22082 0 0
+/city-san-jose-144008/history/detail 4 77660 0 0
+/https://maps.google.com/maps 4 44164 0 4
+/city-mountain-view-143861/residential/new 1 27175 0 0
+/wp-login.php 5 55205 4 0
+/city-mountain-view-143861/history/new 1 32464 0 0
+/locations/country 2 43666 0 0
+/browse 1 11041 1 0
+/about/howitworks 1 13283 0 0
+/city-centreville-119670 3 69686 1 2
+/city-mount-hamilton-144009 1 26320 0 0
+/city-san-ramon-143925 1 25877 0 0
+/city-saratoga-144004 3 74236 1 0
+/forex/buy 1 16250 0 0
+/city-richmond-143937 3 74870 2 1
+/city-new-almaden-143996 1 24929 0 0
+/cgi-sys/suspendedpage.cgi 1 3639 1 1
+/city-mountain-view-143861/classifieds/browse 2 15976 0 0
+/locations/citydetail 1 11041 0 1
+/city-san-pablo-143939 1 22832 1 0
+/city-milpitas-143992/history/edit 1 35969 0 0
+/city-huntington-beach-143582 3 75435 2 3
+/city-redmond-145036 1 26030 0 0
+/about/aboutus 1 12710 0 0
+/city-mountain-view-143861/history/myhistory 1 26280 0 0
+/wp-signup.php 7 77287 3 5
+/city-pleasanton-143914 4 98597 2 2
+/city-des-moines-130301 1 23156 0 0
+/administrator/index.php 3 33123 0 1
+/city-san-jose-144008/history/browse 3 91486 0 0
+/city-milpitas-143992/history/myhistory 4 127299 0 0
+/city-san-jose-144008/residential/browse 2 54674 0 0
+/city-san-jose-144008/classifieds/new 5 288064 0 2
+/users/memberPlans 4 49943 0 0
+/layouts/themeBase/ 3 13770 0 0
+/city-milpitas-143992/residential/browse 1 29183 0 0
+/city-milpitas-143992/history/browse 1 31966 0 0
+/layouts/themeBase/Manish 5 54990 0 0
+/city-milpitas-143992/admin/city/store/config 2 56455 0 0
+END_SIDER

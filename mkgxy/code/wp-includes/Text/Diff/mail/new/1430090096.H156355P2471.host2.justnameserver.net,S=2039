@@ -1,0 +1,62 @@
+Return-path: <>
+Envelope-to: consultlawyers@host2.justnameserver.net
+Delivery-date: Mon, 27 Apr 2015 02:14:56 +0300
+Received: from mailnull by host2.justnameserver.net with local (Exim 4.85)
+	id 1YmVlH-0000dm-QW
+	for consultlawyers@host2.justnameserver.net; Mon, 27 Apr 2015 02:14:55 +0300
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@host2.justnameserver.net>
+To: consultlawyers@host2.justnameserver.net
+Subject: Mail failure - no recipient addresses
+Message-Id: <E1YmVlH-0000dm-QW@host2.justnameserver.net>
+Date: Mon, 27 Apr 2015 02:14:55 +0300
+
+A message that you sent contained no recipient addresses, and therefore no
+delivery could be attempted.
+
+------ This is a copy of your message, including all the headers. ------
+
+To: 
+Subject: New Group Created at Groupjole.com
+X-PHP-Script: groupjole.com/groups/create.php for 67.164.21.22
+MIME-Version: 1.0
+From: support@groupjole.com
+Content-Type: multipart/alternative;
+	boundary="=_18093a897deda283a6192cd1661f2df1"
+Message-Id: <E1YmVlH-0000dk-LM@host2.justnameserver.net>
+Date: Mon, 27 Apr 2015 02:14:55 +0300
+
+--=_18093a897deda283a6192cd1661f2df1
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset="ISO-8859-1"
+
+Dear User,
+
+You have successfully created a new group called "Complete Web Development". Click below to manage it. http://groupjole.com/groups/groups/manage.php?group_id=C82E950E-4EA2-82DF-FBF4-F4AB296CEB1C
+
+
+Thanks
+
+Admin
+
+Groupjole.com
+--=_18093a897deda283a6192cd1661f2df1
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="ISO-8859-1"
+
+Dear User,
+<br />
+You have successfully created a new group called "Complete Web Development"=
+. Click below to manage it. <a href=3D"http://groupjole.com/groups/groups/m=
+anage.php?group_id=3DC82E950E-4EA2-82DF-FBF4-F4AB296CEB1C">http://groupjole=
+.com/groups/groups/manage.php?group_id=3DC82E950E-4EA2-82DF-FBF4-F4AB296CEB=
+1C</a>
+<br />
+<br />
+Thanks
+<br />
+Admin
+<br />
+<a href=3D"http://Groupjole.com">Groupjole.com</a>
+--=_18093a897deda283a6192cd1661f2df1--
+

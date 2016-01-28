@@ -1,0 +1,536 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201511 will be lost/reset.
+# Last config file used to build this data file was /home/consultlawyers/tmp/awstats/awstats.bootstrap.mkgalaxy.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2025                
+POS_TIME 2702                
+POS_VISITOR 10270               
+POS_DAY 11634               
+POS_DOMAIN 3464                
+POS_LOGIN 3712                
+POS_ROBOT 3867                
+POS_WORMS 4065                
+POS_EMAILSENDER 4196                
+POS_EMAILRECEIVER 4339                
+POS_SESSION 12452               
+POS_SIDER 12660               
+POS_FILETYPES 4474                
+POS_DOWNLOADS 4827                
+POS_OS 4958                
+POS_BROWSER 5133                
+POS_SCREENSIZE 5452                
+POS_UNKNOWNREFERER 5526                
+POS_UNKNOWNREFERERBROWSER 5773                
+POS_ORIGIN 6076                
+POS_SEREFERRALS 6219                
+POS_PAGEREFS 6363                
+POS_SEARCHWORDS 6593                
+POS_KEYWORDS 6745                
+POS_MISC 2366                
+POS_ERRORS 6804                
+POS_CLUSTER 3568                
+POS_SIDER_404 6917                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20151201011446 37 7843 9894184443041
+FirstTime 20151101030047
+LastTime 20151130195734
+LastUpdate 20151201142427 37 0 36 0 0
+TotalVisits 159                 
+TotalUnique 32                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 33                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 171 600 12479356 30 54 2472
+1 180 783 31887994 0 29 0
+2 253 1042 36999749 0 69 0
+3 391 2010 76004343 4 50 271
+4 449 2164 73302260 2 54 208667
+5 478 2511 86693772 0 57 0
+6 271 1355 39370349 3 46 278
+7 251 5897 304317800 1 24 265
+8 187 1123 304351328 0 18 0
+9 26 174 58029924 1 4 0
+10 0 0 0 0 0 0
+11 0 0 0 0 0 0
+12 0 0 0 0 1 0
+13 6 52 25460952 1 1 5956
+14 0 0 0 0 0 0
+15 36 233 1665825 0 8 0
+16 123 469 27439795 11 21 6066
+17 414 2274 87080602 2 57 277
+18 607 3155 136053037 4 124 12065
+19 431 2193 312070626 4 54 6497
+20 214 1013 39328311 1 21 0
+21 252 1041 43546460 20 71 591169
+22 96 361 4064179 1 16 267
+23 38 149 3149678 1 11 255
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 2
+us 4871 28596 1697328626
+fr 3 3 4026
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+no_user_agent 5 29429 20151116161129 0
+php 3 330 20151116161131 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 14
+css 2477 63845966 0 0
+png 364 4283993 0 0
+woff 14 850876 0 0
+woff2 214 10214808 0 0
+json 1 2403 0 0
+map 131 3061899 0 0
+php 888 1213468 0 0
+225323 20 95836 0 0
+mp4 1 5963688 0 0
+html 2959 13757759 0 0
+jpg 545 595951280 0 0
+js 20267 994665951 0 0
+Unknown 647 3078071 0 0
+gif 71 346654 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+//svnprojects/victorProjects/CoverrAttempt/Open-Fire/MP4/Open-Fire.mp4 0 1 5963688
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 8
+linuxandroid 193 38
+macosx6 1 1
+winlong 2 2
+winxp 1 1
+linux 93 17
+win7 29 9
+macosx 28181 4706
+Unknown 100 100
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 13
+chrome34.0.1847.76 193 38
+msie6.0 1 1
+chrome46.0.2490.80 14879 2768
+firefox40.0 75 21
+chrome20.0.1132.47 1 1
+firefox42.0 58 2
+firefox5.02 1 1
+chrome46.0.2490.86 9548 1222
+firefox3.6.3 2 2
+chrome46.0.2490.71 3686 682
+chrome20.0.1132.57 1 1
+Unknown 120 120
+safari 35 15
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+Google_favicon 20151130183920
+ShareThisFetcher/0.1.2 20151116161130
+PayPal_IPN_(_https://www.paypal.com/ipn_) 20151129214634
+facebookexternalhit 20151112003103
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+Google_favicon 20151130183920
+ShareThisFetcher/0.1.2 20151116161130
+PayPal_IPN_(_https://www.paypal.com/ipn_) 20151129214634
+facebookexternalhit 20151112003103
+MMHttp_(Macintosh;_PPC_Mac_OS_X;Version:16.0) 20151125012628
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 2084 2095
+From1 0 0
+From2 0 0
+From3 2 2
+From4 2788 26503
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://edge.sharethis.com/share5x/index.1fa45b75ede343ffbb6f8bfc9d42ce31.html 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+206 6 797935
+301 16 4339
+404 96 2472
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 32
+/svnprojects/mk/prjServices/post 17 -
+/svnprojects/learningproject/mk/project2/view1/ 1 -
+/svnprojects/teaching/directives/link.html 1 http://bootstrap.mkgalaxy.com/svnprojects/teaching/directives/5.html
+/svnprojects/mk/prjServices/js/analytics.js 4 http://bootstrap.mkgalaxy.com/svnprojects/mk/prjServices/index.html
+/post 1 http://bootstrap.mkgalaxy.com/svnprojects/mk/prjServices/
+/svnprojects/projects/mybusinesscard.co/inc/bootstrap.js 1 http://bootstrap.mkgalaxy.com/svnprojects/projects/mybusinesscard.co/index.html
+/svnprojects/mk/prjServices/template/pagination/pagination.html 1 http://bootstrap.mkgalaxy.com/svnprojects/mk/prjServices/index.html
+/svnprojects/project_services/js/mkServices.js 5 http://bootstrap.mkgalaxy.com/svnprojects/project_services/
+/svnprojects/projects/img/macbook.png 2 http://bootstrap.mkgalaxy.com/svnprojects/projects/bayareacontractor/
+/svnprojects/mk/prjServices/step2 6 -
+/svnprojects/mk/prjServices/js/gmap/website_libs/dev_deps.js 3 http://bootstrap.mkgalaxy.com/svnprojects/mk/prjServices/js/gmap/example/example1.html
+/svnprojects/projects/mybusinesscard.co/inc/bootstrap.css 1 http://bootstrap.mkgalaxy.com/svnprojects/projects/mybusinesscard.co/index.html
+/svnprojects/mk/prjServices/admin/ 1 -
+/svnprojects/mk/prjServices/x/y/z 2 -
+/package.json 10 http://bootstrap.mkgalaxy.com/svnprojects/mk/prjServices/js/gmap/example/example1.html
+/svnprojects/projects/mybusinesscard.co/inc/jquery.js 1 http://bootstrap.mkgalaxy.com/svnprojects/projects/mybusinesscard.co/index.html
+/svnprojects/mk/prjServices/template/pagination/pager.html 1 http://bootstrap.mkgalaxy.com/svnprojects/mk/prjServices/index.html
+/svnprojects/mk/prjServices/view3/view3.html 2 http://bootstrap.mkgalaxy.com/svnprojects/mk/prjServices/index.html
+/svnprojects/mk/navbar-static-top/ 1 http://bootstrap.mkgalaxy.com/svnprojects/mk/prjServices/main/county/createdDesc/TWFudGVjYSwgQ0EsIFVuaXRlZCBTdGF0ZXM=/37.778149/-121.225323
+/svnprojects/learningproject/mk/project2/app.css 3 http://bootstrap.mkgalaxy.com/svnprojects/learningproject/mk/project2/
+/svnprojects/mk/prjServices/ 6 -
+/home/consultlawyers/public_html/projects/bootstrap/svnprojects/mk/prjServices/pages/phpinfo.php 6 -
+/svnprojects/learningproject/mk/project2/about 1 -
+/svnprojects/mk/prjServices/assets/images/plane.png 6 http://bootstrap.mkgalaxy.com/svnprojects/mk/prjServices/index.html
+/svnprojects/mk/prjServices/js/bootstrap/ui.bootstrap.js 3 -
+/foo 2 http://bootstrap.mkgalaxy.com/svnprojects/mk/prjServices/stepImages/-K3BGIIp4gCu0u-TLecc
+/svnprojects/mk/prjServices//post 1 -
+/svnprojects/projects/mybusinesscard.co/inc/bootstrap-theme.css 1 http://bootstrap.mkgalaxy.com/svnprojects/projects/mybusinesscard.co/index.html
+/svnprojects/mk/prjServices/v1 1 -
+/view2 1 http://bootstrap.mkgalaxy.com/view2
+/svnprojects/mk/prjServices/images/financial.png 3 http://bootstrap.mkgalaxy.com/svnprojects/mk/prjServices/index.html
+/svnprojects/projects/mybusinesscard.co/style.css 1 http://bootstrap.mkgalaxy.com/svnprojects/projects/mybusinesscard.co/index.html
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 33
+67.181.89.89 3451 22404 1482792800 20151128090220
+206.208.102.250 981 4979 203860753 20151125032553
+130.65.251.139 162 467 3860324 20151114224307
+130.65.251.136 84 339 2634179 20151107222521
+130.65.251.138 69 164 752013 20151121215534
+173.0.81.1 35 35 0 20151129214634
+66.249.84.196 16 16 80305 20151128021732
+66.249.84.200 15 15 74924 20151130183920
+66.249.84.204 12 12 67457 20151130183920
+66.249.80.20 7 7 38746 20151119025224
+172.56.38.135 4 18 690506 20151121224512
+172.56.39.76 4 5 24862 20151115214623
+46.105.122.64 3 3 4026 20151125205911
+172.56.39.216 3 17 768407 20151116225531
+66.249.80.11 3 3 17991 20151126062923
+54.211.166.111 2 6 2404 20151108075418
+52.0.132.186 2 2 11795 20151116161130
+23.20.212.4 2 6 2404 20151115082827
+54.227.24.147 2 6 2404 20151101074800
+66.249.80.29 2 2 11000 20151118020321
+54.204.246.235 2 6 2404 20151122084011
+54.161.167.65 2 6 2404 20151129085038
+52.23.177.172 2 2 11795 20151116161131
+54.198.174.119 1 1 39 20151108075417
+54.80.32.154 1 1 39 20151101074800
+208.54.5.160 0 2 0 
+66.162.33.226 1 29 447508 20151130195734
+54.145.117.44 1 1 39 20151129085037
+54.187.135.151 1 1 3007 20151119000057
+76.247.187.70 1 29 447508 20151116042045
+23.22.160.51 1 1 39 20151122084012
+64.134.147.64 1 14 720531 20151115214553
+54.205.47.45 1 1 39 20151115082826
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 29
+20151101 710 3774 118614751 6
+20151102 109 306 2909166 3
+20151104 99 630 30609062 4
+20151105 359 2582 116928090 3
+20151106 32 171 7161486 5
+20151107 85 340 2639188 2
+20151108 5 9 12461 4
+20151109 53 314 13562678 4
+20151110 2 13 36244 1
+20151111 149 759 42642030 6
+20151112 195 1113 45214231 5
+20151113 71 380 15664456 6
+20151114 61 179 1628617 8
+20151115 401 2046 83523261 12
+20151116 470 2449 651345874 14
+20151117 26 69 1396646 7
+20151118 20 71 941590 7
+20151119 175 1055 40667815 10
+20151120 294 1512 53439844 5
+20151121 358 1380 47174204 5
+20151122 652 7822 378687123 5
+20151123 4 15 3576 2
+20151124 102 146 793437 6
+20151125 392 1321 44700951 9
+20151126 28 87 2380137 6
+20151127 4 6 123894 2
+20151128 7 7 15539 4
+20151129 4 8 2443 3
+20151130 7 35 477546 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 26
+5mn-15mn 8
+2mn-5mn 3
+15mn-30mn 8
+30s-2mn 4
+0s-30s 102
+30mn-1h 8
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 165
+/svnprojects/mk/prjServices/ 765 3693903 72 44
+/svnprojects/mk/prjServices/view1/view1.html 574 4194843 0 12
+/svnprojects/mk/prjServices/api/iptocityipinfo_io.php 253 185336 1 6
+/svnprojects/mk/prjServices/api/iptocity.php 215 141109 0 6
+/svnprojects/mk/prjServices/view1/postSteps.html 207 1680770 0 7
+/svnprojects/mk/prjServices/view1/detail.html 149 439899 0 0
+/svnprojects/projects/bayareacontractor/fonts/fontawesome-webfont.woff2 138 8831568 0 0
+/svnprojects/projects/bayareacontractor/view1/view1.html 133 233574 1 1
+/svnprojects/projects/bayareacontractor/ 132 324981 11 2
+/svnprojects/projects/bayareacontractor/admin/ask.php 128 374848 1 1
+/svnprojects/projects/bayareacontractor/api/askresult.php 112 90548 1 3
+/svnprojects/project_services/ 83 266582 1 0
+/svnprojects/mk/prjServices/admin/new 82 476480 0 0
+/svnprojects/mk/prjServices/admin/new.html 82 158055 0 0
+/svnprojects/mk/prjServices/post/-K36czMMljAxfj-4avAA 79 414445 2 2
+/svnprojects/projects/bayareacontractor/view1/ask.html 73 124179 0 0
+/svnprojects/projects/bayareacontractor/fonts/glyphicons-halflings-regular.woff2 69 1153792 0 3
+/svnprojects/mk/prjServices/js/pagination/dirPagination.tpl.html 62 44032 1 8
+/svnprojects/mk/prjServices/js/gmap/example/example1.html 59 904055 0 0
+/svnprojects/mk/prjServices/post/-K3BGIIp4gCu0u-TLecc 59 309712 5 2
+/svnprojects/mk/prjServices/stepImages/-K3BGIIp4gCu0u-TLecc 59 343189 3 0
+/svnprojects/mk/prjServices/view1/profile.html 59 99751 0 1
+/svnprojects/projects/bayareacontractor/view1/about.html 58 317179 0 0
+/svnprojects/project_services/view1/post.html 58 126437 0 0
+/svnprojects/projects/bayareacontractor/ask 54 151622 2 0
+/svnprojects/projects/bayareacontractor2/ 2 2770 0 0
+/ 8 10736 4 4
+/svnprojects/mk/prjServices/view1/ 3 18165 0 0
+/svnprojects/learningproject/mk/project1/view1/about.html 1 39 0 0
+//svnprojects/victorProjects/CoverrAttempt/ 1 3179 0 0
+/svnprojects/mk/prjServices/profile/google:112913147917981568678 1 5956 0 0
+/svnprojects/mk/prjServices/js/angularFileUpload/angular-file-upload.min.js.map 31 87720 0 0
+/svnprojects/teaching/directives/hello.html 4 64 0 1
+/svnprojects/projects/bayareacontractor2/contact 3 8308 0 0
+/angularJsProjects/project2/app/templates/templates-details.html 1 693 0 0
+/svnprojects/projects/bayareacontractor2/view1/services.html 4 20442 0 0
+/svnprojects/projects/bayareacontractor/js/angular.min.js.map 49 43201 0 1
+/svnprojects/mk/prjServices/template/pagination/pagination.html 2 963 0 1
+/svnprojects/projects/bayareacontractor2/fonts/glyphicons-halflings-regular.woff2 3 36056 0 0
+/svnprojects/starterProjectLite/ 1 2391 0 0
+/svnprojects/learningproject/mk/project2/ 6 14493 0 0
+/svnprojects/projects/bayareacontractor2/view1/about.html 2 22434 0 0
+/1.html 5 10389 1 1
+/svnprojects/mk/prjServices/js/angularFileUpload/angular-file-upload.js.map 6 5960 0 0
+/svnprojects/mk/prjServices/z1 1 5009 0 0
+/svnprojects/mk/prjServices/post/-K3Wjb0942TqJj6nzFuu 2 12097 0 0
+/svnprojects/mk/prjServices/user/hey 2 12036 0 0
+/svnprojects/mk/prjServices/main/county/createdDesc/RW1lcnl2aWxsZSwgQ0EsIFVuaXRlZCBTdGF0ZXM=/37.831316/-122.28524729999998 9 47469 0 0
+/svnprojects/jobs/js/pagination/dirPagination.tpl.html 1 1024 0 0
+/svnprojects/mk/prjServices/view1/ref.html 10 45 0 0
+/svnprojects/mk/prjServices/view3/view3.html 4 21044 0 0
+/svnprojects/projects/bayareacontractor/ask/1 7 14305 0 0
+/svnprojects/mk/prjServices/user/google:105422089059112846002 11 66869 0 0
+/angularJsProjects/project2/app/json/templates.json 1 2403 0 0
+/svnprojects/projects/bayareacontractor/about 45 120654 2 0
+/svnprojects/mk/prjServices/admin/user 1 6018 0 0
+//svnprojects/victorProjects/CoverrAttempt/view1/view1.html 1 54 0 0
+/svnprojects/mk/prjServices/postDetails.mainImage 1 5956 0 0
+/svnprojects/mk/prjServices/api/upload.php 53 1908 0 0
+/svnprojects/mk/prjServices/main 1 5960 1 0
+/svnprojects/teaching/directives/1.html 6 1935 1 0
+/svnprojects/mk/prjServices/main/state/createdDesc/UGxlYXNhbnRvbiwgQ0EsIFVuaXRlZCBTdGF0ZXM=/37.6624312/-121.87467889999999 9 45396 0 0
+/svnprojects/mk/prjServices/js/gmap/example/assets/templates/info.html 7 2130 0 0
+/svnprojects/mk/prjServices/main/county/createdDesc/TWFudGVjYSwgQ0EsIFVuaXRlZCBTdGF0ZXM=/37.778149/-121.225323 6 30264 0 0
+/svnprojects/projects/bayareacontractor2/services 2 5542 0 0
+/svnprojects/mk/prjServices/post 25 110319 0 0
+/svnprojects/mk/prjServices/main/county/createdDesc/U2FuIEpvc2UsIENBLCBVbml0ZWQgU3RhdGVz/37.3382082/-121.88632860000001 3 15132 0 0
+/svnprojects/learningproject/mk/project1/ 7 14674 0 0
+/svnprojects/mk/prjServices/directives/flag.html 12 5261 0 1
+/svnprojects/mk/prjServices/profile/angular-google-maps_dev_mapped.js.map 1 5956 0 0
+/svnprojects/mk/prjServices/step1 2 5054 0 0
+/svnprojects/learningproject/mk/project1/view1/contacts.html 1 42 0 0
+/svnprojects/learningproject/mk/project2/view1/view1.html 7 284 0 1
+/angularJsProjects/project2/app/ 1 2260 0 0
+/svnprojects/mk/prjServices/main/state/createdDesc/TWFudGVjYSwgQ0EsIFVuaXRlZCBTdGF0ZXM=/37.7974273/-121.21605260000001 1 5044 0 0
+/svnprojects/mk/prjServices/js/angularFileUpload/ 1 118 0 0
+/svnprojects/mk/prjServices/main/state/createdDesc/TWFudGVjYSwgQ0EsIFVuaXRlZCBTdGF0ZXM=/37.778149/-121.225323 13 60528 1 0
+/svnprojects/mk/prjServices/all 27 161314 0 0
+/svnprojects/projects/bayareacontractor2/fonts/fontawesome-webfont.woff2 4 193392 0 0
+/svnprojects/mk/prjServices/main/county/createdDesc/RW1lcnl2aWxsZSwgQ0EsIFVuaXRlZCBTdGF0ZXM=/37.8346705/-122.2938159 1 5839 0 0
+/svnprojects/angular-file-upload-master/examples/image-preview/ 3 27398 0 0
+/_mmServerScripts/MMHTTPDB.php 17 9866 1 0
+/svnprojects/mk/prjServices/js/angularFileUpload/fuploadSimple 1 5958 0 0
+/flyspray/ 2 50694 2 2
+/svnprojects/mk/prjServices/main/county/createdDesc/RHVibGluLCBDQSwgVW5pdGVkIFN0YXRlcw==/37.7021521/-121.9357918 1 5044 0 0
+/svnprojects/mk/prjServices/user/google:115733859954457656229 5 30395 0 0
+/svnprojects/mk/prjServices/admin/profile.html 1 5956 0 0
+/svnprojects/mk/prjServices/profile/angular-file-upload.min.js.map 1 5956 0 0
+/svnprojects/mk/prjServices/main/county/createdDesc/UGxlYXNhbnRvbiwgQ0EsIFVuaXRlZCBTdGF0ZXM=/37.6624312/-121.87467889999999 5 10838 0 0
+/svnprojects/mk/prjServices/template/pagination/pager.html 2 321 0 0
+/svnprojects/mk/prjServices/pages/ipnNotify.php 37 0 22 22
+/svnprojects/projects/bayareacontractor2/view1/contact.html 2 5352 0 1
+/svnprojects/projects/bayareacontractor/admin/ 5 1285 0 0
+/svnprojects/mk/prjServices/stepReview/-K3BGIIp4gCu0u-TLecc 1 5956 0 0
+/svnprojects/projects/bayareacontractor/contact 11 28279 0 0
+/svnprojects/angularPractice/mk/2.html 2 610 0 0
+/svnprojects/projects/bayareacontractor/theme1/ 14 253907 1 0
+/svnprojects/mk/prjServices/step2/-K2rzn4qV7fNyTQrWhDX 1 5054 0 0
+/svnprojects/projects/bayareacontractor/img/sanFrancisco 1 2536 0 0
+/svnprojects/mk/prjServices/admin/all 1 5956 0 0
+/svnprojects/mk/prjServices/user/google:100546875099861959996 14 78295 0 0
+/svnprojects/mk/prjServices/user/google:112913147917981568678 16 96837 0 0
+/svnprojects/mk/prjServices/admin/all.html 29 20890 0 0
+/svnprojects/projects/bayareacontractor/services 36 94824 0 0
+/svnprojects/mk/prjServices/admin/profile 1 6018 0 0
+/svnprojects/learningproject/mk/project1/view1/view1.html 6 1348 0 0
+//svnprojects/victorProjects/CoverrAttempt/view2/view2.html 1 313 0 1
+/svnprojects/mk/prjServices/step3/-K3Wjb0942TqJj6nzFuu 1 5956 0 0
+/svnprojects/teaching/directives/3.html 2 1076 0 0
+/svnprojects/mk/prjServices/api/firebase/example2.php 14 12439 0 0
+/svnprojects/projects/mybusinesscard.co/ 3 4657 1 1
+/sample.html 3 520 1 1
+/svnprojects/projects/bayareacontractor/api/ask.php 21 4358 0 1
+/svnprojects/learningproject/mk/project2/view1/about.html 5 216 0 0
+/svnprojects/learningproject/mk/project1/view1/services.html 1 42 0 0
+/svnprojects/mk/prjServices/js/bootstrap/src/pagination/docs/demo.html 1 2404 0 0
+/svnprojects/projects/bayareacontractor2/js/angular.min.js.map 3 8312 0 0
+/svnprojects/projects/bayareacontractor/theme1/font-awesome/fonts/fontawesome-webfont.woff 14 850876 0 0
+/svnprojects/mk/prjServices/main/county/createdDesc/RnJlbW9udCwgQ0EsIFVuaXRlZCBTdGF0ZXM=/37.4869147/-121.9330746 1 5960 0 0
+/svnprojects/projects/bayareacontractor/admin/index.php 4 1028 1 1
+/svnprojects/learningproject/mk/project2/about 3 4905 0 0
+/svnprojects/mk/prjServices/view2/view2.html 35 22269 0 0
+/svnprojects/jobs/view1/view1.html 1 3640 0 0
+/svnprojects/mk/prjServices/user/google:101318303150498751334 4 24316 0 0
+/svnprojects/mk/prjServices/view1/post.html 34 99810 0 1
+/svnprojects/angularPractice/mk/1.html 2 524 0 0
+/svnprojects/projects/bayareacontractor/view1/contact.html 20 37685 1 2
+/svnprojects/mk/prjServices/user 3 18054 0 0
+/svnprojects/projects/bayareacontractor/' 1 2023 0 1
+/svnprojects/teaching/directives/2.html 1 435 0 0
+/svnprojects/angularPractice/mk/3.html 4 1086 0 0
+/svnprojects/teaching/directives/link.html 6 131 0 0
+/svnprojects/mk/prjServices/step3/-K3BGIIp4gCu0u-TLecc 1 5956 0 0
+/svnprojects/angularPractice/mk/5.html 12 6667 0 1
+/svnprojects/mk/prjServices/pages/phpinfo.php 19 373961 0 0
+/svnprojects/jobs/ 2 6014 2 1
+/svnprojects/angularPractice/mk/4.html 7 2504 0 0
+/angularJsProjects/project2/app/templates/templates.html 1 337 0 0
+/svnprojects/seo/ 5 5265 5 0
+/svnprojects/teaching/directives/5.html 9 5343 1 0
+/svnprojects/teaching/directives/4.html 2 1739 1 0
+/svnprojects/mk/prjServices/step2/ 1 5054 0 0
+/svnprojects/mk/prjServices/js/analytics/analytics.html 36 11127 0 0
+/svnprojects/mk/prjServices/image-preview/angular-file-upload.min.js.map 8 23762 0 0
+/svnprojects/mk/prjServices/main/city/createdDesc/TWFudGVjYSwgQ0EsIFVuaXRlZCBTdGF0ZXM=/37.778149/-121.225323 1 5044 0 0
+/svnprojects/mk/prjServices/js/gmap/example/example.html 2 54530 0 0
+/svnprojects/mk/prjServices/step3/-K30egMmCHRLojap7oit 1 5044 0 1
+/svnprojects/mk/prjServices/main/county/createdDesc/UGxlYXNhbnRvbiwgQ0EsIFVuaXRlZCBTdGF0ZXM=/37.6971045/-121.89720970000002 20 93532 3 2
+/svnprojects/mk/prjServices/upload.php 2 11920 0 0
+/svnprojects/mk/prjServices/step3/-K36czMMljAxfj-4avAA 1 5044 0 0
+/svnprojects/mk/prjServices/api/smstest.php 7 3968 1 2
+/svnprojects/projects/bayareacontractor2/view1/view1.html 3 8140 0 0
+/svnprojects/mk/prjServices/sample.php 6 2179 0 0
+/svnprojects/mk/prjServices/ref/google:112913147917981568678 11 60668 0 0
+/svnprojects/mk/prjServices/main/county/createdDesc/U2FuIEpvc2UsIENBLCBVbml0ZWQgU3RhdGVz/37.3356562/-121.8853158 2 11912 0 0
+/svnprojects/mk/prjServices/js/gmap/dist/angular-google-maps_dev_mapped.js.map 32 2881032 0 0
+/svnprojects/starterProjectLite/view1/view1.html 1 313 0 0
+/svnprojects/mk/prjServices/profile/100546875099861959996 1 6018 0 0
+/svnprojects/mk/prjServices/user/google:113678498284844968921 11 66869 0 0
+/svnprojects/mk/prjServices/v1 4 20081 0 0
+/svnprojects/mk/prjServices/profile/google:100546875099861959996 1 6018 0 0
+/svnprojects/mk/prjServices/image-preview/ 13 115925 0 0
+/svnprojects/seo/view1/view1.html 10 390 5 10
+/svnprojects/projects/bayareacontractor/view1/services.html 51 205019 0 0
+/svnprojects/project_services/view1/view1.html 27 22954 0 0
+END_SIDER

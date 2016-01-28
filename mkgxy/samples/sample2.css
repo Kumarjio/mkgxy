@@ -1,0 +1,11 @@
+.myDiv {
+    width: 192px;
+    height: 105px;
+    border: 2px solid #CB3164;
+    float: left;
+    overflow-y: auto;
+}
+
+.clearBoth {
+    clear: both;
+}

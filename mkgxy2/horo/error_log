@@ -1,0 +1,10 @@
+[09-Jan-2016 00:32:15 UTC] PHP Fatal error:  Call to undefined function findCity() in /home/consultlawyers/public_html/mkgxy2/horo/api.php on line 21
+[08-Jan-2016 16:33:19 America/Los_Angeles] PHP Fatal error:  Call to undefined function findCity() in /home/consultlawyers/public_html/mkgxy2/horo/api.php on line 21
+[10-Jan-2016 18:11:22 UTC] PHP Fatal error:  Call to undefined function match() in /home/consultlawyers/public_html/mkgxy2/horo/api.php on line 86
+[10-Jan-2016 18:22:32 UTC] PHP Fatal error:  Cannot redeclare fetchCityXtraDetails() (previously declared in /home/consultlawyers/public_html/mkgxy2/horo/api.php:460) in /home/consultlawyers/public_html/mkgxy2/horo/api.php on line 579
+[10-Jan-2016 18:23:25 UTC] PHP Fatal error:  Call to undefined function match() in /home/consultlawyers/public_html/mkgxy2/horo/api.php on line 635
+[10-Jan-2016 18:25:07 UTC] PHP Fatal error:  Call to undefined function getDateTime() in /home/consultlawyers/public_html/mkgxy2/horo/api.php on line 585
+[10-Jan-2016 18:27:56 UTC] PHP Fatal error:  Call to undefined function GetSQLValueString() in /home/consultlawyers/public_html/mkgxy2/horo/api.php on line 334
+[10-Jan-2016 18:29:39 UTC] PHP Fatal error:  Call to undefined function url_name_v2() in /home/consultlawyers/public_html/mkgxy2/horo/api.php on line 454
+[10-Jan-2016 18:31:26 UTC] PHP Fatal error:  Call to undefined function nearbyCities() in /home/consultlawyers/public_html/mkgxy2/horo/api.php on line 697
+[10-Jan-2016 18:33:09 UTC] PHP Fatal error:  Call to undefined function findCitySearch() in /home/consultlawyers/public_html/mkgxy2/horo/api.php on line 724

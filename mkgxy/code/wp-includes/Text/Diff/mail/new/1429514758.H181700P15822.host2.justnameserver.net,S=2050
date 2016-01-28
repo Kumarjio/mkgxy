@@ -1,0 +1,35 @@
+Return-path: <consultlawyers@host2.justnameserver.net>
+Envelope-to: admin@consultlawyers.us
+Delivery-date: Mon, 20 Apr 2015 10:25:58 +0300
+Received: from consultlawyers by host2.justnameserver.net with local (Exim 4.85)
+	(envelope-from <consultlawyers@host2.justnameserver.net>)
+	id 1Yk65e-000475-00
+	for admin@consultlawyers.us; Mon, 20 Apr 2015 10:25:58 +0300
+To: admin@consultlawyers.us
+Subject: [Consult Lawyers] Please moderate: "Hello world!"
+X-PHP-Script: consultlawyers.us/web/wp-comments-post.php for 104.168.63.93
+Date: Mon, 20 Apr 2015 07:25:57 +0000
+From: WordPress <wordpress@consultlawyers.us>
+Message-ID: <613dd107eded5c950deebae31b763c0a@consultlawyers.us>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.7 (https://github.com/PHPMailer/PHPMailer/)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+A new comment on the post "Hello world!" is waiting for your approval
+http://consultlawyers.us/web/?p=1
+
+Author : Olivie (IP: 104.168.63.93 , .)
+E-mail : njvrhyawuwr@hotmail.com
+URL    : http://9n3.us/7uza
+Whois  : http://whois.arin.net/rest/ip/104.168.63.93
+Comment: 
+Hi my name is Olivie and I just wanted to drop you a quick note here instead of calling you. I came to your Hello world! | Consult Lawyers page and noticed you could have a lot more hits. I have found that the key to running a popular website is making sure the visitors you are getting are interested in your subject matter. There is a company that you can get targeted visitors from and they let you try the service for free for 7 days. I managed to get over 300 targeted visitors to day to my site. Visit them here: http://bbqr.me/mu
+
+Approve it: http://consultlawyers.us/web/wp-admin/comment.php?action=approve&c=6
+Trash it: http://consultlawyers.us/web/wp-admin/comment.php?action=trash&c=6
+Spam it: http://consultlawyers.us/web/wp-admin/comment.php?action=spam&c=6
+Currently 5 comments are waiting for approval. Please visit the moderation panel:
+http://consultlawyers.us/web/wp-admin/edit-comments.php?comment_status=moderated
+

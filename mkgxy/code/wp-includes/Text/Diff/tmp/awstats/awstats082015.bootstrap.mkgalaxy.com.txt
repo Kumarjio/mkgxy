@@ -1,0 +1,343 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201508 will be lost/reset.
+# Last config file used to build this data file was /home/consultlawyers/tmp/awstats/awstats.bootstrap.mkgalaxy.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2025                
+POS_TIME 2696                
+POS_VISITOR 8305                
+POS_DAY 8802                
+POS_DOMAIN 3387                
+POS_LOGIN 3620                
+POS_ROBOT 3775                
+POS_WORMS 3960                
+POS_EMAILSENDER 4091                
+POS_EMAILRECEIVER 4234                
+POS_SESSION 9337                
+POS_SIDER 9544                
+POS_FILETYPES 4369                
+POS_DOWNLOADS 4612                
+POS_OS 4660                
+POS_BROWSER 4772                
+POS_SCREENSIZE 4980                
+POS_UNKNOWNREFERER 5054                
+POS_UNKNOWNREFERERBROWSER 5171                
+POS_ORIGIN 5283                
+POS_SEREFERRALS 5422                
+POS_PAGEREFS 5566                
+POS_SEARCHWORDS 5714                
+POS_KEYWORDS 5866                
+POS_MISC 2360                
+POS_ERRORS 5925                
+POS_CLUSTER 3476                
+POS_SIDER_404 6036                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150901213453 1 0 7034694868978
+FirstTime 20150810055433
+LastTime 20150831211808
+LastUpdate 20150902152509 1 0 0 0 0
+TotalVisits 62                  
+TotalUnique 10                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 10                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 28 105 4443219 1 3 0
+1 37 136 5419913 8 16 799
+2 26 122 6276509 5 10 0
+3 74 408 28422384 8 15 67987
+4 32 164 12562690 0 2 0
+5 61 319 16941322 26 35 514
+6 103 532 25267492 27 49 1071
+7 137 665 25356150 38 81 71912
+8 111 658 23184349 8 65 1342
+9 36 238 10620357 0 11 0
+10 31 126 2590160 13 24 265
+11 1 1 0 0 0 0
+12 0 0 0 0 0 0
+13 0 0 0 0 0 0
+14 0 0 0 0 0 0
+15 0 0 0 0 0 0
+16 6 18 813539 0 1 0
+17 36 117 2059851 5 16 0
+18 58 258 10695389 0 22 0
+19 24 70 3012633 0 11 0
+20 47 75 1296728 2 42 0
+21 16 60 1655575 1 17 0
+22 35 111 1574742 1 10 265
+23 4 17 824042 0 2 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+us 903 4200 183017044
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+google[_+\s]web[_+\s]preview 1 1342 20150816082958 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+css 858 54069332 0 0
+png 1021 11435446 0 0
+woff 19 986600 0 0
+woff2 121 2661592 0 0
+json 37 10385 0 0
+php 2 542 0 0
+html 724 1971592 0 0
+js 1156 98647364 0 0
+jpg 262 13234191 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 3
+macosx 4107 876
+linuxandroid 87 21
+Unknown 6 6
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 7
+chrome34.0.1847.76 71 16
+chrome44.0.2403.155 2333 590
+chrome31.0.1650.57 2 2
+chrome44.0.2403.157 158 42
+Unknown 6 6
+chrome44.0.2403.130 1614 242
+android 16 5
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Google_favicon 20150818062825
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Google_favicon 20150818062825
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 415 415
+From1 0 0
+From2 0 0
+From3 0 0
+From4 488 3785
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+206 8 139389
+404 172 0
+301 13 3424
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 24
+/photoshare/css/bootstrap.css.map 35 -
+/angularJsProjects/project4/bower_components/html5-boilerplate/dist/css/normalize.css 1 http://bootstrap.mkgalaxy.com/angularJsProjects/project4/
+/angularJsProjects/examples/example4 1 -
+/angularJsProjects/project4/bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js 1 http://bootstrap.mkgalaxy.com/angularJsProjects/project4/
+/angularJsProjects/project4/bower_components/angular/angular.js 1 http://bootstrap.mkgalaxy.com/angularJsProjects/project4/
+/css/bootstrap.css.map 68 -
+/resume/img/person.jpg 1 http://bootstrap.mkgalaxy.com/resume/index.html
+/agency/fonts/fontawesome-webfont.ttf 1 http://bootstrap.mkgalaxy.com/agency/css/main.css
+/angularJsProjects/project4/facebook/facebook.js 11 http://bootstrap.mkgalaxy.com/angularJsProjects/project4/
+/agency/css/bootstrap.css 13 http://bootstrap.mkgalaxy.com/agency/
+/angularJsProjects/project4/bower_components/angular-route/angular-route.js 1 http://bootstrap.mkgalaxy.com/angularJsProjects/project4/
+/angularJsProjects/project2/ 1 -
+/angularJsProjects/ 1 -
+/socialnetwork/members.hmtl 3 http://bootstrap.mkgalaxy.com/socialnetwork/
+/socialnetwork/profile.html 2 http://bootstrap.mkgalaxy.com/socialnetwork/
+/resume/css/bootstrap.css.map 12 -
+/agency/fonts/fontawesome-webfont.woff2 1 http://bootstrap.mkgalaxy.com/agency/css/main.css
+/resume/ 1 http://bootstrap.mkgalaxy.com/
+/angularJsProjects/project4/bower_components/html5-boilerplate/dist/css/main.css 1 http://bootstrap.mkgalaxy.com/angularJsProjects/project4/
+/agency/fonts/fontawesome-webfont.woff 1 http://bootstrap.mkgalaxy.com/agency/css/main.css
+/agency/js/bootstrap-3.3.4.js 12 http://bootstrap.mkgalaxy.com/agency/
+/socialnetwork/groups.html 1 http://bootstrap.mkgalaxy.com/socialnetwork/
+/angularJsProjects/examples/ 1 -
+/angularJsProjects/project2/app/bower_components/bootstrap/dist/js/bootstrap.min.js 1 http://bootstrap.mkgalaxy.com/angularJsProjects/project2/app/index.html
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 10
+67.181.89.89 733 3433 154262899 20150831182811
+73.189.241.178 81 377 11107428 20150831175402
+206.208.102.250 26 162 10294790 20150831211808
+130.65.251.131 23 65 1677947 20150830014501
+130.65.251.129 18 86 4032230 20150816030330
+172.56.16.155 11 55 898995 20150812023313
+172.56.31.59 5 16 731997 20150810225827
+66.249.83.132 3 3 4026 20150818062825
+66.249.84.145 2 2 5390 20150811022901
+66.249.83.145 1 1 1342 20150817214040
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 19
+20150810 83 463 22592521 6
+20150811 160 1144 38012645 6
+20150812 11 46 1168212 4
+20150813 8 36 1670758 1
+20150816 63 287 13202065 8
+20150817 12 52 2072919 4
+20150818 1 1 1342 1
+20150820 18 84 807387 3
+20150821 0 4 41017 0
+20150822 15 58 2510397 3
+20150823 4 11 426225 1
+20150824 13 72 1605981 1
+20150825 4 19 1133796 3
+20150826 2 9 523398 1
+20150827 132 405 12957398 1
+20150828 51 309 25283208 5
+20150829 148 587 41677921 3
+20150830 34 101 1694097 3
+20150831 144 512 15635757 8
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 6
+5mn-15mn 6
+15mn-30mn 7
+2mn-5mn 3
+30s-2mn 7
+0s-30s 20
+30mn-1h 13
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 40
+/resume/ 84 637913 2 0
+/angularJsProjects/project2/app/ 62 127652 5 0
+/angularJsProjects/project1/ 61 152731 2 0
+/photoshare/ 60 252067 5 4
+/resume/fonts/glyphicons-halflings-regular.woff2 59 973512 0 5
+/angularJsProjects/project3/ 48 78034 4 0
+/photoshare/fonts/glyphicons-halflings-regular.woff2 47 721120 0 5
+/angularJsProjects/examples/example2/ 41 46069 0 1
+/angularJsProjects/project3/contacts/contacts.html 37 108496 0 3
+/socialnetwork/ 37 182053 3 2
+/angularJsProjects/project1/main.html 35 29624 0 0
+/angularJsProjects/project4/ 33 53860 3 0
+/ 29 32970 22 9
+/angularJsProjects/project2/app/templates/templates.html 29 14063 0 2
+/agency/ 21 120542 5 0
+/angularJsProjects/project2/app/templates/templates-details.html 19 6933 0 1
+/angularJsProjects/project1/services.json 19 7024 0 0
+/angularJsProjects/examples/example1/ 16 3176 2 3
+/photoshare/contact.html 15 49728 2 4
+/agency/fonts/fontawesome-webfont.woff2 15 966960 0 5
+/socialnetwork/fonts/fontawesome-webfont.woff 14 916328 0 6
+/angularJsProjects/project2/app/json/templates.json 12 2403 0 0
+/angularJsProjects/examples/example3/ 12 6072 2 0
+/photoshare/about.html 12 41832 4 1
+/angularJsProjects/project1/contact.html 11 4071 0 1
+/angularJsProjects/project2/app/view2/view2.html 9 452 0 2
+/angularJsProjects/project4/view2/view2.html 3 214 0 0
+/angularJsProjects/project2/app/view1/view1.html 8 195 0 1
+/angularJsProjects/examples/example3/index2.html 3 1529 0 1
+/resume/fonts/glyphicons-halflings-regular.woff 2 23424 0 1
+/angularJsProjects/project1/locations.json 6 958 0 0
+/angularJsProjects/project1/about.html 6 10166 0 0
+/photoshare/fonts/glyphicons-halflings-regular.woff 3 46848 0 1
+/angularJsProjects/project1/services.html 6 2975 0 0
+//angularJsProjects/project1/ 1 4202 0 0
+/angularJsProjects/project4/view1/view1.html 10 351 0 1
+/index.php 2 542 1 0
+/angularJsProjects/project3/view2/view2.html 3 214 0 1
+/angularJsProjects/project3/view1/view1.html 2 78 0 0
+/angularJsProjects/project4/facebook/facebook.html 11 3330 0 2
+END_SIDER

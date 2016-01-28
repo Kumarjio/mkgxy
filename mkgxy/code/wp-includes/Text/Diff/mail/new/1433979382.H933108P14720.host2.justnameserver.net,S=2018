@@ -1,0 +1,53 @@
+Return-path: <>
+Envelope-to: consultlawyers@host2.justnameserver.net
+Delivery-date: Thu, 11 Jun 2015 02:36:22 +0300
+Received: from mailnull by host2.justnameserver.net with local (Exim 4.85)
+	id 1Z2pXi-0003pK-GD
+	for consultlawyers@host2.justnameserver.net; Thu, 11 Jun 2015 02:36:22 +0300
+X-Failed-Recipients: admin@logs.mkgalaxy.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@host2.justnameserver.net>
+To: consultlawyers@host2.justnameserver.net
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1Z2pXi-0003pK-GD@host2.justnameserver.net>
+Date: Thu, 11 Jun 2015 02:36:22 +0300
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  admin@logs.mkgalaxy.com
+    No Such User Here
+
+------ This is a copy of the message, including all the headers. ------
+
+Return-path: <consultlawyers@host2.justnameserver.net>
+Received: from consultlawyers by host2.justnameserver.net with local (Exim 4.85)
+	(envelope-from <consultlawyers@host2.justnameserver.net>)
+	id 1Z2pXi-0003p9-06
+	for admin@logs.mkgalaxy.com; Thu, 11 Jun 2015 02:36:22 +0300
+To: admin@logs.mkgalaxy.com
+Subject: [Logs] Password Reset
+X-PHP-Script: logs.mkgalaxy.com/wp-login.php for 206.208.102.250
+Date: Wed, 10 Jun 2015 23:36:21 +0000
+From: WordPress <wordpress@logs.mkgalaxy.com>
+Message-ID: <66fdd331967cb5ab675eb0e250b2e47a@logs.mkgalaxy.com>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.7 (https://github.com/PHPMailer/PHPMailer/)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Someone requested that the password be reset for the following account:
+
+http://logs.mkgalaxy.com/
+
+Username: admin
+
+If this was a mistake, just ignore this email and nothing will happen.
+
+To reset your password, visit the following address:
+
+<http://logs.mkgalaxy.com/wp-login.php?action=rp&key=bF5SwLnt1yZVNfkPETDB&login=admin>
+

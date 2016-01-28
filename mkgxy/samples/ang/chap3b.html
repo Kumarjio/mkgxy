@@ -1,0 +1,24 @@
+<!doctype html>
+<html ng-app="customersApp">
+<head>
+    <title>Section 2 - Views, Directives and Filters</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+	<script src="controllers/app.js"></script>
+	<script src="controllers/customersControllers2.js"></script>
+</head>
+
+<body>
+<h3>Sorting and formatting</h3>
+<div ng-controller="CustomersController">
+<input type="text" ng-model="nameText.name">
+<ul>
+	<li><span ng-click="doSort('name')">name</span> - <span ng-click="doSort('city')">city</span> - <span ng-click="doSort('joined')">joined</span> - <span ng-click="doSort('orderTotal')">orderTotal</span></li>
+	<li ng-repeat="person in people | filter:nameText | orderBy:sortBy:reverse | limitTo: 4">{{person.name | uppercase}} - {{person.city | lowercase}} - {{person.joined | date:'longDate'}} - {{person.orderTotal | currency:'^$'}}</li>
+</ul>
+</div>
+</body>
+</html>

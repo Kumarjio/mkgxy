@@ -1,0 +1,2 @@
+[31-Jan-2015 18:21:11 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) in /home/consultlawyers/public_html/mkgxy/samples/chessstockfish/Connections/conn.php on line 9
+[31-Jan-2015 18:21:11 UTC] PHP Fatal error:  Access denied for user 'root'@'localhost' (using password: YES) in /home/consultlawyers/public_html/mkgxy/samples/chessstockfish/Connections/conn.php on line 9

@@ -1,0 +1,191 @@
+[2015-04-12 23:03 UTC] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 1092
+Content-Type: application/x-www-form-urlencoded
+Expect: 100-continue
+
+ for IPN payload: cmd=_notify-validate&mc_gross=0.01&protection_eligibility=Eligible&address_status=confirmed&payer_id=BMD37LWCBPPVQ&tax=0.00&address_street=1104+Palm+Ridge+Ln&payment_date=16%3A02%3A59+Apr+12%2C+2015+PDT&payment_status=Completed&charset=windows-1252&address_zip=95123&first_name=Manish&mc_fee=0.01&address_country_code=US&address_name=Manish+Khanchandani&notify_version=3.8&custom=%7B%22donar_user_id%22%3A%22%22%2C+%22did%22%3A%222%22%7D&payer_status=verified&business=bhanimk%40gmail.com&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=ActYmhQowu1V9mprMGQugyoEktf1AwOurpy6Z6pmcb8ky78BjFbaZX.b&payer_email=finance%40mkgalaxy.com&txn_id=3W566849Y55548516&payment_type=instant&last_name=Khanchandani&address_state=CA&receiver_email=bhanimk%40gmail.com&payment_fee=0.01&receiver_id=PVN2HBUC3MXA4&txn_type=web_accept&item_name=Donation+Funds+For+%5BDID%3A2%5D&mc_currency=USD&item_number=2&residence_country=US&handling_amount=0.00&transaction_subject=%7B%22donar_user_id%22%3A%22%22%2C+%22did%22%3A%222%22%7D&payment_gross=0.01&shipping=0.00&ipn_track_id=ee0c9556e3227
+[2015-04-12 23:03 UTC] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+DC: slc-b-origin-www-1.paypal.com
+Date: Sun, 12 Apr 2015 23:03:12 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=kYIpfK43cDD6rV7wmmbDpQynxXTO8cimTMV0fbgA3AjZaFs6CzVTs9y_ldptCsZy4PuCUAan2NI5BOsS7H01bc8vhqGalE56ujtqlbsU-HO1LWCchOK-7OMuuqj25MGUCDiRrdBwy76rSQq027YqOeWC1KL_GQfSyDK7-KOp3itI2OeqIzhCNhK6mygjqQjSCnE02PZK89dQYhDuIEmsvTn5XeEEMDmkWM0GHxAQ4JTM1QHzrBoAQaPrjig6yugq6jekMk_0LUbWRVKhzS5co1TLmrdw_N7bTmdt0p5t1N3nO1xSbiRK-kA-8q0M-tHtKVANupfWhODXiFSoi0fQd1ZG3XhsKAv0CDr_7q-D6osCkSqUjfLhT3WJQllIOe4COrdBCmTgbPfceSksdiUtTMUXMadeOJcsTc8dsFLOOaBH9zePy5wVp7n8bQm; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Wed, 09-Apr-2025 23:03:12 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Tue, 11-Apr-2017 23:03:12 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.74.8.134.1428879791701522; path=/; expires=Tue, 04-Apr-45 23:03:11 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE6.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D2952342101; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.74.8.47.1428879791690395; path=/; expires=Tue, 04-Apr-45 23:03:11 GMT
+Set-Cookie: AKDC=slc-b-origin-www-1.paypal.com; expires=Sun, 12-Apr-2015 23:33:12 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2015-04-12 23:03 UTC] custom: {"donar_user_id":"", "did":"2"} 
+[2015-04-12 23:03 UTC] customArr: array (
+  'donar_user_id' => '',
+  'did' => '2',
+)
+[2015-04-12 23:03 UTC] Update Query: INSERT INTO donations_received set did = 2, donar_user_id = NULL, donar_paypal_email = 'finance@mkgalaxy.com', donar_amount = 0.01, donar_transaction_id = '3W566849Y55548516', donar_dt = '2015-04-12 23:02:59', donar_transaction_details = '{\"mc_gross\":\"0.01\",\"protection_eligibility\":\"Eligible\",\"address_status\":\"confirmed\",\"payer_id\":\"BMD37LWCBPPVQ\",\"tax\":\"0.00\",\"address_street\":\"1104 Palm Ridge Ln\",\"payment_date\":\"16:02:59 Apr 12, 2015 PDT\",\"payment_status\":\"Completed\",\"charset\":\"windows-1252\",\"address_zip\":\"95123\",\"first_name\":\"Manish\",\"mc_fee\":\"0.01\",\"address_country_code\":\"US\",\"address_name\":\"Manish Khanchandani\",\"notify_version\":\"3.8\",\"custom\":\"{\\\"donar_user_id\\\":\\\"\\\", \\\"did\\\":\\\"2\\\"}\",\"payer_status\":\"verified\",\"business\":\"bhanimk@gmail.com\",\"address_country\":\"United States\",\"address_city\":\"San Jose\",\"quantity\":\"1\",\"verify_sign\":\"ActYmhQowu1V9mprMGQugyoEktf1AwOurpy6Z6pmcb8ky78BjFbaZX.b\",\"payer_email\":\"finance@mkgalaxy.com\",\"txn_id\":\"3W566849Y55548516\",\"payment_type\":\"instant\",\"last_name\":\"Khanchandani\",\"address_state\":\"CA\",\"receiver_email\":\"bhanimk@gmail.com\",\"payment_fee\":\"0.01\",\"receiver_id\":\"PVN2HBUC3MXA4\",\"txn_type\":\"web_accept\",\"item_name\":\"Donation Funds For [DID:2]\",\"mc_currency\":\"USD\",\"item_number\":\"2\",\"residence_country\":\"US\",\"handling_amount\":\"0.00\",\"transaction_subject\":\"{\\\"donar_user_id\\\":\\\"\\\", \\\"did\\\":\\\"2\\\"}\",\"payment_gross\":\"0.01\",\"shipping\":\"0.00\",\"ipn_track_id\":\"ee0c9556e3227\"}', donar_transaction_status = 'Completed' 
+[2015-04-12 23:03 UTC] Verified IPN: cmd=_notify-validate&mc_gross=0.01&protection_eligibility=Eligible&address_status=confirmed&payer_id=BMD37LWCBPPVQ&tax=0.00&address_street=1104+Palm+Ridge+Ln&payment_date=16%3A02%3A59+Apr+12%2C+2015+PDT&payment_status=Completed&charset=windows-1252&address_zip=95123&first_name=Manish&mc_fee=0.01&address_country_code=US&address_name=Manish+Khanchandani&notify_version=3.8&custom=%7B%22donar_user_id%22%3A%22%22%2C+%22did%22%3A%222%22%7D&payer_status=verified&business=bhanimk%40gmail.com&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=ActYmhQowu1V9mprMGQugyoEktf1AwOurpy6Z6pmcb8ky78BjFbaZX.b&payer_email=finance%40mkgalaxy.com&txn_id=3W566849Y55548516&payment_type=instant&last_name=Khanchandani&address_state=CA&receiver_email=bhanimk%40gmail.com&payment_fee=0.01&receiver_id=PVN2HBUC3MXA4&txn_type=web_accept&item_name=Donation+Funds+For+%5BDID%3A2%5D&mc_currency=USD&item_number=2&residence_country=US&handling_amount=0.00&transaction_subject=%7B%22donar_user_id%22%3A%22%22%2C+%22did%22%3A%222%22%7D&payment_gross=0.01&shipping=0.00&ipn_track_id=ee0c9556e3227 
+[2015-04-12 23:14 UTC] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 1063
+Content-Type: application/x-www-form-urlencoded
+Expect: 100-continue
+
+ for IPN payload: cmd=_notify-validate&mc_gross=0.02&protection_eligibility=Ineligible&address_status=confirmed&payer_id=BMD37LWCBPPVQ&tax=0.00&address_street=1104+Palm+Ridge+Ln&payment_date=16%3A14%3A32+Apr+12%2C+2015+PDT&payment_status=Pending&charset=windows-1252&address_zip=95123&first_name=Manish&address_country_code=US&address_name=Manish+Khanchandani&notify_version=3.8&custom=%7B%22donar_user_id%22%3A%22%22%2C+%22did%22%3A%222%22%7D&payer_status=verified&business=bhanikm%40yahoo.com&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=Au2FgDwT9MKLNrB0Hrnncdi5dISPAkJF3hT9uo1-JVhK8J-1HmE6ZdKX&payer_email=finance%40mkgalaxy.com&txn_id=3SR96520RB724103M&payment_type=instant&last_name=Khanchandani&address_state=CA&receiver_email=bhanikm%40yahoo.com&pending_reason=unilateral&txn_type=web_accept&item_name=Donation+Funds+For+%5BDID%3A2%5D&mc_currency=USD&item_number=2&residence_country=US&handling_amount=0.00&transaction_subject=%7B%22donar_user_id%22%3A%22%22%2C+%22did%22%3A%222%22%7D&payment_gross=0.02&shipping=0.00&ipn_track_id=2cbbd54e1d3d8
+[2015-04-12 23:14 UTC] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+DC: slc-origin-www.paypal.com
+Date: Sun, 12 Apr 2015 23:14:36 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=gMKK8QkhkOvoUEjyErgcD1RmJcqnfXS4NfCqoV6i8PjZOQBIUq1_htimvBUSTdaUN7OscPuRIR3h8RosUo-V62eb2nOZVs35mxQu7RJ99yErgX9hB251nMTwqUZjIr49jK-79jrJE3oL9SfK0-FGvSThB_2XXbob45alZVo8ZxiAOeyyjbepDHqXxgg-shyPWEGHJf2Fgv7AvTj1hIkDvTxyjsIOcb5zABq7ab7jQJUaPHJATG7GQF5yq9nL8dC8cqUmKQ_CoCkOhwklG4g9S4iL0U9jajQKE2Qg10e_CufHqOk_gfcF0WMDui83knDlmWX3N9_tOW9FPLk0I7wnGxwpay408bohVDoyMikhebogHM8vC5y89w8WcKXbylMOs-y1aRbvW-rOL6HSRyNPPCw16ZNuOxYPhuRuCwb9xL-KLmjEjLkxm47oIKu; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Wed, 09-Apr-2025 23:14:36 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Tue, 11-Apr-2017 23:14:36 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.16.0.14.1428880476211038; path=/; expires=Tue, 04-Apr-45 23:14:36 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE9.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1560029781; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.16.0.11.1428880476204993; path=/; expires=Tue, 04-Apr-45 23:14:36 GMT
+Set-Cookie: AKDC=slc-origin-www.paypal.com; expires=Sun, 12-Apr-2015 23:44:36 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2015-04-12 23:14 UTC] Error in Catch: error in payment status. array (
+  'mc_gross' => '0.02',
+  'protection_eligibility' => 'Ineligible',
+  'address_status' => 'confirmed',
+  'payer_id' => 'BMD37LWCBPPVQ',
+  'tax' => '0.00',
+  'address_street' => '1104 Palm Ridge Ln',
+  'payment_date' => '16:14:32 Apr 12, 2015 PDT',
+  'payment_status' => 'Pending',
+  'charset' => 'windows-1252',
+  'address_zip' => '95123',
+  'first_name' => 'Manish',
+  'address_country_code' => 'US',
+  'address_name' => 'Manish Khanchandani',
+  'notify_version' => '3.8',
+  'custom' => '{"donar_user_id":"", "did":"2"}',
+  'payer_status' => 'verified',
+  'business' => 'bhanikm@yahoo.com',
+  'address_country' => 'United States',
+  'address_city' => 'San Jose',
+  'quantity' => '1',
+  'verify_sign' => 'Au2FgDwT9MKLNrB0Hrnncdi5dISPAkJF3hT9uo1-JVhK8J-1HmE6ZdKX',
+  'payer_email' => 'finance@mkgalaxy.com',
+  'txn_id' => '3SR96520RB724103M',
+  'payment_type' => 'instant',
+  'last_name' => 'Khanchandani',
+  'address_state' => 'CA',
+  'receiver_email' => 'bhanikm@yahoo.com',
+  'pending_reason' => 'unilateral',
+  'txn_type' => 'web_accept',
+  'item_name' => 'Donation Funds For [DID:2]',
+  'mc_currency' => 'USD',
+  'item_number' => '2',
+  'residence_country' => 'US',
+  'handling_amount' => '0.00',
+  'transaction_subject' => '{"donar_user_id":"", "did":"2"}',
+  'payment_gross' => '0.02',
+  'shipping' => '0.00',
+  'ipn_track_id' => '2cbbd54e1d3d8',
+)
+[2015-04-12 23:18 UTC] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 1062
+Content-Type: application/x-www-form-urlencoded
+Expect: 100-continue
+
+ for IPN payload: cmd=_notify-validate&mc_gross=0.02&protection_eligibility=Ineligible&address_status=confirmed&payer_id=BMD37LWCBPPVQ&tax=0.00&address_street=1104+Palm+Ridge+Ln&payment_date=16%3A18%3A49+Apr+12%2C+2015+PDT&payment_status=Pending&charset=windows-1252&address_zip=95123&first_name=Manish&address_country_code=US&address_name=Manish+Khanchandani&notify_version=3.8&custom=%7B%22donar_user_id%22%3A%22%22%2C+%22did%22%3A%222%22%7D&payer_status=verified&business=bhanikm%40yahoo.com&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AGt4qu8hEkZAnxC9qujEfYAra6wZAL6qEJ-VDJLEd73rh5aGp1fI-TtZ&payer_email=finance%40mkgalaxy.com&txn_id=3Y9932169B387932N&payment_type=instant&last_name=Khanchandani&address_state=CA&receiver_email=bhanikm%40yahoo.com&pending_reason=unilateral&txn_type=web_accept&item_name=Donation+Funds+For+%5BDID%3A2%5D&mc_currency=USD&item_number=2&residence_country=US&handling_amount=0.00&transaction_subject=%7B%22donar_user_id%22%3A%22%22%2C+%22did%22%3A%222%22%7D&payment_gross=0.02&shipping=0.00&ipn_track_id=9d5389f7c153
+[2015-04-12 23:18 UTC] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+DC: slc-b-origin-www-1.paypal.com
+Date: Sun, 12 Apr 2015 23:18:54 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=0yF2WwGNM40GreZIFrjk2DjEPV9S_6qIXjc8D6BnNN_Tugraszm6DReToxRJ7Pw4SbmYpM3OLc58O_1HSKwYflQ2_CklsOC3-fBLW-CFY-TPQwwnreBrU0JdE9VyZCFxoA30WWmkNCK3dL_1lRww14G2gGZqYtPKAjPwnj1paGSbkfA-t1Y-uBRi8_XPY8QFWqK9BacOXpAcf_80Vk02xvU7aesxaE_uqUXmtRDg5xrq5ZjYQKWxZeq3mCVs-4fjrqAiOMlIxAMHS4ovcr5QVtNPklWhYi_9qMFg9gJHncq4wbb3CIdrdYEZtt36Ctupx10aXyx-ntwQW4V0_OSPNHtKhTQnk15m2YH9SWzItqo2RJlYnayi7YFJptROCuZLdDlJqsdz0yyvn2O1iM28Wl83cUFAm7_re_v62wCTaggzdaNCW4e2NW2v_4y; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Wed, 09-Apr-2025 23:18:54 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Tue, 11-Apr-2017 23:18:54 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.74.8.134.1428880734576347; path=/; expires=Tue, 04-Apr-45 23:18:54 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE6.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1593649749; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.74.8.51.1428880734562253; path=/; expires=Tue, 04-Apr-45 23:18:54 GMT
+Set-Cookie: AKDC=slc-b-origin-www-1.paypal.com; expires=Sun, 12-Apr-2015 23:48:54 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2015-04-12 23:18 UTC] custom: {"donar_user_id":"", "did":"2"} 
+[2015-04-12 23:18 UTC] customArr: array (
+  'donar_user_id' => '',
+  'did' => '2',
+)
+[2015-04-12 23:18 UTC] Update Query: INSERT INTO donations_received set did = 2, donar_user_id = NULL, donar_paypal_email = 'finance@mkgalaxy.com', donar_amount = 0.02, donar_transaction_id = '3Y9932169B387932N', donar_dt = '2015-04-12 23:18:49', donar_transaction_details = '{\"mc_gross\":\"0.02\",\"protection_eligibility\":\"Ineligible\",\"address_status\":\"confirmed\",\"payer_id\":\"BMD37LWCBPPVQ\",\"tax\":\"0.00\",\"address_street\":\"1104 Palm Ridge Ln\",\"payment_date\":\"16:18:49 Apr 12, 2015 PDT\",\"payment_status\":\"Pending\",\"charset\":\"windows-1252\",\"address_zip\":\"95123\",\"first_name\":\"Manish\",\"address_country_code\":\"US\",\"address_name\":\"Manish Khanchandani\",\"notify_version\":\"3.8\",\"custom\":\"{\\\"donar_user_id\\\":\\\"\\\", \\\"did\\\":\\\"2\\\"}\",\"payer_status\":\"verified\",\"business\":\"bhanikm@yahoo.com\",\"address_country\":\"United States\",\"address_city\":\"San Jose\",\"quantity\":\"1\",\"verify_sign\":\"AGt4qu8hEkZAnxC9qujEfYAra6wZAL6qEJ-VDJLEd73rh5aGp1fI-TtZ\",\"payer_email\":\"finance@mkgalaxy.com\",\"txn_id\":\"3Y9932169B387932N\",\"payment_type\":\"instant\",\"last_name\":\"Khanchandani\",\"address_state\":\"CA\",\"receiver_email\":\"bhanikm@yahoo.com\",\"pending_reason\":\"unilateral\",\"txn_type\":\"web_accept\",\"item_name\":\"Donation Funds For [DID:2]\",\"mc_currency\":\"USD\",\"item_number\":\"2\",\"residence_country\":\"US\",\"handling_amount\":\"0.00\",\"transaction_subject\":\"{\\\"donar_user_id\\\":\\\"\\\", \\\"did\\\":\\\"2\\\"}\",\"payment_gross\":\"0.02\",\"shipping\":\"0.00\",\"ipn_track_id\":\"9d5389f7c153\"}', donar_transaction_status = 'Pending' 
+[2015-04-12 23:18 UTC] Verified IPN: cmd=_notify-validate&mc_gross=0.02&protection_eligibility=Ineligible&address_status=confirmed&payer_id=BMD37LWCBPPVQ&tax=0.00&address_street=1104+Palm+Ridge+Ln&payment_date=16%3A18%3A49+Apr+12%2C+2015+PDT&payment_status=Pending&charset=windows-1252&address_zip=95123&first_name=Manish&address_country_code=US&address_name=Manish+Khanchandani&notify_version=3.8&custom=%7B%22donar_user_id%22%3A%22%22%2C+%22did%22%3A%222%22%7D&payer_status=verified&business=bhanikm%40yahoo.com&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AGt4qu8hEkZAnxC9qujEfYAra6wZAL6qEJ-VDJLEd73rh5aGp1fI-TtZ&payer_email=finance%40mkgalaxy.com&txn_id=3Y9932169B387932N&payment_type=instant&last_name=Khanchandani&address_state=CA&receiver_email=bhanikm%40yahoo.com&pending_reason=unilateral&txn_type=web_accept&item_name=Donation+Funds+For+%5BDID%3A2%5D&mc_currency=USD&item_number=2&residence_country=US&handling_amount=0.00&transaction_subject=%7B%22donar_user_id%22%3A%22%22%2C+%22did%22%3A%222%22%7D&payment_gross=0.02&shipping=0.00&ipn_track_id=9d5389f7c153 
+[2015-04-14 01:28 UTC] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 1203
+Content-Type: application/x-www-form-urlencoded
+Expect: 100-continue
+
+ for IPN payload: cmd=_notify-validate&mc_gross=0.02&protection_eligibility=Ineligible&address_status=confirmed&payer_id=BMD37LWCBPPVQ&tax=0.00&address_street=1104+Palm+Ridge+Ln&payment_date=18%3A28%3A13+Apr+13%2C+2015+PDT&payment_status=Pending&charset=windows-1252&address_zip=95123&first_name=Manish&address_country_code=US&address_name=Manish+Khanchandani&notify_version=3.8&custom=%7B%22donar_user_id%22%3A%22%22%2C+%22did%22%3A%2281785C1B-94DE-936A-0F79-6BCAF2AC9BEE%22%7D&payer_status=verified&business=bhanikm%40yahoo.com&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AMIsJErLWFh1ByQ-Pn.oseCWp0SBAwFYwxHdXPAawn4KmbQ6E6Ok1nnj&payer_email=finance%40mkgalaxy.com&txn_id=71U07755Y61968515&payment_type=instant&last_name=Khanchandani&address_state=CA&receiver_email=bhanikm%40yahoo.com&pending_reason=unilateral&txn_type=web_accept&item_name=Donation+Funds+For+%5BDID%3A81785C1B-94DE-936A-0F79-6BCAF2AC9BEE%5D&mc_currency=USD&item_number=81785C1B-94DE-936A-0F79-6BCAF2AC9BEE&residence_country=US&handling_amount=0.00&transaction_subject=%7B%22donar_user_id%22%3A%22%22%2C+%22did%22%3A%2281785C1B-94DE-936A-0F79-6BCAF2AC9BEE%22%7D&payment_gross=0.02&shipping=0.00&ipn_track_id=f8fa518f9e45f
+[2015-04-14 01:28 UTC] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+DC: slc-b-origin-www-2.paypal.com
+Date: Tue, 14 Apr 2015 01:28:25 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=CVIJ7CO46a-hdELERk40o1RlX2efAQwXe5BX4DYEH5cRSp2HAFaSiXQYH-sFAexP7qPhq_RFgIp3LU4y5i86o3wGb80vOCnh-J01T3TcPD-Bta9LNatJrhCm80F_MUKr6mftrI2XNf09DbZDEJUrHxYzMFZ11W07tggdbxJ-SnSiN_SFw83CRdM-rUvr12cGik8ig3L44sawIfzro5XTgSqSRP6cLpsS4OAABV6wPlpHFDZTB0RhHG_oJ-NxBTZZ7QHDovAtm_qDUV9S6hw-a9r7iCuVJzvwJ-rdZNayv6eMkywewwcy23NrHXEvAbHTGX4V7C-8kz2zt2I-GMMJvOOMKJwlmlB8nAkgmnwSxExdPJrXwWeCI0jUevVD_1eBc7SSHXeYoxiU5X7eX_SEZzlmyFEy8Xlq75VF1lVhTUcdXHeadqf5R-22F0i; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Fri, 11-Apr-2025 01:28:25 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Thu, 13-Apr-2017 01:28:25 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.74.8.134.1428974905060413; path=/; expires=Thu, 06-Apr-45 01:28:25 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE6.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D963456085; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.74.8.66.1428974905048183; path=/; expires=Thu, 06-Apr-45 01:28:25 GMT
+Set-Cookie: AKDC=slc-b-origin-www-2.paypal.com; expires=Tue, 14-Apr-2015 01:58:25 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2015-04-14 01:28 UTC] custom: {"donar_user_id":"", "did":"81785C1B-94DE-936A-0F79-6BCAF2AC9BEE"} 
+[2015-04-14 01:28 UTC] customArr: array (
+  'donar_user_id' => '',
+  'did' => '81785C1B-94DE-936A-0F79-6BCAF2AC9BEE',
+)
+[2015-04-14 01:28 UTC] Update Query: INSERT INTO donations_received set did = '81785C1B-94DE-936A-0F79-6BCAF2AC9BEE', donar_user_id = NULL, donar_paypal_email = 'finance@mkgalaxy.com', donar_amount = 0.02, donar_transaction_id = '71U07755Y61968515', donar_dt = '2015-04-14 01:28:13', donar_transaction_details = '{\"mc_gross\":\"0.02\",\"protection_eligibility\":\"Ineligible\",\"address_status\":\"confirmed\",\"payer_id\":\"BMD37LWCBPPVQ\",\"tax\":\"0.00\",\"address_street\":\"1104 Palm Ridge Ln\",\"payment_date\":\"18:28:13 Apr 13, 2015 PDT\",\"payment_status\":\"Pending\",\"charset\":\"windows-1252\",\"address_zip\":\"95123\",\"first_name\":\"Manish\",\"address_country_code\":\"US\",\"address_name\":\"Manish Khanchandani\",\"notify_version\":\"3.8\",\"custom\":\"{\\\"donar_user_id\\\":\\\"\\\", \\\"did\\\":\\\"81785C1B-94DE-936A-0F79-6BCAF2AC9BEE\\\"}\",\"payer_status\":\"verified\",\"business\":\"bhanikm@yahoo.com\",\"address_country\":\"United States\",\"address_city\":\"San Jose\",\"quantity\":\"1\",\"verify_sign\":\"AMIsJErLWFh1ByQ-Pn.oseCWp0SBAwFYwxHdXPAawn4KmbQ6E6Ok1nnj\",\"payer_email\":\"finance@mkgalaxy.com\",\"txn_id\":\"71U07755Y61968515\",\"payment_type\":\"instant\",\"last_name\":\"Khanchandani\",\"address_state\":\"CA\",\"receiver_email\":\"bhanikm@yahoo.com\",\"pending_reason\":\"unilateral\",\"txn_type\":\"web_accept\",\"item_name\":\"Donation Funds For [DID:81785C1B-94DE-936A-0F79-6BCAF2AC9BEE]\",\"mc_currency\":\"USD\",\"item_number\":\"81785C1B-94DE-936A-0F79-6BCAF2AC9BEE\",\"residence_country\":\"US\",\"handling_amount\":\"0.00\",\"transaction_subject\":\"{\\\"donar_user_id\\\":\\\"\\\", \\\"did\\\":\\\"81785C1B-94DE-936A-0F79-6BCAF2AC9BEE\\\"}\",\"payment_gross\":\"0.02\",\"shipping\":\"0.00\",\"ipn_track_id\":\"f8fa518f9e45f\"}', donar_transaction_status = 'Pending', donar_message = 'unilateral' 
+[2015-04-14 01:28 UTC] Verified IPN: cmd=_notify-validate&mc_gross=0.02&protection_eligibility=Ineligible&address_status=confirmed&payer_id=BMD37LWCBPPVQ&tax=0.00&address_street=1104+Palm+Ridge+Ln&payment_date=18%3A28%3A13+Apr+13%2C+2015+PDT&payment_status=Pending&charset=windows-1252&address_zip=95123&first_name=Manish&address_country_code=US&address_name=Manish+Khanchandani&notify_version=3.8&custom=%7B%22donar_user_id%22%3A%22%22%2C+%22did%22%3A%2281785C1B-94DE-936A-0F79-6BCAF2AC9BEE%22%7D&payer_status=verified&business=bhanikm%40yahoo.com&address_country=United+States&address_city=San+Jose&quantity=1&verify_sign=AMIsJErLWFh1ByQ-Pn.oseCWp0SBAwFYwxHdXPAawn4KmbQ6E6Ok1nnj&payer_email=finance%40mkgalaxy.com&txn_id=71U07755Y61968515&payment_type=instant&last_name=Khanchandani&address_state=CA&receiver_email=bhanikm%40yahoo.com&pending_reason=unilateral&txn_type=web_accept&item_name=Donation+Funds+For+%5BDID%3A81785C1B-94DE-936A-0F79-6BCAF2AC9BEE%5D&mc_currency=USD&item_number=81785C1B-94DE-936A-0F79-6BCAF2AC9BEE&residence_country=US&handling_amount=0.00&transaction_subject=%7B%22donar_user_id%22%3A%22%22%2C+%22did%22%3A%2281785C1B-94DE-936A-0F79-6BCAF2AC9BEE%22%7D&payment_gross=0.02&shipping=0.00&ipn_track_id=f8fa518f9e45f 

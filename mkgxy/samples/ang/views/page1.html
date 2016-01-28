@@ -1,0 +1,15 @@
+<h3>Sorting and formatting</h3>
+<div ng-controller="Page1Controller">
+<input type="text" ng-model="nameText.name">
+<ul>
+	<li><span ng-click="doSort('name')">name</span> - <span ng-click="doSort('city')">city</span> - <span ng-click="doSort('joined')">joined</span> - <span ng-click="doSort('orderTotal')">orderTotal</span></li>
+	<li ng-repeat="person in people | filter:nameText | orderBy:sortBy:reverse | limitTo: 4">{{person.name | uppercase}} - {{person.city | lowercase}} - {{person.joined | date:'longDate'}} - {{person.orderTotal | currency:'^$'}}</li>
+</ul>
+</div>
+<hr />
+
+  <pre>$location.path() = {{$location.path()}}</pre>
+  <pre>$route.current.templateUrl = {{$route.current.templateUrl}}</pre>
+  <pre>$route.current.params = {{$route.current.params}}</pre>
+  <pre>$route.current.scope.name = {{$route.current.scope.name}}</pre>
+  <pre>$routeParams = {{$routeParams}}</pre>

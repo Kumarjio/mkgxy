@@ -1,0 +1,2 @@
+[25-May-2015 05:47:07 UTC] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/consultlawyers/public_html/mkgxy/real-money-making.com/md/admin/main.php on line 32
+[25-May-2015 05:47:07 UTC] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/consultlawyers/public_html/mkgxy/real-money-making.com/md/admin/main.php on line 32

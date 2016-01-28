@@ -1,0 +1,491 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201509 will be lost/reset.
+# Last config file used to build this data file was /home/consultlawyers/tmp/awstats/awstats.bootstrap.mkgalaxy.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2025                
+POS_TIME 2697                
+POS_VISITOR 9061                
+POS_DAY 10107               
+POS_DOMAIN 3432                
+POS_LOGIN 3666                
+POS_ROBOT 3821                
+POS_WORMS 4014                
+POS_EMAILSENDER 4145                
+POS_EMAILRECEIVER 4288                
+POS_SESSION 10802               
+POS_SIDER 11009               
+POS_FILETYPES 4423                
+POS_DOWNLOADS 4687                
+POS_OS 4735                
+POS_BROWSER 4867                
+POS_SCREENSIZE 5177                
+POS_UNKNOWNREFERER 5251                
+POS_UNKNOWNREFERERBROWSER 5452                
+POS_ORIGIN 5648                
+POS_SEREFERRALS 5790                
+POS_PAGEREFS 5934                
+POS_SEARCHWORDS 6082                
+POS_KEYWORDS 6234                
+POS_MISC 2361                
+POS_ERRORS 6293                
+POS_CLUSTER 3522                
+POS_SIDER_404 6445                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20151001001643 1 0 13834754703547
+FirstTime 20150901213453
+LastTime 20150930072513
+LastUpdate 20151001154053 1 0 0 0 0
+TotalVisits 97                  
+TotalUnique 23                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 24                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 36 103 66564 0 4 0
+1 141 304 4891414 55 76 200950
+2 229 742 2783214 7 17 1292
+3 145 441 4328871 10 25 1803
+4 231 778 820733 4 32 1196
+5 150 568 10151995 32 47 256
+6 259 890 7483571 454 504 104739
+7 401 1261 11563888 7 45 11850
+8 336 1370 7756662 43 66 6307
+9 102 320 1984916 6 18 510
+10 0 0 0 0 0 0
+11 0 0 0 0 0 0
+12 0 0 0 0 0 0
+13 0 0 0 0 0 0
+14 0 0 0 0 0 0
+15 6 18 33077 0 1 0
+16 155 632 2499465 124 142 24135
+17 88 279 429163 30 41 2771
+18 43 267 7568911 25 27 0
+19 133 497 7072254 14 39 3310
+20 185 567 1159364 9 36 2518
+21 207 659 5182321 41 87 6969
+22 114 368 3236474 17 23 0
+23 12 46 634838 1 8 255
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+us 2973 10110 79647695
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+php 25 194221 20150925015653 0
+spider 3 554 20150920062744 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 1563 29042829 0 0
+png 243 746854 0 0
+woff 11 715080 0 0
+woff2 10 358376 0 0
+json 7 11364 0 0
+php 288 4964396 0 0
+html 2657 5975488 0 0
+js 4881 31521572 0 0
+jpg 232 5977822 0 0
+gif 218 333914 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 5
+macosx 9868 2844
+Unknown 115 103
+macosx8 9 5
+linux 95 15
+win7 23 6
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 12
+chrome45.0.2454.85 3250 910
+chrome45.0.2454.99 1023 303
+chrome45.0.2454.101 4303 1241
+safari8.0.8 2 2
+firefox40.0 76 25
+chrome44.0.2403.157 1 1
+chrome45.0.2454.93 1227 368
+firefox41.0 62 3
+chrome44.0.2403.155 16 3
+safari8.0.7 8 4
+Unknown 115 103
+safari 27 10
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+Google_favicon 20150915173457
+visionutils/0.2 20150925014624
+fa 20150925013932
+facebookexternalhit 20150925015217
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+Google_favicon 20150915173457
+visionutils/0.2 20150925014624
+fa 20150925013932
+facebookexternalhit 20150925015217
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1354 1356
+From1 0 0
+From2 0 0
+From3 0 0
+From4 1619 8754
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+403 12 5931
+302 523 121935
+206 6 11515
+404 240 11368
+504 5 100
+301 88 23237
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 36
+/angularJS 2 -
+/svnprojects/todo/app.js 3 http://bootstrap.mkgalaxy.com/svnprojects/todo/
+/angularJsProjects/project2/apo 1 -
+/svnprojects/seo/phpinfo2.php 3 -
+/angularjs 1 -
+/firebase/html5mode/view/view2 6 -
+/css/bootstrap.css.map 88 -
+/angularJS/project1 1 -
+/angularJsProjects/ 1 -
+/angularJsProjects/project2/ 2 -
+/angularJsProjects/firebase/project1 1 -
+/svnprojects/seo/X.php 1 -
+/svnprojects/jobportal/fonts/fontawesome-webfont.woff 12 http://bootstrap.mkgalaxy.com/svnprojects/jobportal/css/font-awesome.css
+/svnprojects/livelinks/view4/view5.js 2 http://bootstrap.mkgalaxy.com/svnprojects/livelinks/index.html
+/scssProject/css/style.css 2 http://bootstrap.mkgalaxy.com/scssProject/index.html
+/svnprojects/livelinks/view5/view5.html 2 http://bootstrap.mkgalaxy.com/svnprojects/livelinks/index.html
+/svnprojects/victorRealEstate/img/%7B%7Bimage.name%7D%7D 3 http://bootstrap.mkgalaxy.com/svnprojects/victorRealEstate/index.html
+/svnprojects/seo/view2.mk 4 -
+/angularJsProjects/examples/ 1 -
+/svnprojects/jobportal/fonts/fontawesome-webfont.ttf 13 http://bootstrap.mkgalaxy.com/svnprojects/jobportal/css/font-awesome.css
+/svnprojects/seo/view1/ 12 -
+/svnprojects/ 1 -
+/svnprojects/todo/view2/view2.js 3 http://bootstrap.mkgalaxy.com/svnprojects/todo/
+/firebase/html5mode/view2/ 11 -
+/svnprojects/livelinks/view5/view6.html 1 http://bootstrap.mkgalaxy.com/svnprojects/livelinks/index.html
+/angular 1 -
+/svnprojects/jobportal/jobs.html 1 http://bootstrap.mkgalaxy.com/svnprojects/jobportal/
+/svnprojects/cloneMeetup/main/login.html 1 http://bootstrap.mkgalaxy.com/svnprojects/cloneMeetup/index.html
+/angularJsProjects/directives/scripts/directivesController.js 3 http://bootstrap.mkgalaxy.com/angularJsProjects/directives/module2/index.html
+/firebase/html5mode/view1/ 39 http://bootstrap.mkgalaxy.com/firebase/html5mode/
+/homeopathy/organon/pages/aphorism5_18.html 1 http://bootstrap.mkgalaxy.com/homeopathy/index.html
+/view2 1 http://bootstrap.mkgalaxy.com/firebase/html5mode/view1
+/svnprojects/seo/view2/ 10 -
+/svnprojects/livelinks/view5/view6.js 1 http://bootstrap.mkgalaxy.com/svnprojects/livelinks/index.html
+/svnprojects/todo/view1/view1.js 3 http://bootstrap.mkgalaxy.com/svnprojects/todo/
+/svnprojects/firebase1/view2/view3.js 2 http://bootstrap.mkgalaxy.com/svnprojects/firebase1/index.html
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 24
+67.181.89.89 1708 6072 45393800 20150930072513
+206.208.102.250 576 1912 22010735 20150930042139
+130.65.251.131 279 881 306709 20150913031129
+130.65.251.132 192 584 2188617 20150926225644
+130.65.251.133 109 263 112022 20150919224929
+130.65.251.137 26 92 1323964 20150926205100
+73.189.241.178 21 128 1836925 20150927054109
+67.225.208.62 20 20 1541636 20150925015217
+130.65.251.130 15 66 4444081 20150906030003
+66.249.84.204 6 6 13380 20150909015031
+162.119.128.143 3 16 403770 20150903093947
+76.247.187.70 2 33 37979 20150927081427
+54.205.74.154 2 6 2404 20150920062256
+54.158.205.46 2 6 2404 20150927062824
+54.226.26.196 2 6 2404 20150920062214
+54.159.29.250 2 6 2404 20150920062241
+98.248.53.203 2 6 15265 20150921205414
+173.252.88.248 1 1 2146 20150925014624
+66.249.84.200 1 1 2230 20150915173457
+54.234.225.120 1 1 39 20150920062109
+66.220.145.150 1 1 2146 20150925014624
+66.249.84.196 1 1 2230 20150905064114
+54.160.196.242 1 1 39 20150927062823
+54.145.186.140 0 1 366 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 26
+20150901 1 1 2230 1
+20150902 123 433 8594533 5
+20150903 9 34 1214386 3
+20150904 1 1 2230 1
+20150905 9 9 6245 3
+20150906 16 67 4446311 2
+20150909 1 1 2230 1
+20150910 20 94 1503258 5
+20150911 4 11 2541 2
+20150912 15 65 57613 2
+20150913 280 882 308051 2
+20150914 65 257 8732592 2
+20150915 136 602 15751540 6
+20150916 5 27 337 1
+20150918 128 471 8927925 1
+20150919 230 615 1954808 5
+20150920 252 782 4201075 9
+20150921 82 305 1129760 7
+20150922 112 365 668366 6
+20150923 130 461 400468 5
+20150925 107 255 2322926 6
+20150926 567 1878 6933646 5
+20150927 274 1261 10363555 9
+20150928 280 851 1317416 4
+20150929 2 6 0 1
+20150930 124 376 803653 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 21
+5mn-15mn 9
+0s-30s 47
+15mn-30mn 9
+30s-2mn 2
+2mn-5mn 5
+30mn-1h 4
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 137
+/svnprojects/projectLinks/ 263 655469 7 0
+/svnprojects/projectLinks/view1/view1.html 244 467391 0 9
+/svnprojects/cloneMeetup/ 214 215927 4 0
+/svnprojects/cloneMeetup/main/login.html 203 44388 0 3
+/flyspray/index.php 171 2725860 0 4
+/frontend/directivesAngularJs/ 112 97312 1 0
+/frontend/directivesAngularJs/view1/view1.html 105 21829 0 1
+/svnprojects/livelinks/ 98 107104 4 0
+/homeopathy/ 81 258897 2 0
+/svnprojects/seo/phpinfo.php 78 1748037 4 4
+/angularJsProjects/project4/ 67 133875 3 1
+/angularJsProjects/project4/facebook/facebook.html 60 103610 0 4
+/frontend/directivesAngularJs/directives/mylist.html 46 3328 0 0
+/svnprojects/firebase1/ 39 36193 0 0
+/firebase/project1/ 38 32597 1 0
+/firebase/chat/ 36 31552 2 0
+/svnprojects/livelinks/view2/view2.html 36 14618 0 2
+/firebase/chat/view1/view1.html 35 9739 0 3
+/svnprojects/todo/view1/view1.html 35 49465 1 5
+/svnprojects/todo/ 35 21000 7 1
+/firebase/project2/ 34 138006 2 0
+/svnprojects/seo/ 33 609648 6 0
+/firebase/project2/view1/view1.html 33 23095 0 2
+/svnprojects/sqlqueries/ 31 76787 2 0
+/svnprojects/sqlqueries/view1/view1.html 31 9703 0 2
+/ 5 6710 4 3
+/svnprojects/jobportal/testing/seeking-web/location.html 3 102854 0 0
+/svnprojects/firebaseLearn/view2/view2.html 2 76 0 0
+/svnprojects/jobportal/testing/seeking-web/login.html 1 15717 0 0
+/angularJsProjects/project2/app/templates/templates-details.html 3 2079 0 0
+/angularJsProjects/directives/sample/ 10 8874 1 0
+/frontend/directivesAngularJs/view2/view2.html 3 234 0 0
+/svnprojects/jobportal/testing/seeking-web/ 4 89964 0 0
+/svnprojects/googlelogin/view2/view2.html 3 246 0 0
+/svnprojects/livelinks/view5/view5.html 13 10910 0 1
+/svnprojects/seo/view2/view2.html 2 38 0 0
+/homeopathy/organon/pages.html 9 378 0 0
+/svnprojects/chat/view1/view1.html 3 387 0 1
+/angularJsProjects/project2/app/json/templates.json 3 4806 0 0
+/angularJsProjects/project1/about.html 1 2016 0 0
+/homeopathy/view2/view2.html 2 176 0 0
+/svnprojects/victorRealEstate/view1/listings.html 1 16372 0 0
+/homeopathy/organon/pages/aphorism5_18.html 3 10898 0 0
+/svnprojects/jobportal/testing/seeking-web/fonts/fontawesome-webfont.woff 6 357540 0 0
+/svnprojects/jobportal/view1/view1.html 18 202533 0 1
+/firebase/chat/view2/view2.html 3 114 0 0
+/flyspray/setup/index.php 3 13001 0 0
+/svnprojects/jobportal/testing/seeking-web/location_single.html 1 19165 0 0
+/angularJsProjects/project1/ 9 20070 8 8
+/angularJsProjects/examples/example6/ 7 2827 1 1
+/angularJsProjects/project2/app/ 4 6780 2 0
+/svnprojects/jobportal/fonts/fontawesome-webfont.woff 5 357540 0 0
+/svnprojects/victorRealEstate/ 9 135829 1 0
+/svnprojects/jobportal/ 18 165551 1 0
+/svnprojects/firebase2/ 29 28594 0 0
+/angularJsProjects/examples/example1/ 1 256 0 0
+/flyspray/ 20 474964 8 4
+/photoshare/about.html 1 5229 0 0
+/frontend/directivesAngularJs/directives/helloworld.html 13 34 0 0
+/svnprojects/cloneMeetup/main/home.html 8 35 0 0
+/angularJsProjects/project1/locations.json 1 479 0 1
+/svnprojects/jobportal/testing/seeking-web/jobs.html 1 35657 0 0
+/flyspray/javascript/callbacks/searchnames.php 4 16 0 0
+/homeopathy/mm/mm.html 3 35 0 0
+/firebase/project1/view1/view1.html 29 1329 0 0
+/svnprojects/firebase1/view2/view2.html 9 304 0 0
+/svnprojects/learnDirective1/view1/dirH1.html 15 1135 0 0
+/homeopathy/mm/remedies/euphrasia.html 1 5563 0 0
+/svnprojects/victorRealEstate/view1/details.html 1 17796 0 0
+/svnprojects/livelinks/view1/view1.html 25 306 1 2
+/svnprojects/cloneMeetup/main/start.html 1 5 0 1
+/angularJsProjects/project1/services.json 1 442 0 0
+/homeopathy/organon/organon.html 21 29197 0 0
+/svnprojects/learnDirective1/ 17 16762 1 0
+/scssProject/ 2 6596 1 1
+/svnprojects/jobportal/testing/seeking-web/recruiters.html 1 13772 0 0
+/svnprojects/firebase1/view3/view3.html 14 532 0 0
+/svnprojects/livelinks/view3/view3.html 10 380 0 1
+/angularJsProjects/project1/main.html 1 858 0 0
+/photoshare/fonts/glyphicons-halflings-regular.woff2 1 18028 0 0
+/angularJsProjects/directives/module3/tableHelper.html 6 4400 1 1
+/angularJsProjects/directives/sample/view1/dirH1.html 9 256 0 0
+/flyspray/setup/ 1 6668 1 0
+/svnprojects/googlelogin/ 11 9860 0 0
+/firebase/html5mode/ 23 14204 1 2
+/angularJsProjects/examples/example3/ 1 477 1 0
+/svnprojects/victorRealEstate/view1/view1.html 7 43821 0 1
+/svnprojects/learnDirective1/view2/view2.html 1 38 0 0
+/svnprojects/jobportal/testing/seeking-web/jobs_single.html 1 19161 0 0
+/svnprojects/seo/view1/ 10 697266 0 1
+/svnprojects/learnDirective1/view1/view1.html 17 963 0 0
+/firebase/html5mode/view2/view2.html 6 76 0 0
+/angularJsProjects/project3/ 6 6600 0 0
+/angularJsProjects/examples/example5/ 1 1188 1 1
+/flyspray/javascript/callbacks/checksave.php 10 20 0 0
+/firebase/html5mode/view1/view1.html 14 195 0 1
+/svnprojects/firebaseLearn/view1/view1.html 16 585 0 1
+/svnprojects/livelinks/view4/view4.html 12 456 0 0
+/svnprojects/livelinks/view6/view6.html 1 1483 0 1
+/svnprojects/chat/view2/view2.html 1 38 0 0
+/angularJsProjects/directives/sample/view1/dirH2.html 8 386 0 0
+/svnprojects/learnDirective1/view1/dirH2.html 5 206 0 0
+/angularJsProjects/project1/contact.html 1 393 0 0
+/svnprojects/jobportal/testing/seeking-web/register.html 1 17649 0 0
+/svnprojects/seo/phpinfo2.php 22 477462 0 1
+/photoshare/contact.html 1 4144 0 1
+/homeopathy/mm/remedies/aloe.html 4 9965 0 2
+/svnprojects/victorRealEstate/font-awesome/fonts/fontawesome-webfont.woff2 8 322320 0 0
+/angularJsProjects/project2/app/templates/templates.html 3 1011 0 0
+/svnprojects/victorRealEstate/json/properties.json 2 5637 0 0
+/svnprojects/jobportal/testing/seeking-web/about.html 5 71147 1 0
+/homeopathy/organon/pages/aph1.html 1 10 0 1
+/svnprojects/learnDirective1/view1/dirH3.html 4 104 0 0
+/homeopathy/mm/aloe.html 11 34513 2 1
+/angularJsProjects/directives/sample/view1/view1.html 9 464 0 0
+/svnprojects/firebase2/view1/view1.html 27 16145 0 0
+/svnprojects/firebaseLearn/ 16 15776 0 0
+/photoshare/ 1 5153 0 0
+/angularJsProjects/directives/module3/link.html 2 808 0 1
+/svnprojects/chat/ 3 2958 2 0
+/homeopathy/mm/remedies/arnica.html 3 6 0 1
+/firebase/project1/view2/view2.html 4 76 0 0
+/angularJsProjects/directives/module2/ 15 12272 5 4
+/svnprojects/projectLinks/view2/view2.html 6 977 0 0
+/resume/fonts/glyphicons-halflings-regular.woff2 1 18028 0 1
+/svnprojects/googlelogin/view1/view1.html 7 1526 0 0
+/svnprojects/jobportal/testing/seeking-web/services.html 3 28944 0 0
+/homeopathy/view1/view1.html 27 7665 2 1
+/resume/ 1 9758 0 0
+/angularJsProjects/project1/services.html 1 366 0 0
+/angularJsProjects/project3/contacts/contacts.html 5 25884 0 1
+/svnprojects/jobportal/testing/seeking-web/resume.html 1 10943 0 0
+/homeopathy/organon/pages/aphorism1_4.html 10 12712 0 0
+/angularJsProjects/directives/module1/ 5 1060 2 1
+/svnprojects/firebase1/view1/view1.html 15 429 0 0
+/svnprojects/seo/view1/view1.html 22 252045 2 6
+/homeopathy/mm/remedy.html 17 588 1 0
+END_SIDER

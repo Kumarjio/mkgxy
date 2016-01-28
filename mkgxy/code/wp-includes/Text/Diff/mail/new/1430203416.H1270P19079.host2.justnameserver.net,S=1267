@@ -1,0 +1,29 @@
+Return-path: <consultlawyers@host2.justnameserver.net>
+Envelope-to: admin@consultlawyers.us
+Delivery-date: Tue, 28 Apr 2015 09:43:36 +0300
+Received: from consultlawyers by host2.justnameserver.net with local (Exim 4.85)
+	(envelope-from <consultlawyers@host2.justnameserver.net>)
+	id 1YmzF1-0004xc-LK
+	for admin@consultlawyers.us; Tue, 28 Apr 2015 09:43:35 +0300
+To: admin@consultlawyers.us
+Subject: [Consult Lawyers] Your site has updated to WordPress 4.2.1
+X-PHP-Script: consultlawyers.us/web/wp-cron.php for 67.225.208.62
+Date: Tue, 28 Apr 2015 06:43:35 +0000
+From: WordPress <wordpress@consultlawyers.us>
+Message-ID: <ebb2b9757b8ccdfcad404be0cd4c41c9@consultlawyers.us>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.7 (https://github.com/PHPMailer/PHPMailer/)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Howdy! Your site at http://consultlawyers.us/web has been updated automatically to WordPress 4.2.1.
+
+No further action is needed on your part. For more on version 4.2.1, see the About WordPress screen:
+http://consultlawyers.us/web/wp-admin/about.php
+
+If you experience any issues or need support, the volunteers in the WordPress.org support forums may be able to help.
+https://wordpress.org/support/
+
+The WordPress Team
+

@@ -1,0 +1,485 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201505 will be lost/reset.
+# Last config file used to build this data file was /home/consultlawyers/tmp/awstats/awstats.consultlawyers.us.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2020                
+POS_TIME 2692                
+POS_VISITOR 10626               
+POS_DAY 13735               
+POS_DOMAIN 3468                
+POS_LOGIN 3783                
+POS_ROBOT 3938                
+POS_WORMS 4308                
+POS_EMAILSENDER 4439                
+POS_EMAILRECEIVER 4582                
+POS_SESSION 14423               
+POS_SIDER 14619               
+POS_FILETYPES 4717                
+POS_DOWNLOADS 4982                
+POS_OS 5089                
+POS_BROWSER 5340                
+POS_SCREENSIZE 5968                
+POS_UNKNOWNREFERER 6042                
+POS_UNKNOWNREFERERBROWSER 6613                
+POS_ORIGIN 7206                
+POS_SEREFERRALS 7346                
+POS_PAGEREFS 7501                
+POS_SEARCHWORDS 8536                
+POS_KEYWORDS 8688                
+POS_MISC 2356                
+POS_ERRORS 8747                
+POS_CLUSTER 3639                
+POS_SIDER_404 8864                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150601031902 1 0 14695326982569
+FirstTime 20150501173310
+LastTime 20150530232936
+LastUpdate 20150601152514 1 0 0 0 0
+TotalVisits 124                 
+TotalUnique 73                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 76                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 7 8 291473931 1 1 0
+1 5 5 62665966 5 7 32570410
+2 22 38 594170601 9 31 438577
+3 1 3 42847814 1 6 64643117
+4 5 7 105498993 6 7 9553
+5 3 3 22616 2 2 0
+6 8 8 9266 13 14 2693
+7 2 2 1457 2 4 11010
+8 8 14 127404644 6 15 220698
+9 8 9 64667169 9 10 9632
+10 6 16 62973613 4 8 62737538
+11 7 13 95451461 5 11 126977
+12 8 8 125330138 9 9 2693
+13 4 5 1991943 6 7 8954
+14 3 3 1457 1 4 187213
+15 2 2 125302352 21 28 153857
+16 6 6 62651179 28 33 134053
+17 2 2 62651176 2 5 109743
+18 34 34 44337622 20 24 19063
+19 5 5 222984686 16 20 13354
+20 72 124 459760405 18 23 10033
+21 99 184 106921718 28 36 259104
+22 14 17 318319073 13 25 332044
+23 10 19 373425669 3 6 815
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 9
+us 313 507 3350794212
+zz 8 8 52196
+ru 4 4 4
+fr 4 4 4
+de 4 4 9265
+ma 3 3 3
+gb 3 3 3
+il 1 1 0
+cr 1 1 9262
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+googlebot 55 1796885 20150530111015 0
+bot[\s_+:,\.\;\/\\-] 9 69529 20150530165849 0
+google[_+\s]web[_+\s]preview 7 239992 20150508214617 0
+php 6 2012020 20150526011039 0
+slurp 4 157872392 20150520013957 0
+netcraft 1 8954 20150507135004 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+css 69 3283701 0 0
+png 5 9959705 0 0
+txt 1 64 0 0
+php 103 61574 0 0
+rar 12 99541140 0 0
+html 151 947788 0 0
+xml 21 21945 0 0
+js 105 2995064 0 0
+apk 4 44227548 0 0
+exe 62 3189823378 0 0
+svg 2 3042 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 2
+/up/SQLyog615.rar 12 0 99541140
+/up/dreamweaver.txt 1 0 64
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 14
+linuxandroid 12 12
+blackberry 1 1
+winxp 301 170
+macintosh 1 1
+ios_iphone 5 2
+linux 25 25
+win7 57 36
+macosx 20 8
+macosx9 24 8
+win8 4 4
+Unknown 54 53
+win8.1 28 18
+macosx8 1 1
+macosx7 2 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 33
+msie6.0 285 154
+chrome34.0.1847.76 6 6
+opera12.17 4 4
+firefox3.6 13 13
+android 2 2
+chrome43.0.2357.78 2 2
+ecatch 1 1
+firefox31.0 2 1
+iphone 3 0
+chrome43.0.2357.81 1 1
+chrome42.0.2311.90 7 5
+msie7.0 1 1
+msie5.0 1 1
+chrome42.0.2311.152 20 14
+chrome30.0.1599.101 1 1
+Unknown 54 53
+chrome43.0.2357.65 5 4
+blackberry 1 1
+chrome37.0.2049.0 2 2
+chrome36.0.1985.67 2 2
+firefox38.0 11 4
+safari7.0.6 9 3
+msie11.0 10 10
+firefox33.0 1 1
+mozilla 1 1
+firefox37.0 13 7
+firefox14.0.1 21 21
+chrome42.0.2311.135 46 16
+chrome37.0.0.0 2 2
+firefox6.0 4 4
+safari6.2.5 1 1
+firefox36.0 1 1
+safari 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 9
+WordPress/4.2.2;_http://consultlawyers.us/wptest 20150507204919
+WordPress/4.2.1;_http://consultlawyers.us/wptest 20150507204917
+NING/1.0 20150519152604
+WordPress/4.2.1;_http://consultlawyers.us/web 20150507135001
+Softaculous 20150507204916
+WordPress/4.2.2;_http://consultlawyers.us/web 20150530205831
+wscheck.com/1.0.0_(_http://wscheck.com/) 20150502215944
+SEOstats_2.1.0__________https://github.com/eyecatchup/SEOstats 20150502215944
+Mozilla/4.0_(compatible;_Synapse) 20150518090546
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 9
+python-requests/2.2.1_CPython/2.7.6_Linux/4.0.2-x86_64-linode56 20150525064833
+WordPress/4.2.2;_http://consultlawyers.us/wptest 20150507204919
+WordPress/4.2.1;_http://consultlawyers.us/wptest 20150507204917
+NING/1.0 20150519152604
+WordPress/4.2.1;_http://consultlawyers.us/web 20150507135001
+Softaculous 20150507204916
+WordPress/4.2.2;_http://consultlawyers.us/web 20150530205831
+python-requests/2.7.0_CPython/2.7.8_Linux/3.16.0-30-generic 20150520184202
+wscheck.com/1.0.0_(_http://wscheck.com/) 20150502215944
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 123 127
+From1 6 6
+From2 1 1
+From3 41 53
+From4 170 348
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 9
+http://www.meetup.com/Learn-Computer-Programming-Web-Design-Web-Mob-Development/events/221963678/ 11 17
+http://www.meetup.com/Learn-Computer-Programming-Web-Design-Web-Mob-Development/events/222207923/ 9 9
+http://www.meetup.com/Learn-Computer-Programming-Web-Design-Web-Mob-Development/events/222116512/ 8 8
+http://www.meetup.com/Learn-Computer-Programming-Web-Design-Web-Mob-Development/events/221964120/ 5 5
+http://www.meetup.com/Learn-Computer-Programming-Web-Design-Web-Mob-Development/events/221963672/ 3 5
+http://www.meetup.com/Learn-Computer-Programming-Web-Design-Web-Mob-Development/events/221963383/ 2 6
+http://best-seo-report.com 1 1
+http://www.meetup.com/Learn-Computer-Programming-Web-Design-Web-Mob-Development/events/222116512/comments/449758125/ 1 1
+http://www.meetup.com/Learn-Computer-Programming-Web-Design-Web-Mob-Development/events/221963672/comments/449090429/ 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+302 49 0
+405 22 882
+404 137 0
+301 17 477
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 37
+/wp-feeds.php 2 -
+/robots.txt 27 -
+/thumb_editor.php 2 -
+/Dreamweaver.txt 1 -
+/admin.php 2 -
+//wp-admin/admin-ajax.php 23 -
+/screenshopt.png 1 -
+/.libs.php 2 -
+/wp-content/plugins/showbiz/temp/update_extract/showbiz/wp-feed-file.php 1 -
+/wptest//wp-content/plugins/simple-ads-manager/readme.txt 1 -
+/admin/login.php 2 -
+/web/ 6 -
+/wp-admin/admin-ajax.php 15 -
+/up/ 3 -
+/flashgallery.php 2 -
+/blog/ 1 -
+/web/wp-content/plugins/revslider/temp/update_extract/revslider/votre.php 1 -
+/web/wp-content/plugins/showbiz/temp/update_extract/showbiz/yuan.php 1 -
+/wp-content/plugins/showbiz/temp/update_extract/showbiz/yuan.php 1 -
+/web//wp-admin/admin-ajax.php 12 -
+/wp-content/plugins/revslider/temp/update_extract/dor.php 2 -
+/user/ 2 -
+/bitrix/admin/index.php 2 -
+/web/wp-content/plugins/showbiz/temp/update_extract/showbiz/wp-feed-file.php 1 -
+/wp-content/plugins/revslider/temp/update_extract/revolutionslider/yuan.php 1 -
+/administrator/index.php 2 -
+/asal.php 2 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/libs.php 2 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/votre.php 1 -
+/x.txt 2 -
+/wptest//wp-content/plugins/reflex-gallery/readme.txt 1 -
+/web/wp-admin/admin-ajax.php 5 -
+/web/wp-content/plugins/revslider/temp/update_extract/revolutionslider/yuan.php 1 -
+/wp-login.php 3 -
+/wptest//wp-content/plugins/ultimate-product-catalogue/readme.txt 1 -
+/admin/ 2 -
+/wptest//wp-content/plugins/wp-all-import/readme.txt 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 76
+67.225.208.62 45 45 18847 20150530205831
+65.208.151.116 23 45 885370 20150530215716
+65.208.151.114 23 38 688456 20150530215239
+65.208.151.115 22 34 453570 20150530215657
+69.58.178.57 22 22 100808 20150505180826
+65.208.151.118 17 38 1040705 20150530215723
+65.208.151.113 16 32 33263504 20150530214054
+65.208.151.117 16 32 628587 20150530215218
+65.208.151.112 15 28 353784 20150530215730
+65.208.151.119 15 31 63266019 20150530215703
+130.65.251.53 12 15 427531728 20150517024651
+67.164.21.22 9 10 240477744 20150517210220
+24.130.61.248 5 5 162803890 20150530224811
+69.181.119.54 5 15 62973613 20150503105958
+199.27.131.2 4 5 228809401 20150519152604
+130.65.251.50 3 10 103747041 20150517021706
+84.21.142.230 3 3 3 20150524180221
+94.23.54.140 3 3 3 20150509183634
+138.128.2.235 3 3 14790 20150508095212
+138.128.2.241 3 3 14790 20150526011039
+199.217.119.4 3 3 21652 20150502215944
+5.9.136.67 3 3 3 20150506162832
+76.102.92.253 3 3 157863130 20150530200104
+172.56.17.72 3 8 101087 20150503081013
+78.110.50.104 3 3 3 20150503041211
+130.65.251.56 2 9 64882958 20150503021815
+107.77.75.51 1 1 62651176 20150523114317
+64.233.172.250 1 1 9262 20150508214615
+73.170.215.165 2 8 62891168 20150516234041
+45.33.126.166 1 1 9262 20150525064833
+107.3.154.11 0 1 8295095 
+73.202.229.101 2 2 65121556 20150530232936
+73.223.236.158 2 3 103507049 20150523234239
+64.39.108.103 1 1 62651176 20150518204450
+45.35.5.180 1 1 9262 20150518090546
+204.124.183.98 2 2 26708 20150516002240
+107.206.252.158 2 3 103507049 20150523042543
+75.54.220.245 1 1 62651176 20150511220557
+192.3.187.106 1 1 9262 20150512122033
+64.246.165.190 1 1 1457 20150508143804
+216.84.186.5 2 2 125302352 20150522001617
+108.247.125.171 2 8 239507 20150523111059
+69.181.164.205 1 1 62651176 20150503002948
+66.249.80.96 1 1 9262 20150510081411
+50.185.244.91 1 1 62651176 20150519023453
+108.85.44.211 1 1 62651176 20150516200432
+162.224.85.76 1 1 62651176 20150519161426
+64.246.165.140 1 1 1457 20150522072316
+50.141.6.131 1 1 815 20150517024935
+73.162.11.95 1 1 62651176 20150501173310
+130.65.251.54 1 2 40855873 20150524031027
+199.83.220.245 1 1 62651176 20150519233518
+73.15.26.251 1 1 32560778 20150530201911
+50.184.58.44 1 1 62651176 20150502202244
+5.101.157.38 1 1 1 20150502180237
+186.176.221.96 1 1 9262 20150517052247
+70.231.132.238 0 2 3983882 
+50.131.218.30 2 2 95211954 20150530225927
+92.222.67.109 1 1 9262 20150529120346
+172.56.17.205 0 1 1991941 
+107.3.154.88 2 9 71186263 20150523201616
+37.187.78.178 1 1 1 20150527064054
+196.200.176.21 3 3 3 20150525063319
+50.250.243.186 1 1 62651176 20150523222838
+162.244.33.7 1 1 9262 20150527124449
+66.249.84.231 1 1 9262 20150508223820
+76.102.102.220 2 3 127294293 20150520080500
+23.99.137.116 1 1 9262 20150520184202
+71.202.16.96 1 1 62651176 20150522004355
+162.244.11.123 1 1 13354 20150508231148
+50.141.65.136 1 1 815 20150519211220
+107.196.178.1 2 4 111802144 20150524001617
+66.249.84.237 1 1 9262 20150510223045
+64.142.72.175 1 1 62651176 20150507091130
+89.138.231.72 1 1 0 20150506090705
+17.149.223.185 1 1 32560778 20150523112936
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 27
+20150501 2 2 62651176 2
+20150502 7 7 62672829 5
+20150503 20 44 257243897 10
+20150505 23 23 100808 2
+20150506 9 10 46219492 4
+20150507 7 7 62670023 3
+20150508 13 13 61479 10
+20150509 4 4 3 3
+20150510 6 12 62909692 5
+20150511 2 2 62651176 2
+20150512 2 2 9262 2
+20150513 1 1 0 1
+20150514 2 3 1991941 2
+20150515 1 1 0 1
+20150516 10 17 321805079 8
+20150517 18 23 571905542 6
+20150518 4 4 62660438 4
+20150519 6 6 313256695 5
+20150520 3 3 62660438 3
+20150522 5 6 196250080 4
+20150523 14 30 507249269 10
+20150524 4 6 81711747 4
+20150525 5 5 9265 3
+20150526 4 4 14790 2
+20150527 5 5 9263 5
+20150529 2 2 9262 2
+20150530 162 293 614141303 16
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+1h+ 8
+15mn-30mn 1
+30s-2mn 3
+2mn-5mn 3
+0s-30s 106
+30mn-1h 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 15
+/web/ 150 938205 28 28
+/up/Dreamweaver8-en.exe 41 2506047040 32 22
+/web/wp-cron.php 40 0 38 38
+/up/UwAmp.exe 21 683776338 8 13
+/web/xmlrpc.php 21 15918 1 1
+/web/wp-includes/wlwmanifest.xml 21 21945 1 1
+/web/wp-admin/admin-ajax.php 17 17 9 9
+/web/wp-login.php 14 39174 0 5
+/up/main.php 8 6463 5 4
+/a.apk 2 41518416 0 1
+/systemUpdate.apk 2 2709132 1 0
+/web/wp-admin/upgrade.php 1 1 1 1
+/wptest/wp-admin/upgrade.php 1 1 0 1
+/wptest/wp-cron.php 1 0 0 0
+/wptest/ 1 9583 0 0
+END_SIDER

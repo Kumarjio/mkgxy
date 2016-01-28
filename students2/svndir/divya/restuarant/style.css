@@ -1,0 +1,180 @@
+.navbar{
+    background: brown;
+    min-height: 90px;
+    border-bottom: 10px solid #F39D17;
+    
+}
+.navbar-nav li  {
+    border-radius: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar-nav li a{
+   color: yellowgreen;
+   
+}
+
+body { 
+    padding-top: 90px;
+    
+}
+.jumbotron{
+        background: url('http://brianganter.com/wp-content/uploads/2012/10/Solid-Black-Background-e1349323643808.jpg') no-repeat; 
+    min-height: 450px;
+    margin: 0;
+}
+
+ h1,h2,h3 { 
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif; 
+}
+.fa-color{
+    color: brown;
+}
+.section-gray{
+    padding-top: 20px;
+    background: #cc8500;
+}
+.section{
+    padding: 30px 0 30px 0;
+}
+.section-secondary{
+    background: brown;
+    color: #fff;
+    padding: 60px 0 60px 0;
+}
+.slogan{
+    text-align: center;
+}
+.section-sweet{
+    background: #f4f4f4;
+}
+.container{
+    text-align: center;
+}
+.container h1{
+    padding-bottom: 10px;
+    font-family: monospace;
+    font-weight: bolder;
+     color: #cc8500;
+}
+
+.container h3{
+    text-align: center;
+    
+}
+.slogan h1{
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+.slogan p{
+    font-size: 20px;
+     text-transform: uppercase;
+}
+.slogan a{
+    margin-top: 20px;
+}
+
+.section-primary { 
+    background: #cc8500; 
+    color:black; 
+    padding: 60px 0 60px 0;
+    font-size: 17px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.section-primary h2{
+    font-family: monospace;
+    font-weight: bold;
+}
+footer { 
+    text-align: center;
+    background: #f4f4f4; 
+    padding-top: 20px; 
+    padding-bottom: 10px;
+}
+.section-title {
+   padding: 10px;
+   background: black;
+   color:#fff;
+   
+}
+.section-profile {
+    font-family: cursive;
+    font-weight: bold;
+    background: brown;
+    padding-bottom: 25px;
+    color: yellowgreen;
+    font-size: 17px;
+}
+.section-profile h2{
+    color: black
+}
+.section-team{
+    padding-bottom: 20px;
+    padding-top: 15px;
+    background: black;
+    font-size: 16px;
+    color: #cc8500
+}
+.section-team h2{
+    color: yellowgreen;
+    padding-bottom: 10px;
+}
+.section-customer {
+    padding-top: 30px;
+    padding-bottom:30px;
+    background: #cc8500;
+}
+.section-customer h1{
+        color: black;
+    }
+
+.section-event{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: cursive;
+    color: yellowgreen;
+    background: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.section-event h2{
+    color: brown;
+    font-family: monospace;
+}
+.breadcrumb{
+    margin-top: 50px;
+    text-align: left;
+}
+.btn{
+    margin-bottom: 20px;
+}
+.section-menu h1{
+    font-size: 45px;
+    color: firebrick;
+    font-family: cursive;
+    text-align: center;  
+}
+.section-menu h3{
+    font-size: 30px;
+    color: darkblue;
+    font-family: italic;
+}
+.section-menu{
+    padding-bottom: 20px;
+background: #cc8500; 
+    font-size: 22px;
+    font-family: cursive;
+    display: block;
+    text-align: justify;
+}
+.section-gallery h3{
+    text-align: center;
+    color: brown;
+    font-family: italic;
+    font-weight: bold;
+}

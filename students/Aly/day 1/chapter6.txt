@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Hello World</title>
+
+
+</head>
+
+<body>
+<p>This paragraph has some fancy <strong>bold</strong?, <em>italic</em>,
+<u>underlined</u? and <strike?struck through</strike? text</p>
+
+<hr />
+
+</body>
+</html>

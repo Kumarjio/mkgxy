@@ -1,0 +1,127 @@
+.navbar
+{
+	min-height: 80px;
+    background: darkseagreen;
+}
+.navbar-nav li
+{
+	padding-top: 15px;
+    padding-bottom: 10px;
+}
+.navbar-nav li a 
+{
+	font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+	border-right: 1px groove black;
+	color: black !important;
+}
+.navbar-header a
+{
+	    padding-top: 0px;
+}
+.jumbotron
+{
+background: url('http://www.next-consultancy.com/images/home-background1.jpg')no-repeat;
+height: 450px !important;
+margin: 0px;
+background-size: cove;
+
+}
+/*--.col-md-3
+{
+	padding-top: 15px;
+}--*/
+.section-gray
+{
+	background:#ccc;
+	height: 180px;
+	padding-top:27px;
+	padding-bottom:10px;
+}
+
+.jumbotron .col-md-12 h3
+{
+	padding-top: 70px;
+}
+
+h2,h3 
+{
+	font-size:20px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+.col-md-6 img
+{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.section-primary
+{
+	    background: darkseagreen;
+}
+.section-primary .col-md-6 h3
+{
+	padding-top: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+.section-secondary
+{
+	height:250px;
+	text-align:center;
+	background:#e63a00;
+	padding-top: 35px;
+    color: blanchedalmond;
+ }
+ .section-secondary h3
+ {
+	 font-size:35px;
+ }
+footer
+{
+	padding-top: 10px;
+    padding-bottom: 0px;
+    text-align: center;
+    font-size: large;
+}
+.section-title
+{
+	padding-top: 90px;
+    background: orangered;
+	height:175px;
+}
+.section-title h1
+{
+	color: blanchedalmond;
+	text-transform:uppercase;
+	font-weight: bold;
+	font-size:25px;
+}
+.section-title h1 small
+{
+	color: black;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.breadcrumb
+{
+	margin-top: 15px;
+}
+footer
+{
+	background:#ccc;
+	padding-bottom: 5px;
+	    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.section-img
+{
+	background-size:cover;
+}
+.section-services img
+{
+	width: 360px;
+    height: 215px;
+}

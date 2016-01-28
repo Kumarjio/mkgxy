@@ -1,0 +1,2 @@
+[24-Nov-2015 15:46:52 UTC] PHP Fatal error:  Call to a member function SetFetchMode() on a non-object in /home/consultlawyers/public_html/projects/bootstrap/svnprojects/projects/bayareacontractor/functions.php on line 83
+[24-Nov-2015 15:47:07 UTC] PHP Fatal error:  Call to a member function SetFetchMode() on a non-object in /home/consultlawyers/public_html/projects/bootstrap/svnprojects/projects/bayareacontractor/functions.php on line 84

@@ -1,0 +1,20 @@
+<!doctype html>
+<html ng-app>
+<head>
+    <title>Section 2 - Views, Directives and Filters</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+</head>
+
+<body ng-init="people=[{name:'Dave', city:'San Jose', orderTotal: 19.99, joined:'2001-10-03'}, {name:'Jeff', city:'San Francisco', orderTotal: 9.99, joined:'2010-02-12'},{name:'Heedy', city:'Pleasanton', orderTotal: 0.99, joined:'2005-04-26'},{name:'Danny', city:'New York', orderTotal:29.99, joined:'2015-02-01'}]">
+<h3>Sorting and formatting</h3>
+<input type="text" ng-model="nameText">
+<ul>
+	<li ng-repeat="person in people | filter:nameText | orderBy:'city' | limitTo: 2">{{person.name | uppercase}} - {{person.city | lowercase}} - {{person.joined | date:'longDate'}} - {{person.orderTotal | currency:'^$'}}</li>
+</ul>
+
+</body>
+</html>

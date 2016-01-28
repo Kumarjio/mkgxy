@@ -1,0 +1,10 @@
+[25-Apr-2015 17:45:54 UTC] PHP Fatal error:  Call to undefined function pr() in /home/consultlawyers/public_html/mkgxy/groupjole/groups/create.php on line 337
+[25-Apr-2015 17:46:40 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Headers already sent in /home/consultlawyers/public_html/mkgxy/groupjole/groups/create.php on line 225. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.' in /home/consultlawyers/public_html/mkgxy/libraries/FirePHPCore/FirePHP.class.php:1178
+Stack trace:
+#0 /home/consultlawyers/public_html/mkgxy/libraries/FirePHPCore/FirePHP.class.php(757): FirePHP->newException('Headers already...')
+#1 /home/consultlawyers/public_html/mkgxy/libraries/FirePHPCore/FirePHP.class.php(584): FirePHP->fb('array (?  'ltop...', '', 'LOG', Array)
+#2 /home/consultlawyers/public_html/mkgxy/groupjole/config.php(28): FirePHP->log('array (?  'ltop...', '')
+#3 /home/consultlawyers/public_html/mkgxy/groupjole/groups/create.php(337): log_log('array (?  'ltop...')
+#4 {main}
+  thrown in /home/consultlawyers/public_html/mkgxy/libraries/FirePHPCore/FirePHP.class.php on line 1178
+[26-Apr-2015 22:51:44 UTC] PHP Warning:  mysql_free_result() expects parameter 1 to be resource, boolean given in /home/consultlawyers/public_html/mkgxy/groupjole/groups/createConfirm.php on line 306

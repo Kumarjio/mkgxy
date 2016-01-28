@@ -1,0 +1,5 @@
+[29-Jun-2015 02:09:30 UTC] PHP Fatal error:  Cannot redeclare General::qstr() in /home/consultlawyers/public_html/mkgxy/groupjole.com/General.class.php on line 132
+[29-Jun-2015 02:09:31 UTC] PHP Fatal error:  Cannot redeclare General::qstr() in /home/consultlawyers/public_html/mkgxy/groupjole.com/General.class.php on line 132
+[29-Jun-2015 02:09:51 UTC] PHP Fatal error:  Call to a member function SetFetchMode() on a non-object in /home/consultlawyers/public_html/mkgxy/groupjole.com/General.class.php on line 14
+[24-Sep-2015 09:50:12 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/tmp/mysql.sock' (2) in /home/consultlawyers/public_html/mkgxy/groupjole.com/connGroupjole.php on line 9
+[24-Sep-2015 09:50:12 UTC] PHP Fatal error:  Can't connect to local MySQL server through socket '/var/tmp/mysql.sock' (2) in /home/consultlawyers/public_html/mkgxy/groupjole.com/connGroupjole.php on line 9

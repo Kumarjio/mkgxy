@@ -1,0 +1,378 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201508 will be lost/reset.
+# Last config file used to build this data file was /home/consultlawyers/tmp/awstats/awstats.kizomba.mkgalaxy.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2023                
+POS_TIME 2701                
+POS_VISITOR 7655                
+POS_DAY 8950                
+POS_DOMAIN 3499                
+POS_LOGIN 3828                
+POS_ROBOT 3983                
+POS_WORMS 4397                
+POS_EMAILSENDER 4528                
+POS_EMAILRECEIVER 4671                
+POS_SESSION 9789                
+POS_SIDER 10002               
+POS_FILETYPES 4806                
+POS_DOWNLOADS 5000                
+POS_OS 5048                
+POS_BROWSER 5271                
+POS_SCREENSIZE 5605                
+POS_UNKNOWNREFERER 5679                
+POS_UNKNOWNREFERERBROWSER 6081                
+POS_ORIGIN 6479                
+POS_SEREFERRALS 6616                
+POS_PAGEREFS 6771                
+POS_SEARCHWORDS 6919                
+POS_KEYWORDS 7093                
+POS_MISC 2365                
+POS_ERRORS 7178                
+POS_CLUSTER 3684                
+POS_SIDER_404 7308                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150901044538 23 6360 17426244424232
+FirstTime 20150801001451
+LastTime 20150831213929
+LastUpdate 20150901151710 23 0 22 0 0
+TotalVisits 472                 
+TotalUnique 30                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 31                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 6 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 29 36 294779 29 35 593753
+1 22 22 182773 22 36 603945
+2 18 18 0 23 36 925773
+3 35 35 669361 26 30 376420
+4 37 50 1004296 22 27 355618
+5 49 116 3307986 12 26 613257
+6 21 33 634909 13 18 243378
+7 26 50 1151087 21 32 820757
+8 30 42 637578 26 38 761261
+9 27 39 515257 33 40 899710
+10 24 30 436050 16 18 165029
+11 23 23 0 28 28 438205
+12 16 16 154874 13 14 182525
+13 33 33 0 33 35 560682
+14 28 28 117452 41 54 857215
+15 31 37 425219 52 61 462028
+16 21 21 0 24 30 391155
+17 38 46 508759 38 50 769606
+18 24 24 172458 28 28 319920
+19 34 41 488294 31 38 653118
+20 69 71 1990552 24 37 465981
+21 214 361 12491528 32 49 804630
+22 33 56 1203823 22 26 289185
+23 21 21 0 21 30 653236
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 8
+us 883 1206 24670533
+jp 6 6 355878
+cn 4 5 244154
+pt 3 17 541661
+br 3 11 403762
+lv 2 2 64317
+fr 1 1 45965
+de 1 1 60765
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+googlebot 166 3918067 20150831213848 27
+spider 112 4427338 20150831210540 0
+slurp 65 1239365 20150829021805 20
+bot[\s_+:,\.\;\/\\-] 8 163854 20150816083113 5
+unknown 7 245 20150830140738 7
+php 2 1216 20150818090414 0
+netcraft 1 58669 20150807052605 0
+crawl 1 58875 20150821085205 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+eot 1 72449 0 0
+css 52 3175536 0 0
+php 609 2663 0 0
+png 53 32224 0 0
+html 269 13934193 0 0
+js 241 7159730 0 0
+woff 24 2010240 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 12
+linuxandroid 294 138
+winlong 1 1
+winxp 30 29
+ios_iphone 11 2
+winphone 11 3
+linux 1 1
+win7 2 2
+macosx 16 3
+win8 8 1
+win8.1 8 1
+Unknown 684 684
+macosx7 183 38
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 17
+msie6.0 1 1
+firefox3.0.14 1 1
+chrome39.0.2171.95 1 1
+chrome36.0.1985.125 2 2
+firefox38.0 9 2
+msie8.0 6 6
+msie11.0 8 1
+firefox6.0.2 5 4
+mozilla 1 1
+chrome44.0.2403.157 15 2
+msie7.0 1 1
+msie10.0 11 3
+chrome27.0.1453 477 176
+opera8.50 15 15
+safari8.0 11 2
+opera9.64 1 1
+Unknown 684 684
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+Mediapartners-Google 20150831213921
+ColdFusion 20150830103838
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20150825071604
+Typhoeus_-_https://github.com/typhoeus/typhoeus 20150830155401
+WordPress/4.2.4;_http://kizomba.mkgalaxy.com 20150831213849
+WordPress/4.2.3;_http://kizomba.mkgalaxy.com 20150805000408
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 6
+Mediapartners-Google 20150831213921
+ColdFusion 20150830103838
+Typhoeus_-_https://github.com/typhoeus/typhoeus 20150830155401
+python-requests/2.3.0_CPython/2.7.3_Linux/3.2.0-4-amd64 20150822182333
+WordPress/4.2.4;_http://kizomba.mkgalaxy.com 20150831213849
+WordPress/4.2.3;_http://kizomba.mkgalaxy.com 20150805000408
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 855 856
+From1 0 0
+From2 5 5
+From3 0 0
+From4 43 388
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 5 5
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+albir+kizomba+chick 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 3
+kizomba 1
+albir 1
+chick 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+302 7 0
+409 1 2992
+405 3 126
+301 17 0
+404 420 3335640
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 2
+/xmlrpc.php 419 -
+/pagead/gen_204 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 31
+67.225.208.62 608 608 1 20150831213849
+66.249.69.22 62 164 6445953 20150831213929
+66.249.69.30 57 156 6745893 20150830211833
+66.249.69.38 57 157 5868675 20150831213904
+66.249.91.35 25 25 1228158 20150831213921
+66.249.91.27 25 25 1234771 20150829204550
+66.249.91.19 22 22 1094833 20150830212124
+192.3.13.65 9 9 429376 20150830124936
+108.170.22.198 8 8 388132 20150830124910
+50.28.8.223 4 11 439323 20150830103838
+186.227.182.1 3 11 403762 20150807175656
+195.3.144.88 2 2 64317 20150828195508
+52.21.203.248 2 2 122016 20150830155402
+66.87.74.75 2 11 355875 20150826222051
+95.94.68.241 2 9 294778 20150828000844
+150.70.75.212 1 1 59105 20150806043132
+123.125.71.39 1 1 60765 20150824011100
+73.189.241.178 1 7 258554 20150824050841
+150.70.173.60 1 1 58973 20150820194130
+195.154.250.39 1 1 45965 20150807154243
+8.28.16.254 1 1 58973 20150820194622
+178.63.89.147 1 1 60765 20150822182333
+150.70.97.69 1 1 59105 20150806043433
+220.181.108.82 1 1 61008 20150828081854
+150.70.75.167 1 1 58726 20150810140136
+111.206.36.16 0 1 608 
+150.70.97.130 1 1 58726 20150810140303
+123.125.71.24 1 1 61008 20150828081207
+150.70.173.37 1 1 61243 20150826011129
+85.242.152.103 1 8 246883 20150826192614
+220.181.108.160 1 1 60765 20150824011813
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20150801 39 52 784017 13
+20150802 38 50 984162 15
+20150803 30 37 644719 15
+20150804 36 55 1263848 18
+20150805 32 35 333680 12
+20150806 42 55 1005047 18
+20150807 45 59 1097152 18
+20150808 22 35 783229 14
+20150809 29 29 403890 15
+20150810 48 61 1620903 18
+20150811 31 44 884183 18
+20150812 25 38 784527 12
+20150813 28 41 887039 16
+20150814 27 40 903646 15
+20150815 27 41 1008576 14
+20150816 24 30 503323 14
+20150817 24 37 994471 17
+20150818 19 26 587841 12
+20150819 22 35 886597 16
+20150820 30 37 810228 18
+20150821 27 41 852310 17
+20150822 21 27 417222 11
+20150823 14 14 60827 11
+20150824 34 53 1394756 20
+20150825 25 38 870137 13
+20150826 34 56 1327410 17
+20150827 26 33 610881 15
+20150828 30 50 1373804 19
+20150829 23 29 526138 14
+20150830 34 47 1171646 18
+20150831 17 24 610826 9
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 39
+5mn-15mn 22
+2mn-5mn 16
+0s-30s 321
+15mn-30mn 20
+30s-2mn 17
+30mn-1h 37
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 16
+/wp-cron.php 607 0 279 279
+/ 109 6504414 83 89
+/kizomba-harmony-tutorial-basic-1-by-monica-kay-and-billy/ 50 2342341 16 47
+/2015/04/ 46 2069621 22 23
+/category/learn/ 46 2148126 46 15
+/wp-content/themes/responsive-mobile/css/fonts/fontawesome-webfont.woff 24 2010240 15 10
+/albir-rojas-kizomba-chick-stony-danca-kizomba-2013/ 6 280522 4 3
+/kizomba-harmony-tutorial-the-kizomba-connection-by-monica-kay-and-billy/ 4 189298 3 1
+/kizomba-harmony-tutorial-basic-2-by-monica-kay-and-billy/ 4 191203 1 2
+/kizomba/ 1 43205 0 0
+/wp-admin/upgrade.php 1 1 1 1
+/category/dance/ 1 52244 1 1
+/author/admin/ 1 61655 0 1
+/2015/05/ 1 51564 0 0
+/wp-content/themes/responsive-mobile/css/fonts/fontawesome-webfont.eot 1 72449 0 0
+/wp-login.php 1 2662 1 0
+END_SIDER

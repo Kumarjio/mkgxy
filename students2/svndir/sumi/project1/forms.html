@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+
+<script src="../js/jquery-1.11.3.min.js"></script>
+<script src="../js/jquery-migrate-1.2.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<h1>Forms</h1>
+<form id="form1" name="name1" method="post">
+  <p>
+  <label for="username"> User Name</label>
+  <input type="text" name="username" id="username">
+  </p>
+  <p>
+    <label for="password">Password:</label>
+    <input type="password" name="password" id="password">
+  </p>
+  <p>
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name">
+  </p>
+  <p>
+    <label for="email">E-mail:</label>
+    <input type="text" name="email" id="email">
+  </p>
+  <p>
+    <label for="phone">Phone:</label>
+    <input type="text" name="phone" id="phone">
+  </p>
+  <p><label for="gender_male">Gender:</label>
+<input type="radio" name="gender" id="gender_male" value="male">
+<label for="radio">Male </label>
+<input type="radio" name="gender" id="gender_female" value="female">
+<label for="radio2">Female </label>
+</p>
+  <p>Marital Status: 
+<input type="radio" name="marital_status" id="marital_status_single" value="single">
+<label for="radio">Single </label>
+<input type="radio" name="marital_status" id="marital_status_separated" value="separated">
+<label for="radio2">Separated </label>
+<input type="radio" name="marital_status" id="marital_status_divorced" value="divorced">
+<label for="radio3">Divorced </label>
+<input type="radio" name="marital_status" id="marital_status_widow" value="widow">
+<label for="radio4">Widow </label>
+</p>
+  <p>Education Level: 
+    <input type="radio" name="education" id="education_php" value="1">
+    <label for="radio">Ph.D </label>
+    <input type="radio" name="education" id="education_masters" value="2">
+    Masters
+    <input type="radio" name="education" id="education_bachelors" value="3">
+    Bachelers
+    <input type="radio" name="education" id="education_XII" value="4">
+    XII
+  </p>
+  <p>Hobbies: 
+  
+    <input type="checkbox" name="singing" id="singing">
+    <label for="Singing">Singing</label>
+    
+    <input type="checkbox" name="Dancing" id="Dancing">
+    
+    <label for="Dancing"> Dancing</label>
+    
+  </p>
+  <p>
+    <label for="select">Profession:</label>
+    <select name="Profession" id="Profession">
+    <option value="">Select your profession</option>
+    <option value="doctor">Doctor</option>
+    <option value="engineer">Engineer</option>
+    <option value="lawyer">Lawyer</option>
+    <option value="business">Business Man</option>
+    </select>
+  </p><label>Hair color</label>
+  <select name="haircolor" id="haircolor">
+    <option value="black">black color</option>
+    <option value="brown">brown color</option>
+    <option value="purple">Purple color</option>
+  
+  </select>
+  </p>
+  <p>
+  <label>Hobbies</label>
+  <select name="HObbies[]" multiple id="HObbies">
+    <option>Select Hobby</option>
+    <option value="singing">Singing</option>
+    <option value="dancing">Dancing</option>
+    <option value="cricket">Cricket</option>
+    <option value="guitar">Guitar</option>
+  </select>
+  </p>
+  <p>
+  <label>Description<br></label>
+  <textarea rows="5" cols="55">
+  
+  </textarea>
+  </p>
+  <input type="submit" name="submit" id="submit">
+</form>
+
+
+</body>
+</html>

@@ -1,0 +1,332 @@
+AWSTATS DATA FILE 7.3 (build 20140126)
+# If you remove this file, all statistics for date 201410 will be lost/reset.
+# Last config file used to build this data file was /home/consultlawyers/tmp/awstats/awstats.mkgxy.consultlawyers.us.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2026                
+POS_TIME 2698                
+POS_VISITOR 6495                
+POS_DAY 6733                
+POS_DOMAIN 3364                
+POS_LOGIN 3596                
+POS_ROBOT 3751                
+POS_WORMS 3958                
+POS_EMAILSENDER 4089                
+POS_EMAILRECEIVER 4232                
+POS_SESSION 6894                
+POS_SIDER 7089                
+POS_FILETYPES 4367                
+POS_DOWNLOADS 4628                
+POS_OS 4695                
+POS_BROWSER 4808                
+POS_SCREENSIZE 4951                
+POS_UNKNOWNREFERER 5025                
+POS_UNKNOWNREFERERBROWSER 5112                
+POS_ORIGIN 5256                
+POS_SEREFERRALS 5395                
+POS_PAGEREFS 5550                
+POS_SEARCHWORDS 5698                
+POS_KEYWORDS 5850                
+POS_MISC 2362                
+POS_ERRORS 5909                
+POS_CLUSTER 3452                
+POS_SIDER_404 6016                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20141106032136 1 0 13799800053758
+FirstTime 20141026013942
+LastTime 20141029221052
+LastUpdate 20141106151156 1 0 0 0 0
+TotalVisits 19                  
+TotalUnique 4                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 4                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 33 61 757284 4 18 31376
+2 118 802 5763895 82 110 401354
+3 83 389 6296562 58 68 454169
+4 15 35 712774 18 18 137550
+5 78 225 2750556 19 30 134175
+6 95 293 4393508 41 73 348460
+7 87 347 5908871 32 51 286164
+8 134 181 3096959 70 78 412502
+9 0 0 0 0 0 0
+10 0 0 0 0 0 0
+11 0 0 0 0 0 0
+12 0 0 0 0 0 0
+13 0 0 0 0 0 0
+14 0 0 0 0 0 0
+15 0 0 0 0 0 0
+16 3 14 27047 4 4 11064
+17 119 365 5590010 6 27 31376
+18 96 431 7483465 9 44 45943
+19 70 163 2414613 7 21 18340
+20 0 0 0 0 0 0
+21 27 27 97395 0 9 0
+22 6 24 122287 0 1 0
+23 0 0 0 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+us 964 3357 45415226
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+no_user_agent 284 2288188 20141028014512 0
+googlebot 1 25 20141026083230 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 1166 20874631 0 0
+png 15 40412 0 0
+ttf 1 141564 0 0
+woff 80 1715200 0 0
+php 302 2210104 0 0
+html 37 244964 0 0
+js 1183 9207606 0 0
+jpg 15 701916 0 0
+Unknown 544 10123933 0 0
+gif 14 154896 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 1 0 25
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 4
+macosx 3103 0
+winvista 249 0
+linux 1 0
+win7 4 0
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 5
+chrome38.0.2125.104 3107 0
+Unknown 33 0
+chrome27.0.1453 1 0
+safari6.1.4 212 0
+firefox6.0 4 0
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+MMHttp_(Macintosh;_PPC_Mac_OS_X;_Version:12.2) 20141029214331
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 261 261
+From1 0 0
+From2 1 1
+From3 0 0
+From4 702 3095
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+302 65 21129
+206 2 3131
+404 3 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 2
+/scripts/autocomplete/indicator.gif 2 http://mkgxy.consultlawyers.us/scripts/autocomplete/jquery.autocomplete.css
+/locations/cityDetail 1 http://mkgxy.consultlawyers.us/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 4
+67.164.21.22 896 3261 44594178 20141029054717
+206.208.102.250 63 91 765926 20141029221052
+66.249.84.23 4 4 44124 20141029062842
+66.249.82.23 1 1 10998 20141028062544
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 4
+20141026 544 2400 31669959 6
+20141027 361 879 13243377 5
+20141028 29 48 380040 5
+20141029 30 30 121850 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+1h+ 5
+5mn-15mn 1
+2mn-5mn 2
+0s-30s 8
+15mn-30mn 2
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 71
+/api/locations/nearby.php 222 1999196 0 3
+/messages/chat 178 2900966 0 0
+/city-san-jose-144008/residential/browse 90 2105899 1 1
+/layouts/themeBase/fonts/glyphicons-halflings-regular.woff 65 1212640 0 0
+/messages/view 47 781712 1 0
+/api/locations/findcityStr.php 36 78455 1 0
+/ 35 235834 8 8
+/_mmServerScripts/MMHTTPDB.php 29 67465 1 0
+/city-san-jose-144008 21 425150 0 2
+/users/login 21 212966 1 0
+/city-kaly-n-18888/history/browse 17 462845 0 0
+/layouts/themeHome/font-awesome-4.1.0/fonts/fontawesome-webfont.woff 15 502560 1 1
+/city-san-jose-144008/residential/new 13 342562 0 0
+/crons/cityUpdate.php 11 43441 0 1
+/city-san-jose-144008/residential/edit 10 254660 1 0
+/city-san-jose-144008/residential/myplace 9 180967 0 0
+/city-saint-george-25098/history/edit 8 85603 0 0
+/locations/searchResult 8 154983 0 0
+/superadmin/manager/history 7 67091 0 0
+/users/settings 7 96108 0 0
+/city-san-jose-144008/history/detail 7 16026 1 0
+/locations/country 7 133799 0 0
+/city-san-jose-144008/residential/about 6 111685 0 0
+/city-kaly-n-18888/history/edit 6 174502 0 0
+/users/detail 5 55320 0 0
+/locations/city 2 20670 0 0
+/city-new-almaden-143996/history/myhistory 2 82744 0 0
+/products/search 2 23840 0 0
+/city-san-jose-144008/history/new 2 60678 0 0
+/city-ch-ndvad-19657 1 16956 0 0
+/user/detail 3 33192 2 2
+/about/suggestions 1 10092 0 0
+/samples/shaklee/web/unsigneddatafields.php 2 9119 1 1
+/city-kaly-n-18888/history/detail 2 15254 0 0
+/city-holy-city-143990/residential/edit 1 25077 0 0
+/locations/state 2 21517 0 0
+/city-g-nova-6955 2 47160 0 0
+/city-saint-george-25098 1 19490 0 0
+/city-jaipur-22799 3 65281 0 0
+/api/locations/iptocity.php 1 9471 0 0
+/city-saint-george-25098/history/myhistory 2 77482 0 0
+/city-saratoga-144004/residential/new 1 25037 0 0
+/city-holy-city-143990/residential/browse 2 48588 0 0
+/city-san-jose-144008/history/myhistory 2 64314 0 0
+/city-g-nova-6955/residential/browse 1 19342 0 0
+/messages/my 2 16030 0 0
+/city-kaly-n-18888/residential/about 1 17668 0 0
+/layouts/themeHome/font-awesome-4.1.0/fonts/fontawesome-webfont.ttf 1 141564 0 0
+/city-saratoga-144004 1 23839 0 0
+/forex/buy 1 13085 0 0
+/city-palo-alto-143874 2 42747 0 0
+/city-kaly-n-18888/history/about 2 33033 0 0
+/city-new-almaden-143996 1 23181 0 0
+/city-sat-na-19793 1 16609 0 0
+/city-saratoga-144004/residential/myplace 1 17868 0 0
+/city-g-nova-6955/residential/about 1 17112 0 0
+/city-saratoga-144004/residential/browse 2 49687 0 0
+/city-holy-city-143990/residential/myplace 2 40970 0 0
+/about/aboutus 1 10087 0 0
+/city-san-jose-144008/residential/detail 3 70976 0 0
+/city-kaly-n-18888 3 52102 0 0
+/city-san-jose-144008/history/browse 2 51260 0 0
+/city-palo-alto-143874/residential/browse 5 114534 0 0
+/city-san-jose-144008/residential/delete 4 48984 0 0
+/users/memberPlans 2 25954 0 0
+/layouts/themeBase/ 2 9130 0 0
+/city-m-legaon-19779 2 33558 0 0
+/city-new-almaden-143996/history/browse 3 82046 0 0
+/city-new-almaden-143996/history/edit 2 59939 0 0
+/city-holy-city-143990 1 23106 0 0
+/samples/shaklee/web/signeddatafields.php 1 2957 0 0
+END_SIDER

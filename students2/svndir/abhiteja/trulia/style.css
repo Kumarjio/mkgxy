@@ -1,0 +1,46 @@
+.company-logo{
+	max-width:70px;
+}
+.navbar{
+	padding-left:10px;
+	padding-right:100px;
+}
+.navbar-nav a{
+	color:#e335e7;
+}
+.search-section{
+	margin-top:50px;
+}
+.tab-section{
+	margin-top:20px;
+}
+.tabs{
+	background-color: #E0E0E0;
+}
+.radio_space{
+	padding-right:30px;
+}
+.option-1{
+	padding: 10px 20px 10px 20px;
+	border: none;
+	-webkit-box-shadow: 0px 0px #6D6D6D;
+	box-shadow: 0px 0px #6D6D6D;
+	background-color: #E0E0E0;
+}
+.row{
+	padding-bottom:30px;
+}
+.tab-content{
+	background-color: #E0E0E0;
+	padding:0px 10px 0px 10px;
+}
+.submit_row{
+	padding:20px 0px 0px 0px;
+	text-align:center;
+	background-color:#628CA9;
+}
+.link_row{
+	padding: 20px 100px 50px 50px;
+	background-color:#D8B5B6;
+	
+}

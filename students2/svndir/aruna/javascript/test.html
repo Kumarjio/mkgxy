@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<script>
+
+ 
+ </script>
+</head>
+
+<body>
+
+<div id="myId"></div>
+<input type="text" id="myId2" value="0"  onBlur="dollerToRupee();"/>
+
+
+<script>
+
+document.getElementById('myId').innerHTML = 'new text';
+function dollerToRupee(){
+var input = document.getElementById('myId2').value ;
+var doller = input * 66.99;
+document.getElementById('myId').innerHTML = doller;
+}
+
+</script>
+</body>
+</html>

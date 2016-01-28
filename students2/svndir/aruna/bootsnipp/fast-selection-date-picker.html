@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html> 
+<head> 
+<meta charset="utf-8">
+<title>Untitled Document</title> 
+<link rel="stylesheet" href="../css/bootstrap.min.css"> 
+
+<link rel="stylesheet" href="style.css"> 
+<script src="../js/jquery-1.11.3.min.js"></script> 
+<script src="../js/jquery-migrate-1.2.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+
+<style type="text/css">
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300);
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+
+body {
+    padding: 70px 0px;
+}
+
+.date-picker,
+.date-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    color: rgb(75, 77, 78);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.date-container {
+    padding: 0px 40px;   
+}
+
+.date-picker h2, .date-picker h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+}
+
+.date-container{
+    text-align: center;
+}
+.date-picker span.fa {
+    position: absolute;
+    cursor: pointer;
+}
+.date-picker span.fa[data-method="subtract"] {
+    left: 0px;
+}
+.date-picker span.fa[data-method="add"] {
+    right: 0px;
+}
+
+
+@media (min-width: 768px) and (max-width: 1010px) {
+    .date-picker h2{
+        font-size: 1.5em; 
+        font-weight: 400;  
+    }    
+    .date-picker h4 {
+        font-size: 1.1em;
+    }  
+    .date-picker span.fa {
+        font-size: 3em;
+    } 
+}
+
+</style>
+
+<script>
+
+$(document).ready(function() {
+    
+    $('.date-picker').each(function () {
+        var $datepicker = $(this),
+            cur_date = ($datepicker.data('date') ? moment($datepicker.data('date'), "YYYY/MM/dd") : moment());
+
+        function updateDisplay(cur_date) {   
+            $('#dateinput').val(cur_date);
+        	 
+            $datepicker.find('.date-container > .date > .text').text(cur_date.format('Do'));
+            $datepicker.find('.date-container > .month > .text').text(cur_date.format('MMMM'));
+            $datepicker.find('.date-container > .year > .text').text(cur_date.format('YYYY'));
+            $datepicker.data('date', cur_date.format('YYYY/MM/DD'));
+        }
+        
+        updateDisplay(moment());
+        
+        $datepicker.on('click', '[data-toggle="datepicker"]', function(event) {
+            event.preventDefault();
+            
+            var cur_date = moment($(this).closest('.date-picker').data('date'), "YYYY/MM/DD"),
+                type = ($(this).data('type') ? $(this).data('type') : "date"),
+                method = ($(this).data('method') ? $(this).data('method') : "add"),
+                amt = ($(this).data('amt') ? $(this).data('amt') : 1);
+                
+            if (method == "add") {
+                var duration = moment.duration(1,type);
+                cur_date = cur_date.add(duration);
+            }else if (method == "subtract") {
+                cur_date = cur_date.subtract(1,type);
+            }
+            
+            updateDisplay(cur_date);
+        });
+        
+    });
+    
+});
+
+</script>
+
+</head>
+<body> 
+<!-- Based off the original date picker: http://bootsnipp.com/snippets/featured/simple-datepicker-with-momentjs -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-offset-4 col-sm-4">
+            <h2>Select Date</h2>
+            <hr/>
+            <div class="date-picker"  data-date="2014-02-03">
+                <div class="date-container">
+                    <h3 class="date">
+                        <span data-toggle="datepicker" data-method="subtract" data-type="d" class="fa fa-angle-left"></span>
+                        <span class="text">17th</span>
+                        <span data-toggle="datepicker" data-method="add" data-type="d" class="fa fa-angle-right"></span>
+                    </h3>
+                    <h2 class="month">
+                        <span data-toggle="datepicker" data-method="subtract" data-type="M" class="fa fa-angle-left"></span>
+                        <span class="text">December</span>
+                        <span data-toggle="datepicker" data-method="add" data-type="M" class="fa fa-angle-right"></span>
+                    </h2>
+                    <h3 class="year">
+                        <span data-toggle="datepicker" data-method="subtract" data-type="y" class="fa fa-angle-left"></span>
+                        <span class="text">2014</span>
+                        <span data-toggle="datepicker" data-method="add" data-type="y" class="fa fa-angle-right"></span>
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<input type="hidden" id="dateinput" name="date"></input>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.2/moment.js"></script>
+</body>
+</html>

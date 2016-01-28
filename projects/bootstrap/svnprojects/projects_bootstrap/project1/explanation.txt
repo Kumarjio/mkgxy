@@ -1,0 +1,89 @@
+1. Create new folder and name it theme1
+2. add bootstrap css, font, js, and jquery js in js folder
+3. create html file index.html with basic structure
+4. make this as strartingProject which you will use in every new project
+5. create img folder and import all images in that folder
+6. go to https://daneden.github.io/animate.css/ and get animate.css and put it in css folder
+7. go to http://mynameismatthieu.com/WOW/docs.html or https://github.com/matthieua/WOW and download wow.js and put it in js folder
+8. go to font-awesome https://fortawesome.github.io/Font-Awesome/ and download it locally and get font-awesome.css and fonts folder
+9. Link all above files in index.html
+10. create style.css in css folder and link it in index.html and style.css should contain following tag:
+body {
+  padding-top: 50px;
+}
+ and put simple nav in index.html
+11. initialize wow using following command:
+<script>
+new WOW().init();
+</script>
+
+
+CHANGE NAVIGATION
+1. Change title to Business Theme
+2. Change navbar-inverse to navbar-default
+3. Add class "logo-nav" in the Project Title
+4. Delete Project name text and add <img src="img/logo.png">
+5. add ul, li class with another class called "navbar-right"
+6. Change each nav element to Home <span>Main Page</span>   
+7. Change about to: About <span>Who Are We?</span>  
+8. Add  services tag with: Services <span>What Do We Do?</span>  
+9. Change about to: Contact <span>Get In Touch?</span>  
+
+10. Go to style.css and add following:
+.navbar {
+  min-height: 90px;
+  margin-bottom: 0 !important;
+}
+also change padding-top for body to 90px;
+
+11. Add following to nav class
+
+.nav {
+  margin-top: 18px;
+}
+
+.navbar-brand {
+  height: auto;
+  padding-top: 15px;
+  margin: 0;
+}
+
+.navbar-nav {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-nav li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.navbar-nav > li > a {
+  padding: 20px;
+  font-size:18px;
+  font-weight: bold;
+  border-right: 1px solid #ccc;
+  text-transform:uppercase;
+  font-family: 'Oswald', sans-serif;
+}
+
+.navbar-nav > li > a > span {
+  margin: 5px 0 0 0;
+  padding: 0;
+  font-size: 14px;
+  display:block;
+  font-weight:normal;
+  font-family: arial;
+  text-transform: none;
+}
+
+
+12. Go to google fonts in google and add <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'> in index.html
+and grab font-family: 'Oswald', sans-serif; and add it where we want it to display this
+
+13. Click on nav items and grab the css style reference as: (add .navbar-nav a:hover)
+
+.navbar-nav a:hover, .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  background: #0383c0 !important;
+  color: #fff !important;
+}

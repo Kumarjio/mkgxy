@@ -1,0 +1,352 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201601 will be lost/reset.
+# Last config file used to build this data file was /home/consultlawyers/tmp/awstats/awstats.code.mkgalaxy.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2020                
+POS_TIME 2703                
+POS_VISITOR 6929                
+POS_DAY 8637                
+POS_DOMAIN 3337                
+POS_LOGIN 3666                
+POS_ROBOT 3821                
+POS_WORMS 3991                
+POS_EMAILSENDER 4122                
+POS_EMAILRECEIVER 4265                
+POS_SESSION 8925                
+POS_SIDER 9121                
+POS_FILETYPES 4400                
+POS_DOWNLOADS 4622                
+POS_OS 4670                
+POS_BROWSER 4829                
+POS_SCREENSIZE 5165                
+POS_UNKNOWNREFERER 5239                
+POS_UNKNOWNREFERERBROWSER 5662                
+POS_ORIGIN 5884                
+POS_SEREFERRALS 6022                
+POS_PAGEREFS 6166                
+POS_SEARCHWORDS 6314                
+POS_KEYWORDS 6466                
+POS_MISC 2366                
+POS_ERRORS 6525                
+POS_CLUSTER 3522                
+POS_SIDER_404 6620                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20160127075059 179 47713 10601422575851
+FirstTime 20160103063538
+LastTime 20160127075059
+LastUpdate 20160127143033 179 0 179 0 0
+TotalVisits 77                  
+TotalUnique 39                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 39                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 59 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 13 13 267492 4 4 55856
+1 7 7 129534 1 1 0
+2 41 73 2418760 8 23 44737
+3 76 87 3916108 10 37 0
+4 1 1 16799 0 0 0
+5 23 32 514703 0 1 0
+6 44 105 870433 0 6 0
+7 6 6 235 3 5 196056
+8 10 10 164872 10 20 426937
+9 6 6 108611 1 1 0
+10 5 5 83995 0 0 0
+11 6 6 125352 1 1 0
+12 0 0 0 0 4 227725
+13 8 8 117593 0 0 0
+14 16 16 325751 3 3 0
+15 1 1 16799 0 0 0
+16 0 0 0 0 0 0
+17 41 71 2302891 10 22 68926
+18 6 6 123196 3 3 55369
+19 1 1 39498 1 1 14042
+20 4 4 50397 0 0 0
+21 4 4 21998 0 0 0
+22 0 0 0 0 0 0
+23 2 2 33598 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 8
+us 258 401 10529188
+de 28 28 489560
+fr 23 23 386377
+mx 5 5 110594
+zz 3 3 65700
+nl 2 2 33598
+vg 1 1 16799
+lu 1 1 16799
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+googlebot 40 1089164 20160127075059 3
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+eot 1 22760 0 0
+css 57 1260294 0 0
+png 4 1075814 0 0
+ttf 1 22576 0 0
+php 188 5459643 0 0
+html 131 3006256 0 0
+js 72 756251 0 0
+svg 4 6081 0 0
+gif 6 38940 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 8
+winxp 10 10
+winnt 10 1
+linux 61 9
+win7 5 5
+macosx 324 250
+win8 17 9
+Unknown 36 36
+macosx8 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 15
+opera12.17 6 6
+msie11.0 11 3
+mozilla 3 3
+chrome47.0.2526.106 182 138
+firefox43.0 61 9
+chrome47.0.2526.111 10 1
+netscape5.0 2 2
+chrome39.0.2171.99 49 49
+safari8.0.2 23 23
+chrome48.0.2564.82 63 33
+chrome39.0.2171.95 15 15
+firefox4.0 2 2
+opera26.0.1656.60 4 4
+opera9.00 2 2
+Unknown 31 31
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+Mozilla/5.0_(compatible;_U;_AnyEvent-HTTP/2.22;__http://software.schmorp.de/pkg/AnyEvent) 20160120013352
+ColdFusion 20160118082723
+Mozilla/5.0_Moreover/5.1_(_http://www.moreover.com;_webmaster@moreover.com) 20160126174830
+WordPress/4.2.5;_http://code.mkgalaxy.com 20160116030406
+WordPress/4.4.1;_http://code.mkgalaxy.com 20160127075059
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+ColdFusion 20160118082723
+WordPress/4.2.5;_http://code.mkgalaxy.com 20160116030406
+WordPress/4.4.1;_http://code.mkgalaxy.com 20160127075059
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 102 102
+From1 0 0
+From2 0 0
+From3 0 0
+From4 219 362
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+302 31 0
+301 2 484
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 0
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 39
+206.208.102.250 86 129 5844898 20160116030701
+67.181.89.89 85 116 2444973 20160127063848
+67.225.208.62 29 29 1 20160127075059 20160127075059 /wp-cron.php
+195.154.194.133 23 23 386377 20160120133527
+144.76.247.46 21 21 352779 20160118091015
+76.247.187.70 9 61 440794 20160127065338 20160127063929 /category/android/native-apps/
+82.211.58.7 6 6 119982 20160116032038
+50.28.8.223 5 13 419869 20160121050411
+107.173.248.107 3 3 74933 20160117010205
+107.173.193.141 3 3 75024 20160116173310
+155.94.179.167 3 3 74956 20160116140904
+107.173.218.223 3 3 74977 20160116080933
+107.173.195.56 3 3 74873 20160116035739
+66.34.142.44 3 3 74971 20160117000452
+107.173.223.174 3 3 75002 20160117031031
+201.175.72.194 3 3 75079 20160119145344
+66.34.237.8 3 3 74955 20160116115413
+104.129.3.51 3 3 74922 20160116140815
+107.173.194.44 3 3 74928 20160117001338
+10.255.242.96 2 2 60501 20160120013352
+172.245.254.54 2 2 33598 20160116040215
+70.39.246.37 2 2 47206 20160126174830
+45.58.117.238 2 2 56297 20160125093450
+107.170.10.112 1 1 39498 20160116031228
+107.170.79.233 1 1 39498 20160116034308
+188.208.40.30 1 1 16799 20160117093558
+107.170.107.176 1 1 39498 20160116031141
+46.166.143.197 1 1 16799 20160116133026
+187.160.108.223 1 1 18716 20160125093526
+94.242.212.98 1 1 16799 20160116032039
+46.166.141.227 1 1 16799 20160116032615
+172.245.253.47 1 1 16799 20160116140611
+91.108.70.115 1 1 16799 20160116233302
+107.173.193.86 1 1 16799 20160117101032
+108.174.50.137 1 1 16799 20160117001014
+189.219.102.48 1 1 16799 20160119150438
+10.255.242.92 1 1 5199 20160118215812
+104.131.254.79 1 1 39201 20160126180725
+73.70.216.116 1 10 283919 20160127063904
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 10
+20160103 2 2 26738 2
+20160116 197 241 7032507 28
+20160117 44 44 803804 20
+20160118 5 5 61496 5
+20160119 6 6 131376 4
+20160120 7 7 88199 4
+20160121 4 12 353633 2
+20160125 4 4 75013 3
+20160126 37 67 2233470 4
+20160127 15 76 842379 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+1h+ 1
+5mn-15mn 6
+15mn-30mn 6
+2mn-5mn 3
+0s-30s 57
+30mn-1h 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 29
+/wp-admin/admin-ajax.php 94 14076 1 2
+/svn-integration/ 81 1385110 30 43
+/ 28 1044351 26 9
+/wp-cron.php 28 0 16 15
+/wp-admin/load-scripts.php 22 1468714 0 0
+/wp-admin/post.php 13 1618839 0 0
+/wp-admin/load-styles.php 7 850571 0 1
+/javascript-querystring/ 6 106963 2 2
+/wp-admin/post-new.php 5 585198 0 0
+/wp-login.php 5 13470 0 0
+/sample-jquery-get-and-post/ 4 117951 0 0
+/wp-admin/ 3 168499 0 0
+/wp-admin/edit.php 3 275412 0 0
+/feed/ 2 47206 2 2
+/wp-includes/js/tinymce/wp-tinymce.php 2 287506 0 0
+/prevent-auto-form-submission-on-enter/ 2 37118 0 0
+/wp-admin/edit-comments.php 2 138273 0 0
+/wp-admin/plugins.php 2 68621 0 0
+/wp-admin/update-core.php 2 52905 0 0
+/51/ 1 22985 0 0
+/2016/01/ 1 29470 0 0
+/wp-admin/about.php 1 32223 0 0
+/wp-admin/upgrade.php 1 1 0 0
+/jquery-get-and-post/ 1 14914 0 0
+/form-submission-in-jquery/ 1 14259 0 0
+/wp-content/themes/twentyfifteen/genericons/Genericons.eot 1 22760 0 0
+/category/android/native-apps/ 1 17430 0 0
+/wp-admin/edit-tags.php 1 53834 0 0
+/wp-content/themes/twentyfifteen/genericons/Genericons.ttf 1 22576 0 1
+END_SIDER

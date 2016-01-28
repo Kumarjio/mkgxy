@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html> 
+<head> 
+<meta charset="utf-8">
+<title>Untitled Document</title> 
+<link rel="stylesheet" href="../css/bootstrap.min.css"> 
+
+<link rel="stylesheet" href="style.css"> 
+<script src="../js/jquery-1.11.3.min.js"></script> 
+<script src="../js/jquery-migrate-1.2.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+
+<style type="text/css">
+
+/* Tablet and bigger */
+@media ( min-width: 768px ) {
+    .grid-divider {
+        position: relative;
+        padding: 0;
+    }
+    .grid-divider>[class*='col-'] {
+        position: static;
+    }
+    .grid-divider>[class*='col-']:nth-child(n+2):before {
+        content: "";
+        border-left: 1px solid #DDD;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+    }
+    .col-padding {
+        padding: 0 15px;
+    }
+}
+
+</style>
+
+<script>
+
+
+
+</script>
+
+</head>
+<body> 
+
+<div class="container">
+    <div class="page-header">
+        <h3>Add the (.grid-divider) class to any row to separate grid columns with equal height lines.</h3>
+    </div>
+    <div class="row grid-divider">
+    <div class="col-sm-4">
+      <div class="col-padding">
+        <h3>Column 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum.</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="col-padding">
+        <h3>Column 2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate placeat suscipit maxime tenetur officiis asperiores quae molestias fugiat praesentium dolorum.</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="col-padding">
+        <h3>Column 3</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab veniam aperiam numquam cupiditate maiores repudiandae ea dicta, sunt rerum corporis. Ab veniam aperiam numquam cupiditate maiores repudiandae ea dicta, sunt rerum corporis. Ab veniam aperiam numquam cupiditate maiores repudiandae ea dicta.</p>
+      </div>
+    </div>
+    </div>
+
+</div>
+</body>
+</html>

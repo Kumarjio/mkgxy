@@ -1,0 +1,374 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201507 will be lost/reset.
+# Last config file used to build this data file was /home/consultlawyers/tmp/awstats/awstats.dcomerce.consultlawyers.us.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2029                
+POS_TIME 2704                
+POS_VISITOR 7669                
+POS_DAY 8759                
+POS_DOMAIN 3452                
+POS_LOGIN 3809                
+POS_ROBOT 3964                
+POS_WORMS 4304                
+POS_EMAILSENDER 4435                
+POS_EMAILRECEIVER 4578                
+POS_SESSION 9315                
+POS_SIDER 9511                
+POS_FILETYPES 4713                
+POS_DOWNLOADS 4953                
+POS_OS 5001                
+POS_BROWSER 5198                
+POS_SCREENSIZE 5595                
+POS_UNKNOWNREFERER 5669                
+POS_UNKNOWNREFERERBROWSER 5915                
+POS_ORIGIN 6231                
+POS_SEREFERRALS 6370                
+POS_PAGEREFS 6524                
+POS_SEARCHWORDS 6791                
+POS_KEYWORDS 6981                
+POS_MISC 2368                
+POS_ERRORS 7078                
+POS_CLUSTER 3665                
+POS_SIDER_404 7197                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150801061138 8 1388 10010877846968
+FirstTime 20150701000700
+LastTime 20150731222802
+LastUpdate 20150801152213 8 0 7 0 0
+TotalVisits 61                  
+TotalUnique 26                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 26                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 2 18524 14 25 349641
+1 9 9 50824 4 9 55102
+2 0 0 0 5 7 27786
+3 4 12 17970 1 2 0
+4 8 23 143039 8 19 43629
+5 0 0 0 4 5 9262
+6 6 21 48327 7 13 17970
+7 37 159 4512129 6 26 310714
+8 56 152 3628571 8 31 124712
+9 44 189 5651856 5 28 4868
+10 94 605 17467691 14 46 182483
+11 14 32 633213 8 12 9262
+12 1 1 9262 17 23 50657
+13 4 4 37048 10 22 497466
+14 5 7 161897 6 7 9262
+15 5 13 32687 7 10 133064
+16 5 13 105106 3 4 9262
+17 10 28 500235 6 24 249435
+18 28 56 1129046 7 20 458142
+19 87 373 9271743 15 42 67041
+20 65 204 5014794 12 51 346975
+21 54 196 5725426 13 38 38875
+22 49 80 1372968 7 27 36735
+23 38 55 495160 18 40 526642
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 11
+us 605 2206 55797690
+cn 8 16 147616
+ru 3 3 13576
+lt 2 2 8708
+ua 1 1 9262
+br 1 1 9262
+ca 1 1 9262
+fr 1 1 4354
+de 1 1 9262
+se 1 1 9262
+eu 1 1 9262
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+spider 112 2402108 20150731192826 0
+bot[\s_+:,\.\;\/\\-] 33 632855 20150731124107 9
+googlebot 19 269581 20150726235644 2
+unknown 5 22284 20150731192740 5
+robot 4 0 20150731121035 0
+crawl 1 0 20150731102242 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+css 617 19022660 0 0
+png 22 99046 0 0
+ttf 1 112160 0 0
+woff 138 8443308 0 0
+woff2 1 18028 0 0
+map 3 127542 0 0
+html 302 3804645 0 0
+js 970 23064592 0 0
+Unknown 180 1335535 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 10
+linuxandroid 228 89
+winxp 3 3
+winlong 3 3
+ios_iphone 8 4
+linux 6 6
+win7 29 25
+macosx 24 20
+win8.1 1 1
+Unknown 3 3
+macosx7 1929 471
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 18
+msie6.0 3 3
+chrome34.0.1847.76 228 89
+firefox28.0 1 1
+chrome43.0.2357.124 1 1
+firefox7.0.1 1 1
+firefox24.0 2 2
+chrome36.0.1985.143 8 4
+firefox37.0 3 3
+firefox14.0.1 3 3
+chrome37.0.2062.120 1 1
+chrome10.0.648.204 16 16
+safari5.1 8 4
+chrome44.0.2403.89 23 8
+chrome43.0.2357.134 1906 463
+safari8.0 24 20
+firefox3.6.3 1 1
+Unknown 4 4
+firefox35.0 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Ruby 20150719232037
+CATExplorador/1.0beta_(sistemes_at_domini_dot_cat;_http://domini.cat/catexplorador.html) 20150715035834
+Go_1.1_package_http 20150714012746
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+Ruby 20150719232037
+CATExplorador/1.0beta_(sistemes_at_domini_dot_cat;_http://domini.cat/catexplorador.html) 20150715035834
+python-requests/2.2.1_CPython/2.7.6_Linux/3.13.0-52-generic 20150729081533
+Go_1.1_package_http 20150714012746
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 226 230
+From1 0 0
+From2 8 8
+From3 5 5
+From4 386 1991
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+baidu 8 8
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 4
+http://www.wrennmusic.com 2 2
+http://exchange.cx 1 1
+http://dcmetrofamilydentist.com 1 1
+http://burger-imperia.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+consultlawyers%7cgethelpfromlawyers 8
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 1
+consultlawyers%7cgethelpfromlawyers 8
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+302 124 0
+206 18 231675
+404 48 0
+301 2 482
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 6
+/xmlrpc.php 1 https://www.google.by/search
+/robots.txt 43 -
+/wp-login.php 1 DCOMERCE.COM
+/web/feed/ 1 -
+/media/index.html 1 http://search.mail.com/web
+/admin/ 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 26
+67.181.89.89 521 2019 53569719 20150725081052
+206.208.102.250 22 75 748298 20150725044448
+54.209.60.63 21 25 634053 20150722014208
+198.252.44.8 16 16 119258 20150731222802
+172.56.38.66 9 32 630742 20150723194622
+172.56.33.229 6 21 48327 20150721061105
+69.58.178.58 3 3 15126 20150721092325
+61.135.190.219 2 6 55284 20150722165707
+208.54.5.148 2 10 4395 20150722195027
+61.135.190.102 2 2 14130 20150722165653
+213.159.38.90 2 2 8708 20150724091255
+54.191.244.235 2 2 9802 20150722181124
+109.173.98.23 2 2 9222 20150728071133
+61.135.190.103 2 6 59678 20150717100209
+61.135.190.224 2 2 18524 20150717091200
+192.99.150.120 1 1 9262 20150701000700
+195.154.146.225 1 1 4354 20150731030120
+177.129.90.37 1 1 9262 20150710001200
+91.212.124.28 1 1 9262 20150715071435
+18.238.2.85 1 1 9262 20150714101947
+50.16.12.149 1 1 4354 20150723015821
+46.162.123.142 1 1 9262 20150714012746
+45.55.234.2 1 1 4354 20150729081533
+37.193.97.136 1 1 4354 20150724200704
+5.9.44.13 1 1 9262 20150712085146
+188.226.232.87 1 1 9262 20150715035834
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 23
+20150701 2 2 18524 2
+20150703 1 1 9262 1
+20150705 1 1 9262 1
+20150707 3 3 27786 3
+20150709 1 1 9262 1
+20150710 1 1 9262 1
+20150711 1 1 9262 1
+20150712 1 1 9262 1
+20150713 1 1 9262 1
+20150714 2 2 18524 2
+20150715 3 3 27786 3
+20150717 5 5 46310 5
+20150719 249 791 21056277 3
+20150720 250 1161 32001382 4
+20150721 22 52 593004 6
+20150722 45 117 1319842 7
+20150723 22 68 792291 7
+20150724 3 3 13062 2
+20150725 6 14 21770 4
+20150727 1 1 4354 1
+20150728 1 1 4354 1
+20150729 2 2 8708 2
+20150731 2 2 8708 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+1h+ 4
+5mn-15mn 1
+0s-30s 51
+15mn-30mn 2
+30s-2mn 2
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 24
+/ 249 2658415 29 23
+/theme2/bower_components/font-awesome/fonts/fontawesome-webfont.woff 138 8443308 0 6
+/users/settings 90 686807 0 0
+/users/login 75 368033 7 5
+/web/ 23 213026 23 23
+/horo/main 10 182837 1 3
+/sample 4 96655 0 0
+/theme2/pages/ 4 210292 0 0
+/theme2/ 4 2073 0 0
+/theme2/bower_components/jquery/dist/jquery.min.map 3 127542 0 0
+/theme2/pages/blank.html 2 38908 0 1
+/theme2/pages/login.html 2 6392 0 0
+/theme2/pages/typography.html 2 60020 0 0
+/theme2/pages/buttons.html 2 64870 0 0
+/theme2/pages/notifications.html 2 57264 0 0
+/theme2/pages/panels-wells.html 2 80726 0 0
+/theme2/pages/tables.html 2 123082 0 0
+/theme2/pages/icons.html 2 169030 0 0
+/theme1/ 2 9599 0 0
+/theme2/pages/forms.html 2 64740 1 0
+/theme2/pages/morris.html 2 46208 0 0
+/theme2/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 1 18028 0 0
+/theme2/bower_components/font-awesome/fonts/fontawesome-webfont.ttf 1 112160 0 0
+/theme2/pages 1 1203 0 0
+END_SIDER

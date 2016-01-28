@@ -1,0 +1,314 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201507 will be lost/reset.
+# Last config file used to build this data file was /home/consultlawyers/tmp/awstats/awstats.real-money-making.consultlawyers.us.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2038                
+POS_TIME 2696                
+POS_VISITOR 6955                
+POS_DAY 7582                
+POS_DOMAIN 3346                
+POS_LOGIN 3667                
+POS_ROBOT 3822                
+POS_WORMS 4240                
+POS_EMAILSENDER 4371                
+POS_EMAILRECEIVER 4514                
+POS_SESSION 7904                
+POS_SIDER 8061                
+POS_FILETYPES 4649                
+POS_DOWNLOADS 4809                
+POS_OS 4857                
+POS_BROWSER 5037                
+POS_SCREENSIZE 5372                
+POS_UNKNOWNREFERER 5446                
+POS_UNKNOWNREFERERBROWSER 5693                
+POS_ORIGIN 5804                
+POS_SEREFERRALS 5939                
+POS_PAGEREFS 6094                
+POS_SEARCHWORDS 6290                
+POS_KEYWORDS 6466                
+POS_MISC 2360                
+POS_ERRORS 6549                
+POS_CLUSTER 3523                
+POS_SIDER_404 6646                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150801150825 1 0 8671844416027
+FirstTime 0
+LastTime 20150728080804
+LastUpdate 20150802152905 1 0 0 0 0
+TotalVisits 14                  
+TotalUnique 14                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 14                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 1 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 1 15558 2 9 327688
+1 0 0 0 3 5 77790
+2 0 0 0 5 10 90815
+3 8 8 101778 6 9 78257
+4 8 8 101778 4 7 70063
+5 0 0 0 2 2 31116
+6 0 0 0 2 5 107911
+7 39 174 4198142 1 28 65877
+8 21 26 240564 4 11 305085
+9 0 0 0 8 13 224183
+10 2 2 31116 1 4 124772
+11 0 0 0 4 10 230761
+12 0 0 0 1 2 22554
+13 0 0 0 0 0 0
+14 0 0 0 4 4 39546
+15 0 0 0 7 8 94493
+16 1 1 15558 4 8 109741
+17 0 0 0 6 12 344081
+18 0 0 0 1 4 127001
+19 0 0 0 3 11 337893
+20 1 1 15558 2 6 251443
+21 1 1 15558 1 5 168529
+22 16 22 522507 14 29 472797
+23 1 1 15558 3 11 347387
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 8
+us 85 231 5078549
+ca 8 8 101778
+ua 1 1 15558
+zz 1 1 15558
+nl 1 1 15558
+lt 1 1 15558
+se 1 1 15558
+de 1 1 15558
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+bot[\s_+:,\.\;\/\\-] 75 1360071 20150731151847 22
+googlebot 60 1560188 20150730020408 21
+spider 18 814719 20150728064731 0
+unknown 14 217812 20150726084646 14
+robot 4 0 20150731081140 0
+no_user_agent 2 31116 20150708154336 0
+netcraft 1 15558 20150711040655 0
+crawl 1 0 20150731175946 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 5
+css 50 2518921 0 0
+html 59 706951 0 0
+js 57 1155453 0 0
+jpg 39 439201 0 0
+Unknown 40 453149 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+linuxandroid 1 1
+winlong 2 2
+linux 10 10
+win7 11 11
+macosx 1 1
+macosx9 1 1
+win8.1 1 1
+Unknown 38 32
+macosx7 180 40
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 15
+chrome18.0.1025.133 1 1
+mozilla 7 7
+firefox25.0 1 1
+firefox1.0 1 1
+chrome41.0.2272.101 1 1
+chrome43.0.2357.124 1 1
+firefox14.0.1 7 7
+chrome37.0.2062.120 2 2
+chrome44.0.2403.89 180 40
+chrome39.0.2171.95 10 10
+firefox3.6.3 1 1
+firefox34.0 1 1
+Unknown 21 15
+netscape 10 10
+safari7.1 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Mozilla 20150726084648
+Mozilla/5.0_(compatible;_Lipperhey-Kaus-Australis/5.0;__https://www.lipperhey.com/en/about/) 20150724040055
+panscient.com 20150701222915
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+panscient.com 20150701222915
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 67 73
+From1 0 0
+From2 1 1
+From3 2 2
+From4 29 169
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+search 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://hvd-store.com 1 1
+http://hundejo.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+real-money-making.com 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 1
+real-money-making.com 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+403 3 46674
+302 11 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 0
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 14
+67.181.89.89 40 180 4220696 20150728080804
+64.79.100.12 20 20 218010 20150726084648
+71.187.219.210 15 21 506949 20150701222915
+192.99.150.124 8 8 101778 20150724040056
+69.58.178.56 7 7 86220 20150714034434
+213.159.38.90 1 1 15558 20150721104051
+172.102.192.229 1 1 15558 20150713214648
+216.69.191.240 1 1 15558 20150711005731
+52.0.89.236 1 1 15558 20150712033742
+37.1.200.173 1 1 15558 20150709202731
+171.25.193.20 1 1 15558 20150714160554
+54.158.127.20 1 1 15558 20150722225915
+77.247.181.165 1 1 15558 20150711104903
+5.9.44.13 1 1 15558 20150705232441
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 12
+20150701 15 21 506949 1
+20150705 1 1 15558 1
+20150709 1 1 15558 1
+20150711 2 2 31116 2
+20150712 1 1 15558 1
+20150713 1 1 15558 1
+20150714 8 8 101778 2
+20150721 1 1 15558 1
+20150722 1 1 15558 1
+20150724 8 8 101778 1
+20150726 20 20 218010 1
+20150728 40 180 4220696 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+0s-30s 13
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 13
+/ 50 624097 12 9
+/users/login 12 91140 0 1
+/theme3/ 8 67296 0 0
+/function.require 6 93348 1 2
+/advt 5 77790 0 0
+/myaccount 5 4175 0 0
+/function.require-once 5 77790 0 0
+/a 2 31116 0 0
+/g,mt=RegExp( 2 31116 0 0
+/mailto 1 15558 0 0
+/media/ 1 15558 1 1
+/text/xml 1 15558 0 1
+/).length,t.style=/top/.test(r.getAttribute( 1 15558 0 0
+END_SIDER

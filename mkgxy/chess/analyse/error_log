@@ -1,0 +1,503 @@
+[15-Feb-2015 03:21:16 UTC] PHP Fatal error:  Call to undefined function pr() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manish.php on line 395
+[15-Feb-2015 03:21:30 UTC] PHP Fatal error:  Call to undefined function pr() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manish.php on line 395
+[24-Feb-2015 05:00:52 UTC] PHP Parse error:  syntax error, unexpected $end in /home/consultlawyers/public_html/mkgxy/chess/analyse/manish.php on line 285
+[24-Feb-2015 14:58:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 51
+[24-Feb-2015 14:59:03 UTC] PHP Parse error:  syntax error, unexpected $end in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 433
+[24-Feb-2015 15:14:43 UTC] PHP Fatal error:  Class 'GameParser' not found in /home/consultlawyers/public_html/mkgxy/chess/analyse/pgnParser.php on line 19
+[24-Feb-2015 15:16:22 UTC] PHP Warning:  include(../pgnParser/GameParser.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 10
+[24-Feb-2015 15:16:22 UTC] PHP Warning:  include(../pgnParser/GameParser.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 10
+[24-Feb-2015 15:16:22 UTC] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../pgnParser/GameParser.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 10
+[24-Feb-2015 15:16:22 UTC] PHP Fatal error:  Class 'GameParser' not found in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/pgnParser.php on line 19
+[24-Feb-2015 15:17:18 UTC] PHP Fatal error:  Class 'FenParser0x88' not found in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php on line 12
+[24-Feb-2015 15:19:47 UTC] PHP Fatal error:  Class 'MoveBuilder' not found in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/PgnGameParser.php on line 26
+[24-Feb-2015 15:20:38 UTC] PHP Fatal error:  Class 'CHESS_JSON' not found in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/PgnGameParser.php on line 37
+[24-Feb-2015 15:21:52 UTC] PHP Fatal error:  Class 'Board0x88Config' not found in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php on line 80
+[24-Feb-2015 15:24:01 UTC] PHP Warning:  include(../pgnParser/autoload.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 9
+[24-Feb-2015 15:24:01 UTC] PHP Warning:  include(../pgnParser/autoload.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 9
+[24-Feb-2015 15:24:01 UTC] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../pgnParser/autoload.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 9
+[24-Feb-2015 15:24:01 UTC] PHP Fatal error:  Class 'PgnParser' not found in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 57
+[24-Feb-2015 15:24:29 UTC] PHP Warning:  include(../pgnParser/autoload.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 9
+[24-Feb-2015 15:24:29 UTC] PHP Warning:  include(../pgnParser/autoload.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 9
+[24-Feb-2015 15:24:29 UTC] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../pgnParser/autoload.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 9
+[24-Feb-2015 15:24:29 UTC] PHP Fatal error:  Class 'PgnParser' not found in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 57
+[24-Feb-2015 15:24:30 UTC] PHP Warning:  include(../pgnParser/autoload.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 9
+[24-Feb-2015 15:24:30 UTC] PHP Warning:  include(../pgnParser/autoload.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 9
+[24-Feb-2015 15:24:30 UTC] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../pgnParser/autoload.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 9
+[24-Feb-2015 15:24:30 UTC] PHP Fatal error:  Class 'PgnParser' not found in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 57
+[24-Feb-2015 16:31:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 278
+[24-Feb-2015 16:31:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 278
+[24-Feb-2015 16:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 281
+[24-Feb-2015 16:33:19 UTC] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 260
+[24-Feb-2015 16:33:21 UTC] PHP Fatal error:  Call to a member function setPgnContent() on a non-object in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 62
+[24-Feb-2015 16:33:35 UTC] PHP Fatal error:  Call to undefined function pr() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 72
+[25-Feb-2015 02:18:24 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Fen: 4rrk1/1R3Rpp/p7/2P5/4p3/1N6/Pb3PPP/6K1 b - - 0 26
+color: black
+notation: Rb8xb7
+Rank:112
+File:1
+0, ' in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php:991
+Stack trace:
+#0 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php(833): FenParser0x88->getFromAndToByNotation('Rb8xb7')
+#1 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(50): FenParser0x88->getParsed(Array)
+#2 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(34): GameParser->parseAMove(Array)
+#3 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(21): GameParser->parseMoves(Array)
+#4 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/PgnParser.php(163): GameParser->getParsedGame(Array)
+#5 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/PgnParser.php(153): PgnParser->getParsedGame('[Event "m142336...')
+#6 /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php(68): PgnParser-> in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php on line 991
+[25-Feb-2015 02:18:33 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Fen: 4rrk1/1R3Rpp/p7/2P5/4p3/1N6/Pb3PPP/6K1 b - - 0 26
+color: black
+notation: Rb8xb7
+Rank:112
+File:1
+0, ' in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php:991
+Stack trace:
+#0 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php(833): FenParser0x88->getFromAndToByNotation('Rb8xb7')
+#1 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(50): FenParser0x88->getParsed(Array)
+#2 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(34): GameParser->parseAMove(Array)
+#3 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(21): GameParser->parseMoves(Array)
+#4 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/PgnParser.php(163): GameParser->getParsedGame(Array)
+#5 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/PgnParser.php(153): PgnParser->getParsedGame('[Event "m142336...')
+#6 /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php(67): PgnParser-> in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php on line 991
+[25-Feb-2015 02:18:36 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Fen: 4rrk1/1R3Rpp/p7/2P5/4p3/1N6/Pb3PPP/6K1 b - - 0 26
+color: black
+notation: Rb8xb7
+Rank:112
+File:1
+0, ' in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php:991
+Stack trace:
+#0 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php(833): FenParser0x88->getFromAndToByNotation('Rb8xb7')
+#1 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(50): FenParser0x88->getParsed(Array)
+#2 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(34): GameParser->parseAMove(Array)
+#3 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(21): GameParser->parseMoves(Array)
+#4 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/PgnParser.php(163): GameParser->getParsedGame(Array)
+#5 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/PgnParser.php(153): PgnParser->getParsedGame('[Event "m142336...')
+#6 /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php(67): PgnParser-> in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php on line 991
+[25-Feb-2015 02:19:52 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Fen: 4rrk1/1R3Rpp/p7/2P5/4p3/1N6/Pb3PPP/6K1 b - - 0 26
+color: black
+notation: Rb8xb7
+Rank:112
+File:1
+0, ' in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php:991
+Stack trace:
+#0 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php(833): FenParser0x88->getFromAndToByNotation('Rb8xb7')
+#1 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(50): FenParser0x88->getParsed(Array)
+#2 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(34): GameParser->parseAMove(Array)
+#3 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(21): GameParser->parseMoves(Array)
+#4 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/PgnParser.php(163): GameParser->getParsedGame(Array)
+#5 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/PgnParser.php(153): PgnParser->getParsedGame('[Event "m142336...')
+#6 /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php(67): PgnParser-> in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php on line 991
+[25-Feb-2015 02:20:07 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Fen: 4rrk1/1R3Rpp/p7/2P5/4p3/1N6/Pb3PPP/6K1 b - - 0 26
+color: black
+notation: Rb8xb7
+Rank:112
+File:1
+0, ' in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php:991
+Stack trace:
+#0 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php(833): FenParser0x88->getFromAndToByNotation('Rb8xb7')
+#1 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(50): FenParser0x88->getParsed(Array)
+#2 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(34): GameParser->parseAMove(Array)
+#3 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(21): GameParser->parseMoves(Array)
+#4 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/PgnParser.php(163): GameParser->getParsedGame(Array)
+#5 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/PgnParser.php(153): PgnParser->getParsedGame('[Event "m142336...')
+#6 /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php(68): PgnParser-> in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php on line 991
+[25-Feb-2015 02:20:23 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Fen: 4rrk1/1R3Rpp/p7/2P5/4p3/1N6/Pb3PPP/6K1 b - - 0 26
+color: black
+notation: Rb8xb7
+Rank:112
+File:1
+0, ' in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php:991
+Stack trace:
+#0 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php(833): FenParser0x88->getFromAndToByNotation('Rb8xb7')
+#1 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(50): FenParser0x88->getParsed(Array)
+#2 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(34): GameParser->parseAMove(Array)
+#3 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(21): GameParser->parseMoves(Array)
+#4 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/PgnParser.php(163): GameParser->getParsedGame(Array)
+#5 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/PgnParser.php(153): PgnParser->getParsedGame('[Event "m142336...')
+#6 /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php(69): PgnParser-> in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php on line 991
+[25-Feb-2015 02:21:20 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Fen: 4rrk1/1R3Rpp/p7/2P5/4p3/1N6/Pb3PPP/6K1 b - - 0 26
+color: black
+notation: Rb8xb7
+Rank:112
+File:1
+0, ' in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php:992
+Stack trace:
+#0 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php(833): FenParser0x88->getFromAndToByNotation('Rb8xb7')
+#1 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(50): FenParser0x88->getParsed(Array)
+#2 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(34): GameParser->parseAMove(Array)
+#3 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(21): GameParser->parseMoves(Array)
+#4 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/PgnParser.php(163): GameParser->getParsedGame(Array)
+#5 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/PgnParser.php(153): PgnParser->getParsedGame('[Event "m142336...')
+#6 /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php(69): PgnParser-> in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php on line 992
+[25-Feb-2015 02:21:33 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Fen: 4rrk1/1R3Rpp/p7/2P5/4p3/1N6/Pb3PPP/6K1 b - - 0 26
+color: black
+notation: Rb8xb7
+Rank:112
+File:1
+0, ' in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php:994
+Stack trace:
+#0 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php(833): FenParser0x88->getFromAndToByNotation('Rb8xb7')
+#1 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(50): FenParser0x88->getParsed(Array)
+#2 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(34): GameParser->parseAMove(Array)
+#3 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(21): GameParser->parseMoves(Array)
+#4 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/PgnParser.php(163): GameParser->getParsedGame(Array)
+#5 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/PgnParser.php(153): PgnParser->getParsedGame('[Event "m142336...')
+#6 /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php(69): PgnParser-> in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php on line 994
+[25-Feb-2015 02:22:17 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Fen: 4rrk1/1R3Rpp/p7/2P5/4p3/1N6/Pb3PPP/6K1 b - - 0 26
+color: black
+notation: Rb8xb7
+Rank:112
+File:1
+0, ' in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php:998
+Stack trace:
+#0 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php(833): FenParser0x88->getFromAndToByNotation('Rb8xb7')
+#1 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(50): FenParser0x88->getParsed(Array)
+#2 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(34): GameParser->parseAMove(Array)
+#3 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(21): GameParser->parseMoves(Array)
+#4 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/PgnParser.php(163): GameParser->getParsedGame(Array)
+#5 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/PgnParser.php(153): PgnParser->getParsedGame('[Event "m142336...')
+#6 /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php(69): PgnParser-> in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php on line 998
+[25-Feb-2015 02:22:50 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Fen: 4rrk1/1R3Rpp/p7/2P5/4p3/1N6/Pb3PPP/6K1 b - - 0 26
+color: black
+notation: Rb8xb7
+Rank:112
+File:1
+0, ' in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php:999
+Stack trace:
+#0 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php(834): FenParser0x88->getFromAndToByNotation('Rb8xb7')
+#1 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(50): FenParser0x88->getParsed(Array)
+#2 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(34): GameParser->parseAMove(Array)
+#3 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(21): GameParser->parseMoves(Array)
+#4 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/PgnParser.php(163): GameParser->getParsedGame(Array)
+#5 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/PgnParser.php(153): PgnParser->getParsedGame('[Event "m142336...')
+#6 /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php(69): PgnParser-> in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php on line 999
+[25-Feb-2015 02:23:11 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Fen: 4rrk1/1R3Rpp/p7/2P5/4p3/1N6/Pb3PPP/6K1 b - - 0 26
+color: black
+notation: Rb8xb7
+Rank:112
+File:1
+0, ' in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php:999
+Stack trace:
+#0 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php(834): FenParser0x88->getFromAndToByNotation('Rb8xb7')
+#1 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(50): FenParser0x88->getParsed(Array)
+#2 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(34): GameParser->parseAMove(Array)
+#3 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(21): GameParser->parseMoves(Array)
+#4 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/PgnParser.php(163): GameParser->getParsedGame(Array)
+#5 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/PgnParser.php(153): PgnParser->getParsedGame('[Event "m142336...')
+#6 /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php(69): PgnParser-> in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php on line 999
+[25-Feb-2015 02:23:32 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Fen: 4rrk1/1R3Rpp/p7/2P5/4p3/1N6/Pb3PPP/6K1 b - - 0 26
+color: black
+notation: Rb8xb7
+Rank:112
+File:1
+0, ' in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php:1000
+Stack trace:
+#0 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php(834): FenParser0x88->getFromAndToByNotation('Rb8xb7')
+#1 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(50): FenParser0x88->getParsed(Array)
+#2 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(34): GameParser->parseAMove(Array)
+#3 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(21): GameParser->parseMoves(Array)
+#4 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/PgnParser.php(163): GameParser->getParsedGame(Array)
+#5 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/PgnParser.php(153): PgnParser->getParsedGame('[Event "m142336...')
+#6 /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php(69): PgnParser- in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php on line 1000
+[25-Feb-2015 02:24:05 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Fen: 4rrk1/1R3Rpp/p7/2P5/4p3/1N6/Pb3PPP/6K1 b - - 0 26
+color: black
+notation: Rb8xb7
+Rank:112
+File:1
+0, ' in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php:999
+Stack trace:
+#0 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php(834): FenParser0x88->getFromAndToByNotation('Rb8xb7')
+#1 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(50): FenParser0x88->getParsed(Array)
+#2 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(34): GameParser->parseAMove(Array)
+#3 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(21): GameParser->parseMoves(Array)
+#4 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/PgnParser.php(163): GameParser->getParsedGame(Array)
+#5 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/PgnParser.php(153): PgnParser->getParsedGame('[Event "m142336...')
+#6 /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php(69): PgnParser-> in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php on line 999
+[25-Feb-2015 02:24:20 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Fen: 4rrk1/1R3Rpp/p7/2P5/4p3/1N6/Pb3PPP/6K1 b - - 0 26
+color: black
+notation: Rb8xb7
+Rank:112
+File:1
+0, ' in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php:1000
+Stack trace:
+#0 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php(834): FenParser0x88->getFromAndToByNotation('Rb8xb7')
+#1 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(50): FenParser0x88->getParsed(Array)
+#2 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(34): GameParser->parseAMove(Array)
+#3 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(21): GameParser->parseMoves(Array)
+#4 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/PgnParser.php(163): GameParser->getParsedGame(Array)
+#5 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/PgnParser.php(153): PgnParser->getParsedGame('[Event "m142336...')
+#6 /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php(69): PgnParser- in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php on line 1000
+[25-Feb-2015 02:28:10 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Fen: 4rrk1/1R3Rpp/p7/2P5/4p3/1N6/Pb3PPP/6K1 b - - 0 26
+color: black
+notation: Rb8xb7
+Rank:112
+File:1
+0, ' in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php:998
+Stack trace:
+#0 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php(834): FenParser0x88->getFromAndToByNotation('Rb8xb7')
+#1 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(50): FenParser0x88->getParsed(Array)
+#2 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(34): GameParser->parseAMove(Array)
+#3 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(21): GameParser->parseMoves(Array)
+#4 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/PgnParser.php(163): GameParser->getParsedGame(Array)
+#5 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/PgnParser.php(153): PgnParser->getParsedGame('[Event "m142336...')
+#6 /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php(69): PgnParser-> in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php on line 998
+[25-Feb-2015 02:29:25 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Fen: 4rrk1/1R3Rpp/p7/2P5/4p3/1N6/Pb3PPP/6K1 b - - 0 26
+color: black
+notation: Rb8xb7
+Rank:112
+File:1
+0, ' in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php:991
+Stack trace:
+#0 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php(833): FenParser0x88->getFromAndToByNotation('Rb8xb7')
+#1 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(50): FenParser0x88->getParsed(Array)
+#2 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(34): GameParser->parseAMove(Array)
+#3 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(21): GameParser->parseMoves(Array)
+#4 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/PgnParser.php(163): GameParser->getParsedGame(Array)
+#5 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/PgnParser.php(153): PgnParser->getParsedGame('[Event "m142336...')
+#6 /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php(69): PgnParser-> in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php on line 991
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[25-Feb-2015 06:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php on line 257
+[03-Mar-2015 21:29:27 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Fen: 4rrk1/1pQ2pp1/p2q3p/3p4/3Pn3/P2BPN2/1P3PPP/2R2RK1 b - - 0 17
+color: black
+notation: Rc8xc7
+Rank:112
+File:2
+0, ' in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php:991
+Stack trace:
+#0 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php(833): FenParser0x88->getFromAndToByNotation('Rc8xc7')
+#1 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(50): FenParser0x88->getParsed(Array)
+#2 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(34): GameParser->parseAMove(Array)
+#3 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(21): GameParser->parseMoves(Array)
+#4 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/PgnParser.php(163): GameParser->getParsedGame(Array)
+#5 /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php(70): PgnParser->getParsedGame('[Event "m142336...')
+#6 {main}
+  thrown in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php on line 991
+[03-Mar-2015 21:29:39 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Fen: 4rrk1/1pQ2pp1/p2q3p/3p4/3Pn3/P2BPN2/1P3PPP/2R2RK1 b - - 0 17
+color: black
+notation: Rc8xc7
+Rank:112
+File:2
+0, ' in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php:991
+Stack trace:
+#0 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php(833): FenParser0x88->getFromAndToByNotation('Rc8xc7')
+#1 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(50): FenParser0x88->getParsed(Array)
+#2 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(34): GameParser->parseAMove(Array)
+#3 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(21): GameParser->parseMoves(Array)
+#4 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/PgnParser.php(163): GameParser->getParsedGame(Array)
+#5 /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php(70): PgnParser->getParsedGame('[Event "m142336...')
+#6 {main}
+  thrown in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php on line 991
+[04-Mar-2015 06:54:30 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Fen: 4rrk1/ppp2qp1/1nn1p2p/4P2b/2P3P1/1PN1Q2P/P3BB2/3R1RK1 b - - 0 21
+color: black
+notation: Rd8xd1
+Rank:112
+File:3
+0, ' in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php:991
+Stack trace:
+#0 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php(833): FenParser0x88->getFromAndToByNotation('Rd8xd1')
+#1 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(50): FenParser0x88->getParsed(Array)
+#2 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(34): GameParser->parseAMove(Array)
+#3 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(21): GameParser->parseMoves(Array)
+#4 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/PgnParser.php(163): GameParser->getParsedGame(Array)
+#5 /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php(70): PgnParser->getParsedGame('[Event "m142336...')
+#6 {main}
+  thrown in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php on line 991
+[04-Mar-2015 14:54:57 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Fen: 4rrk1/ppp2qp1/1nn1p2p/4P2b/2P3P1/1PN1Q2P/P3BB2/3R1RK1 b - - 0 21
+color: black
+notation: Rd8xd1
+Rank:112
+File:3
+0, ' in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php:991
+Stack trace:
+#0 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php(833): FenParser0x88->getFromAndToByNotation('Rd8xd1')
+#1 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(50): FenParser0x88->getParsed(Array)
+#2 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(34): GameParser->parseAMove(Array)
+#3 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(21): GameParser->parseMoves(Array)
+#4 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/PgnParser.php(163): GameParser->getParsedGame(Array)
+#5 /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php(70): PgnParser->getParsedGame('[Event "m142336...')
+#6 {main}
+  thrown in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php on line 991
+[04-Mar-2015 14:55:09 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Fen: 4rrk1/1pQ2pp1/p2q3p/3p4/3Pn3/P2BPN2/1P3PPP/2R2RK1 b - - 0 17
+color: black
+notation: Rc8xc7
+Rank:112
+File:2
+0, ' in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php:991
+Stack trace:
+#0 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php(833): FenParser0x88->getFromAndToByNotation('Rc8xc7')
+#1 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(50): FenParser0x88->getParsed(Array)
+#2 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(34): GameParser->parseAMove(Array)
+#3 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(21): GameParser->parseMoves(Array)
+#4 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/PgnParser.php(163): GameParser->getParsedGame(Array)
+#5 /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php(70): PgnParser->getParsedGame('[Event "m142336...')
+#6 {main}
+  thrown in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php on line 991
+[05-Mar-2015 04:16:27 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Fen: 4rrk1/1pQ2pp1/p2q3p/3p4/3Pn3/P2BPN2/1P3PPP/2R2RK1 b - - 0 17
+color: black
+notation: Rc8xc7
+Rank:112
+File:2
+0, ' in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php:991
+Stack trace:
+#0 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php(833): FenParser0x88->getFromAndToByNotation('Rc8xc7')
+#1 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(50): FenParser0x88->getParsed(Array)
+#2 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(34): GameParser->parseAMove(Array)
+#3 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(21): GameParser->parseMoves(Array)
+#4 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/PgnParser.php(163): GameParser->getParsedGame(Array)
+#5 /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php(70): PgnParser->getParsedGame('[Event "m142336...')
+#6 {main}
+  thrown in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php on line 991
+[05-Mar-2015 04:17:40 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Fen: 4rrk1/1pQ2pp1/p2q3p/3p4/3Pn3/P2BPN2/1P3PPP/2R2RK1 b - - 0 17
+color: black
+notation: Rc8xc7
+Rank:112
+File:2
+0, ' in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php:991
+Stack trace:
+#0 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php(833): FenParser0x88->getFromAndToByNotation('Rc8xc7')
+#1 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(50): FenParser0x88->getParsed(Array)
+#2 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(34): GameParser->parseAMove(Array)
+#3 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(21): GameParser->parseMoves(Array)
+#4 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/PgnParser.php(163): GameParser->getParsedGame(Array)
+#5 /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php(70): PgnParser->getParsedGame('[Event "m142336...')
+#6 {main}
+  thrown in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php on line 991
+[05-Mar-2015 04:18:47 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Fen: 4rrk1/1pQ2pp1/p2q3p/3p4/3Pn3/P2BPN2/1P3PPP/2R2RK1 b - - 0 17
+color: black
+notation: Rc8xc7
+Rank:112
+File:2
+0, ' in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php:991
+Stack trace:
+#0 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php(833): FenParser0x88->getFromAndToByNotation('Rc8xc7')
+#1 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(50): FenParser0x88->getParsed(Array)
+#2 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(34): GameParser->parseAMove(Array)
+#3 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(21): GameParser->parseMoves(Array)
+#4 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/PgnParser.php(163): GameParser->getParsedGame(Array)
+#5 /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php(70): PgnParser->getParsedGame('[Event "m142336...')
+#6 {main}
+  thrown in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php on line 991
+[05-Mar-2015 04:18:53 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Fen: 4rrk1/1pQ2pp1/p2q3p/3p4/3Pn3/P2BPN2/1P3PPP/2R2RK1 b - - 0 17
+color: black
+notation: Rc8xc7
+Rank:112
+File:2
+0, ' in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php:991
+Stack trace:
+#0 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php(833): FenParser0x88->getFromAndToByNotation('Rc8xc7')
+#1 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(50): FenParser0x88->getParsed(Array)
+#2 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(34): GameParser->parseAMove(Array)
+#3 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/GameParser.php(21): GameParser->parseMoves(Array)
+#4 /home/consultlawyers/public_html/mkgxy/chess/pgnParser/PgnParser.php(163): GameParser->getParsedGame(Array)
+#5 /home/consultlawyers/public_html/mkgxy/chess/analyse/manishGames.php(71): PgnParser->getParsedGame('[Event "m142336...')
+#6 {main}
+  thrown in /home/consultlawyers/public_html/mkgxy/chess/pgnParser/FenParser0x88.php on line 991

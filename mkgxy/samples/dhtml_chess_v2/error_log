@@ -1,0 +1,4 @@
+[31-Jan-2015 05:18:07 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'db_username'@'localhost' (using password: YES) in /home/consultlawyers/public_html/mkgxy/samples/dhtml_chess_v2/db-connect.php on line 4
+[31-Jan-2015 05:18:07 UTC] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/consultlawyers/public_html/mkgxy/samples/dhtml_chess_v2/db-connect.php on line 5
+[31-Jan-2015 05:18:21 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'db_username'@'localhost' (using password: YES) in /home/consultlawyers/public_html/mkgxy/samples/dhtml_chess_v2/db-connect.php on line 4
+[31-Jan-2015 05:18:21 UTC] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/consultlawyers/public_html/mkgxy/samples/dhtml_chess_v2/db-connect.php on line 5

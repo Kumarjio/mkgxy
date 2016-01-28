@@ -1,0 +1,35 @@
+Return-path: <consultlawyers@host2.justnameserver.net>
+Envelope-to: admin@consultlawyers.us
+Delivery-date: Wed, 17 Jun 2015 09:58:29 +0300
+Received: from consultlawyers by host2.justnameserver.net with local (Exim 4.85)
+	(envelope-from <consultlawyers@host2.justnameserver.net>)
+	id 1Z57Iq-0007iN-R2
+	for admin@consultlawyers.us; Wed, 17 Jun 2015 09:58:28 +0300
+To: admin@consultlawyers.us
+Subject: [Consult Lawyers] Please moderate: "Hello world!"
+X-PHP-Script: consultlawyers.us/web/wp-comments-post.php for 69.107.105.19
+Date: Wed, 17 Jun 2015 06:58:28 +0000
+From: WordPress <wordpress@consultlawyers.us>
+Message-ID: <18ef9a959bb6d273e195f397126fdc5d@consultlawyers.us>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.7 (https://github.com/PHPMailer/PHPMailer/)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+A new comment on the post "Hello world!" is waiting for your approval
+http://consultlawyers.us/web/?p=1
+
+Author: interstate removals (IP: 69.107.105.19, adsl-69-107-105-19.dsl.pltn13.pacbell.net)
+E-mail: raqudatd@gmail.com
+URL: http://www.phtele.com.br/?option=com_k2&amp;view=itemlist&amp;task=user&amp;id=137316
+Whois: http://whois.arin.net/rest/ip/69.107.105.19
+Comment: 
+What's up, I check your new stuff regularly. Your humoristic style is awesome, keep up the good work!|
+
+Approve it: http://consultlawyers.us/web/wp-admin/comment.php?action=approve&c=17
+Trash it: http://consultlawyers.us/web/wp-admin/comment.php?action=trash&c=17
+Spam it: http://consultlawyers.us/web/wp-admin/comment.php?action=spam&c=17
+Currently 16 comments are waiting for approval. Please visit the moderation panel:
+http://consultlawyers.us/web/wp-admin/edit-comments.php?comment_status=moderated
+

@@ -1,0 +1,1 @@
+[16-Jan-2015 14:33:23 America/Los_Angeles] PHP Fatal error:  Call to undefined function findCity() in /home/consultlawyers/public_html/mkgxy/crons/cityUpdate.php on line 47

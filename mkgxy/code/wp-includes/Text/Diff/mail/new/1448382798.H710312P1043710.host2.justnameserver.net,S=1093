@@ -1,0 +1,26 @@
+Return-path: <>
+Envelope-to: consultlawyers@host2.justnameserver.net
+Delivery-date: Tue, 24 Nov 2015 18:33:18 +0200
+Received: from mailnull by host2.justnameserver.net with local (Exim 4.86)
+	id 1a1GWs-004NVv-Ii
+	for consultlawyers@host2.justnameserver.net; Tue, 24 Nov 2015 18:33:18 +0200
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@host2.justnameserver.net>
+To: consultlawyers@host2.justnameserver.net
+Subject: Mail failure - no recipient addresses
+Message-Id: <E1a1GWs-004NVv-Ii@host2.justnameserver.net>
+Date: Tue, 24 Nov 2015 18:33:18 +0200
+
+A message that you sent contained no recipient addresses, and therefore no
+delivery could be attempted.
+
+------ This is a copy of your message, including all the headers. ------
+
+To: 
+Subject: New Answer For Your Question on TheBayAreaContractors.com
+X-PHP-Script: bootstrap.mkgalaxy.com/svnprojects/projects/bayareacontractor/admin/ask.php for 67.181.89.89
+Message-Id: <E1a1GWs-004NVt-Gc@host2.justnameserver.net>
+From: consultlawyers@host2.justnameserver.net
+Date: Tue, 24 Nov 2015 18:33:18 +0200
+
+Checkout this page

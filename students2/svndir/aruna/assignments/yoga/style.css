@@ -1,0 +1,140 @@
+.navbar{
+    min-height:100px;
+	background-color:#FFFFFF;
+}
+.navbar-nav li{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+    .navbar-nav li a {
+        padding:20px;
+        font-size: 18px; 
+        font-weight: bold; 
+        border-right: 1px solid #ccc; 
+        text-transform: uppercase; 
+        font-family: 'Oswald', sans-serif;
+}
+
+
+.navbar-nav a:hover, .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover { 
+    color: #fff !important; 
+    background-color: #E10F13 !important; }
+
+body{
+    padding-top:90px;
+}
+
+
+.jumbotron {
+  min-height: 450px;
+  background:url(http://i.huffpost.com/gen/1437018/images/o-BEACH-YOGA-facebook.jpg) no-repeat;
+  margin:0;
+}
+
+.jumbotron h1 {
+  font-size:75px;
+  color:#E10F13;
+}
+h1, h2, h3 {
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}
+
+.fa-color {
+  color: #0383c0;
+}
+.button{
+	margin-top:75px;
+	}
+
+
+.section-red {
+ background: #f4f4f4; 
+}
+
+section {
+  padding: 30px 0px 30px 0px;
+}
+
+ .section-2 {
+    background: #68A7FC;
+    color: #fff;
+    padding: 60px 0 60px 0; 
+ }
+ 
+ .section-3 {
+  text-align:center;
+}
+
+.section-3 h1 {
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+
+.section-3 p {
+ font-size: 20px; 
+}
+
+.section-3 a {
+  margin-top: 20px; 
+}
+
+.feature-list li {
+  font-size: 18px;
+  list-style: none;
+  line-height: 2em;
+}
+
+ .section-primary {
+  background: #0383c0;
+  color:#fff;
+  padding: 60px 0 60px 0;
+}
+
+ footer {
+    text-align: center;
+    background: #f4f4f4;
+    padding-top: 20px;
+    padding-bottom: 10px; 
+}
+
+.section-title {
+  padding: 10px;
+  background: #0383c0;
+  color: #fff; 
+}
+
+.section-title small {
+  color: #ccc; 
+}
+
+h2{
+	color:#E10F13;
+	}
+	
+.title{
+	background:#68A7FC;
+	padding-left:120px;
+	padding-top:10px;
+	}	
+	
+.title1{
+	padding-top:0px;
+	}	
+	
+ .title h1{   
+	margin-top:10px;	
+ }
+ 
+ .clients{
+	margin-bottom:-50px; 
+	 }
+	 
+.bc2{
+	padding-top:10px;
+	}	
+	
+.training3{
+	text-align:justify;
+	}	 

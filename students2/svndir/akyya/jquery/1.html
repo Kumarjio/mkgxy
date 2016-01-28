@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+            <script> 
+         $(document).ready(function() {
+            $("#todo").hide()
+             .fadeIn()
+             .css('color', 'orange');
+          });
+           $(document).ready(function() {
+            $("#greeting").html("<p>hello</p>");
+          });
+          
+          $(document).ready(function() {
+               console.log($('p'));
+          });
+          
+          $(document).ready(function() {
+              console.log("this is id ME",  $('#me'));
+              console.log("this is mr. class", $('.mr'));
+              console.log("this is all tags", $('*'));
+              console.log("this is multiple selectors, one statement", $('.mr, 3me'));
+          })
+        </script>
+    </head>
+    <body>
+        <div id="todo">TODO write content</div>
+        <div id="greeting"></div>
+        <p class="mr">I am paragragh 1</p>
+        <p>I am paragragh 2</p>
+        <p>I am paragragh 3</p>
+        <div id="me" class="mr">Hello Me and Mr</div>
+
+    </body>
+</html>

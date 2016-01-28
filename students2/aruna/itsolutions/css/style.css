@@ -1,0 +1,140 @@
+.jumbotron{
+	padding:10px;
+	background:#E1BD51;
+	margin-bottom:0px;
+	}
+	
+.jumbotron h3{
+	margin:5px;
+	font-size: 14px;
+	}
+	
+.jumbotron form{	
+	margin-top: 15px;
+    }
+	
+.navbar{
+	font-size: 24px;
+    font-style: italic;
+	font-weight:bold;
+    padding: 0 300px 0 450px;
+	}	
+	
+.navbar-nav a:hover, .navbar-nav .active a{
+	background-color:#E1BD51 !important;
+	color:#980507 !important;
+	}	
+	
+h1{
+	font-style:oblique;
+	font-weight:bold;
+	color:#0D6007;
+	}
+	
+.sub-heading{
+	padding-left:100px;
+	}	
+	
+.blog h1{
+	margin-left:35px;
+	}	
+	
+p{
+	font-size:18px;	
+	text-align:justify;
+	}
+	
+.section-2{
+	padding-bottom:30px;
+	}	
+	
+.blog-list li{
+	list-style:none;
+	margin-bottom:35px;
+	}
+	
+.blog-description li{
+	list-style:none;
+	}
+	
+.grid{
+	border:1px solid navy;
+	padding-bottom:10px;
+	}
+	
+.grid1{
+	border-left:2px solid navy;
+	border-top:2px solid navy;
+	border-bottom:2px solid navy;
+	
+	}
+	
+.grid2{
+	border-top:2px solid navy;
+	border-bottom:2px solid navy;
+	padding-bottom:10px;
+	}	
+	
+.grid3{
+	border-right:2px solid navy;
+	border-top:2px solid navy;
+	border-bottom:2px solid navy;
+	}			
+	
+
+h2{
+	font-size:24px;
+	font-style:italic;
+	font-weight:bold;
+	color:#0B27A7;
+	}		
+
+.section-3{
+	margin-bottom:30px;
+	}	
+	
+footer{
+	text-align:center;
+	background:#E1BD51;
+	padding:15px 0 15px 0;
+	}	
+	
+.employee h2{
+	margin-top:35px;
+	}	
+	
+.nav-tabs a{
+	font-size:24px;
+	font-style:italic;
+	font-weight:bold;
+	}	
+	
+.tab-content div	{
+	font-size:18px;
+	}
+	
+.nav-tabs{
+	margin-top:20px;
+	}
+	
+.support-2{
+	margin-top:30px;
+	}
+	
+.button{
+	padding-top:18px;
+	}	
+	
+.techsupport{
+	margin-top:6px;
+	}
+	
+.submit{
+	margin-bottom:20px;
+	}				
+	
+	
+	
+	
+		
+	

@@ -1,0 +1,38 @@
+<!doctype html>
+    <html>
+    <head>
+    <title>Jquery</title>
+<meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<style type="text/css">
+<!--
+#circle {
+	background-color: #0F0;
+	height: 200px;
+	width: 200px;
+	border-radius:100px;
+}
+-->
+</style>
+</head>
+
+<body>
+<div id="circle"></div>
+<p id="contained">
+Blah Blah Blah
+</p>
+
+<script language="javascript">
+$("#circle").click(function() {
+	$("#contained").html("This is new text");
+});
+
+
+</script>
+
+</body>
+</html>

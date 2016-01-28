@@ -1,0 +1,33 @@
+<!doctype html>
+<html data-ng-app>
+<head>
+<title>Section 2 - Views, Directives and Filters</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+
+</head>
+<body>
+<h1>Section 2 - Views, Directives and Filters</h1>
+<h3>Expression</h3>
+<p>Add: {{1+1}}</p>
+<p>Subtract: {{4-1}}</p>
+<p>Multiply: {{4 * 3}}</p>
+<p>Divide: {{4/2}}</p>
+<h3>ng-Hide</h3>
+<p ng-hide="isHidden">
+Name: 
+<input type="text" ng-model="name" ng-init="name='James'" /> <span ng-bind="name"></span>
+<input type="button" ng-click="name='Michelle'" value="Submit">
+</p>
+<p>
+  <label>
+  <input type="checkbox" ng-model="isHidden" > Hide  </label>
+</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body>
+</html>

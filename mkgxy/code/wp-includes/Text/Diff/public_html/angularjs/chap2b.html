@@ -1,0 +1,32 @@
+<!doctype html>
+<html data-ng-app>
+<head>
+<title>Section 2 - Views, Directives and Filters</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<style type="text/css">
+.red {
+	color: red;
+	font-weight:bold;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+</head>
+<body ng-init="data={name:'James', isVisible:true, loggedIn:false, status:'red'}">
+<h1>Section 2 - Views, Directives and Filters</h1>
+
+
+<div>
+	<div ng-switch on="data.loggedIn">
+		<div ng-switch-when="true" ng-class="data.status">Welcome {{data.name}}</div>
+		<div ng-switch-when="false" ng-class="data.status">Login</div>
+	</div>
+	<br>
+	<div ng-show="data.isVisible">
+		Name: <input type="text" ng-model="data.name" /> {{data.name}}
+	</div>
+</div>
+</body>
+</html>

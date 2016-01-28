@@ -1,0 +1,352 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201506 will be lost/reset.
+# Last config file used to build this data file was /home/consultlawyers/tmp/awstats/awstats.religionofhumanity.consultlawyers.us.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2039                
+POS_TIME 2711                
+POS_VISITOR 7199                
+POS_DAY 8744                
+POS_DOMAIN 3345                
+POS_LOGIN 3721                
+POS_ROBOT 3876                
+POS_WORMS 4147                
+POS_EMAILSENDER 4278                
+POS_EMAILRECEIVER 4421                
+POS_SESSION 9175                
+POS_SIDER 9339                
+POS_FILETYPES 4556                
+POS_DOWNLOADS 4711                
+POS_OS 4759                
+POS_BROWSER 4942                
+POS_SCREENSIZE 5374                
+POS_UNKNOWNREFERER 5448                
+POS_UNKNOWNREFERERBROWSER 5645                
+POS_ORIGIN 5788                
+POS_SEREFERRALS 5924                
+POS_PAGEREFS 6088                
+POS_SEARCHWORDS 6313                
+POS_KEYWORDS 6465                
+POS_MISC 2375                
+POS_ERRORS 6524                
+POS_CLUSTER 3577                
+POS_SIDER_404 6639                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150701192012 1 0 10671411414273
+FirstTime 20150612211757
+LastTime 20150630033918
+LastUpdate 20150702152844 1 0 0 0 0
+TotalVisits 75                  
+TotalUnique 38                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 38                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 23 23 107248 2 2 42
+1 15 15 57384 1 1 0
+2 20 34 600414 2 3 0
+3 17 17 61088 4 6 18464
+4 15 15 66616 1 1 0
+5 14 14 48152 3 4 9289
+6 14 14 59208 9 9 33514
+7 1 1 9232 0 0 0
+8 3 3 9232 4 14 248139
+9 3 10 266603 0 0 0
+10 4 10 144559 2 3 9232
+11 4 4 18464 1 1 0
+12 5 5 18464 5 7 757
+13 0 0 0 3 3 4480
+14 1 1 2708 3 6 73445
+15 2 2 9232 0 0 0
+16 4 22 719093 14 17 106137
+17 2 2 18464 1 1 0
+18 1 1 9232 0 0 0
+19 4 4 27696 1 1 0
+20 0 0 0 0 0 0
+21 23 41 631072 18 33 1203582
+22 14 14 51856 2 2 0
+23 15 15 57384 1 1 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 12
+ua 127 127 470408
+us 53 84 1106746
+jp 5 5 46160
+ca 5 23 746789
+br 3 3 27696
+ru 3 17 537502
+fr 3 3 18464
+es 1 1 2708
+zz 1 1 9232
+nl 1 1 9232
+mx 1 1 9232
+de 1 1 9232
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+php 32 1219870 20150616163726 0
+googlebot 21 388383 20150630033917 0
+robot 9 62448 20150628120737 0
+no_user_agent 2 18464 20150615210712 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 5
+php 159 473116 0 0
+css 18 1024074 0 0
+eot 1 22760 0 0
+html 44 396976 0 0
+js 45 1076475 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 10
+winlong 3 3
+winxp 22 16
+winnt 18 0
+macosx5 1 1
+linux 3 3
+win7 155 137
+win8 18 4
+Unknown 37 37
+win8.1 1 1
+macosx7 9 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 22
+msie6.0 1 1
+firefox28.0 3 3
+chrome37.0.2049.0 1 1
+chrome43.0.2357.124 8 1
+firefox2.0.0.1 1 1
+chrome31.0.1650.57 8 1
+msie5.5 18 0
+msie8.0 26 8
+firefox33.0 2 2
+mozilla 6 6
+netscape5.0 3 3
+firefox14.0.1 1 1
+msie7.0 9 3
+msie10.0 9 2
+firefox3.6.3 2 2
+opera11.10 128 128
+chrome31.0.1650.16 1 1
+chrome27.0.1453.116 1 1
+chrome11.0.696.71 6 6
+Unknown 31 31
+firefox3.1 1 1
+firefox3.6.13 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+WordPress/4.2.2;_http://religionofhumanity.us 20150630033918
+Mozilla/4.0_(compatible;_Synapse) 20150626073141
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+WordPress/4.2.2;_http://religionofhumanity.us 20150630033918
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 64 88
+From1 1 1
+From2 3 3
+From3 7 7
+From4 129 168
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+bing 1 1
+yandex 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://best-seo-report.com 6 6
+https://mawords.com/religionofhumanity.us 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+302 2 0
+405 1 42
+404 30 17874
+301 15 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 8
+/robots.txt 10 -
+/m/ 2 -
+/admin.php 1 -
+/mobile/ 2 -
+/administrator/index.php 1 -
+/wp-login.php 11 http://religionofhumanity.us/wp-login.php
+/index.php/category/uncategorized/ 2 -
+/domainsigma_removal_38775bdbfaa69ff17adf5bbd9e6f942fbff36828.html 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 38
+193.201.227.78 127 127 470408 20150619064909
+67.225.208.62 31 31 0 20150630033918
+192.99.150.120 3 21 728325 20150629011610
+198.101.238.203 3 3 27696 20150629032632
+5.164.72.167 2 9 280131 20150618021511
+23.95.190.102 2 2 18464 20150626020959
+192.237.216.89 2 2 18464 20150629041148
+23.95.183.73 2 2 18464 20150625005416
+192.99.170.80 2 2 18464 20150622160026
+38.100.25.115 2 8 144559 20150613101532
+201.1.57.194 1 1 9232 20150620003020
+200.214.53.171 1 1 9232 20150620000013
+176.195.30.196 1 8 257371 20150618092909
+69.64.58.188 1 1 9232 20150620193339
+107.172.6.203 1 1 9232 20150626073141
+162.244.33.8 1 1 9232 20150614171558
+82.235.56.238 1 1 0 20150615210711
+150.70.97.97 1 1 9232 20150615213005
+46.166.186.210 1 1 9232 20150615210719
+166.78.181.113 1 1 9232 20150615001039
+92.222.67.109 1 1 9232 20150620120603
+54.204.124.171 1 1 9232 20150622180029
+150.70.172.232 1 1 9232 20150620001545
+91.121.83.118 1 1 9232 20150615215121
+50.193.202.82 1 1 9232 20150619192523
+150.70.97.85 1 1 9232 20150615211752
+5.39.93.201 1 1 9232 20150615211723
+83.38.104.251 1 1 2708 20150618144139
+150.70.173.40 1 1 9232 20150620000121
+204.13.200.200 1 19 538640 20150615210717
+199.30.228.128 1 1 9232 20150614125545
+54.204.241.193 1 1 9232 20150617022752
+198.23.215.193 1 1 9232 20150626044509
+189.212.185.220 1 1 9232 20150616162134
+65.49.54.70 1 1 9232 20150613170957
+206.208.102.250 1 8 257371 20150616023408
+150.70.173.58 1 1 9232 20150615211803
+177.6.176.67 1 1 9232 20150621155747
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 18
+20150612 2 2 0 1
+20150613 4 10 153791 3
+20150614 4 4 18464 4
+20150615 15 33 621728 14
+20150616 4 29 976464 4
+20150617 2 2 9232 2
+20150618 44 58 677258 7
+20150619 93 93 351824 4
+20150620 8 8 55392 8
+20150621 3 3 9232 3
+20150622 4 4 18464 4
+20150624 6 6 27696 6
+20150625 3 3 18464 3
+20150626 4 4 27696 4
+20150627 1 1 0 1
+20150628 2 2 0 2
+20150629 4 4 27696 4
+20150630 1 1 0 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+1h+ 2
+5mn-15mn 1
+0s-30s 72
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 4
+/wp-login.php 128 473116 3 3
+/ 44 396976 43 42
+/wp-cron.php 31 0 29 29
+/wp-content/themes/twentyfifteen/genericons/Genericons.eot 1 22760 0 1
+END_SIDER
