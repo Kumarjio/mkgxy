@@ -155,4 +155,136 @@ function wp_insert_category( $catarr, $wp_error = false ) {
 }
 
 /**
- * Aliases wp_insert_category() with minimal ar
+ * Aliases wp_insert_category() with minimal args.
+ *
+ * If you want to update only some fields of an existing category, call this
+ * function with only the new values set inside $catarr.
+ *
+ * @since 2.0.0
+ *
+ * @param array $catarr The 'cat_ID' value is required. All other keys are optional.
+ * @return int|bool The ID number of the new or updated Category on success. Zero or FALSE on failure.
+ */
+function wp_update_category($catarr) {
+	$cat_ID = (int) $catarr['cat_ID'];
+
+	if ( isset($catarr['category_parent']) && ($cat_ID == $catarr['category_parent']) )
+		return false;
+
+	// First, get all of the original fields
+	$category = get_term( $cat_ID, 'category', ARRAY_A );
+	_make_cat_compat( $category );
+
+	// Escape data pulled from DB.
+	$category = wp_slash($category);
+
+	// Merge old and new fields with new fields overwriting old ones.
+	$catarr = array_merge($category, $catarr);
+
+	return wp_insert_category($catarr);
+}
+
+//
+// Tags
+//
+
+/**
+ * Check whether a post tag with a given name exists.
+ *
+ * @since 2.3.0
+ *
+ * @param int|string $tag_name
+ * @return mixed
+ */
+function tag_exists($tag_name) {
+	return term_exists($tag_name, 'post_tag');
+}
+
+/**
+ * Add a new tag to the database if it does not already exist.
+ *
+ * @since 2.3.0
+ *
+ * @param int|string $tag_name
+ * @return array|WP_Error
+ */
+function wp_create_tag($tag_name) {
+	return wp_create_term( $tag_name, 'post_tag');
+}
+
+/**
+ * Get comma-separated list of tags available to edit.
+ *
+ * @since 2.3.0
+ *
+ * @param int    $post_id
+ * @param string $taxonomy Optional. The taxonomy for which to retrieve terms. Default 'post_tag'.
+ * @return string|bool|WP_Error
+ */
+function get_tags_to_edit( $post_id, $taxonomy = 'post_tag' ) {
+	return get_terms_to_edit( $post_id, $taxonomy);
+}
+
+/**
+ * Get comma-separated list of terms available to edit for the given post ID.
+ *
+ * @since 2.8.0
+ *
+ * @param int    $post_id
+ * @param string $taxonomy Optional. The taxonomy for which to retrieve terms. Default 'post_tag'.
+ * @return string|bool|WP_Error
+ */
+function get_terms_to_edit( $post_id, $taxonomy = 'post_tag' ) {
+	$post_id = (int) $post_id;
+	if ( !$post_id )
+		return false;
+
+	$terms = get_object_term_cache( $post_id, $taxonomy );
+	if ( false === $terms ) {
+		$terms = wp_get_object_terms( $post_id, $taxonomy );
+		wp_cache_add( $post_id, $terms, $taxonomy . '_relationships' );
+	}
+
+	if ( ! $terms ) {
+		return false;
+	}
+	if ( is_wp_error( $terms ) ) {
+		return $terms;
+	}
+	$term_names = array();
+	foreach ( $terms as $term ) {
+		$term_names[] = $term->name;
+	}
+
+	$terms_to_edit = esc_attr( join( ',', $term_names ) );
+
+	/**
+	 * Filter the comma-separated list of terms available to edit.
+	 *
+	 * @since 2.8.0
+	 *
+	 * @see get_terms_to_edit()
+	 *
+	 * @param array  $terms_to_edit An array of terms.
+	 * @param string $taxonomy     The taxonomy for which to retrieve terms. Default 'post_tag'.
+	 */
+	$terms_to_edit = apply_filters( 'terms_to_edit', $terms_to_edit, $taxonomy );
+
+	return $terms_to_edit;
+}
+
+/**
+ * Add a new term to the database if it does not already exist.
+ *
+ * @since 2.8.0
+ *
+ * @param int|string $tag_name
+ * @param string $taxonomy Optional. The taxonomy for which to retrieve terms. Default 'post_tag'.
+ * @return array|WP_Error
+ */
+function wp_create_term($tag_name, $taxonomy = 'post_tag') {
+	if ( $id = term_exists($tag_name, $taxonomy) )
+		return $id;
+
+	return wp_insert_term($tag_name, $taxonomy);
+}

@@ -116,13 +116,13 @@ class PgnParser
 
     public function getUnparsedGames()
     {
-        if (!isset($this->pgnGames)) {
+        //if (!isset($this->pgnGames)) {
             if ($this->pgnFile && !isset($this->pgnContent)) {
 
                 $this->pgnContent = file_get_contents($this->pgnFile);
             }
             $this->pgnGames = $this->splitPgnIntoGames($this->cleanPgn($this->pgnContent));
-        }
+        //}
 
         return $this->pgnGames;
     }
@@ -155,7 +155,7 @@ class PgnParser
         return $ret;
     }
 
-    private function getParsedGame($unParsedGame)
+    public function getParsedGame($unParsedGame)
     {
         $this->pgnGameParser->setPgn($unParsedGame);
         $ret = $this->pgnGameParser->getParsedData();
