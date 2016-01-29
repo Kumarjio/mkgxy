@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Administrator"
+AuthUserFile "/home/consultlawyers/.htpasswds/public_html/mkgxy/superadmin/passwd"
+require valid-user
