@@ -1,0 +1,22 @@
+<!doctype html> 
+<html>
+<head> 
+<meta charset="UTF-8"> 
+<title>javascript</title> 
+<script>
+  
+    </script>
+</head>
+    
+<body> 
+    <script>
+
+        function ltogallon(l) {
+            var result = l * 0.264172; 
+            return result; 
+        } 
+        var value = ltogallon(10);
+        console.log(value);
+    </script>
+</body> 
+</html>

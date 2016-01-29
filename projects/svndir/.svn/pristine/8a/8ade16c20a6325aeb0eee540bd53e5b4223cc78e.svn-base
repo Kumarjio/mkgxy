@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link href="css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link href="css/font-awesome.css" rel="stylesheet">
+
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="http://www.bikramyogadoncaster.com.au/images/masthead-logo.png"></a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-left">
+            <li class=""><a href="hoe.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="classes.html">Classes</a></li>
+            <li><a href="studiopolicies.html">Studio Policies</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+          	<li><a href="about.html"><button class="btn-primary btn-lg">Login</button></a></li>
+            <li><a href="register.html"><button class="btn-primary btn-lg">Register Here</button></a></li>
+          	
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+<section class="section-home">
+	<div class="container">
+    	<div class="row">
+        	<div class="col-md-12">
+            	<h1>About<span>Who Are We?</span></h1>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>

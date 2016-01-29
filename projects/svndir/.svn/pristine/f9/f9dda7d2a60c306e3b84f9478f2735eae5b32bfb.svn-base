@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled document</title>
+<script>
+  //alert("Hello");
+</script>
+</head>
+
+<body>
+<script>
+function display() { 
+  console.log('hello');
+  console.log('world');
+}
+
+display();
+display();
+
+function helloworld() {
+  console.log('hello world');
+}
+
+helloworld();
+
+function helloworld2(parameter1) {
+  console.log("parameter is " + parameter1);
+}
+
+helloworld2('here');
+
+function add(p1, p2) {
+  console.log(p1 + p2);
+}
+
+add(1,2);
+
+function sub(p1, p2) {
+  console.log(p1 - p2);
+}
+
+sub(1,2);
+
+function mul(p1, p2) {
+  console.log(p1 * p2);
+}
+
+mul(1,2);
+
+function div(p1, p2) {
+  console.log(p1 / p2);
+}
+
+div(4,2);
+
+function add2(p1, p2) {
+  return p1 + p2;
+}
+var x = add2(3,4);
+console.log(x);
+console.log(add2(1,5));
+
+function complex(z) {
+  var  y = z - 3;
+  var x = y * 2;
+  var a = x + y;
+  var b = z + a + x;
+  var c = a + b + y;
+  return c;
+}
+
+var value = complex(1);
+console.log(value);
+
+function dollartorupee(amount) {
+  return amount * 66.91;
+}
+console.log(dollartorupee(100));
+</script>
+</body>
+
+</html>

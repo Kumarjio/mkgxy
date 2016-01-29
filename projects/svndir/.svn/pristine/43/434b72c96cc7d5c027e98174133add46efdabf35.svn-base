@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Yoga Center</title>
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css">
+<link href="css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><img src="http://memphiscottonmuseum.org/assets/images/eyc-logo-trans.png" alt="logo"></a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home </a></li>
+            <li class="active"><a href="about.html">about </a></li>
+            <li><a href="pricing.html">Classes & Pricing</a></li>
+            <li><a href="contact.html">Contact </a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+ </nav>
+     <section class="section-top">
+    	<div class="row">
+        	<div class="col-md-12">
+            	<ol class="breadcrumb">
+                  <li><a href="index.html">Home</a></li>
+                  <li class="active">About</li>
+                </ol>
+             </div>
+        </div>
+        <div class="container">
+        	<div class="row">
+            <div class="col-md-8">
+        	<h2>About Evergreen Yoga Center</h2>
+            <p>Yoga Club supports offering every BODY a variety of affordable yoga practices! As such, most classes listed on Yoga Club's site are low cost or donation based.  As yoga is about healthy living, relaxation & meditation, many hold classes in the most natural setting...the great outdoors!</p>
+            
+            <p>Holistic Yoga Therapy Institute  offers one of the regions most unique, flexible, and affordable yoga teacher training programs. Our program is on-going so you can start anytime, select the immersions of interest, and pay as you go! We offer a 200 Hour & 500 Hour Yoga Alliance registered  program.  Also a 500 Hour & 800 Hour Therapeutic Yoga training program. We are a member school with IAYT, International Association of Yoga Therapists.  Trainings  offered in Charlotte NC, Raleigh NC, Atlanta GA, Chattanooga TN, Richmond VA.</p>
+            
+            <p>The benefits of Yoga have been understood and enjoyed for thousands of years by cultures around the world. We created this site to offer a comfortable, easy to understand environment for people who are just beginning to learn about Yoga. Yoga can be a healthy part of anyone’s life – regardless of age, income or location. We hope that the information and resources will be useful as you continue your development and exploration. </p>
+            </div>
+            <div class="col-md-4">
+            <div class="row">
+            <img src="https://s-media-cache-ak0.pinimg.com/236x/a9/21/d3/a921d35953928135772dad2f9f99a0af.jpg" class="img-responsive">
+            <br>
+            <img src="https://s-media-cache-ak0.pinimg.com/236x/07/21/6c/07216c58450c4e4d8234b1e939b385b1.jpg" class="img-responsive">
+            </div>
+            </div>
+            </div></div>
+        
+      </section>
+      <section class="instructors">
+      	<div class="container">
+        	<h2 class="page-header">Instructors</h2>
+            <div class="row">
+                <div class="col-md-4">
+                <h4>John Killen</h4>
+                <img src="http://media2.onsugar.com/files/2012/02/07/1/192/1922729/bedf89a1f26e9fcb_yoga-instructor.xxxlarge_1.jpg" class="img-responsive" style="max-height:50%;max-width:60%">
+                <p>Yoga Teacher</p>
+                </div>
+                <div class="col-md-4">
+                <h4>Mary qenston</h4>
+                <img src="http://www.lightworkerbusiness.com/wp-content/uploads/2013/12/yoga-teacher.jpg" class="img-responsive" style="max-height:50%;max-width:60%">
+                <p>Yoga & Meditation Teacher</p>
+                </div>
+                <div class="col-md-4">
+                <h4>Andrianaa stenson </h4>
+                <img src="http://blog.gaiam.com/wp-content/uploads/2012/01/Yoga-teacher.jpg" class="img-responsive" style="max-height:70%;max-width:80%">
+                <p>Yoga Teacher</p>
+                </div>
+            </div>
+        </div>
+      </section>
+      <footer>
+	<div class="col-sm-4 foot">
+    	<p><a href="#"> Blog </a> | <a href="#"> Customer Services</a> | <a href="#"> BookStore</a></p>
+    </div>
+    <div class="col-sm-4 foot">
+    	<p>Mango Technologies Copyright@2015 - <a href="#"> Terms </a> | <a href="#"> Privacy</a></p>
+    </div>
+    <div class="col-sm-4 pull-right">
+    <a href="#facebook-profile" data-toggle="tooltip" data-placement="top" title="Facebook">
+                        <i class="fa fa-facebook-square fa-2x fa-color"></i></a>
+    <a href="#linkedin-profile" data-toggle="tooltip" data-placement="top" title="LinkedIn">
+                        <i class="fa fa-linkedin-square fa-2x fa-color"></i></a>
+    <a href="#twitter-profile" data-toggle="tooltip" data-placement="top" title="Twitter">
+                        <i class="fa fa-twitter-square fa-2x fa-color"></i></a>
+    <a href="#google-plus-profile" data-toggle="tooltip" data-placement="top" title="Google Plus">
+                        <i class="fa fa-google-plus-square fa-2x fa-color"></i> </a>                  
+    </div>
+</footer>
+ 
+</body>
+</html>

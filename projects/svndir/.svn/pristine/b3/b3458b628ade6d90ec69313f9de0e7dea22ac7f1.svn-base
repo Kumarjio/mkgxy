@@ -1,0 +1,132 @@
+.navbar {
+	min-height: 110px;
+	margin:0;
+}
+.navbar-default{
+	background-color:#78090A;
+}
+
+.button-center{
+	margin: 30px 50px 30px 50px;
+	}
+
+
+.navbar-nav li {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.navbar-nav li a {
+	padding: 20px;
+	font-size: 18px;
+	font-weight: bold;
+	border-right: 1px solid #ccc;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+}
+
+
+.navbar-nav a:hover, .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	color: #fff !important;
+	background-color: #225A14 !important;
+}
+body {
+	padding-top: 90px;
+}
+.jumbotron{
+	background	:url(http://sohospacary.com/wp-content/uploads/2015/02/mail-service.jpg)no-repeat;
+}
+.jumbotron {
+	min-height: 400px;
+    margin:0;
+	
+	
+}
+h3{
+	color:#fff;
+	font-weight:bolder;
+	}
+
+.title1{
+	margin-left:0px;
+	}
+	
+.title{
+	padding-left:105px;
+	}	
+
+.fa-color {
+	color: #225A14;
+}
+.section-red {
+	background: #932D2F;
+}
+section {
+	padding: 30px 0px 30px 0px;
+}
+
+.section-2{
+	background-color:#225A14;
+	color:#E5F918;
+	font-family: 'Oswald', sans-serif;
+}
+
+.section-3{
+	text-align:center;
+}
+
+.section-3 h1{
+	font-size:50px;
+}
+.section-3 p{
+	font-size:25px
+	}
+
+.feature-list li{
+	font-size:20px;
+	list-style:none;
+	line-height:2em;
+	}
+	
+.section-5{
+	background-color:#225A14;
+	}	
+	
+.section-5{
+	background:#225A14;
+	}
+	
+.feature-list li{
+	font-size:24px;
+	}
+	
+.forsale li{
+	color:#E5F918;
+	font-size:24px;
+	}
+	
+	.heading{
+	color:#E5F918;
+	}
+		
+footer {
+    text-align: center;
+    background: #932D2F;
+	padding-top:10px;
+	padding-bottom:2px;
+	color:#fff;
+}
+
+.breadcrumb{
+	margin-top:-50px;
+	}
+	
+.title{
+	background: #225A14;
+	color:#fff;
+	margin-top:-20px;
+	}	
+	
+.bc2{
+	margin-top:60px;
+	}	
+		

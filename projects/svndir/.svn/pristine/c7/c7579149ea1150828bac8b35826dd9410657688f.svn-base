@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<script>
+var x = confirm('do you agree?');
+
+console.log(x);
+</script>
+</head>
+
+<body>
+
+<script>
+
+</script>
+</body>
+</html>

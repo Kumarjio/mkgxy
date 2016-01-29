@@ -1,0 +1,144 @@
+<!doctype html> 
+<html>
+<head> 
+<meta charset="UTF-8"> 
+<title>IT Solutions</title> 
+<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.css">
+<link rel="stylesheet" href="css/style.css">
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</head>
+    
+<body> 
+    
+     <nav class="navbar  navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+              <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSPfbWZMDQGlFUVBdLcgpr0MnnRO4kfFSANhoqyKxKtKomLv5M_" width="250px">
+            <p>Call for a great Experience</p></a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">about us</a></li>
+            <li><a href="services.html">Services </a></li>
+            <li><a href="contactus.html">Contact us</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+     <section class="jumbotron">
+      <div class="container">
+         <div class="row">
+           <div class="col-md-6">
+             <h1>our company</h1>
+               <p>IT Solutions is a multinational information technology and outsourcing company headquartered in Bengaluru, India and New Jersey. Founded in 1999, the company employs approximately 15,000+ employees with annual revenue of $600+ million. The company deals in e-commerce, mobile applications, cloud computing, digital transformation, business intelligence, data analytics, testing, Agile software development, infrastructure, EAI and ERP, with more than 290 clients and offices in 14 countries.</p>
+            </div>
+          <div class="col-md-6">
+             <img src="
+http://zensly.com/wp-content/uploads/2014/05/Mission-and-vission-570x428.jpg" width="500px" class="img-responsive">
+          </div>
+          </div>
+      </div>
+    </section>
+    <section class="section-gray">
+        <div class="container">
+           <div class="row">
+               <div class="col-md-3 text-center">
+                <span class="fa-stack fa-lg fa-4x">
+  <i class="fa fa-circle fa-stack-2x fa-color"></i>
+  <i class="fa fa-university  fa-stack-1x fa-inverse"></i>
+</span>
+                   <h3>HEADQUATERS</h3> 
+                     <P>IT solutions company headquartered in Bengaluru, India.</P>
+                   
+               </div>
+                   <div class="col-md-3 text-center">
+                      <span class="fa-stack fa-lg fa-4x">
+  <i class="fa fa-circle fa-stack-2x fa-color"></i>
+  <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+</span> 
+                     <h3>RESPONSIVE</h3> 
+                       <p>Fast response regardless of priority. With multiple levels of on-site and remote IT support available.</p>
+                   </div>
+                 <div class="col-md-3 text-center">
+                   <span class="fa-stack fa-lg fa-4x">
+  <i class="fa fa-circle fa-stack-2x fa-color"></i>
+  <i class="fa  fa-trophy fa-stack-1x fa-inverse"></i>
+                   </span> 
+                <h3>FORTUNE 500</h3> 
+                     <P>IT solutions company ranked no:34 in the fortune 500 list.</P>
+               </div>
+                 <div class="col-md-3">
+                       <span class="fa-stack fa-lg fa-4x text-center">
+                           <i class="fa fa-circle fa-stack-2x fa-color"></i> 
+                           <i class="fa fa-phone fa-stack-1x fa-inverse"></i> 
+                       </span>
+                     <h3>Contact us</h3> 
+                     <p>contact us 24/7 on Facebook,Twitter,or desk helpline.</p>
+                       
+                </div>
+            </div>        
+        </div>
+    </section>
+    <section class="section-secondary slogan">
+        <h1>Take a closer look</h1>
+        <p>here is a closer look</p>
+        <a href="#" class="btn btn-lg btn-default">More Info</a>
+    </section>
+     <section>
+     <div class="container"> 
+         <div class="row"> 
+             <div class="col-md-6"> 
+                 <h2 class="page-header">Business Theme Includes</h2> 
+                 <ul class="feature-list"> 
+    <li><i class="glyphicon glyphicon-ok"></i> MAKE IDEAS STAND OUT</li>
+    <li><i class="glyphicon glyphicon-ok"></i> STAY ORGANIZED</li> 
+    <li><i class="glyphicon glyphicon-ok"></i> PRODUCT ENGINEERING </li> 
+    <li><i class="glyphicon glyphicon-ok"></i> SHARE FILES SIMPLY</li> 
+    <li><i class="glyphicon glyphicon-ok"></i> SYSTEM INTEGRATION</li> 
+                 </ul> 
+             </div> 
+             <div class="col-md-6">
+                 <div class="image">
+                 <img src="http://www.copysolution.com/images/_business_intelligence_644x268.png"class="img-responsive">
+                     </div>
+             </div> 
+         </div> 
+       </div> 
+    </section>    
+    <section class="section-primary">
+        <div class="container"> 
+            <div class="row"> 
+                <div class="col-md-6"> 
+                    <img src="http://previews.123rf.com/images/dizanna/dizanna1506/dizanna150600109/40508009-Diagram-of-Circular-flow-chart-of-life-cycle-development-process-business-concept-Stock-Photo.jpg" class="img-responsive img-circle"> 
+                </div> 
+                <div class="col-md-6"> 
+                    <h2 class="page-header">More Features Include</h2> 
+                    <ul class="feature-list"> 
+                        <li><i class="glyphicon glyphicon-ok"></i> CUSTOMER FOCUS</li> 
+                        <li><i class="glyphicon glyphicon-ok"></i> PLANNING PROCESS</li>
+                        <li><i class="glyphicon glyphicon-ok"></i> PROCESS MANAGEMENT</li> 
+                        <li><i class="glyphicon glyphicon-ok"></i> PROCESS IMPROVEMENT</li> 
+                        <li><i class="glyphicon glyphicon-ok"></i> TOTAL PARTICIPATION</li> 
+                    </ul>
+                </div> 
+            </div> 
+        </div> 
+    </section>
+    <footer>
+        <p>Business Theme Copyright 2015 - <a href="">Terms</a> | <a href="">Privacy</a></p> 
+    </footer>
+</body> 
+</html>

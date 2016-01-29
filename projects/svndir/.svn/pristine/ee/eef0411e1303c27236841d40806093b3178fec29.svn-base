@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<script>
+
+</script>
+</head>
+
+<body>
+
+<script>
+for (var i = 0; i < 2; i++) {
+  console.log('hey: ' + i);
+}
+</script>
+</body>
+</html>

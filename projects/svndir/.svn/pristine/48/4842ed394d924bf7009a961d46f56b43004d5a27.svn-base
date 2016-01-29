@@ -1,0 +1,5 @@
+.class1 {
+  color: #3335F8;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}

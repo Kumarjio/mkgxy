@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<script>
+
+</script>
+</head>
+
+<body>
+
+<script>
+function fahrentocelsius(fahren) {
+            var result = (fahren-32) / 1.8; 
+            return result; 
+        } 
+        var value = fahrentocelsius(89);
+        console.log(value);
+</script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!doctype html> 
+<html>
+<head> 
+<meta charset="UTF-8"> 
+<title>Restuarant</title>
+<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/font-awesome.css">
+<link rel="stylesheet" href="style.css">
+
+<script src="../js/jquery-1.11.3.min.js"></script>
+<script src="../js/jquery-migrate-1.2.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+</head>
+    
+<body> 
+    
+     <nav class="navbar  navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><img src="http://www.cafe-tazza.com/images/logo.png"></a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home</a></li>
+
+                <li><a href="menu.html">Menu</a></li>
+                          <li class="active"><a href="aboutus.html">About Us</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>  
+ <section class="section-title">
+        <div class="container">
+           <div class="row">
+               <div class="col-md-12">
+                   <h1>About Our Restaurant </h1>
+               </div> 
+           </div>
+        </div>
+    </section>
+<section class="section-profile">  
+     <div class="container">
+         <div class="row">
+          <div class="col-md-5">
+             <img src="http://www.broward.edu/academics/programs/hospitality/PublishingImages/Hospitality.jpg" style="padding-top:20px;" class="img-responsive">
+          </div>
+             <div class="col-md-7">
+             <h2>our profile</h2>
+                 <p>We are located in the heart of downtown Dublin, California. Because we are family-owned, we like to make our guests feel at home. We work with the concept that, "A smile in any language comes from the heart," and pride ourselves on caring and friendly service.We also accommodate special diets, e.g. vegan or gluten-free, egg free foods. We are a major suppliers of Indian styled bakery items and snacks that you will find in most popular Indian Food Places. At Café TAZZA we not only use the word TAZZA in a figure of speech but we mean literally all our food is made fresh dail</p>
+                 <p>   For all sad words of tongue and pen, The saddest are these,“It might have been” – John Greenleaf Whittier and the most delightful words are “As it should be”. Chennai Grill activates itself to stand prestigious in establishing the standard “As it should be”</p>
+                 
+          </div>
+         </div>
+         </div> 
+    </section>
+<section class="section-team">
+<div class="container">
+    <div class="row">
+        <h2>STRENGTHS OF CAFE TAZZA</h2>
+                   <div class="col-md-4">
+         <img src="http://www.indiannewsandtimes.com/wp-content/uploads/2015/08/female-chef-800x533.jpg"  class="img-responsive img-circle img-thumbnail">  
+                 <h3>Sanjana Thumma <small>chief Chef</small></h3>
+                 <p>Sanjana Thumma popularly known as Vah-Chef is an Indian .He became an instant hit for his easy cooking recipes and techniques with an element of fun.</p>
+        </div>
+                           <div class="col-md-4">
+         <img src="https://www.colourbox.com/preview/1440478-colorful-fresh-group-of-vegetables.jpg"  class="img-responsive img-circle img-thumbnail">  
+                 <h3>clean and fresh <small>major priority</small></h3>
+                 <p>Our Cook's Illustrated, a serious foodie magazine, wondered too. They usually focus on cooking techniques, but recently they looked into techniques for cleaning food.</p>
+        </div>
+                       <div class="col-md-4">
+         <img src="http://cravecookclick.com/wp-content/uploads/2012/10/IMG_1545.jpg"  class="img-responsive img-circle img-thumbnail">  
+                 <h3>UNIQUE RECIPES <small>AMAZING TASTE</small></h3>
+                 <p>We make sure that our traditional items tastes the way it should taste. We focus on the different kinds of cuisine from South India.</p>
+        </div>
+    </div>
+</div>
+</section>
+<section class="section-customer">
+<div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>DELICIOUS FOOD WITH BEST SERVICE AND AMAZING TASTE IS OUR ULTIMATE GOAL.</h1>
+        
+        </div>
+    
+    </div>
+    
+</div>
+
+</section>
+<section class="section-event">
+<div class="container">
+    <div class="row">
+      <div class="col-md-6">
+                <img src="http://chefit.co.in/blog/wp-content/uploads/2015/09/birthdays-celebrated-india_dc270d4ce1d3da1d.jpg" class="img-responsive img-circle img-thumbnail">
+        
+        </div>
+
+<div class="col-md-6">
+        <h2> place for special occasions</h2>
+        <p>In your CAFE TAZZA you also have a place to celebrate events with your friends and family members.we arrange you a private place in our restuarant for your celebrations and joy.Any restaurant can benefit from a well planned special promotion. Special promotions are those are only offered periodically, such as holiday parties.Special occasions call for special celebrations, and what better place to celebrate than The Palm? Our private party rooms provide the perfect backdrop for any event, and our accommodating staff will take care of all the details – from setup and decorations to your custom menu and drinks. </p>
+        </div>
+        
+        </div>
+    </div>
+
+</section>
+    <footer>
+        <p>2013 © Cafe tazza, Dublin CA. All Rights Reserved.- <a href="">Terms</a> | <a href="">Privacy</a></p> 
+    </footer>
+</body> 
+</html>

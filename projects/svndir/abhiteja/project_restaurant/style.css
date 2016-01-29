@@ -1,0 +1,94 @@
+.navbar {
+	min-height: 70px;
+	background:#fff;
+}
+.navbar-header a img{
+	max-height:250%;
+	max-width:100%;
+	
+}
+.navbar-nav li {
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.navbar-nav li a { 
+	padding: 20px;
+	font-size: 22px; 
+	font-weight: bold; 
+	border-right: 1px solid #ccc; 
+	text-transform: uppercase; 
+	font-family: 'Oswald', sans-serif;
+}
+	
+.navbar-nav li a span { 
+	font-size: 14px;
+	text-transform: none;
+	font-family: arial;
+	margin: 5px 0px 0px 0px;
+	font-weight:normal; 
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover, .navbar-nav a:hover {
+    color: #fff !important;
+    background-color: #FF6347 !important;
+}
+body { 
+	padding-top: 80px; 
+}
+
+.jumbotron { 
+	background: url('https://instrumentofexpression.files.wordpress.com/2012/08/img_4207.jpg'); 
+	max-height:100%;
+	max-width:100%;
+	min-height: 550px; 
+	margin: 0;
+}
+
+.jumbotron h1 { 
+	font-size: 50px; 
+	color: #f4f4f4;
+} 
+.jumbotron h2{
+	color: #f4f4f4;
+}
+
+h1, h2, h3 { 
+	
+	text-transform: uppercase; 
+	font-family: 'Oswald', sans-serif; 
+}
+
+.fa-color{
+	color: #0383c0;
+}
+
+.section-gray{
+	background-color: #f4f4f4;
+}
+
+section{
+	padding: 30px 0px 30px 0px;
+}
+
+.section-secondary{
+	color:#fff;
+	background-color:#FF6347;
+	padding: 60px 0px 60px 0px;
+}
+.slogan a{
+	color:#f4f4f4;
+}
+.slogan{
+	text-align:center;
+}
+.slogan h1{
+	font-size:45px;
+	margin-bottom:25px;
+}
+.slogan p{
+	font-size:20px;
+}
+.slogan a{
+	margin-top:20px;
+}

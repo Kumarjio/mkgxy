@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Mango Technologies</title>
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/font-awesome.css">
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <ul class="nav navbar-nav">
+          <li><a class="navbar-brand" href="index.html"><img src="images/logo.png" class="company-logo img-responsive" style="height:40px;width:40px" alt="logo"></a></li>
+          <li><a class="navbar-brand" href="index.html"><h4>Mango Technologies</h4></a></li>
+          </ul>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse navbar-right">
+          <ul class="nav navbar-nav header-right">
+            <li><a href="index.html"><i class="fa fa-home"></i>  Home</a></li>
+            <li><a href="about.html"><i class="fa fa-commenting"></i>  About</a></li>
+            <li  class="active"><a href="solutions.html"><i class="fa fa-gears"></i>  Solutions</a></li>
+            <li><a href="careers.html"><i class="fa fa-institution"></i>  Careers</a></li>
+            <li><a href="contact.html"><i class="fa fa-phone"></i>  Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <section class="section-top">
+    	<div class="row">
+        	<div class="col-md-12">
+            	<ol class="breadcrumb">
+                  <li><a href="index.html">Home</a></li>
+                  <li class="active">Solutions</li>
+                </ol>
+             </div>
+        </div>
+    	<div class="solutions-image">
+        	<div class="container">
+            <div class="row">
+            <div class="col-md-12">
+			<h1 align="right"> Web & IT Solutions</h1>
+            <h4 align="right">A modern way to manage IT </h4><br></div></div></div>
+        </div>
+    	<div class="container solution-1">
+        	<div class="row">
+            	<div class="col-md-6">
+                <img src="http://blog.brainvire.com/wp-content/uploads/2014/08/presta2.png" class="img-responsive">
+                </div>
+                <div class="col-md-6">
+                <h2>Easily build and run your ecommerce website</h2>
+                <p>Add products to your store, accept orders, manage website content and more</p>
+                <a href="#" class="btn btn-primary btn-md">Learn more</a>
+                <a href="#" class="btn btn-primary btn-md">Tutorials</a>
+                </div>
+            </div>
+            <div class="row">
+            	<div class="col-md-4 text-center">
+                <h3>Add products and manage inventory</h3>
+                <span class="fa-stack fa-lg fa-4x">
+                  <i class="fa fa-square fa-stack-2x"></i>
+                  <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                </span>
+                </div>
+                <div class="col-md-4 text-center">
+                <h3>Content management system</h3>
+                <span class="fa-stack fa-lg fa-4x">
+                  <i class="fa fa-square fa-stack-2x"></i>
+                  <i class="fa fa-cubes fa-stack-1x fa-inverse"></i>
+                </span>
+                </div>
+                <div class="col-md-4 text-center">
+                <h3>Customer relationship management</h3>
+                <span class="fa-stack fa-lg fa-4x">
+                  <i class="fa fa-square fa-stack-2x"></i>
+                  <i class="fa fa-users fa-stack-1x fa-inverse"></i>
+                </span>
+                </div>
+            </div>
+            </div>
+            <div class="container solution-2">
+            <div class="row">
+            	<div class="col-md-6">
+                <img src="images/web-hosting.jpg" class="img-responsive img-thumbnail img-circle">
+                </div>
+                <div class="col-md-6">
+                <h2>Our unique solutions and expertise guarantee a superior experience!</h2>
+                <a href="#" class="btn btn-primary btn-md">Learn more</a>
+                <a href="#" class="btn btn-primary btn-md">pricing</a>
+                </div>
+            </div>
+            <div class="row">
+            	<div class="col-md-4 text-center">
+                <h3>DOMAINS AND SUBDOMAINS</h3>
+                <span class="fa-stack fa-lg fa-4x">
+                  <i class="fa fa-square fa-stack-2x fa-color"></i>
+                  <i class="fa fa-connectdevelop fa-stack-1x fa-inverse"></i>
+                </span>
+                </div>
+                <div class="col-md-4 text-center">
+                <h3>FILE & SITE MANAGEMENT</h3>
+                <span class="fa-stack fa-lg fa-4x">
+                  <i class="fa fa-square fa-stack-2x fa-color"></i>
+                  <i class="fa fa-folder-open fa-stack-1x fa-inverse"></i>
+                </span>
+                </div>
+                <div class="col-md-4 text-center">
+                <h3>PROGRAMMING </h3>
+                <span class="fa-stack fa-lg fa-4x">
+                  <i class="fa fa-square fa-stack-2x fa-color"></i>
+                  <i class="fa fa-terminal fa-stack-1x fa-inverse"></i>
+                </span>
+                </div>
+            </div>
+            </div>
+            <div class="container solution-3">
+            <div class="row">
+            <div class="col-md-6">
+               <h2>Provides Infrastructure for hosting a desktop operating system within a virtual machine </h2>
+                <a href="#" class="btn btn-primary btn-md">Learn more</a>
+                <a href="#" class="btn btn-primary btn-md">Tutorials</a>
+                </div>
+            	<div class="col-md-6">
+                <img src="http://test6.loko.nl/uploads/96/images/CloudComputing.png" class="img-responsive">
+                </div>
+                
+            </div>
+            <div class="row">
+            	<div class="col-md-4 text-center">
+                <h3>Cloud platforms</h3>
+                <span class="fa-stack fa-lg fa-4x">
+                  <i class="fa fa-square fa-stack-2x"></i>
+                  <i class="fa fa-cloud-download fa-stack-1x fa-inverse"></i>
+                </span>
+                </div>
+                <div class="col-md-4 text-center">
+                <h3>Storage management</h3>
+                <span class="fa-stack fa-lg fa-4x">
+                  <i class="fa fa-square fa-stack-2x"></i>
+                  <i class="fa fa-database fa-stack-1x fa-inverse"></i>
+                </span>
+                </div>
+                <div class="col-md-4 text-center">
+                <h3>Security</h3>
+                <span class="fa-stack fa-lg fa-4x">
+                  <i class="fa fa-square fa-stack-2x"></i>
+                  <i class="fa fa-unlock-alt fa-stack-1x fa-inverse"></i>
+                </span>
+                </div>
+            </div>
+
+    	</div>
+    </section>
+    <footer style="text-align:center">
+    	<p>Mango Technologies Copyright@2015 - <a href="#"> Terms </a> | <a href="#"> Privacy</a></p>
+    </footer>
+</body>
+</html>

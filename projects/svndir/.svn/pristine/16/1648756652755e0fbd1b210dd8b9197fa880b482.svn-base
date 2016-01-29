@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                console.log($('#myId, .myClass1'));
+            });
+        </script>
+    </head>
+    <body>
+        <img src="image.jpg" title="This is image" width="400" height="400">
+        <div id="myId">TODO write content</div>
+        <div class="myClass1">TODO write content</div>
+        <div>TODO write content</div>
+        
+        <p>this is first paragraph</p>
+        <p>this is second paragraph</p>
+        <p class="myClass1">this is second paragraph</p>
+    </body>
+</html>

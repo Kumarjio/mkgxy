@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Ajax 2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                function getRequest(requesturl,success)
+                {
+                   console.log(requesturl);
+                   var request = $.ajax({url: requesturl ,method: 'GET'});
+                   request.done(success);
+                }
+                
+                function x(data){
+                    console.log(data);
+                       $("#id1").html(data.name);
+                       $("#windspeed").html(data.wind.speed);
+                       $("#description").html(data.weather[0].description);
+                       $("#country").html(data.sys.country);
+                       $("#base").html(data.base);
+                       $("#lat-log").html(data.coord.lat + ' / ' + data.coord.lon);
+                       $("#humidity").html(data.main.humidity);
+                       $("#temp").html(data.main.temp);
+                       $("#degree").html(data.wind.deg);
+                       $('#pressure').html(data.main.pressure);
+                }
+                //getRequest('http://bootstrap.mkgalaxy.com/svnprojects/mk/prjServices/api/iptocityipinfo_io.php',x);
+                getRequest('http://api.openweathermap.org/data/2.5/weather?q=sunnyvale,US&appid=bb09d0b39e5a9eb764f5b23221268774',x);
+                
+            });
+        </script>
+        
+    </head>
+    <body>
+        <h1>Weather Data</h1>
+        <h3>CITY NAME</h3>
+        <div>City: <span id="id1"></span></div>
+        <h3>DETAILS</h3>
+        <div>Temperature: <span id="temp"></span></div>
+        <div>Humidity: <span id="humidity"></span> Pressure: <span id="pressure"></span></div>
+        <div>Wind speed: <span id="windspeed"></span> with degree <span id="degree"></span></div>
+        <div>Description: <span id="description"></span></div>
+        <div>Country: <span id="country"></span></div>
+        <div>Base: <span id="base"></span></div>
+        <div>Lat-Log: <span id="lat-log"></span></div>
+        
+        
+    </body>
+</html>

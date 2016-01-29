@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Mango Technologies</title>
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="../css/font-awesome.css">
+
+<script src="../js/jquery-1.11.3.min.js"></script>
+<script src="../js/jquery-migrate-1.2.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <ul class="nav navbar-nav">
+          <li><a class="navbar-brand" href="index.html"><img src="images/logo.png" class="company-logo img-responsive" style="height:40px;width:40px" alt="logo"></a></li>
+          <li><a class="navbar-brand" href="index.html"><h4>Mango Technologies</h4></a></li>
+          </ul>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse navbar-right">
+          <ul class="nav navbar-nav header-right">
+            <li class="active"><a href="index.html"><i class="fa fa-home"></i>  Home</a></li>
+            <li><a href="about.html"><i class="fa fa-commenting"></i>  About</a></li>
+            <li><a href="solutions.html"><i class="fa fa-gears"></i>  Solutions</a></li>
+            <li><a href="careers.html"><i class="fa fa-institution"></i>  Careers</a></li>
+            <li><a href="contact.html"><i class="fa fa-phone"></i>  Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <section class="jumbotron">
+    	<div class="container">
+        	<div class="row intial-header">
+            	<div class="col-md-6">
+            		<img src="http://www.vailca.com/img/1920/33.png" class="img-responsive">
+            	</div>
+        		<div class="col-md-6 ">
+                	<h2>Mango Technology IT Solutions</h2>
+                    <h3 style="text-align:right">Call for a great experience</h3>
+                    <p>Mango Technologies is started with the vision of creating a distributed on demand platform, where developers and managers alike from across the globe could collaborate and execute their ideas. From this simple, yet powerful idea Mango Technologies has grown into a global organization with offices and clients throughout the world.</p>
+                    <a href="about.html" class="btn btn-lg btn-info">Learn more</a>
+                </div>
+			</div>
+        </div> 
+    </section>
+    
+    <!--services-->
+     <section class="section-services text-center">
+    	<div class="container">
+    		<div class="row">
+            	<h2 class="page-header">Managed Services</h2>
+        		<div class="col-md-2">
+                <p>web services</p>
+                <img src="images/webservices.png" class="img-responsive">
+            	</div>
+            	<div class="col-md-2">
+                <p>Tech Support</p>
+                <img src="images/techsupt.png" class="img-responsive">
+            	</div>
+                <div class="col-md-2">
+                <p>Business Solutions</p>
+                <img src="images/businesssols.png" class="img-responsive">
+            	</div>
+            	<div class="col-md-2">
+                <p>Consulting </p>
+                <img src="images/consulting.png" class="img-responsive">
+            	</div>
+                <div class="col-md-2">
+                <p>Engineering</p>
+                <img src="images/engineering.png" class="img-responsive">
+            	</div>
+            	<div class="col-md-2">
+                <p>DevOps</p>
+                <img src="images/devops.png" class="img-responsive">
+            	</div>
+            </div>
+        </div>
+    </section>
+    
+    <!--solution 1-->
+    <section class="solutions">
+    	<div class="container">
+    		<div class="row">
+        		<div class="col-md-6">
+                <h2>E-Commerce Solutions</h2>
+                <p>The online marketplace is growing steadily, and businesses which do not recognize that risk falling behind. Whether you are a big box store or a home business, Horton Group can provide the perfect ecommerce solutions for selling your products and services online.</p>
+            	</div>
+            	<div class="col-md-6 text-center">
+                <img src="images/web-ecommerce.jpg" class="img-responsive img-thumbnail">
+            	</div>
+            </div>
+        </div>
+    </section>
+    <!--Solution 2-->
+    <section class="solutions">
+    	<div class="container">
+    		<div class="row">
+        		<div class="col-md-6 text-center">
+                <img src="images/web-hosting.jpg" class="img-responsive img-thumbnail">
+            	</div>
+            	<div class="col-md-6">
+                <h2>Web Hosting Solutions</h2>
+                <p>To find the perfect web host for you, we need to think about how much money you can spend on hosting. There is no use in getting a great hosting service if it is going to be too expensive for you to maintain. Our It solutions provide great hosting solutions for reasonal pricing.</p>
+            	</div>
+            </div>
+        </div>
+    </section>
+    <!--Solution 3-->
+    <section class="solutions">
+    	<div class="container">
+    		<div class="row">
+        		<div class="col-md-6">
+                <h2>Cloud Soluions</h2>
+                <p>Businesses of all sizes are turning to virtualization as an effective way to automate their workflow, cut costs, consolidate space, reduce energy consumption and improve on business and IT practices, including business continuity, agility, security, compliance and disaster recovery.</p>
+            	</div>
+            	<div class="col-md-6 text-center">
+                <img src="images/cloud_sols.png" class="img-responsive img-rounded">
+            	</div>
+            </div>
+        </div>
+    </section>
+    <!--section - join mango-->
+    <section class="section-learn">
+    	<h3> Succeeding Together</h3>
+        <p>Employee ownership – fueling our innovation, strengthening your business.</p>
+        <a href="#" class="btn btn-md btn-primary">Learn More about Mango IT Solutions</a> 
+    </section>
+    <!--section - Company goals-->
+    <section class="section-goals">
+    	<div class="container">
+    		<div class="row">
+        		<div class="col-md-6">
+                <img src="images/6478907_orig.png" class="img-responsive img-circle">
+            	</div>
+            	<div class="col-md-6">
+                <h2 class="page-header">Company Goals</h2>
+                    <ul class="feature-list">
+                    <li><i class="glyphicon glyphicon-chevron-right"></i>  Website Development</li>
+                    <li><i class="glyphicon glyphicon-chevron-right"></i>  E-Commerce</li>
+                    <li><i class="glyphicon glyphicon-chevron-right"></i>  Domain Registration</li>
+                    <li><i class="glyphicon glyphicon-chevron-right"></i>  Web Hosting</li>
+                    <li><i class="glyphicon glyphicon-chevron-right"></i>  Software Development</li>
+                    <li><i class="glyphicon glyphicon-chevron-right"></i>  Search Engine Optimization(SEO)</li>
+                    <li><i class="glyphicon glyphicon-chevron-right"></i>  Virtual Deskktop</li>
+                    </ul>       
+            	</div>
+            </div>
+        </div>
+    </section>
+    
+    <footer style="text-align:center">
+    	<p>Mango Technologies Copyright@2015 - <a href="#"> Terms </a> | <a href="#"> Privacy</a></p>
+    </footer>
+</body>
+</html>

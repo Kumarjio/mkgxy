@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Horoscope Match Making</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+<script>
+$(document).ready(function() {
+   function getRequest(requestURL, successCallBack, failureCallBack) {
+      
+     
+       var request = $.ajax({
+        url: requestURL,
+        method: 'GET'
+      });
+      
+      request.done(successCallBack);
+      request.fail(failureCallBack);
+    }  
+    
+      $('#btnfindlocation').on('click', function (event){
+         
+         
+          alert($(this).attr('rel'));
+         
+        // alert($(this).val());
+         //var buttonText=$(this).val();
+         //alert("buttontext");
+         
+         });
+         
+      $(document).on('click', '.mail', function (event){
+        alert($(this).attr('id')); 
+         }); 
+     // $('#hotmail').on('click', function (event){
+         // alert($(this).attr('href'));
+          
+      //});
+      
+  });
+  
+  </script>
+  
+    </head>
+    
+    <body>
+        
+        <form>
+            <div>
+            <input type='text' id='txtlocation' size='45' value='pleasanton'>         
+            <input type='button' id='btnfindlocation' value='find location' rel="this is an experiment">
+            <a href="http://www.yahoo.com" id="site" target='_parent' class='mail'>yahoo.com</a>
+            <a href='http://www.hotmail.com' id='hotmail' class='mail'>hotmail.com</a>
+             <a href='http://www.gmail.com' id='gmail' class='mail'>gmail.com</a>
+            
+            </div>
+        </form>
+    </body>

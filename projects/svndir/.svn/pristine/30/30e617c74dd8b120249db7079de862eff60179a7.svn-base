@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                function getRequest(requesturl,success)
+                {
+                   console.log(requesturl);
+                   var request = $.ajax({url: requesturl ,method: 'GET'});
+                   request.done(success);
+                }
+                
+                function x(data){
+                    console.log(data);
+                       $("#id1").html(data.result.city);
+                       $("#id2").html(data.result.region);
+                       $("#id3").html(data.result.country);
+                }
+                getRequest('http://bootstrap.mkgalaxy.com/svnprojects/mk/prjServices/api/iptocityipinfo_io.php',x);
+                //getRequest('http://api.openweathermap.org/data/2.5/weather?q=sunnyvale,US&appid=bb09d0b39e5a9eb764f5b23221268774');
+                
+            });
+        </script>
+        
+    </head>
+    <body>
+        <h3>CITY</h3>
+        <div id="id1"></div>
+        <h3>State</h3>
+        <div id="id2"></div>
+        <h3>Country</h3>
+        <div id="id3"></div>
+    </body>
+</html>

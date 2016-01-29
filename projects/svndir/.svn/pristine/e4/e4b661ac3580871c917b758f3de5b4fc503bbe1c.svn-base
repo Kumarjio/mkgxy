@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<script>
+
+ 
+ </script>
+</head>
+
+<body>
+<script>
+ 
+   //v verified, n, it is not verified, f, forced
+var x = 'f';
+switch (x) {
+  case 'v':
+    console.log('you are verified');
+    break;
+  case 'n':
+    console.log('you are not verified');
+    break;
+  case 'f':
+  case 'g':
+    console.log('you are forced');
+    break;
+}
+</script>
+</body>
+</html>

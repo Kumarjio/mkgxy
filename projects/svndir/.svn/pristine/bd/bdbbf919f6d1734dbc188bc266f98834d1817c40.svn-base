@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html> 
+<head> 
+<meta charset="utf-8">
+<title>Pawan Kalyan Site</title> 
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="../css/bootstrap.min.css"> 
+<link rel="stylesheet" href="../css/font-awesome.css">
+
+<link rel="stylesheet" href="style.css"> 
+<script src="../js/jquery-1.11.3.min.js"></script> 
+<script src="../js/jquery-migrate-1.2.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+
+</head>
+<body> 
+<nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            <a class="navbar-brand" href="index.html"><img src="http://www.pawankalyanfans.com/img/logo.png"></a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html">Pawan Kalyan</a> </li>
+              <li class="active"><a href="pawanism.html">Pawanism</a> </li>
+              <li><a href="fanscorner.html">Fans Corner</a></li> 
+              <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+   
+
+
+ <section class="section-title">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<h1>Pawanism</h1>
+</div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="container">
+<!-- BreadCrumb --> 
+<div class="row">
+<div class="col-md-12">
+ <ol class="breadcrumb">
+<li><a href="index.html">Home</a></li>
+<li class="active">Pawanism</li>
+</ol>     
+</div>
+</div>
+</div>
+
+<!-- Top Part -->
+<div class="container">
+<div class="row">
+<div class="col-md-5">
+ <img src="http://i.ndtvimg.com/mt/movies/2014-02/pawan-ndtv.jpg" class="img-responsive">     
+</div>
+      
+<div class="col-md-7">
+      <h2>Welcome to Pawanism</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempor, sapien quis luctus fermentum, nisi erat molestie tortor, eget gravida nisi risus sed enim. Cras erat nisl, aliquet ac hendrerit sed, laoreet vel nibh. Curabitur eleifend massa in diam cursus maximus. Donec consequat urna vitae maximus laoreet. Proin aliquet pellentesque velit vitae fringilla. Mauris non est vel urna dictum mattis in eu mauris. Nulla scelerisque dolor id ullamcorper interdum. Curabitur pretium nisl quis viverra congue. Proin nec lobortis ipsum, in semper mi.</p>
+<p>Cras ut orci sagittis, euismod nunc nec, vulputate turpis. Aliquam iaculis massa in tellus dignissim, et mollis mi malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce orci ex, luctus nec sem in, molestie vehicula turpis. Suspendisse ac sem sed sem efficitur sollicitudin. Pellentesque vitae fermentum odio, nec sagittis ante. Nulla nunc metus, euismod vel rhoncus id, vulputate vitae urna. Sed tempor nisi sit amet vestibulum elementum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean sodales pretium tellus. In nec elementum odio. Nam at ex rutrum, vehicula quam at, convallis augue. Vivamus sed dignissim velit.</p>
+</div>
+</div>
+
+    
+<!-- Meet the Pawanism team-->
+<div class="row">
+<div class="col-md-12">
+<h2 class="page-header">Pawanism Team</h2>
+</div>
+</div>
+
+
+<!-- Meet the team row 1 -->
+<div class="row">
+<div class="col-md-4">
+<img src="http://images.apherald.com/ImageStore/images/Movies/Movies_LatestNews/pawankalyan-fakesurvey647x450.jpg" class="img-responsive img-circle img-thumbnail">
+<h3>Pawan Kalyan</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempor, sapien quis luctus fermentum, nisi erat molestie tortor, eget gravida nisi risus sed enim.</p>
+<ul class="list-unstyled list-inline list-social-icons">
+<li class="tooltip-social facebook-link">
+<a href="#facebook-profile" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-square fa-2x"></i></a>
+</li>
+<li class="tooltip-social linkedIn-link">
+<a href="#linkedin-profile" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="fa fa-linkedin-square fa-2x"></i></a>
+</li>
+<li class="tooltip-social twitter-link">
+<a href="#twitter-profile" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter-square fa-2x"></i></a>
+</li>
+<li class="tooltip-social google-plus-link">
+<a href="#google-plus-profile" data-toggle="tooltip" data-placement="top" title="Google Plus"><i class="fa fa-google-plus-square fa-2x"></i></a>
+</li>
+</ul>
+</div>
+<div class="col-md-4">
+<img src="http://4.bp.blogspot.com/-Pc4gWFmNjOQ/VZkMR_UVfFI/AAAAAAAAD-o/CvXxiTUtNww/s1600/rajamouli-broke-647x450.jpg" class="img-responsive img-circle img-thumbnail">
+<h3>Rajamouli</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempor, sapien quis luctus fermentum, nisi erat molestie tortor, eget gravida nisi risus sed enim.</p>
+<ul class="list-unstyled list-inline list-social-icons">
+<li class="tooltip-social facebook-link">
+<a href="#facebook-profile" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-square fa-2x"></i></a>
+</li>
+<li class="tooltip-social linkedIn-link">
+<a href="#linkedin-profile" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="fa fa-linkedin-square fa-2x"></i></a>
+</li>
+<li class="tooltip-social twitter-link">
+<a href="#twitter-profile" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter-square fa-2x"></i></a>
+</li>
+<li class="tooltip-social google-plus-link">
+<a href="#google-plus-profile" data-toggle="tooltip" data-placement="top" title="Google Plus"><i class="fa fa-google-plus-square fa-2x"></i></a>
+</li>
+</ul>
+</div>
+<div class="col-md-4">
+<img src="http://cinebells.com/wp-content/uploads/2014/02/Leena_kumar_cheating.png" class="img-responsive img-circle img-thumbnail">
+<h3>Monica</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempor, sapien quis luctus fermentum, nisi erat molestie tortor, eget gravida nisi risus sed enim.</p>
+<ul class="list-unstyled list-inline list-social-icons">
+<li class="tooltip-social facebook-link">
+<a href="#facebook-profile" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-square fa-2x"></i></a>
+</li>
+<li class="tooltip-social linkedIn-link">
+<a href="#linkedin-profile" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="fa fa-linkedin-square fa-2x"></i></a>
+</li>
+<li class="tooltip-social twitter-link">
+<a href="#twitter-profile" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter-square fa-2x"></i></a>
+</li>
+<li class="tooltip-social google-plus-link">
+<a href="#google-plus-profile" data-toggle="tooltip" data-placement="top" title="Google Plus"><i class="fa fa-google-plus-square fa-2x"></i></a>
+</li>
+</ul>
+</div>
+</div>
+    
+
+</section>
+
+
+ <footer>
+<p>Business Theme Copyright 2015 - <a href="">Terms</a> | <a href="">Privacy</a></p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!doctype html> 
+<html>
+<head> 
+<meta charset="UTF-8"> 
+<title>javascript</title> 
+<script>
+  
+    </script>
+</head>
+    
+<body> 
+    <script>
+
+     for (var x=0 ;x <= 5 ;x++)
+    {
+     
+        if(x ==2) {
+            continue;
+        }
+        console.log('value of x = ' + x);
+            
+        }
+        console.log('done');
+    </script>
+</body> 
+</html>

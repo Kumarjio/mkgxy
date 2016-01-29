@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+<script>
+$(document).ready(function() {
+//$('#myId').append('This is new content'); 
+//$('#myId').prepend('This is new content'); 
+$('#myId').html('This is new content');
+
+});
+</script>
+</head>
+<body>
+<div id="myId">This is content</div>
+</body>
+</html>

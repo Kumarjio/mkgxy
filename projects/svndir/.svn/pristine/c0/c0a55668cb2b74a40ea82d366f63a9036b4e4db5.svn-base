@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<script>
+ 
+
+</script>
+
+</head>
+
+<body>
+<script>
+function add(p1,p2){
+	
+console.log(p1+p2);	
+}
+function subtract(p1,p2){
+	
+console.log(p1-p2);	
+}
+function mul(p1,p2){
+	
+console.log(p1*p2);	
+}
+function div(p1,p2){
+	
+console.log(p1/p2);	
+}
+
+add(3,2);
+subtract(5,2);
+mul(2,2);
+div(4,2);
+</script>
+
+</body>
+</html>

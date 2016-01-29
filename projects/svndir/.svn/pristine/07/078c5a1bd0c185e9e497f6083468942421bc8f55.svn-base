@@ -1,0 +1,25 @@
+<!doctype html> 
+<html>
+<head> 
+<meta charset="UTF-8"> 
+<title>Untitled Document</title> 
+<script>
+    var name="Divya";
+    var lastname ="obulapu";
+    var age="24";
+    var gender="female";
+    
+    alert(name);
+    alert(lastname);
+    alert(age);
+    alert(gender);
+    </script>
+</head>
+    
+<body> 
+    <script>
+       
+    </script>
+   
+</body> 
+</html>

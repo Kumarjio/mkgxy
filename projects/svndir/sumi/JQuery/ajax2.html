@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+<script>
+$(document).ready(function() {
+    //generic function to call ajax 
+   function getRequest(requestURL, successCallBack) {      
+      var request = $.ajax({
+        url: requestURL,
+        method: 'GET'
+      });
+      
+       request.done(successCallBack); 
+        }//end getrequest
+        
+        //first person location details
+         function first_person_location(data) {
+    var results = data.data;
+    var str = '';
+    
+str = str + '<ul>';
+    
+for (var i = 0; i < results.length; i++) {
+str = str + '<li>'+results[i].name+', ' + results[i].state + ', ' + results[i].country + ' ('+results[i].id+') <a href="javascript:;" class="clFirstLocation" rel="'+results[i].id+'">Select This Location</a></li>';
+    }
+    str = str + '</ul>';
+    $('#first_person_location_results').html(str);
+  }
+            
+      $('#first_person_location_button').on('click',function(event){          
+         $('#first_person_location_results').html('Loading....');
+ var url = 'http://bootstrap.mkgalaxy.com/svnprojects/horo/api.php?action=findCity&q='+encodeURIComponent($('#first_person_location').val());
+ console.log(url); 
+ getRequest(url, first_person_location);
+    });
+     
+    function first_person_location_details(data) {
+       $('#from_longitude').val(data.data.longitude);
+       $('#from_latitude').val(data.data.latitude); 
+  }   
+     
+ $(document).on('click','.clFirstLocation',function(event){
+    var id=$(this).attr('rel');
+   var url = 'http://bootstrap.mkgalaxy.com/svnprojects/horo/api.php?action=findcitybyid&city_id='+encodeURIComponent(id);
+   getRequest(url,first_person_location_details);
+ });//end of first persons location details
+ 
+ //second person location details
+ function second_person_location(data) {
+    var results = data.data;
+    var str = '';
+    
+str = str + '<ul>';
+    
+for (var i = 0; i < results.length; i++) {
+str = str + '<li>'+results[i].name+', ' + results[i].state + ', ' + results[i].country + ' ('+results[i].id+') <a href="javascript:;" class="clSecondLocation" rel="'+results[i].id+'">Select This Location</a></li>';
+    }
+    str = str + '</ul>';
+    $('#second_person_location_results').html(str);
+  }
+            
+      $('#second_person_location_button').on('click',function(event){          
+         $('#second_person_location_results').html('Loading....');
+ var url = 'http://bootstrap.mkgalaxy.com/svnprojects/horo/api.php?action=findCity&q='+encodeURIComponent($('#second_person_location').val());
+ console.log(url); 
+ getRequest(url, second_person_location);
+    });
+     
+    function second_person_location_details(data) {
+       $('#to_longitude').val(data.data.longitude);
+       $('#to_latitude').val(data.data.latitude); 
+  }   
+     
+ $(document).on('click','.clSecondLocation',function(event){
+    var id=$(this).attr('rel');
+   var url = 'http://bootstrap.mkgalaxy.com/svnprojects/horo/api.php?action=findcitybyid&city_id='+encodeURIComponent(id);
+   getRequest(url,second_person_location_details);
+ });
+
+function matchResult(data) {
+  var str = 'Points Matching: ' + data.data.points.points + ', (' + data.data.points.results + ')';
+  $('#results').html(str);
+ }
+  
+  $(document).on('click', '#match', function(event) {
+var url = 'http://bootstrap.mkgalaxy.com/svnprojects/horo/api.php?action=matchLatLng&from[dob]='+encodeURIComponent($('#from_dob').val())+'&from[lat]='+encodeURIComponent($('#from_latitude').val())+'&from[lng]='+encodeURIComponent($('#from_longitude').val())+'&to[dob]='+encodeURIComponent($('#to_dob').val())+'&to[lat]='+encodeURIComponent($('#to_latitude').val())+'&to[lng]='+encodeURIComponent($('#to_longitude').val());
+      getRequest(url, matchResult);
+  });      
+});
+
+</script>
+    </head>
+    <body>
+        <h1> Horoscope Match Making</h1>
+        <p>Note: 1. People go for match making before marriage.<br>
+            2. I also match horoscope with friends, cousins, parents, child, and all<br>
+3. We also match the horoscope with the days. We find out good days and bad days of any individual.</p>
+        <h3>First persons location</h3>
+        <form>
+            <div><b>Location:</b><input type="text" id="first_person_location" size="45"></div><br>
+            <br>
+            <div><input type="button" value="Find Location" id="first_person_location_button"></div>
+            <div id="first_person_location_results">
+
+</div>
+        </form>
+        <form>
+            <h3><b>Longitude:</b><input type="text" id="from_longitude"></h3>
+            <h3><b>Latitude:</b><input type="text" id="from_latitude"></h3>
+            <h3><b>Date Of birth:</b><input type="text" id="from_dob" size="50" placeholder="eg: YYYY-MM-DD HH:MM"></h3>
+            
+        </form>
+        
+        
+        <h3>second persons location</h3>
+        <form>
+            <div><b>Location:</b><input type="text" id="second_person_location" size="45"></div><br>
+            <br>
+            <div><input type="button" value="Find Location" id="second_person_location_button"></div>
+            <div id="second_person_location_results">
+
+</div>
+        </form>
+        <form>
+            <h3><b>Longitude:</b><input type="text" id="to_longitude"></h3>
+            <h3><b>Latitude:</b><input type="text" id="to_latitude"></h3>
+            <h3><b>Date Of birth:</b><input type="text" id="to_dob" size="50" placeholder="eg: YYYY-MM-DD HH:MM"></h3>
+            
+        </form>
+        <input type="button" name="match" id="match" value="Match" >
+
+            <div id="results">
+            
+            </div>
+    </body>
+</html>

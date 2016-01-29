@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Doctor Clinic</title>
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css">
+<link href="css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</head>
+
+<body style="background:#F2E2C2">
+<nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><img src="http://www.mayoclinic.org/~/media/images/mayologo.png" alt="logo"></a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse navbar-right">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home </a></li>
+            <li class="active"><a href="about.html">About Us </a></li>
+            <li><a href="services.html">Services </a></li>
+            <li><a href="portfolio.html">portfolio </a></li>
+            <li><a href="contact.html">Contact Us </a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+ </nav>
+ <section class="section-top">
+    	<div class="row">
+        	<div class="col-md-12">
+            	<ol class="breadcrumb">
+                  <li><a href="index.html">Home</a></li>
+                  <li class="active">About</li>
+                </ol>
+             </div>
+        </div>
+       <div class="container">
+       	<img src="http://www.xyleminc.com/en-us/applications/heat-transfer/PublishingImages/combuildinghvac-banner-1.jpg" class="img-responsive" style="margin-left:auto;margin-right:auto;display:block;width:1000px;height:200px">
+       <h2> Mayo Clinic.. <span style="display:inline; font-size:16px">Built on a promise</span></h2>
+       <p>More than six decades ago, local founders of Olathe Health System envisioned a responsive and responsible healthcare provider to the families in our communities, a continuum of compassionate competent care that would span every stage of life.</p>
+       <br>
+       <p>This indigenous healthcare startup thrived in native soil, growing from a modest 30-bed hospital in 1953 to a vital regional health network today that serves four counties through Mayo Clinic, Miami County Medical Center, the 35 family care and specialty clinics of Mayo clinical services, and a roster of more than 300 physicians and 2,500 employees.</p>
+       <br>
+       <p>Today, the Mayo clinic purpose remains steadfast: respond to our communities, their families and their healthcare demands with the highest possible level of medical professionalism, advanced technology, and professional care.</p>
+       <br>
+       <p>Remaining independent and locally owned in today’s prevailing trend to healthcare conglomerates requires deeply rooted sensibilities and an unwavering dedication to the healing arts. These qualities drive the Olathe Health System commitment to be the heart of high-tech care. This is the promise that shapes every decision, every action, every day.</p>
+       <br>
+       <h4 style="color:#000;">Mission</h4>
+       <p><i>Mayo Clinic is focused on improving the health of all individuals in the communities we serve by providing compassionate, quality healthcare in an environment of trust and collaboration.</i></p>
+       <br>
+       <h4 style="color:#000;">Vision</h4>
+       <p><i>Mayo CLinic is committed to be the premier healthcare provider and employer throughout the communities we serve.</i></p>
+       
+       </div>
+ </section>
+<footer style="text-align:center">
+    	<p>MAYO Clinic Copyright @ 2007 - 2015 - <a href="#"> Terms </a> | <a href="#"> Privacy</a></p>
+</footer>
+</body>
+</html>

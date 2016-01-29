@@ -1,0 +1,11 @@
+.class1 {
+	color: #C53D1D;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 18px;
+	line-height: 24px;
+	text-align: left;
+	text-decoration: none;
+	text-indent: 25px;
+}

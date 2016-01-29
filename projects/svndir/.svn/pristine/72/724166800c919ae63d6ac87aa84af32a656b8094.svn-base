@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script src="script.js"></script>
+        
+        <script>
+$(document).ready(function() {
+
+  function success(data) {
+   console.log('success is ', data); 
+    $('#msg').html(data.msg);
+  }
+  
+  function failure(xhr, status) {
+   console.log('failure due to ', status); 
+  }
+  
+  $('#form1').submit(function(event) {
+    event.preventDefault();
+    
+    
+    var postData = $('#form1').serialize();
+    console.log('post data is ', postData);
+var requestUrl = 'http://bootstrap.mkgalaxy.com/svnprojects/horo/post.php';
+    postRequest(requestUrl, postData, success, failure);
+  });
+    
+});
+</script>
+    </head>
+    
+    <body>
+         <h1>Form For Demo</h1>
+         <div id='msg'></div>
+<form id="form1" name="form1">
+<p><b>Email: </b><input type="text" id="email" name="email" size="45"></p>
+<p><b>Password: </b><input type="password" id="password" name="password" size="45"></p>
+<p><b>Confirm Password: </b><input type="password" id="confirm_password" name="confirm_password" size="45"></p>
+<p><b>Name: </b><input type="text" name="name" id="name"></p>
+<p><b>Age:</b><input type="text" name="age" id="age"></p>
+<p><input type="submit" value="Submit" id="submit"></p>
+</form>
+    </body>
+</html>

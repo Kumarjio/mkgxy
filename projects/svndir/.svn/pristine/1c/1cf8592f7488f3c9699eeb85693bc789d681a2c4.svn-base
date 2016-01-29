@@ -1,0 +1,3 @@
+file.reference.emnie-svndir=../../svndir
+files.encoding=UTF-8
+site.root.folder=${file.reference.emnie-svndir}

@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+<script>
+  var x = 'v';
+  switch (x){
+    case 'v':
+	  console.log('you are verified');
+	  break;
+	 case 'n':
+	  console.log('you are not verified');
+	  break; 
+	 case 'f':
+	 case 'g':
+	  console.log('you are forced');
+	  break;
+  }
+  
+  var age = 2;
+  for (var x = 0; x < 100; x++) {
+    console.log('value of x is '+ x);
+	if (x == 25)
+	    break;
+  }
+  console.log('done');
+  for (var x = 0; x <= 5; x++) {
+    
+	if (x == 2 || x == 4)
+	    continue;
+	console.log('value of x is '+ x);
+  }
+  console.log('done');
+  
+  //alert('I am in my window'); 
+  //window.location.href = "http://google.com";
+  window.onload = alert();
+</script>
+<div id="myId">Hello World</div>
+<script>
+  alert(document.getElementById('myId').innerHTML);
+  document.getElementById('myId').innerHTML = "new text";
+  
+  var x = 5; function test() { console.log(x); } test();
+  function test() { var x = 5; } test(); console.log(x);
+</script>
+<div id="myId">Hello World</div> <input type="text" id="myId2" value="this is first" /> <script> document.getElementById('myId').innerHTML = "new text"; document.getElementById('myId2').value = "this is second"; </script>
+
+</body>
+</html>

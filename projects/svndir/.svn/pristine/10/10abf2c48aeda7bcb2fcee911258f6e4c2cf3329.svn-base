@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<script>
+
+ var hobbies = new Array('movies', 'dining', 'chess');
+console.log(hobbies.length);
+
+var food = ['spinach', 'vegetable B', 'vegetable C', 'fish', 'eggs'];
+console.log(food.length);
+
+
+ </script>
+</head>
+
+<body>
+<script>
+
+</script>
+</body>
+</html>

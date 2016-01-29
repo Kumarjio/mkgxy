@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                
+                console.log($('#myId, .myClass1'));
+            });
+        </script>
+    </head>
+    <body>
+        <div id="myId">TODO write content</div>
+        <div>TODO write content</div>
+        <div class="myClass1">TODO write content</div>
+        
+        <p class="myClass1"> This is first paragraph</p>
+        <p> This is first paragraph</p>
+        <p> This is first paragraph</p>
+    </body>
+</html>

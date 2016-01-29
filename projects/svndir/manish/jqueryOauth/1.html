@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Horoscope Match Making</title>
+<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="cryptojs/rollups/hmac-sha1.js"></script>
+
+<script src="oauth.js"></script>
+
+<script>
+$(document).ready(function() {
+  
+  var oauth = OAuth({
+      consumer: {
+          public: 'C_QH9jARKrmuQG5BqpW16g',
+          secret: 'gC9Js9SYXt5rriLiN6CatLv1riM='
+      },
+      signature_method: 'HMAC-SHA1'
+  });
+  
+  var request_data = {
+      url: 'https://api.yelp.com/v2/search?term=food&ll=37.788022,-122.399797',
+      method: 'GET'
+  };
+  var token = {
+      public: '4ZUIO546m5zXesUzv6D1KSZs0B0NfQYf',
+      secret: 'PL2eNdoEBUegd9Ip5PyozQs-TOs'
+  };
+  console.log(request_data, token, oauth);
+  $.ajax({
+    url: request_data.url,
+      type: request_data.method,
+      data: oauth.authorize(request_data, token)
+  }).done(function(data) {
+      //process your data here
+      console.log(data);
+  });
+});
+</script>
+</head>
+
+<body>
+
+
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script>
+            $(document).ready(function() {
+               function getRequest(requestURL, successCallBack) {
+			     //console.log(requestURL);
+				 
+				 var request = $.ajax({
+				   url: requestURL,
+				   method: 'GET'
+				 });
+				 //http://api.openweathermap.org/data/2.5/weather?q=sunnyvale,US&appid=bb09d@b39e5a9eb764f5b23221268774');
+				 /*request.done(function(data) {
+				   console.log(data);
+				 });*/
+				 
+				 request.done(successCallBack);
+				 
+				 /*request.done(function(data) {
+				   console.log(data.result);
+				   $('#city').html(data.result.city);
+				   $('#state').html(data.result.region);
+				   $('#country').html(data.result.country);
+				 });*/
+			   }
+			   
+			   function x(data) {
+			       $('#city').html(data.result.city);
+				   $('#state').html(data.result.region);
+				   $('#country').html(data.result.country);
+			   }
+			   
+			   function y(data) {
+			     console.log(data);
+				 $('#name').html(data.name);
+				  $('#speed').html(data.wind.speed);
+				  $('#degree').html(data.wind.deg);
+				  $('#temperature').html(data.main.temp);
+				  $('#pressure').html(data.main.pressure);
+				  $('#humidity').html(data.main.humidity);
+				  $('#description').html(data.weather[0].description);
+			   }
+			   
+			   /*function processApi1(data) {
+			     console.log(data);
+			   }*/
+			   
+			   getRequest('http://bootstrap.mkgalaxy.com/svnprojects/mk/prjServices/api/iptocityipinfo_io.php', x);
+			   getRequest( 'http://api.openweathermap.org/data/2.5/weather?q=sunnyvale,US&appid=bb09d0b39e5a9eb764f5b23221268774', y);
+            });
+        </script>
+    </head>
+    <body>
+        
+    <div id="content">  
+   <h1>Weather</h1>
+   <div>Name: <span id="name"></span></div>
+   <div> Wind Speed: <span id="speed"></span>with degree<span id="degree"></span></div>
+    <div>Temperature: <span id="temperature"></span><div>
+	<div>Pressure: <span id="pressure"></span><div>
+	<div>Humidity: <span id="humidity"></span><div>
+	<div>Description: <span id="description"></span><div>
+	</div>	
+	<h3>City</h3>
+	<div id="city">City should come here</div>
+    <h3>State</h3>
+	<div id="state">State should come here</div>
+	 <h3>Country</h3>
+	<div id="country">Country should come here</div>
+    </body>
+</html>

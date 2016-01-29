@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<script>
+ 
+
+</script>
+
+</head>
+
+<body>
+<script>
+function dollartorupee(dollar){
+	
+	var result= dollar*66.9;
+	return result;
+}
+
+var result = dollartorupee(1);
+
+console.log(result);
+</script>
+
+</body>
+</html>

@@ -1,0 +1,133 @@
+.navbar{
+	min-height:60px;
+	background:#25383C;
+}
+.header-right>.active>a:hover, .header-right a:hover {
+    color: #f4f4f4 !important;
+    background-color:#307D7E !important;
+}
+.header-right li{
+	padding-top:5px;
+}
+.header-right li a{
+	font-size:16px;
+}
+body{
+	padding-top:60px;
+}
+
+.jumbotron{
+	background-image: url('http://blog.scribesoft.com/wp-content/uploads/2013/08/altico_slide_background.png');
+	background-size:cover;
+	min-height:450px;
+	margin:0;
+	
+}
+h1,h2,h3,h4{
+	text-transform: uppercase; 
+	font-family: 'Oswald', sans-serif; 
+}
+.jumbotron h2,h3{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif
+}
+
+.section-services{
+	font-size:15px;
+	text-transform: uppercase; 
+	padding-bottom: 10px;
+	background:#95B9C7;
+}
+.solutions{
+	padding: 10px 0 10px 0px;
+	background-image: url('http://ikteoalexandros.gr/pics/backgrounds/fixed/6887306-background-images.jpg');
+	min-height:300px;
+	color:#f4f4f4;
+	
+}
+.section-learn{
+	text-align:center;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	padding:40px 0px 60px 0px;
+	background:#F2F2F2;
+}
+.section-goals{
+	padding:20px 0px 20px 0px;
+	background:#EBF4FA;
+}
+
+footer{
+	margin-top:0px;
+	padding:20px 0 10px 0px;
+	background:#000;
+	color:#f4f4f4;
+}
+.title-image{
+	background-image: url('http://www.intofilm.org/images/153/scaledcropped/651x366/resources/153/into-film-team-group-shot.jpg');
+	background-size:cover;
+	min-height:350px;
+	padding-top:20px;
+	padding-bottom:10px;
+}
+.section-about{
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size:16px;
+}
+.section-clients{
+	padding:10px 0px 10px 0px;
+	
+}
+.solutions-image{
+	background-image: url('http://ipivs.com/wp-content/uploads/2015/09/market-consumer-research.jpg');
+	background-size:cover;
+	min-height:450px;
+	padding-top:20px;
+	padding-bottom:10px;
+}
+
+.solution-1{
+	padding:30px 0px 30px 20px;
+	background:#CEECF5;
+	border-bottom-style:groove;
+}
+.solution-2{
+	padding:30px 0px 30px 20px;
+	background:#F5CBA7;
+	border-bottom-style:groove;
+}
+.solution-3{
+	padding:30px 0px 30px 20px;
+	background:#D4E6F1;
+	border-bottom-style:groove;
+}
+.sol h2{
+	padding-bottom:30px;
+}
+.careers-image{
+	background-image: url('http://www.anvimirzapur.com/images/banner-career.jpg');
+	background-size:cover;
+	min-height:300px;
+	padding-top:20px;
+	padding-bottom:10px;
+}
+
+.fa-color{
+	color:#2E9AFE;
+}
+.careers-quicklinks{
+	background:#D8D8D8;
+}
+.careers-quicklinks a{
+	color:#000;
+}
+
+.breadcrumb{
+	background:#F4f4f4;
+	margin:0;
+}
+iframe{
+	padding-top:60px;
+	 
+}
+.contact-form{
+	padding-bottom:20px;
+}

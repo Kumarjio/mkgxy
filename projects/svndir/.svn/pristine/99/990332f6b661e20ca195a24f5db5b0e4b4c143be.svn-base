@@ -1,0 +1,110 @@
+.navbar
+{
+	min-height: 90px;
+}
+.navbar-nav li a
+{
+	    font-size: 18px;
+    font-family: oswald sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    /*border-right: 1px solid #ccc;*/
+}
+.navbar-nav li
+{
+	    padding-top: 5px;
+    padding-bottom: 5px;
+	margin-top: 15px;
+    margin-bottom: 10px;
+}
+.navbar-right li a button
+{
+	background-color:#3E0E0F;
+	    margin-top: -20px;
+}
+.navbar-brand img
+{
+	    min-height: 75px;
+    width: 115px;
+}
+.container .navbar-header a
+{
+	padding-top: 2px;
+}
+.jumbotron
+{
+	background: url('http://www.purebalanceyoga.com.au/wp-content/uploads/2013/08/background1.jpg') no-repeat center center fixed;
+	background-size:cover;
+	height: 800px;
+	margin-bottom: 0px;
+	
+}
+.jumbotron{
+height: 650px;	
+}
+.jumbotron .container
+{
+	    margin-left: 0px;
+    width: auto;
+}
+
+.jumbotron .col-md-4 img
+{
+	    width: auto;
+    height: 285px;
+	margin-top: 70px;
+	
+}
+.navbar-left a:hover, .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color:#FFF !important;
+    background-color: #3E0E0F !important;
+}
+.section-gray
+{
+	background-color:#ccc;
+	height:250px;
+	width:auto;
+
+}
+section
+{
+	margin: 0px;
+}
+h3
+{ 
+font-weight:bold;
+}
+.col-md-4 span
+{
+	    margin-top: 20px;
+}
+.navbar-right
+{
+	padding-right: 25px;
+}
+.section-primary
+{
+	background-color: cadetblue;
+    text-align: center;
+	color:#fff;
+	height: 250px;
+	padding-top: 20px;
+}
+.section-secondary
+{
+	padding-top: 45px;
+    padding-left: 150px;
+}	
+.section-secondary img
+{
+	height: 250px;
+    width: 455px;
+}
+
+footer
+{
+	text-align:center;
+	background:#f4f4f4;
+	padding-bottom:5px;
+	padding-top:5px;
+}

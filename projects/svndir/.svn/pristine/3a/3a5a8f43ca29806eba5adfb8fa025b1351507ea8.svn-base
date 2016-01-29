@@ -1,0 +1,31 @@
+<!doctype html> 
+<html>
+<head> 
+<meta charset="UTF-8"> 
+<title>javascript</title> 
+<script>
+  
+    </script>
+</head>
+    
+<body> 
+    <script>
+    function add(p1,p2) { 
+console.log(p1 + p2);
+    }
+      function subtract(p1,p2) { 
+console.log(p1 - p2);
+    }
+        function multiple(p1,p2) { 
+console.log(p1 * p2);
+    }
+        function divide(p1,p2) { 
+console.log(p1 / p2);
+    }
+        add(1, 2);
+        subtract(5, 3);
+        multiple(2, 2);
+        divide(4, 2);
+    </script>
+</body> 
+</html>

@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Yoga Center</title>
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css">
+<link href="css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><img src="http://memphiscottonmuseum.org/assets/images/eyc-logo-trans.png" alt="logo"></a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="index.html">Home </a></li>
+            <li><a href="about.html">about </a></li>
+            <li><a href="pricing.html">Classes & Pricing</a></li>
+            <li><a href="contact.html">Contact </a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+ </nav>
+<section class="jumbotron"> 
+	<div class="container"> 
+         
+        <div class="row">
+         
+            <h1 style="text-align:center">Welcome to <i>Evergreen Yoga Center</i> </h1>
+        	
+        	<img src="http://dimensionenuoto.com/wp-content/uploads/2012/10/iyengar-Yoga-800x200.jpg" alt="top-pic" class="homepic img-responsive">
+        </div>
+        <div class="row"> 
+        	<div class="col-md-12"> 
+                <p>Our Yoga center supports offering every BODY a variety of affordable yoga practices! As such, most classes listed on Yoga Club's site are low cost or donation based.  As yoga is about healthy living, relaxation & meditation, many hold classes in the most natural setting...the great outdoors!</p>
+            </div> 
+     	</div> 
+	</div> 
+</section>
+<section>
+<div class="container">
+    	<h3 style="text-align:center" class="page-header">Discover</h3>
+    <div class="row">
+    <div class="col-md-4">
+    	<img src="http://www.okcyogafest.com/wp-content/uploads/2015/04/tiffani-200x200.jpg" class="img-responsive img-circle">
+        <p>&nbsp;</p><p> Find unlimited Happiness and fun with yoga and mind.</p>
+        <a href="#" class="pull-left" style="color:#E06D3B">Learn More</a>
+    </div>
+    <div class="col-md-4">
+    	<img src="http://themovingmeditation.com/images/brands/yoga/newsletter/body/yoga-breathing200200.jpg" class="img-responsive img-circle">
+        <p>&nbsp;</p><p> Learn an effortless meditation technique that infuses <br>the mind with peace, clarity and creativity.</p>
+         <a href="#" class="pull-left" style="color:#E06D3B">Learn More</a>
+    </div>
+    <div class="col-md-4">
+    	<img src="http://breatheyogawellness.com/static/media/uploads/.thumbnails/unltd-yoga.png/unltd-yoga-200x200.png" class="img-responsive img-circle">
+        <p>&nbsp;</p><p> Discover more benifits of yoga like Strees reduction, <br> body fitness,Restored energy & Emotional balance.</p>
+         <a href="#" class="pull-left" style="color:#E06D3B">Learn More</a>
+    </div>
+    </div>
+    </div>
+</section>
+<section class="enrollment" style="background:#D9D9F3">
+<div class="container">
+
+	<p>Come explore a balanced and nuanced approach to yoga in a welcoming, friendly environment.<br> 
+    No matter your age, ability, injury, size or condition, we are here to support you, 
+    and your yoga practice. </p>
+    <a href="#" class="btn btn-default btn-primary" style="background-color:#E06D3B;">Enroll to classes</a>
+</div></section>
+<section class="moreinfo" style="background:#6E8B3D">
+<div class="container">
+	<div class="row">
+    <div class="col-md-4">
+    <h3>About Us</h3>
+    <p>&nbsp;</p><p>The Art of Living Foundation (AOLF) is a non-profit, educational and humanitarian organization founded in 1981 by the world-renown spiritual leader Sri Sri Ravi Shankar. 
+AOLF is present in 152 countries, reaching an estimated 300 million people worldwide with a vision of creating a stress-free, violence-free society.</p>
+    <a href="#" class="pull-right" style="color:#330000">Read More..</a>
+    </div>
+    <div class="col-md-4">
+    <h3>Classes & Pricing</h3>
+    <p>&nbsp;</p><p>We teach many types of yoga asanas and also help each individual concentrate on their own body and mind with meditation.
+    Classes are scheduled throughout the day. More extra curricular activities are also taught as complimentary for the annual members</p>
+    <a href="#" class="pull-right" style="color:#330000">Read More..</a>
+    </div>
+    <div class="col-md-4">
+    <h3>Contact Us</h3>
+    <p>&nbsp;</p><p>We are located in bay area. Also have branches in Chicago, Newyork and Little Rock.</p>
+    <p style="text-align:center">133 E El camino real<br> Sunnyvale, California 93821<br>Ph.no: +1-800-234-4556</p>
+    <a href="#" class="pull-right" style="color:#330000">Read More..</a>
+    </div></div>
+</div>
+</section>
+<footer>
+	<div class="col-sm-4 foot">
+    	<p><a href="#"> Blog </a> | <a href="#"> Customer Services</a> | <a href="#"> BookStore</a></p>
+    </div>
+    <div class="col-sm-4 foot">
+    	<p>EverGreen Yoga Center Copyright@2015 - <a href="#"> Terms </a> | <a href="#"> Privacy</a></p>
+    </div>
+    <div class="col-sm-4 pull-right">
+    <a href="#facebook-profile" data-toggle="tooltip" data-placement="top" title="Facebook">
+                        <i class="fa fa-facebook-square fa-2x fa-color"></i></a>
+    <a href="#linkedin-profile" data-toggle="tooltip" data-placement="top" title="LinkedIn">
+                        <i class="fa fa-linkedin-square fa-2x fa-color"></i></a>
+    <a href="#twitter-profile" data-toggle="tooltip" data-placement="top" title="Twitter">
+                        <i class="fa fa-twitter-square fa-2x fa-color"></i></a>
+    <a href="#google-plus-profile" data-toggle="tooltip" data-placement="top" title="Google Plus">
+                        <i class="fa fa-google-plus-square fa-2x fa-color"></i> </a>                  
+    </div>
+</footer>
+	
+</body>
+</html>

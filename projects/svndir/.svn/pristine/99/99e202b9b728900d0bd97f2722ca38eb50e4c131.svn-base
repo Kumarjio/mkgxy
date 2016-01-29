@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<script>
+alert('Hello World1');
+</script>
+</head>
+
+<body>
+<script>
+alert('Hello World2');
+</script>
+</body>
+</html>

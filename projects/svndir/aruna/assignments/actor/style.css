@@ -1,0 +1,113 @@
+.navbar{
+    min-height:110px;
+	background:#1BC9B6;
+}
+.navbar-nav li{
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+    .navbar-nav li a {
+        padding:20px;
+        font-size: 30px; 
+        font-weight: bold; 
+        border-right: 1px solid #ccc; 
+        text-transform: uppercase; 
+        font-family: 'Oswald', sans-serif;
+	}
+
+.navbar-nav a:hover, .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover { 
+    color: #fff !important; 
+    background-color:#D71575 !important; }
+
+body{
+    padding-top:90px;
+}
+
+
+.jumbotron {
+  min-height: 450px;
+  background:#D71575;
+  margin:0;
+}
+
+.poster{
+	padding:0px 30px 0 30px;
+	}
+
+.image{
+	padding-top:30px;
+	}
+
+.jumbotron h1 {
+  font-size:55px;
+}
+
+.jumbotron p{
+	margin-top:40px;
+	}
+h1, h2, h3 {
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}
+
+.fa-color {
+  color: #D71575;
+}
+
+
+.section-gray {
+ background: #f4f4f4; 
+}
+
+section {
+  padding: 30px 0px 30px 0px;
+}
+
+ .section-secondary {
+    background: #1BC9B6;
+    color: #fff;
+    padding: 60px 0 60px 0; 
+ }
+ 
+ .slogan {
+  text-align: center;
+}
+
+.slogan h1 {
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+
+.slogan p {
+ font-size: 20px; 
+}
+
+.slogan a {
+  margin-top: 20px; 
+}
+
+.feature-list li {
+  font-size: 18px;
+  list-style: none;
+  line-height: 2em;
+}
+
+ .section-primary {
+  background: #D71575;
+  color:#fff;
+  padding: 60px 0 60px 0;
+}
+
+ footer {
+    text-align: center;
+    background: #f4f4f4;
+    padding-top: 20px;
+    padding-bottom: 10px; 
+}
+
+.section-title{
+	background:#D71575;
+	padding-bottom:5px;
+	}
+

@@ -1,0 +1,106 @@
+.navbar {
+	min-height: 60px;
+}
+.navbar-nav li {
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.navbar-nav li a { 
+	padding: 14px;
+	font-size: 18px; 
+	font-weight: bold; 
+	border-right: 1px solid #ccc; 
+	text-transform: uppercase; 
+	font-family: 'Oswald', sans-serif;
+}
+	
+.navbar-nav li a span { 
+	font-size: 14px;
+	text-transform: none;
+	font-family: arial;
+	margin: 5px 0px 0px 0px;
+	font-weight:normal; 
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover, .navbar-nav a:hover {
+    color: #fff !important;
+    background-color: #0383c0 !important;
+}
+body { 
+	padding-top: 60px;
+}
+
+.jumbotron { 
+	background:url('http://www.par.com/files/1813/6628/2242/par-systems-marine-background.jpg');
+	min-height: 500px; 
+	margin: 0;
+}
+
+.jumbotron h1 { 
+	font-size: 50px; 
+} 
+
+h1, h2, h3 { 
+	text-transform: uppercase; 
+	font-family: 'Oswald', sans-serif; 
+}
+
+.fa-color{
+	color: #f4f4f4;
+}
+
+.section-gray{
+	background-color: #005f8d;
+}
+.section-gray h3, p{
+	color:#f4f4f4;
+}
+section{
+	padding: 30px 0px 30px 0px;
+}
+.section-primary{
+	background:#026f9e;
+}
+.services h3,h4{
+	color:#f4f4f4;
+}
+.main_services p,li{
+	color:#F4F4F4;
+}
+.services1, .services2{
+	padding-top:20px;
+}
+
+.section-secondary{
+	color:#fff;
+	background-color:#026f9e;
+	padding: 60px 0px 60px 0px;
+}
+.section-secondary a{
+	color:#f4f4f4;
+	padding-right:10px;
+	
+}
+.section-top{
+	padding-top:50px;
+}
+.section-top p{
+	color:#4F4F4F;
+}
+footer a{
+	color:#E3DEDE;
+}
+footer{
+	margin-top:0px;
+	padding:20px 0 10px 0px;
+	background:#000;
+	color:#f4f4f4;
+}
+.portfolios li,p{
+	color:#3E3E3E;
+}
+.portfolios a{
+	color:#966E41;
+}
+	

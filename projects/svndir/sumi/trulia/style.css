@@ -1,0 +1,39 @@
+.navbar
+{
+	min-height: 40px;
+    background:#53b50a;
+}
+.navbar-nav li a
+{
+	color: #fff !important;
+    
+    font-family: OpenSans,sans-serif;
+    
+    font-size: 14px;
+}
+.navbar-header a
+{
+	padding-top: 7px;
+}
+.body{
+	background : #F6F6F6;
+	padding-left: 50px;
+}
+.section-radio h1{
+	padding-top: 40px;
+	
+}
+#form1
+{
+	padding-top: 30px;
+    padding-left: 151px;
+}
+.jumbotron
+{
+	padding-bottom:0px;
+	    padding-left: 30px;
+}
+h4{
+	padding-left:30px;
+	font-weight:bold;
+}	

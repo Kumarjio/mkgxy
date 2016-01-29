@@ -1,0 +1,79 @@
+.navbar {
+	min-height: 70px;
+	background: url('http://ladydjs.com/events/events_files/navbar_background.png') !important;
+}
+.navbar-header h2,h6 {
+	color:#fff;
+}
+.navbar-nav li {
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.navbar-nav li a { 
+	padding: 20px;
+	font-size: 24px; 
+	font-weight: bold; 
+	text-transform: uppercase; 
+	font-family: 'Oswald', sans-serif;
+}
+	
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover, .navbar-nav a:hover {
+    color: #fff !important;
+    background-color: #000000 !important;
+}
+body { 
+	padding-top:70px; 
+}
+
+.jumbotron { 
+	background: url('http://p1.pichost.me/i/58/1821417.jpg?dl=1') no-repeat; 
+	min-height: 400px; 
+	margin: 0;
+}
+
+.jumbotron h1 { 
+	font-size: 50px;
+	color:#BABABA; 
+} 
+.jumbotron p{
+	font-family: 'Oswald', sans-serif; 
+	color:#BABABA;
+}
+
+h1, h2, h3, h4, h5 { 
+	text-transform: uppercase; 
+	font-family: 'Oswald', sans-serif; 
+}
+
+.fa-color{
+	color: #505050;
+}
+
+.section-gray{
+	background-color: #f4f4f4;
+}
+
+section{
+	padding: 30px 0px 30px 0px;
+}
+
+.section-secondary{
+	color:#fff;
+	background-color:#555555;
+	padding: 60px 0px 60px 0px;
+}
+.slogan{
+	text-align:center;
+}
+.slogan h1{
+	font-size:45px;
+	margin-bottom:25px;
+}
+.slogan p{
+	font-size:20px;
+}
+.slogan a{
+	margin-top:20px;
+}

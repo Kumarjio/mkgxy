@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Horoscope Match Making</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                function getRequest(requestURL,successCallBack){
+                    var request = $.ajax({url: requestURL, method: 'GET'});
+                    request.done(successCallBack);
+                }
+                //first_person    
+                function first_person_location(data) { 
+                        var results = data.data; 
+                        var str = ''; 
+                        str = str + '<ul>'; 
+                        for (var i = 0; i < results.length; i++) 
+                        { 
+                            str = str + '<li>'+results[i].name+', ' + results[i].state + ', ' + results[i].country + ' ('+results[i].id+') <a href="javascript:;" class="clFirstLocation" rel="'+results[i].id+'">Select This Location</a></li>'; 
+                        } 
+                        str = str + '</ul>'; 
+                        $('#f_person_location_results').html(str);
+                        //console.log(data.data);
+                }
+                
+                function first_person_loc_details(data){
+                    $('#from_latitude').val(data.data.latitude);
+                    $('#from_longitude').val(data.data.longitude);
+                }
+                    
+                $(document).on('click','#f_person_loc_button',function(event){
+                    $('#f_person_location_results').html('Loading...');
+                //console.log("button is clicked with value " + $('#f_person_loc').val()); 
+                
+                //var url = 'http://bootstrap.mkgalaxy.com/svnprojects/horo/api.php?action=findCity&q='+$('#f_person_loc').val();
+                var url = 'http://bootstrap.mkgalaxy.com/svnprojects/horo/api.php?action=findCity&q='+encodeURIComponent($('#f_person_loc').val());
+                getRequest(url, first_person_location);
+                });
+                
+                
+                $(document).on('click','.clFirstLocation',function(event){
+                    var id = $(this).attr('rel');
+                    var url = 'http://bootstrap.mkgalaxy.com/svnprojects/horo/api.php?action=findcitybyid&city_id='+encodeURIComponent(id);
+                    getRequest(url,first_person_loc_details);
+                });
+                
+                //second_person
+                function second_person_location(data) { 
+                        var results = data.data; 
+                        var str = ''; 
+                        str = str + '<ul>'; 
+                        for (var i = 0; i < results.length; i++) 
+                        { 
+                            str = str + '<li>'+results[i].name+', ' + results[i].state + ', ' + results[i].country + ' ('+results[i].id+') <a href="javascript:;" class="clSecondLocation" rel="'+results[i].id+'">Select This Location</a></li>'; 
+                        } 
+                        str = str + '</ul>'; 
+                        $('#s_person_location_results').html(str);
+                }
+                
+                function second_person_loc_details(data){
+                    $('#to_latitude').val(data.data.latitude);
+                    $('#to_longitude').val(data.data.longitude);
+                }
+                    
+                $(document).on('click','#s_person_loc_button',function(event){
+                    $('#s_person_location_results').html('Loading...');
+                //console.log("button is clicked with value " + $('#f_person_loc').val()); 
+                
+                //var url = 'http://bootstrap.mkgalaxy.com/svnprojects/horo/api.php?action=findCity&q='+$('#f_person_loc').val();
+                var url = 'http://bootstrap.mkgalaxy.com/svnprojects/horo/api.php?action=findCity&q='+encodeURIComponent($('#s_person_loc').val());
+                getRequest(url, second_person_location);
+                });
+                
+                
+                $(document).on('click','.clSecondLocation',function(event){
+                    var id = $(this).attr('rel');
+                    var url = 'http://bootstrap.mkgalaxy.com/svnprojects/horo/api.php?action=findcitybyid&city_id='+encodeURIComponent(id);
+                    getRequest(url,second_person_loc_details);
+                });
+            });
+            
+        </script>
+        
+    </head>
+    <body>
+        <h1>Horoscope Match Making</h1>
+        <p>Note:<br> 1. People go for match making before marriage.
+            <br> 2. I also match horoscope with friends, cousins, parents, child, and all
+            <br>3. We also match the horoscope with the days. We find out good days and bad days of any individual.</p>
+        <!--first person-->
+        <form>
+                <h3>First Person's Location </h3>
+                <div><b>Location: </b><input type="text" id="f_person_loc" size="45"></div><br>
+                <div><input type="button" value="find location" id="f_person_loc_button"></div><br>
+        </form>
+            <div id="f_person_location_results"></div>
+        
+        <form>
+            <div><b>Latitude: </b><input type="text" id="from_latitude" value=""></div><br>
+            <div><b>Longitude: </b><input type="text" id="from_longitude" value=""></div><br>
+            <div><b>DOB:  </b><input type="text" id="from_dob" value="" size="50" placeholder="YYYY-MM-DD HH:MM"></div>
+        </form>
+        <!--second person-->
+        <form>
+                <h3>Second Person's Location </h3>
+                <div><b>Location: </b><input type="text" id="s_person_loc" size="45"></div><br>
+                <div><input type="button" value="find location" id="s_person_loc_button"></div><br>
+        </form>
+            <div id="s_person_location_results"></div>
+        
+        <form>
+            <div><b>Latitude: </b><input type="text" id="to_latitude" value=""></div><br>
+            <div><b>Longitude: </b><input type="text" id="to_longitude" value=""></div><br>
+            <div><b>DOB:  </b><input type="text" id="to_dob" value="" size="50" placeholder="YYYY-MM-DD HH:MM"></div>
+        </form>
+            <br>
+            <input type="button" id="match" value="match">    
+    </body>
+</html>

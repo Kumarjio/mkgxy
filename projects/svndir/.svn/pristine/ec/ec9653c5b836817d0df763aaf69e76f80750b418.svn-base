@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<script>
+
+ 
+ </script>
+</head>
+
+<body>
+<script>
+ 
+    function ctof(c) {
+  var result = c *9/5+32;
+  return result;
+}
+
+var value = ctof(100);
+console.log(value);
+</script>
+</body>
+</html>

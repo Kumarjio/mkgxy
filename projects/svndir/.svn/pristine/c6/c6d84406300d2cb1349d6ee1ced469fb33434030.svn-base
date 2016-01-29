@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<script>
+
+ var myArray = new Array();
+myArray[0] = "apple";
+myArray[1] = "banana";
+myArray[2] = "mango";
+myArray[3] = "watermelon";
+
+console.log(myArray[3]);
+
+console.log(myArray.length);
+ 
+ </script>
+</head>
+
+<body>
+<script>
+
+</script>
+</body>
+</html>

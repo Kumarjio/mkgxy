@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>how to use data</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+         <script>
+            $(document).ready(function() {
+                function getRequest(requestURL,successCallBack){
+                // console.log(requestURL); 
+                 
+                  var request = $.ajax({
+                   url: requestURL,
+                   method:'GET'
+                  }) ; 
+                request.done(successCallBack); 
+        
+       
+      }
+      
+      function x(data){
+        $('#city').html(data.result.city);
+        $('#state').html(data.result.region);
+        $('#country').html(data.result.country);
+        $('#ip').html(data.result.ip);
+        $('#lat').html(data.result.lat);
+        $('#lng').html(data.result.lng);
+        $('#postal').html(data.result.postal);
+    }
+    function y(data){
+        console.log(data);
+        $('#name').html(data.name);
+        $('#speed').html(data.wind.speed);
+        $('#deg').html(data.wind.deg);
+        $('#temperature').html(data.main.temp);
+        $('#pressure').html(data.main.pressure);
+        $('#humidity').html(data.main.humidity);
+        $('#description').html(data.weather[0].description);
+    }
+    
+                  
+                
+      getRequest('http://bootstrap.mkgalaxy.com/svnprojects/mk/prjServices/api/iptocityipinfo_io.php,',x);
+      getRequest('http://api.openweathermap.org/data/2.5/weather?q=sunnyvale,US&appid=bb09d0b39e5a9eb764f5b23221268774&units=metric' ,y);
+    });
+        </script>
+       
+    </head>
+    <body>
+        <h3>City</h3>
+        <div id="city"></div>
+        <h3>State</h3>
+        <div id="state"></div>
+        <h3>Country</h3>
+        <div id="country"></div>
+         <h3>IP</h3>
+         <div id="ip"></div>
+        <h3>Lat</h3>
+        <div id="lat"></div>
+        <h3>Lng</h3>
+        <div id="lng"></div>    
+        <h3>Postal</h3>
+        <div id="postal"></div>
+        
+        <h1>Weather Data</h1> 
+        <div>Name: <span id="name"></span></div>
+         
+        <div>Wind Speed: <span id="speed"></span>with degree <span id="deg"></span></div>
+        
+        <div>Temperature: <span id="temperature"></span></div>
+        
+        <div>pressure: <span id="pressure"></span></div>
+        
+        <div>Humidity: <span id="humidity"></span></div>
+        
+        <div>description: <span id="description"></span></div>
+    </body>
+</html>

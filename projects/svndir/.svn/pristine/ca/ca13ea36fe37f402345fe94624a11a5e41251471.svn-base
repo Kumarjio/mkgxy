@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Restaurant Site</title>
+<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/font-awesome.css">
+<link rel="stylesheet" href="style.css">
+<script src="../js/jquery-1.11.3.min.js"></script>
+<script src="../js/jquery-migrate-1.2.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand" href="index.html"><img src=
+          "data:image/jpeg;base64,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"></a> </div>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="bakery.html">Bakery</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li class="active"><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <!--/.nav-collapse --> 
+  </div>
+</nav>
+
+
+<section class="section1">
+   
+ <div class="row title1">
+ <div class="col-md-12">
+ <h2>Contact Us</h2>
+ </div>
+ </div> 
+ </div>  
+    
+<div class="container bc2">
+<!-- BreadCrumb --> 
+<div class="row">
+<div class="col-md-12">
+ <ol class="breadcrumb">
+<li><a href="index.html">Home</a></li>
+<li class="active">Contact</li>
+</ol> 
+</div>
+</div>
+</div>
+
+
+<div class="container">
+<div class="row">
+<div class="col-md-8">
+<!-- map comes here-->
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3156.271460183877!2d-121.86029078515222!3d37.71330552346756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808feed52b739417%3A0x41eaf21e42196cf5!2s2953+Vittoria+Loop%2C+Dublin%2C+CA+94568!5e0!3m2!1sen!2sus!4v1450760538276" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+<h2>Contact Us Today!</h2>
+
+
+
+<!-- form -->
+
+<form>
+<div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" class="form-control" id="name" placeholder="Enter your Name">
+    </div>
+  <div class="form-group">
+    <label for="email">Email address</label>
+    <input type="email" class="form-control" id="email" placeholder="Enter your Email">
+  </div>
+ <div class="form-group">
+    <label for="message">Message</label>
+  <textarea class="form-control" rows="3" id="message" placeholder="Enter your Message"></textarea>
+  </div>
+  
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+</div>
+
+
+
+<div class="col-md-4">
+
+ <!-- contact details -->
+<h2>Contact Details</h2>
+<p>2953 vittoria loop
+<br>
+Dublin, CA 94568</p>
+<p><i class="fa fa-phone-square"></i> : (408) 505 - 2727</p>
+<p><i class="fa fa-envelope-square"></i> : s_aruna_reddy@yahoo.com</p>
+<p><i class="fa fa-clock-o"></i> : Monday - Friday: 9:00 am to 5:00 pm</p>
+
+<a href="https://www.facebook.com/bootsnipp"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+	            <a href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+	            <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+	            <a href="mailto:bootsnipp@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+
+</div>
+</div>
+</div>
+
+
+</section>    
+
+  
+  <footer>
+  <p>Restaurant Thme Copy Right - ARUNA <a href="#">Terms</a> | <a href="#">Privacy</a></p>
+  </footer>
+</body>
+</html>

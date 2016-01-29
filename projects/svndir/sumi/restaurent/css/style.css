@@ -1,0 +1,26 @@
+.navbar
+{
+	    min-height: 110px;
+		background-color: #4a3012;
+}
+.navbar-header .navbar-brand img
+{
+	padding-top: 0px;
+    height: 95px;
+    width: 200px;
+}
+
+.navbar-nav li
+{
+	padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar-nav li a
+{
+	font-size: 25px;
+    font-family: cursive;
+    font-weight: bold;
+    text-transform: capitalize;
+	color: #CAEC30;
+}

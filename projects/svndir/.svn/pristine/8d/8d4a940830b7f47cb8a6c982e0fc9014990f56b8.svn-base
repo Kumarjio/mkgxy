@@ -1,0 +1,13 @@
+<!doctype html> 
+<html>
+<head> 
+<meta charset="UTF-8"> 
+<title>Untitled Document</title> 
+
+</head>
+    
+<body> 
+    <p class="class1">This is paragraph 1.
+    </br>This is paragraph 2.</p>
+</body> 
+</html>

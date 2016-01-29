@@ -1,0 +1,198 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Trulia</title>
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+
+<script src="../js/jquery-1.11.3.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/jquery-migrate-1.2.1.min.js"></script>
+</head>
+
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="advncdsearch.html"><img src="http://www.trulia.com/corp/files/2012/04/trulia-png1.png" class="company-logo img-responsive" alt="logo" ></a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Buy</a></li>
+            <li><a href="#sell">Sell</a></li>
+            <li><a href="#rent">Rent</a></li>
+            <li><a href="#mortgage">Mortgage</a></li>
+            <li><a href="#findanagent">Find An Agent</a></li>
+            <li><a href="#more">Mortgage</a></li>
+            <li><a href="#professionals">For Professionals</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+          	<li><a href="#savedhomes">Saved Homes</a></li>
+          	<li><a href="#savedsearches">Saved Searches</a></li>
+          </ul>
+     	</div>
+	</nav>
+    <section class="search-section">
+    	<div class="container">
+        	<h3> Search Options</h3>
+        </div>
+        <div class="container option-1">
+            <form id="form1" name="form1" method="post">
+            	<input type="radio" name="buy" id="buy"> Buy
+                <input type="radio" name="rent" id="rent"> Rent   
+            </form>
+        </div>
+    </section>
+    <section class="tab-section">
+   	 	<div class="container tabs">
+   	 	<form id="form2" name="form2" method="post">
+   	 	  <div class="container">
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">City</a></li>
+    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Zip or Neighbourhood</a></li>
+    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Address</a></li>
+    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">County</a></li>
+    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Schools</a></li>
+    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Price changes</a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="home">
+    	<div class="row">
+        <div class="col-md-12">
+    	<p class="page-header">Search for home by city<button class="pull-right"> submit</button></p>
+    	<label for="textfield">City *</label>
+        <input type="text" name="City" id="city">
+        <label for="select">Search within:</label>
+    	<select name="searchradius" id="searchradius">
+       	  <option value="">City Boundary</option>
+    	  <option value="1 mile radius">1mile</option>
+    	  <option value="2 mile radius">2mile</option>
+    	  <option value="3 mile radius">3mile</option>
+        </select>
+        </div></div>
+        <div class="row page-header"> 
+         <div class="col-md-12">
+          <p class="page-header"> Property Details <button class="pull-right">submit</button></p>  </div>
+          <div class="col-md-4">
+          <label for="price" >price </label> <br>
+          <input type="number" name="range1" id="range1"> to <input type="number" name="range2" id="range2">
+          </div>
+          <div class="col-md-4">
+          <label for="price" >Bedroom </label> <br>
+          <input type="number" name="room1" id="room1"> to <input type="number" name="room2" id="room2">
+          </div>
+          <div class="col-md-4">
+          <label for="price" >Bathrooms </label> <br>
+          <input type="number" name="bath1" id="bath1"> to <input type="number" name="bath2" id="bath2">
+          </div>
+         </div>
+      <div class="row page-header">
+      <div class="col-md-2">
+      	<p>Property Type</p>
+       </div>
+       <div class="col-md-2">
+       	<input name="All" type="checkbox" id="All" checked>
+        <label for="All" > All</label><br>
+        <input name="Single-Family Home" type="checkbox" id="Single-Family Home">
+        <label for="Single-Family Home" > Single-Family Home</label><br>
+        <input name="Condo" type="checkbox" id="Condo">
+        <label for="Condo" > Condo</label>
+       </div>
+       <div class="col-md-2">
+       <input name="Townhome" type="checkbox" id="Townhome">
+        <label for="Townhome" > Townhome</label><br>
+        <input name="Coop" type="checkbox" id="Coop">
+        <label for="Coop" > Coop</label><br>
+        <input name="Loft" type="checkbox" id="Loft">
+        <label for="Loft" > Loft</label>
+       </div>
+       <div class="col-md-2">
+       <input name="TIC" type="checkbox" id="TIC">
+        <label for="TIC" > TIC</label><br>
+        <input name="Apt/Condo/Twnhme" type="checkbox" id="Apt/Condo/Twnhme">
+        <label for="Apt/Condo/Twnhme" > Apt/Condo/Twnhme</label><br>
+        <input name="Mobile/Manufactured" type="checkbox" id="Mobile/Manufactured">
+        <label for="Mobile/Manufactured" > All</label>
+       </div>
+       <div class="col-md-2">
+       <input name="Farm/Ranch" type="checkbox" id="Farm/Ranch">
+        <label for="Farm/Ranch" > Farm/Ranch</label><br>
+        <input name="Lot/Land" type="checkbox" id="Lot/Land">
+        <label for="Lot/Land" > Lot/Land</label><br>
+        <input name="Multi-familyhome" type="checkbox" id="Multi-familyhome">
+        <label for="Multi-familyhome" > Multi-family Home</label>
+       </div>
+       <div class="col-md-2">
+      <input name="Income/Invest" type="checkbox" id="Income/Invest">
+        <label for="Income/Invest" > Income/Invest</label><br>
+        <input name="Houseboat" type="checkbox" id="Houseboat">
+        <label for="Houseboat" > Houseboat</label>
+       </div>
+      </div>
+      <div class="row page-header">
+      <div class="col-md-4">
+      <label for="price" >Structure size (square feet) </label> <br>
+      <input type="number" name="Structure1" id="Structure1"> to <input type="number" name="Structure2" id="Structure2">
+      </div>
+      <div class="col-md-4">
+      <label for="price" >Lot size (acres) </label> <br>
+      <input type="number" name="lot1" id="lot1"> to <input type="number" name="lot2" id="lot2">
+      </div>
+      <div class="col-md-4">
+      <label for="price" >Year Built </label> <br>
+      <input type="number" name="year1" id="year1"> to <input type="number" name="year2" id="year2">
+      </div>
+      </div>
+      <div class="row">
+      <div class="col-md-12">
+      <label for="textfield">Keyword Search</label><br>
+        <input type="text" name="keyword	" id="keyword">
+      <p>e.g. "garage", "pool", "patio", etc.</p></div>
+      </div>
+      
+    </div>
+    
+    <div role="tabpanel" class="tab-pane" id="profile">...</div>
+    <div role="tabpanel" class="tab-pane" id="messages">...</div>
+    <div role="tabpanel" class="tab-pane" id="settings">...</div>
+  </div>
+
+</div>
+ <section class="submit_row">
+    <div class="row">
+    <input type="submit" name="submit" id="submit" value="Submit">
+    </div>
+    </section>
+ 	  </form>
+      </div>
+    </section>
+    <section class="links">
+    <div class="container">
+        <div class="row link_row">
+        	<p> Explore Trulia   <small> 
+<a href="#">  Homes for Sale</a>  |  <a href="#">Homes for Rent</a>  |  <a href="#">Stats & Trends</a>  |  <a href="#">Real Estate Advice</a>  |  <a href="#">Real Estate Apps</a>  |  <a href="#">Trulia API</a>  |  <a href="#">Trulia Estimates
+For Professionals </a> </small></p>
+<p> For Professionals   <small><a href="#">  Agents</a>  |  <a href="#">Brokers</a>  |  <a href="#">Partners</a>  |  <a href="#">Tools & Extras</a>  |  <a href="#">Submit Your Listings</a>  |  <a href="#">Real Estate Leads</a>  |  <a href="#">Agent Site Map</a>  |  <a href="#">Directory Site Map</a></small></p>
+<p> Corporate  <small>
+<a href="#">  About Trulia</a>  |  <a href="#">About Zillow Group</a>  |  <a href="#">News Room</a>  |  <a href="#">Careers</a>  |  <a href="#">Investor Relations</a>  |  <a href="#">Privacy</a>  |  <a href="#">Terms of Use</a>  |  <a href="#">Listings Quality Policy</a>  |  <a href="#">Subscription Terms</a> </small></p>
+        </div></div>
+    </section> 
+            
+            
+</body>
+</html>

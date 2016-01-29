@@ -1,0 +1,20 @@
+<!doctype html> 
+<html>
+<head> 
+<meta charset="UTF-8"> 
+<title>JAVA SCRIPT</title> 
+    <script src="myjavascript.js"></script>
+<!--this is one way of defining javascript like creating  external javascrit file and linking it to main page --> 
+    
+ <script>
+    
+    //this is the other way defining above the body
+    
+</script> 
+</head>
+<body> 
+    <script>
+    //can also be defined inside the body tag
+    </script>
+</body> 
+</html>

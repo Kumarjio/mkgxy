@@ -1,0 +1,22 @@
+<!doctype html> 
+<html>
+<head> 
+<meta charset="UTF-8"> 
+<title>javascript</title> 
+<script>
+  
+    </script>
+</head>
+    
+<body> 
+    <script>
+
+        function celsiustofahren(celsius) {
+            var result = (celsius*1.8) + 32; 
+            return result; 
+        } 
+        var value = celsiustofahren(10);
+        console.log(value);
+    </script>
+</body> 
+</html>

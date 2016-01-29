@@ -1,0 +1,44 @@
+.navbar{
+    min-height:60px;
+	background:#32B10C;
+}
+
+
+    .navbar-nav li a {
+        padding:20px;
+        font-size: 16px; 
+        font-weight: bold; 
+        text-transform: capitalize; 
+        font-family: 'Oswald', sans-serif;
+		color:#fff !important;}
+
+.navbar-nav a:hover, .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover { 
+    color: #fff !important; 
+    background-color: #1A7F1C !important; }
+
+ .btn-md{margin:15px;}
+ 
+ body{
+    padding-top:60px;
+}
+
+.row-3 p{
+	font-size:12px;
+	font-weight:bold;
+	}
+	
+.property{
+	font-size:20px;
+	font-weight:700 !important;
+	text-transform:uppercase;
+	}	
+	
+.row-4 p{
+	font-size:12px;
+	font-weight:bold;
+	}	
+	
+h1{font-size:20px;
+	font-weight:700 !important;
+	
+	}	

@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Doctor Clinic</title>
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css">
+<link href="css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</head>
+
+<body style="background:#63A3C7">
+<nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><img src="http://www.mayoclinic.org/~/media/images/mayologo.png" alt="logo"></a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse navbar-right">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home </a></li>
+            <li><a href="about.html">About Us </a></li>
+            <li><a href="services.html">Services </a></li>
+            <li class="active"><a href="portfolio.html">portfolio </a></li>
+            <li><a href="contact.html">Contact Us </a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+ </nav>
+ <section>
+    	<div class="row">
+        	<div class="col-md-12">
+            	<ol class="breadcrumb">
+                  <li><a href="index.html">Home</a></li>
+                  <li class="active">Portfolio</li>
+                </ol>
+             </div>
+        </div>
+       <div class="container portfolios">
+           <h2 class="page-header">Faculty Portfolio</h2>
+           <p>As you read these portfolios keep in mind the following points:</p>
+           <ul>
+            <li>Each faculty member will have a unique portfolio reflecting her or his unique contributions to education. The nine categories serve as a menu only. A candidate with educational contributions in 8 out of the 9 categories does not necessarily have a stronger case than someone with contributions in 4 out of the 9 categories.</li>
+            <li>Unlike the CV, The typical portfolio is organized into projects rather than types of output. For example, if you are the director of a longitudinal theme, you would be advised to create a section corresponding to your longitudinal theme program. This section would begin with a brief description of the highlights of your program followed by supporting evidence that would include evaluations, peer reviews, outcomes, even publications. You might choose to flag this section with a tab if your portfolio is organized in a binder or create a separate electronic “page” if your Portfolio is on-line. In contrast, in your CV, all of these materials would be in separate sections. Think of the CV as a compilation of lists. Think of the Portfolio as a compilation of stories.</li>
+            <li>The brief summary that begins each section is of roughly a page in length. Supportive material is relegated to appendices. Thus, the portfolio itself, stripped of its appendices, is usually only three to six pages long. A faculty member who spends most of her or his time at research may submit a portfolio of only one or two pages while career educators may require ten pages). A promotion and tenure committee member could read your educator’s portfolio in a few minutes. If she or he wanted to, they could jump to the appendix to verify a claim or obtain more details.</li>
+           </ul>
+           <br><p>Click on the name below to download a PDF file of sample portfolios from Mayo clinic staff.</p>
+       	   <a href="#"><u>Dr. Phillip Pennell, M.D., Educator’s Portfolio and Creative Professional Activities Portfolio</u></a>
+           <p>Dr. Pennell is associate professor of Medicine and Psychiatry & Behavioral Sciences, UMMSM, and Medical Director, Gambro Healthcare Miami, which is the outpatient dialysis center for the University of Miami/Jackson Memorial Medical Center.</p>	
+           <a href="#"><u>Dr. Daniel Lichstein, M.D. FACP, Educator’s Portfolio</u></a>
+           <p>Dr. Lichtstein is associate professor of Medicine and Program Director of the Internal Medicine Training Program for the University of Miami/Jackson Memorial Medical Center.</p>
+           <a href="#"><u>Dr. Alex J. Mechaber, M.D., FACP, Educator’s Portfolio</u></a>
+           <p>Dr. Mechaber is the director of the Clinical Skills Program, the associate director of the Primary Care Clerkship and an assistant professor of medicine.</p>
+           <a href="#"><u>Dr. Joyce Slingerland, M.D., Ph.D, Teaching Dossie</u></a>
+           <p>Dr. Slingerland’s Educator’s Portfolio was submitted for promotion while she held a position at the University of Toronto. Dr. Slingerland is currently the director of the Brayman Breast Cancer Center. Her role both at U. of Toronto and at the UMSM is mainly research. Other researchers who do little conventional teaching might find this portfolio interesting.</p>
+       </div>
+       
+
+      
+       
+ </section>
+<footer style="text-align:center">
+    	<p>MAYO Clinic Copyright @ 2007 - 2015 - <a href="#"> Terms </a> | <a href="#"> Privacy</a></p>
+</footer>
+</body>
+</html>

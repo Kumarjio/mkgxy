@@ -1,0 +1,154 @@
+<!doctype html> 
+<html>
+<head> 
+<meta charset="UTF-8"> 
+<title>IT Solutions</title> 
+<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.css">
+<link rel="stylesheet" href="css/style.css">
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</head>
+    
+<body> 
+    
+     <nav class="navbar  navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+              <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSaGMmG-_P6HIawQG8kAEBdqzMuGY0wewor9RJ5L53LChK0NdTrzQ"WIDTH="200px">
+            <p>Call for a great Experience</p></a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+        <li ><a href="index.html">Home</a></li>
+            <li class="active"><a href="aboutus.html">about us</a></li>
+            <li class="active"><a href="services.html">Services </a></li>
+            <li><a href="contactus.html">Contact us</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+       
+    <section class="section-title">
+        <div class="container">
+           <div class="row">
+               <div class="col-md-12">
+                   <h1>Services <small> What do we do?</small></h1>
+               </div> 
+           </div>
+        </div>
+    </section>
+    <section>
+    <div class="container">
+        <!--image-->
+           <div class="row">
+               <div class="col-md-12">
+                   <img src="http://www.siliconindia.com:81/news/newsimages/special/62l08JyH.jpeg" width="1600px" class="img-responsive"?
+               </div>
+        </div>
+        <!--description-->
+         <div class="row">
+               <div class="col-md-8">
+                   <h2 class="page-header">our services</h2>
+                   <p>IT Solutions prides itself on offering the most innovative services available on the market today. Our in-house experts research every detail about the current market conditions and determine the greatest advantages for our customers' business goals. At Trigent, our goal is to partner with our customers, creating a unique set of services that meet their objectives.Mango provides skilled personnel to work under your direction to help you develop, maintain, manage and support your applications. Our resources can work with you on-site or remote as per your requirements and are certified in key technologies.
+</p>
+               </div>
+               <div class="col-md-4">
+                   <h2 class="page-header">want more?</h2>
+                   <p>
+IT Solutions prides itself on offering the most innovative services available on the market today.</p>
+                   <a href="#" class="btn btn-primary">Read More</a>
+               </div>
+        </div>
+        <!--tabs-->
+         <div class="row">
+               <div class="col-md-12">
+                   <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Web Services</a></li>
+    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Tech Support</a></li>
+    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Business Solutions</a></li>
+    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">DevOps</a></li>
+    <li role="presentation"><a href="#consulting" aria-controls="consulting" role="tab" data-toggle="tab">Consulting</a></li>
+     <li role="presentation"><a href="#technical" aria-controls="technical" role="tab" data-toggle="tab">QA & Testing</a></li>
+  </ul>
+ <!-- Tab panes -->
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="home"><i class="fa fa-gear pull-left fa-4x"></i> Software Design and Development (leveraging RUP methodology) including Mobile development – Implementing, upgrading, customizing and maintaining enterprise applications including enterprise content management, IT service management, customer relationship management, and business intelligence solutions from industry leaders including IBM, Microsoft, Oracle and several leading independent software vendors. Our talented application architects and developers have a proven record of accomplishment for designing and developing high-performing, flexible, robust applications that deliver tangible business results.</div>
+    <div role="tabpanel" class="tab-pane" id="profile"><i class="fa fa-gear pull-left fa-4x"></i> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</div>
+    <div role="tabpanel" class="tab-pane" id="messages"><i class="fa fa-gear pull-left fa-4x"></i> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+</div>
+    <div role="tabpanel" class="tab-pane" id="settings"><i class="fa fa-gear pull-left fa-4x"></i> Software Design and Development (leveraging RUP methodology) including Mobile development – Implementing, upgrading, customizing and maintaining enterprise applications including enterprise content management, IT service management, customer relationship management, and business intelligence solutions from industry leaders including IBM, Microsoft, Oracle and several leading independent software vendors. Our talented application architects and developers have a proven record of accomplishment for designing and developing high-performing, flexible, robust applications that deliver tangible business results.</div>
+    <div role="tabpanel" class="tab-pane" id="consulting"><i class="fa fa-gear pull-left fa-4x"></i> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</div>
+    <div role="tabpanel" class="tab-pane" id="technical"><i class="fa fa-gear pull-left fa-4x"></i> We exhibit expertise in software testing, and quality assurance allows our clients to achieve improved software quality and reduced development costs by utilizing our iterative approach.</div>
+    
+  </div>
+  </div>       
+         </div>
+        </div>
+        
+        <!--service image title-->
+        
+        <div class="row">
+               <div class="col-md-12">
+                   <h2 class="page-header">Service Images</h2>
+               </div>
+        </div>
+        <!--image title-->
+        <div class="row">
+               <div class="col-md-4">
+                    <img src="http://tws.trijit.com/images/content-img/backup-storage.png" class="img-responsive img-thumbnail">
+                   <h3>Web Services</h3>
+                   <p>Service one description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst.</p>
+                   <a href="#" class="btn btn-link btn-sm pull-right">More <i class= "fa fa-angle-right"></i></a>
+               </div>
+            <div class="col-md-4">
+                 <img src="http://mp2.co/wp-content/uploads/2010/10/support-team.jpg" class="img-responsive img-thumbnail">
+                   <h3>Tech Support</h3>
+                   <p>Service one description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst.</p>
+                   <a href="#" class="btn btn-link btn-sm pull-right">More <i class="fa fa-angle-right"></i></a>
+               </div>
+            <div class="col-md-4">
+      <img src="http://gdts-me.com/wp-content/uploads/2015/05/business.png" class="img-responsive img-thumbnail">
+                   <h3>Business Solutions</h3>
+                   <p>Service one description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst.</p>
+                   <a href="#" class="btn btn-link btn-sm pull-right">More <i class="fa fa-angle-right" ></i></a>
+               </div>
+        </div>
+        <div class="row">
+               <div class="col-md-4">
+                   <img src="http://www.spirent.com/~/media/Images/Site/Background/Mixed-Module-Images/Careers/JumpStart_400x250.jpg" class="img-responsive img-thumbnail">
+                   <h3>DevOps</h3>
+                   <p>Service one description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst.</p>
+                   <a href="#" class="btn btn-link btn-sm pull-right">More <i class= "fa fa-angle-right"></i></a>
+               </div>
+            <div class="col-md-4">
+                 <img src="http://rcnnetworks.com/wp-content/themes/gorcn/img/callout-cloud.jpg"class="img-responsive img-thumbnail">
+                   <h3>Consulting</h3>
+                   <p>Service one description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst.</p>
+                   <a href="#" class="btn btn-link btn-sm pull-right">More <i class="fa fa-angle-right"></i></a>
+               </div>
+            <div class="col-md-4">
+      <img src="http://www.kalyanitechnologies.com/kalyanitechnologies/images/quality-assurance.jpg" class="img-responsive img-thumbnail">
+                   <h3>QA & Testing</h3>
+                   <p>Service one description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst.</p>
+                   <a href="#" class="btn btn-link btn-sm pull-right">More <i class="fa fa-angle-right" ></i></a>
+               </div>
+        </div>
+        </div>
+    </section>
+    <footer>
+        <p>Business Theme Copyright 2015 - <a href="terms.html">Terms</a> | <a href="privacy.html">Privacy</a></p> 
+    </footer>
+</body> 
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script>
+  $(document).ready(function() {
+     console.log($('#myId').html());
+     
+     //$('#myId').append('This is new content');
+     //$('#myId').prepend('This is new content');
+     $('#myId').html('This is new content');
+     
+     
+  });
+</script>
+
+    </head>
+    <body>
+        <div id="myId">This is content</div>
+
+        
+    </body>
+</html>

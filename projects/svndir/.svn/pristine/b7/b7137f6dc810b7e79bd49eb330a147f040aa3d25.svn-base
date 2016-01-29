@@ -1,0 +1,22 @@
+<!doctype html> 
+<html>
+<head> 
+<meta charset="UTF-8"> 
+<title>javascript</title> 
+<script>
+  
+    </script>
+</head>
+    
+<body> 
+    <script>
+
+        function kmtom(km) {
+            var result = km * 0.621371; 
+            return result; 
+        } 
+        var value = kmtom(10);
+        console.log(value);
+    </script>
+</body> 
+</html>

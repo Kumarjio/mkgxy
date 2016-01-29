@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<script>
+
+var hobbies = { sports: 'chess', food: 'indian food', movie: 'pk' }; 
+console.log(hobbies.sports);
+
+function helloworld(name){
+	console.log("My name is " + name);
+}
+helloworld('abhiteja');
+
+function add(p1,p2){
+	console.log("addition: " + p1+p2);
+}
+function subst(p1,p2){
+	console.log("substraction: " + (p1 - p2));
+}
+function multi(p1,p2){
+	console.log("multiplication: " + p1*p2);
+}
+function divide(p1,p2){
+	console.log("division: " + p1/p2);
+}
+add(10,5);
+subst(10,5);
+multi(10,5);
+divide(10,5);
+
+function rupee(r){
+	var value = r*0.015;
+	return value;
+}
+
+var rupeetodollar=rupee(1000);
+console.log(rupeetodollar);
+
+function farenheittocelcius(f){
+	return((f-32)/1.8000);
+}
+
+var result=farenheittocelcius(32);
+console.log(result);
+
+
+function celciustofaren(c){
+	return((c*1.8)+32);
+}
+
+var result=celciustofaren(0);
+console.log(result);
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+<script>
+$(document).ready(function() {
+   function getRequest(requestURL, successCallBack) {
+      
+     
+       var request = $.ajax({
+        url: requestURL,
+        method: 'GET'
+      });
+      
+      request.done(successCallBack); 
+    }  
+    
+       function first_person_location(data) {
+        var results = data.data;
+        var str = '';
+    
+        str = str + '<ul>';
+    
+        for (var i = 0; i < results.length; i++) {
+            str = str + '<li>'+results[i].name+', ' + results[i].state + ', ' + results[i].country + ' ('+results[i].id+') <a href="javascript:;" id="location_'+results[i].id+'">Select This Location</a></li>';
+        }
+    
+        str = str + '</ul>';
+        $('#first_person_location_results').html(str);
+      }
+               
+        $('#first_person_location_button').on('click', function(event) {
+    
+     
+        var url = 'http://bootstrap.mkgalaxy.com/svnprojects/horo/api.php?action=findCity&q='+encodeURIComponent($('#first_person_location').val());
+        console.log(url);
+        getRequest(url, first_person_location);
+  });
+});
+
+</script>
+    </head>
+    <body>
+        <h1>Horoscope Match Making</h1> 
+        <p>Note: 1. People go for match making before marriage.<br>
+            2. I also match horoscope with friends, cousins, parents, child, and all<br>
+3. We also match the horoscope with the days. We find out good days and bad days of any individual.</p>
+     
+      <h3>First Person's Location</h3>
+<form>
+<div><b>Location: </b> <input type="text" id="first_person_location" size="45" value="pleasanton"></div>
+<br>
+<div><input type="button" value="Find Location" id="first_person_location_button"></div>
+</form> 
+      
+      <div id="first_person_location_results">
+
+</div>
+        
+    </body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script>
+            $(document).ready(function() {
+               function getRequest(requestURL, successCallBack) {
+			     //console.log(requestURL);
+				 
+				 var request = $.ajax({
+				   url: requestURL,
+				   method: 'GET'
+				 });
+				 
+				 request.done(successCallBack);
+				 
+			   }
+			   
+			   function first_person_location(data) {
+			     //console.log(data.data);
+				 var results = data.data;
+				 var str = '';
+				 
+				 str = str + '<ul>';
+				 //console.log(results);
+				 for (var i = 0; i < results.length; i++) {
+				   console.log(results[i]);
+				   str = str + '<li>' + results[i].name + ', ' + results[i].state + ', ' + results[i].country + 
+				   ' (' + results[i].id+ ') <a href="javascript:;" id = "location_' + results[i].id + '">Select This Location</a></li>';
+				 }
+				 
+				 str = str + '</ul>';
+				 //console.log(str);
+				 $('#first_person_location_results').html(str);
+			   }
+			   
+			   $('#first_person_location_button').on('click', function() {
+			     console.log('button is clicked with value ' + $('#first_person_location').val());
+				 var url = 'http://bootstrap.mkgalaxy.com/svnprojects/horo/api.php?action=findCity&q='+
+				 $('#first_person_location').val();
+				 console.log(url);
+				 getRequest(url, first_person_location);
+			   });
+			   
+			   function second_person_location(data) {
+			     //console.log(data.data);
+				 var results = data.data;
+				 var str = '';
+				 
+				 str = str + '<ul>';
+				 //console.log(results);
+				 for (var i = 0; i < results.length; i++) {
+				   console.log(results[i]);
+				   str = str + '<li>' + results[i].name + ', ' + results[i].state + ', ' + results[i].country + 
+				   ' (' + results[i].id+ ') <a href="javascript:;" id = "location_' + results[i].id + '">Select This Location</a></li>';
+				 }
+				 
+				 str = str + '</ul>';
+				 //console.log(str);
+				 $('#second_person_location_results').html(str);
+			   }
+			   
+			   $('#second_person_location_button').on('click', function() {
+			     console.log('button is clicked with value ' + $('#second_person_location').val());
+				 var url = 'http://bootstrap.mkgalaxy.com/svnprojects/horo/api.php?action=findCity&q='+
+				 $('#second_person_location').val();
+				 console.log(url);
+				 getRequest(url, second_person_location);
+			   });
+			   
+            });
+        </script>
+    </head>
+    <body>
+        
+    <div id="content">  
+   <h1>Horoscope Match Making</h1>
+   <p>Note: 1. People go for match making before marriage.<br>
+   2. I also match horoscope with friends, cousins, parents, child, and all.<br>
+   3. We also match the horoscope with the days. We find our good days and bad days of any individual</p>
+   <h3> First Person's Location</h3>
+   <form>
+     <div><b>Location: </b><input type="text" id="first_person_location" size="45" value="San Jose"></div>
+	 <br>
+	 <div><input type="button" value="Find Location" id="first_person_location_button"></div>
+   
+   
+   <div id="first_person_location_results">
+   
+   <h3> Second Person's Location</h3>
+   
+     <div><b>Location: </b><input type="text" id="second_person_location" size="45" value="San Jose"></div>
+	 <br>
+	 <div><input type="button" value="Find Location" id="second_person_location_button"></div>
+   </form>
+   
+   <div id="second_person_location_results">
+   
+   </div>
+   </body>
+</html>

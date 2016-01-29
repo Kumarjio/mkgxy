@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                
+				function getRequest(requestURL,successCallback){
+				console.log(requestURL);	
+				var request= $.ajax({
+					url: requestURL,
+					method:'GET'					
+					});
+				
+				request.done(successCallback); 	  			
+				}
+				function x(data){
+					console.log(data);
+        $('#city').html(data.result.city);
+        $('#state').html(data.result.region);
+        $('#country').html(data.result.country);
+				}
+				function y(data){
+				console.log(data);	
+				$('#name').html(data.name);
+				$('#speed').html(data.wind.speed);
+				$('#deg').html(data.wind.deg);
+				$('#humidity').html(data.main.humidity);
+				$('#description').html(data.weather[0].description);
+				}
+				getRequest('http://bootstrap.mkgalaxy.com/svnprojects/mk/prjServices/api/iptocityipinfo_io.php',x);
+            
+			getRequest('http://api.openweathermap.org/data/2.5/weather?q=sunnyvale,US&appid=bb09d0b39e5a9eb764f5b23221268774&units=metric',y);
+			});
+        </script>
+    </head>
+    <body>
+    <div>Temperature: <span id="temperature"></span></div>
+    <h3>Weather</h3>
+    <div>Name: <span id="name"></span></div>
+    <h3>Speed:</h3>
+    <div>Wind Speed: <span id="speed"></span>with degree <span id="deg"></span></div>
+        <h3>City</h3>
+<div id="city"></div>
+
+<h3>State</h3>
+<div id="state"></div>
+<h3>Country</h3>
+<div id="country"></div>
+<h3>Humidity</h3>
+<div id="humidity"></div>
+<h3>Desciption</h3>
+<div id="description"></div>
+    </body>
+</html>

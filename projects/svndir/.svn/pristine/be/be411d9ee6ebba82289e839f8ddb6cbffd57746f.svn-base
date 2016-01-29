@@ -1,0 +1,42 @@
+<!doctype html> 
+<html>
+<head> 
+<meta charset="UTF-8"> 
+<title>javascript</title> 
+<script>
+  
+    </script>
+</head>
+    
+<body> 
+    <script>
+
+    // var x = 10;
+      //  switch (x) {
+          //  case 10:
+         //       console.log('value of x  is 10');
+           //     break;
+          //  case 11:
+           //     console.log('value of x is 11');
+          //  default:
+             //   console.log('value of x is something else');
+              //  break;
+      //  }
+            
+      
+        //v verified, n, it is not verified, f, forced 
+        
+        var x = 'f'; 
+        switch (x) { 
+            case 'v':
+                console.log('you are verified'); 
+                break; 
+            case 'n': 
+                console.log('you are not verified'); 
+                break; 
+            case 'f':
+            case 'g': console.log('you are forced');
+                break; }
+    </script>
+</body> 
+</html>

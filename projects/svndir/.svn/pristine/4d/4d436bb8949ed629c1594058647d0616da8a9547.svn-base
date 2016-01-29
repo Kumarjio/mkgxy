@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+<script>
+$(document).ready(function() {
+    
+    
+    function getRequest(requestURL) {
+      //console.log(requestURL);
+      
+      var request = $.ajax({
+        url: requestURL,
+        method: 'GET'
+      });
+      
+      request.done(function(data) {
+        console.log(data);
+      });
+    }
+    
+    //getRequest('http://bootstrap.mkgalaxy.com/svnprojects/mk/prjServices/api/iptocityipinfo_io.php');
+    getRequest('http://api.openweathermap.org/data/2.5/weather?q=sunnyvale,US&appid=bb09d0b39e5a9eb764f5b23221268774');
+    
+});
+</script>
+</head>
+
+<body>
+
+<div id="content">
+
+</div>
+
+</body>
+</html>

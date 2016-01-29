@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+
+<script src="../js/jquery-1.11.3.min.js"></script>
+<script src="../js/jquery-migrate-1.2.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="http://c3155192.r92.cf0.rackcdn.com/ckeditor_assets/pictures/root/Marketing/37825/content_Logo_Trulia_White.png" style= "width:90px; height:30px;" class="img-responsive"</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Buy</a></li>
+            <li><a href="#about">Sell</a></li>
+            <li><a href="#contact">Rent</a></li>
+            <li><a href="#contact">Mortgage</a></li>
+            <li><a href="#contact">Find An Agent</a></li>
+            <li><a href="#contact">More</a></li>	
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Saved Homes</a></li>
+            <li><a href="#about">Saved Searches</a></li>            	
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+</nav>
+    <section class="section-radio">
+    <h1> More Search Options</h1>
+    <form id="form1" name="form1" method="post">
+      <p>
+        <input type="radio" name="radio" id="radio" value="radio">
+        <label for="radio">Buy</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" name="radio" id="radio2" value="radio2">
+        <label for="radio2">Rent </label>
+      </p>
+    </form>
+    </section>
+    <section>
+    <h1 class="page-header"> Location</h1>
+    
+    <form>
+      <label for="textfield"><strong><b>City</b> OR <b>neighborhood</b> OR <b>ZIP</b> OR <b>Street address *</b></strong></label><br>
+      <input type="text" name="textfield" id="textfield">
+    </form>
+    
+    <h1 class="page-header"> Property Details</h1>
+    <form>
+      <label for="textfield2">Monthly Rent<br><span>$</span>
+      <input type="text" name="textfield2" id="textfield2"> <span>to</span>  
+      <span>$</span> <input type="text" name="textfield3" id="textfield3">
+      </label>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <label for="textfield2">Bed Rooms<br>
+      <input type="text" name="textfield2" id="textfield2"> <span>to</span>  
+      <input type="text" name="textfield3" id="textfield3">
+      </label>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <label for="textfield2">Bath Rooms<br>
+      <input type="text" name="textfield2" id="textfield2"> <span>to</span>  
+      <input type="text" name="textfield3" id="textfield3">
+      </label>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <label for="textfield2">Square Feet<br>
+      <input type="text" name="textfield2" id="textfield2"> <span>to</span>  
+      <input type="text" name="textfield3" id="textfield3">
+      </label>
+      
+      
+      <label for="select">Pets Allowed</label>
+      <select name="select" id="select">
+      <option>cats</option>
+      <option>Small Dogs</option>
+      <option>Large Dogs</option>
+      <option>Other</option>
+      </select>
+    </form>
+    <form id="form2" name="form2" method="post">
+    <p><b>Property type</b></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="checkbox" name="checkbox" id="checkbox">
+      <label for="checkbox">All</label>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="checkbox" name="checkbox" id="checkbox">
+      <label for="checkbox">Condo</label>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="checkbox" name="checkbox" id="checkbox">
+<label for="checkbox">Apartment</label>      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      
+      <input type="checkbox" name="checkbox" id="checkbox">
+      <label for="checkbox">Apt/Condo/Twnhm</label>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="checkbox" name="checkbox" id="checkbox">
+      <label for="checkbox">New Community</label>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="checkbox" name="checkbox" id="checkbox">
+      <label for="checkbox">Single-Family Home</label>
+      
+      <input type="checkbox" name="checkbox" id="checkbox">
+      <label for="checkbox">Townhome</label>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="checkbox" name="checkbox" id="checkbox">
+      <label for="checkbox"> Loft</label>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="checkbox" name="checkbox" id="checkbox">
+      <label for="checkbox">Multi-Family Home</label>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="checkbox" name="checkbox" id="checkbox">
+      <label for="checkbox">Room For Rent</label>
+    </form>
+      
+    </section>
+</body>
+</html>

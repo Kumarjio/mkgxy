@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+
+<script>
+for(x=0;x<5;x++){
+	console.log('value is '+ x );
+	}
+	
+var x=0;
+
+while(x<8)	{
+	console.log('value ' +x);
+	x++;
+	}
+	
+	
+var x=16;
+if(x <20 && x>15)	{
+	console.log('true');
+	}
+	
+var x=16;
+if(x<15 || x>15)	{
+	console.log('false');
+	}
+	
+
+</script>
+</head>
+
+<body>
+</body>
+</html>

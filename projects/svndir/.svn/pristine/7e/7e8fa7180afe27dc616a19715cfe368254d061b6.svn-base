@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('#myImg').attr('title', 'new taj mahal');
+                $('#myImg').attr('src', 'http://whc.unesco.org/uploads/thumbs/site_0252_0008-750-0-20151104113424.jpg');
+            });
+        </script>
+    </head>
+    <body>
+        <img id="myImg" src="1.jpg" title="This is image">
+        
+    </body>
+</html>

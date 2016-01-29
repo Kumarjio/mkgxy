@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Trulia</title>
+<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand" href="index.html"><img src="https://revaluateassetsnew.s3.amazonaws.com/assets/press/trulia-84d681cbbf4a065761fb79205996cd93.png"></a> </div>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar">
+        <li class="active"><a href="index.html">Buy </a> </li>
+        <li><a href="about.html">Sell </a> </li>
+        <li><a href="services.html">Rent </a></li>
+        <li><a href="contact.html">Mortgage </a></li>
+        <li><a href="about.html">Find An Agent </a> </li>
+        <li><a href="services.html">More </a></li>
+        <li><a href="contact.html">For professionals </a></li>
+        <li><a href="services.html">Saved Homes </a></li>
+        <li><a href="contact.html">Saved Searches </a></li>
+        <a href="#" class="btn btn-md btn-default">Sign In</a>
+      </ul>
+    </div>
+    <!--/.nav-collapse --> 
+  </div>
+</nav>
+<section class="jumbotron">
+  <div class="container">
+    <form id="form1" name="form1" method="post">
+      <p>
+        <label for="min-price"></label>
+        <select name="min-price" id="min-price">
+          <option value="min-price">Min Price</option>
+          <option value="100,000">$100,000</option>
+          <option value="200,000">$200,000</option>
+          <option value="300,000">$300,000</option>
+          <option value="400,000">$400,000</option>
+          <option value="500,000">$500,000</option>
+        </select>
+        To
+        <label for="max-price"></label>
+        <select name="max-price" id="max-price">
+          <option value="max-price">Max Price</option>
+          <option value="100,000">$100,000</option>
+          <option value="200,000">$200,000</option>
+          <option value="300,000">$300,000</option>
+          <option value="400,000">$400,000</option>
+          <option value="500,000">$500,000</option>
+        </select>
+        <label for="all-beds"></label>
+        <select name="all-beds" id="all-beds">
+          <option value="all-beds">All Beds</option>
+          <option value="1+">1+</option>
+          <option value="2+">2+</option>
+          <option value="3+">3+</option>
+          <option value="4+">4+</option>
+          <option value="5+">5+</option>
+        </select>
+        <label for="all-baths"></label>
+        <select name="all-baths" id="all-baths">
+          <option value="all-baths">All Baths</option>
+          <option value="1+">1+</option>
+          <option value="2+">2+</option>
+          <option value="3+">3+</option>
+          <option value="4+">4+</option>
+          <option value="5+">5+</option>
+        </select>
+      </p>
+      <p>
+        <input type="radio" name="forsale" id="For-Sale" value="For-Sale">
+        <label for="forsale">For Sale</label>
+        <input type="radio" name="forsale" id="for-sale1" value="sold">
+        <label for="forsale">Sold </label>
+      </p>
+      <p class="sold">
+      
+      <div class="row">
+        <div class="col-md-3">
+          <input type="radio" name="sold" id="sold" value="sold">
+          <label for="sold">Any</label>
+          <div>
+            <input type="radio" name="sold" id="sold1" value="sold">
+            <label for="sold">3 Months</label>
+          </div>
+        </div>
+        
+        
+        <div class="col-md-9">
+        <input type="radio" name="sold" id="sold2" value="6months">
+        <label for="sold">6 Months</label>
+        <div>
+        
+        <input type="radio" name="sold" id="sold3" value="9months">
+        <label for="sold">9 Months</label>
+        </div>
+        </div>
+        </div>
+        </p>
+        <br>
+      <p>
+      <div class="row row-3">
+        <div class="col-md-3">
+          <input type="checkbox" name="open-houses" id="open-houses">
+          <label for="checkbox">Open Houses </label>
+          <div>
+            <input type="checkbox" name="new-listings,last-week" id="new-listings,last-week">
+            <label for="checkbox">New Lisitings,Last Week </label>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <input type="checkbox" name="reduced-prices,last-week" id="reduced-prices,last-week">
+          <label for="checkbox">Reduced prices,Last week</label>
+          <div>
+
+              <input type="checkbox" name="re-sale" id="re-sale">
+              <label for="checkbox">Re Sale </label>
+
+          </div>
+        </div>
+        <div class="col-md-3">
+          <input type="checkbox" name="new-construction" id="new-construction">
+          <label for="checkbox">New Construction </label>
+          <div>
+            <input type="checkbox" name="fore-closures" id="fore-closures">
+            <label for="checkbox">Fore Closures </label>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div>
+            <input type="checkbox" name="for-sale-by-owner" id="for-sale-by-owner">
+            <label for="checkbox">For Sale By Owner </label>
+          </div>
+        </div>
+      </div>
+      </p>
+      <p class="property">Property
+      
+      <div class="row row-4">
+        <div class="col-md-3">
+          <input type="checkbox" name="all" id="all">
+          <label for="all">All</label>
+          <div>
+            <input type="checkbox" name="single-family-home" id="single-family-home">
+            <label for="single-family-home">Single Family Home</label>
+            <div>
+            <input type="checkbox" name="condo" id="condo">
+            <label for="condo">Condo </label>
+            <div>
+            <input type="checkbox" name="town-home" id="town-home">
+            <label for="town-home">Town Home </label>
+         </div>
+        </div>
+        </div>
+        </div>
+        
+         <div class="col-md-3">
+          <input type="checkbox" name="coop" id="coop">
+          <label for="coop">Coop</label>
+          <div>
+            <input type="checkbox" name="apartment" id="apartment">
+            <label for="apartment">Apartment</label>
+            <div>
+            <input type="checkbox" name="loft" id="loft">
+            <label for="loft">Loft </label>
+            <div>
+            <input type="checkbox" name="tlc" id="tlc">
+            <label for="tlc">TLC</label>
+         </div>
+        </div>
+        </div>
+        </div>
+        
+        
+         <div class="col-md-3">
+          <input type="checkbox" name="apt/condi/twnhm" id="apt/condo/twnhm">
+          <label for="apt/condo/twnhm">Apt/Condo/TwnHm</label>
+          <div>
+            <input type="checkbox" name="mobile" id="mobile">
+            <label for="mobile">Mobile Manufactured</label>
+            <div>
+            <input type="checkbox" name="farm" id="farm">
+            <label for="farm">Farm/Ranch </label>
+            <div>
+            <input type="checkbox" name="lot" id="lot">
+            <label for="lot">Lot/Land</label>
+         </div>
+        </div>
+        </div>
+        </div>
+        
+         <div class="col-md-3">
+          <input type="checkbox" name="mfh" id="mfh">
+          <label for="mfh">Multi family home</label>
+          <div>
+            <input type="checkbox" name="income" id="income">
+            <label for="income">Income/Investment</label>
+            <div>
+            <input type="checkbox" name="houseboat" id="houseboat">
+            <label for="houseboat">Houseboat </label>
+            <div>
+            <input type="checkbox" name="unknown" id="unknown">
+            <label for="unknown">Unknown </label>
+         </div>
+        </div>
+        </div>
+        </div>
+        
+        
+        </div>
+       
+      </p>
+      
+      <div class="row">
+      <div class="col-md-3">
+      <p class="property">Square Feet</p>
+      
+  <label for="square-feet"></label>
+        <select name="square-feet" id="square-feet">
+          <option value="square-feet">Square Feet</option>
+          <option value="1000+">1000 Sft</option>
+          <option value="2000+">2000 sft</option>
+          <option value="3000+">3000 sft</option>
+          <option value="4000+">4000 sft</option>
+          <option value="5000+">5000 sft</option>
+        </select>
+     </div>
+     
+     <div class="col-md-3">
+      <p class="property">Lot Size</p>
+      
+  <label for="Lot-size"></label>
+        <select name="Lot-size" id="Lot-size">
+          <option value="Lot-size">Lot Size</option>
+          <option value="1000+">1000 Sft</option>
+          <option value="2000+">2000 sft</option>
+          <option value="3000+">3000 sft</option>
+          <option value="4000+">4000 sft</option>
+          <option value="5000+">5000 sft</option>
+        </select>
+     </div>
+     
+     <div class="col-md-6">
+      <p class="property">Year Built</p>
+      
+        <div>
+          <label for="min-year"></label>
+          <input type="text" name="min-year" id="min-year" placeholder="min year">
+          to
+          
+          <label for="max-year"></label>
+          <input type="text" name="max-year" id="max-year" placeholder="max year">
+        </div>
+        
+     </div>
+     
+     
+     
+     </div>
+     <br>
+     
+     <p class="property">Key Words</p>
+     
+     <p>
+       <label for="key-words"></label>
+       <input type="text" name="key-words" id="key-words" placeholder="Garage,Pool,Patio etc">
+       <button class="addon btn btn-default" data-action="add-keyword">Add</button>
+     </p>
+     <br>
+     <p class="property">More Options</p>
+     
+<span><i class="glyphicon glyphicon-time"></i> Set Commute Time</span>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp;
+<span><i class="glyphicon glyphicon-book"></i> Select Zip Codes</span>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp;
+<span><i class="glyphicon glyphicon-road"></i> Add Cities</span>
+<br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp;
+<span><i class="glyphicon glyphicon-pencil"></i> Select School districts</span>
+
+    
+      </form>
+      
+    </div>
+ <hr class="line">
+ <a href="#" class="btn btn-md btn-danger button">Apply</a> <span class="reset">reset</span>
+</section>
+</body>
+</html>

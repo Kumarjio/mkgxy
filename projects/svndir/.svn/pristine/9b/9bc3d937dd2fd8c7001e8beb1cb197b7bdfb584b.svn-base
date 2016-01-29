@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script>
+    $(document).ready(function(){
+       
+        function getRequest(requestURL, successCallback){
+            var request= $.ajax({
+               url:requestURL,
+               method:'GET'
+            });
+        request.done(successCallback);
+    }//end getrequest
+    
+    //first person location
+    function first_person_location(data){
+        console.log(data.data);
+        var results= data.data;
+        str=" ";
+        str= str+'<ul>';
+        for(var i=0; i<results.length; i++){
+            console.log(results[i]);
+            str=str+'<li>'+results[i].name+','+results[i].state+','+results[i].country+',('+results[i].id+')<a href="javascript:;" id="location_18638">Select location</a></li>';
+        }
+        str=str+'</ul>';
+        $('#first_person_location_results').html(str);
+        //console.log(str);
+    }
+    
+    $('#first_person_location_button').on('click',function(event){
+        //console.log('button is clicked with the value',$('#first_person_location').val());
+        var url='http://bootstrap.mkgalaxy.com/svnprojects/horo/api.php?action=findCity&q='+encodeURIComponent($('#first_person_location').val());
+        console.log(url);
+        getRequest(url,first_person_location);
+    });
+    
+    //second person's location    
+    function second_person_location(data)
+    {
+        //console.log(data.data);
+        var results= data.data;
+        str=" ";
+        str= str+"<ul>";
+        
+        for(var i=0; i<results.length; i++){
+            str=str+'<li>'+results[i].name+','+results[i].state+','+results[i].country+',('+results[i].id+')<a href="javascript:;">Select location</a></li>';
+           //console.log(results[i]);
+        }
+        str=str+"</ul>";
+        //console.log(str);
+         $('#second_person_location_results').html(str);
+    }
+   
+      
+    
+  $('#second_person_location_button').on('click',function(event){
+     //console.log('button is clicked with the value',$('#second_person_location').val()); 
+        var url='http://bootstrap.mkgalaxy.com/svnprojects/horo/api.php?action=findCity&q='+encodeURIComponent($('#second_person_location').val());
+        
+        console.log(url);
+        getRequest(url,second_person_location);
+  });
+  function matchResult(data) {
+  console.log(data); 
+ }
+  
+  $(document).on('click', '#match', function(event) {
+var url = 'http://bootstrap.mkgalaxy.com/svnprojects/horo/api.php?action=matchLatLng&from[dob]='+encodeURIComponent($('#from_dob').val())+'&from[lat]='+encodeURIComponent($('#from_latitude').val())+'&from[lng]='+encodeURIComponent($('#from_longitude').val())+'&to[dob]='+encodeURIComponent($('#to_dob').val())+'&to[lat]='+encodeURIComponent($('#to_latitude').val())+'&to[lng]='+encodeURIComponent($('#to_longitude').val());
+      getRequest(url, matchResult);
+  });
+  });
+    
+    
+</script>
+</head>
+
+<body>
+    <h1> Horoscope Match Making</h1>
+        <p>Note: 1. People go for match making before marriage.<br>
+            2. I also match horoscope with friends, cousins, parents, child, and all<br>
+            3. We also match the horoscope with the days. We find out good days and bad days of any individual.</p>
+        <div><b>First Person's Location: </b><input type="text" id="first_person_location" size='45'></div><br>
+        <div><input type="submit" value="Find Location" id='first_person_location_button'></div>
+        <div id='first_person_location_results'>
+            <!--<ul>
+                <li>Mumbai,Maharashtra,India(18638)<a href="javascript:;" id="location_18638">Select location</a> </li>
+                <li>Navi Mumbai,Maharashtra,India(18745)<a href="javascript:;" id="location_18745">Select location</a> </li>
+            </ul>-->
+            
+        </div>
+        
+        <div><b>Second Person's Location:</b><input type="text" id="second_person_location" size="45"></div><br>
+        <div><input type='submit' id="second_person_location_button" value="Find Location"></div>
+        <div id='second_person_location_results'></div>
+        <input type="button" name="match" id="match" value="Match" >
+
+        <div id="results">
+        
+        </div>
+        
+</body>
+</html>
