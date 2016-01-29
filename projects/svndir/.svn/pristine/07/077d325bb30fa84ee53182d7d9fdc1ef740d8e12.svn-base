@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<script src="script.js"></script>
+<script>
+alert(qs['ex']);
+//alert(qs.ex);
+</script>
+</head>
+<body>
+</body>
+</html>
