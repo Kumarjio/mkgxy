@@ -1,12 +1,12 @@
-Tutor Creation / List / Edit / Delete - MK
+Tutor Creation / List / Edit / Delete - Emnie
 
 
 Student Creation  / List / Edit / Delete - Chris
 
-Search Tutor - Emnie
+Search Tutor - Chris
 
-Search Student - 
+Search Student - Emnie
 
-Messaging - 
+Messaging - Chris/Emnie
 
 
