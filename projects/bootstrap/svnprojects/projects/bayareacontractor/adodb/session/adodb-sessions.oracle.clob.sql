@@ -1,15 +1,3 @@
--- $CVSHeader$
-
-DROP TABLE adodb_sessions;
-
-CREATE TABLE sessions (
-	sesskey		CHAR(32)	DEFAULT '' NOT NULL,
-	expiry		INT		DEFAULT 0 NOT NULL,
-	expireref	VARCHAR(64)	DEFAULT '',
-	data		CLOB		DEFAULT '',
-	PRIMARY KEY	(sesskey)
-);
-
-CREATE INDEX ix_expiry ON sessions (expiry);
-
-QUIT;
+version https://git-lfs.github.com/spec/v1
+oid sha256:c34f895f47f0a594529101c9354596e1565ba771aa2447c6563bcd55010925e4
+size 281

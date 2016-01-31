@@ -1,0 +1,306 @@
+JQUERY UI
+1. Go to https://jqueryui.com/
+2. Download stable verson of jquery ui.
+3. Unzip it
+4. Rename it to jquery-ui, Then copy the jquery-ui folder to particular folder where you are working.
+5. Delete zipped file to save space on computer.
+6. Create 1.html file outside jquery-ui folder
+7. Add following lines of code in 1.html
+
+
+<link rel="stylesheet" href="jquery-ui/jquery-ui.css">
+<script src="jquery-ui/external/jquery/jquery.js"></script>
+<script src="jquery-ui/jquery-ui.js"></script>
+
+
+8. Now go to Jquery UI Demo page (http://jqueryui.com/demos/)
+9. Go to first component Draggable (http://jqueryui.com/draggable/)
+10. Click view source and copy the source from it to 1.html
+
+<style>
+#draggable { width: 150px; height: 150px; padding: 0.5em; }
+</style>
+<script>
+$(function() {
+  $( "#draggable" ).draggable();
+});
+</script>
+
+
+<div id="draggable" class="ui-widget-content">
+  <p>Drag me around</p>
+</div>
+
+Test the webpage
+
+11. Try another demo by going to http://jqueryui.com/droppable/
+Create 2.html and add following code:
+<style>
+  #draggable { width: 100px; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; }
+  #droppable { width: 150px; height: 150px; padding: 0.5em; float: left; margin: 10px; }
+  </style>
+  <script>
+  $(function() {
+    $( "#draggable" ).draggable();
+    $( "#droppable" ).droppable({
+      drop: function( event, ui ) {
+        $( this )
+          .addClass( "ui-state-highlight" )
+          .find( "p" )
+            .html( "Dropped!" );
+      }
+    });
+  });
+  </script>
+
+<div id="draggable" class="ui-widget-content">
+  <p>Drag me to my target</p>
+</div>
+ 
+<div id="droppable" class="ui-widget-header">
+  <p>Drop here</p>
+</div>
+
+13. Try another demo by going to http://jqueryui.com/accordion/
+14. Create 3.html
+15. Add following code:
+<script>
+  $(function() {
+    $( "#accordion" ).accordion();
+  });
+  </script>
+
+<div id="accordion">
+  <h3>Section 1</h3>
+  <div>
+    <p>
+    Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+    ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+    amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+    odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+    </p>
+  </div>
+  <h3>Section 2</h3>
+  <div>
+    <p>
+    Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+    purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+    velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+    suscipit faucibus urna.
+    </p>
+  </div>
+  <h3>Section 3</h3>
+  <div>
+    <p>
+    Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+    Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+    ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+    lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+    </p>
+    <ul>
+      <li>List item one</li>
+      <li>List item two</li>
+      <li>List item three</li>
+    </ul>
+  </div>
+  <h3>Section 4</h3>
+  <div>
+    <p>
+    Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+    et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+    faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+    mauris vel est.
+    </p>
+    <p>
+    Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+    inceptos himenaeos.
+    </p>
+  </div>
+</div>
+
+
+You can practice all other demos in your free time and try to add each one in your code and experiment it.
+
+
+Remember following important parts in Jquery
+1. .html() and .html(‘some text’)
+2. .val() and .val(‘some value’)
+3. .show() and .hide()
+4. $.ajax followed by done and failed
+
+Prepare interview of jquery here at:
+http://www.tutorialspoint.com/jquery/jquery_interview_questions.htm
+
+Places Autocomplete by Google, Use following code: (get api key from google developer console and use it in following code)
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Place Autocomplete Address Form</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 100%;
+      }
+    </style>
+    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+    <style>
+      #locationField, #controls {
+        position: relative;
+        width: 480px;
+      }
+      #autocomplete {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 99%;
+      }
+      .label {
+        text-align: right;
+        font-weight: bold;
+        width: 100px;
+        color: #303030;
+      }
+      #address {
+        border: 1px solid #000090;
+        background-color: #f0f0ff;
+        width: 480px;
+        padding-right: 2px;
+      }
+      #address td {
+        font-size: 10pt;
+      }
+      .field {
+        width: 99%;
+      }
+      .slimField {
+        width: 80px;
+      }
+      .wideField {
+        width: 200px;
+      }
+      #locationField {
+        height: 20px;
+        margin-bottom: 2px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="locationField">
+      <input id="autocomplete" placeholder="Enter your address"
+             onFocus="geolocate()" type="text"></input>
+    </div>
+
+    <table id="address">
+      <tr>
+        <td class="label">Street address</td>
+        <td class="slimField"><input class="field" id="street_number"
+              disabled="true"></input></td>
+        <td class="wideField" colspan="2"><input class="field" id="route"
+              disabled="true"></input></td>
+      </tr>
+      <tr>
+        <td class="label">City</td>
+        <td class="wideField" colspan="3"><input class="field" id="locality"
+              disabled="true"></input></td>
+      </tr>
+      <tr>
+        <td class="label">State</td>
+        <td class="slimField"><input class="field"
+              id="administrative_area_level_1" disabled="true"></input></td>
+        <td class="label">Zip code</td>
+        <td class="wideField"><input class="field" id="postal_code"
+              disabled="true"></input></td>
+      </tr>
+      <tr>
+        <td class="label">Country</td>
+        <td class="wideField" colspan="3"><input class="field"
+              id="country" disabled="true"></input></td>
+      </tr>
+    </table>
+
+    <script>
+// This example displays an address form, using the autocomplete feature
+// of the Google Places API to help users fill in the information.
+
+// This example requires the Places library. Include the libraries=places
+// parameter when you first load the API. For example:
+// <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places">
+
+var placeSearch, autocomplete;
+var componentForm = {
+  street_number: 'short_name',
+  route: 'long_name',
+  locality: 'long_name',
+  administrative_area_level_1: 'short_name',
+  country: 'long_name',
+  postal_code: 'short_name'
+};
+
+function initAutocomplete() {
+  // Create the autocomplete object, restricting the search to geographical
+  // location types.
+  autocomplete = new google.maps.places.Autocomplete(
+      /** @type {!HTMLInputElement} */(document.getElementById('autocomplete')),
+      {types: ['geocode']});
+
+  // When the user selects an address from the dropdown, populate the address
+  // fields in the form.
+  autocomplete.addListener('place_changed', fillInAddress);
+}
+
+// [START region_fillform]
+function fillInAddress() {
+  // Get the place details from the autocomplete object.
+  var place = autocomplete.getPlace();
+
+  for (var component in componentForm) {
+    document.getElementById(component).value = '';
+    document.getElementById(component).disabled = false;
+  }
+
+  // Get each component of the address from the place details
+  // and fill the corresponding field on the form.
+  for (var i = 0; i < place.address_components.length; i++) {
+    var addressType = place.address_components[i].types[0];
+    if (componentForm[addressType]) {
+      var val = place.address_components[i][componentForm[addressType]];
+      document.getElementById(addressType).value = val;
+    }
+  }
+}
+// [END region_fillform]
+
+// [START region_geolocation]
+// Bias the autocomplete object to the user's geographical location,
+// as supplied by the browser's 'navigator.geolocation' object.
+function geolocate() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(function(position) {
+      var geolocation = {
+        lat: position.coords.latitude,
+        lng: position.coords.longitude
+      };
+      var circle = new google.maps.Circle({
+        center: geolocation,
+        radius: position.coords.accuracy
+      });
+      autocomplete.setBounds(circle.getBounds());
+    });
+  }
+}
+// [END region_geolocation]
+
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&signed_in=true&libraries=places&callback=initAutocomplete"
+        async defer></script>
+  </body>
+</html>
